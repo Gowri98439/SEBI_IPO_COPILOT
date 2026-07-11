@@ -25,3 +25,4 @@ pypdf
 python-magic
 slowapi
 rank-bm25
+aiosqlite
