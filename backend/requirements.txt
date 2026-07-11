@@ -27,3 +27,4 @@ slowapi
 rank-bm25
 aiosqlite
 email-validator
+langchain-huggingface
