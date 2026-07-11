@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     CHROMA_PERSIST_DIR: str = "./chroma_db"
     UPLOAD_DIR: str = "./uploads"
     MAX_UPLOAD_SIZE_MB: int = 50
-    ALLOWED_ORIGINS: str = "http://localhost:3000,http://localhost:5173,https://ipo-copilot.vercel.app"
+    ALLOWED_ORIGINS: str = "http://localhost:3000,http://localhost:5173,https://ipo-copilot.vercel.app,https://ipocopilot1.netlify.app"
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
