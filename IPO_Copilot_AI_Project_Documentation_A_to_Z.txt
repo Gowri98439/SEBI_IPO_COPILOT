@@ -1,0 +1,370 @@
+================================================================================
+                                IPO COPILOT AI
+     AI-Driven Assistant for SME IPO Document Preparation & SEBI Compliance
+                Confidential & Proprietary A-to-Z Documentation
+================================================================================
+
+PROJECT METADATA:
+--------------------------------------------------------------------------------
+Project Name       : IPO Copilot AI
+Event Scope        : SEBI Securities Market TechSprint Hackathon 2026
+Core Focus         : SME IPO DRHP Automation, ICDR 2018 Compliance, RAG Q&A Engine
+Architecture       : Multi-Tenant Modular Client-Server RAG Application
+Backend Stack      : Python 3.11, FastAPI 0.111, SQLAlchemy 2.0 (Async), Alembic
+Frontend Stack     : React 18, Vite 5, TypeScript, TailwindCSS, Zustand, TanStack
+Database Layer     : PostgreSQL 16 (Relational) / SQLite (Local Dev)
+Vector Store Layer : ChromaDB 0.5 (Persistent Vector Embeddings)
+AI & RAG Engine    : LangChain 0.2, OpenAI (GPT-4o-mini), Groq, local MiniLM-L6-v2
+Document Parsing   : PyMuPDF (fitz), pdfplumber
+Current Version    : v2.1.0 (Production Hardened & Verified)
+Generated Date     : July 10, 2026
+
+================================================================================
+SECTION 1: EXECUTIVE SUMMARY & VISION
+================================================================================
+The preparation of a Draft Red Herring Prospectus (DRHP) for a Small and Medium
+Enterprise (SME) Initial Public Offering (IPO) is traditionally an arduous, highly
+manual process taking between 6 to 12 weeks. Merchant bankers, compliance officers,
+company secretaries, and SMEs must navigate hundreds of pages of complex SEBI
+Issue of Capital and Disclosure Requirements (ICDR) Regulations, Listing Obligations
+and Disclosure Requirements (LODR), and continuous SEBI circular updates.
+
+IPO Copilot AI transforms this workflow by introducing an enterprise-grade,
+Retrieval-Augmented Generation (RAG) platform that reduces document preparation
+and regulatory compliance checking from weeks to days. Grounded strictly in SEBI
+regulations and specific workspace documents, the system eliminates AI hallucinations
+and provides full explainability for every recommendation.
+
+Key Strategic Capabilities:
+- Automated DRHP & Document Intelligence: Ingests financial statements, board
+  resolutions, and background files using PyMuPDF and pdfplumber, chunking them
+  into semantic sections with exact metadata preservation.
+- Real-Time ICDR Compliance Engine: Runs automated rule-by-rule checks against
+  SEBI ICDR 2018 regulations, classifying sections into Pass, Warning, or Fail
+  with specific regulatory citations.
+- Evidence Rail & Explainable AI: Every AI response provides exact traceability—
+  displaying "Why it matters", "AI Reasoning", "Confidence Scores", and direct
+  text quotes from source documents.
+- Persistent & Floating SEBI Advisor (Copilot): A multi-turn conversational AI
+  widget that streams answers via Server-Sent Events (SSE), persists history across
+  sessions, and prioritizes workspace files over the general SEBI corpus.
+- Draft Review & Section Generator: Performs section-level gap analysis, highlights
+  omissions, and generates formal legal drafts for mandatory DRHP sections (e.g.,
+  Risk Factors, Objects of Issue, Basis for Issue Price).
+
+================================================================================
+SECTION 2: SYSTEM ARCHITECTURE & TOPOLOGY
+================================================================================
+IPO Copilot AI employs a clean, modular, multi-tier architecture designed for
+horizontal scalability, strict tenant isolation, and fault tolerance.
+
++------------------------------------------------------------------------------+
+|                                 CLIENT LAYER                                 |
+|            React 18 + Vite + TypeScript + TailwindCSS + Zustand              |
+|     [Dashboard]  [Document Upload]  [Compliance Check]  [Floating Copilot]   |
++--------------------------------------+---------------------------------------+
+                                       | REST APIs / SSE Streaming (Port 8000)
++--------------------------------------v---------------------------------------+
+|                          API & ORCHESTRATION LAYER                           |
+|                 FastAPI 0.111 · Python 3.11 · Async Uvicorn                  |
+|  +--------------+ +--------------+ +--------------+ +---------------------+  |
+|  | Auth & JWT   | | Workspace &  | | Compliance & | | RAG & Copilot       |  |
+|  | Middleware   | | Document CRUD| | Review Engine| | Router (SSE stream) |  |
+|  +--------------+ +--------------+ +--------------+ +---------------------+  |
++-----------+--------------------------+---------------------------+-----------+
+            | Asyncpg / SQLAlchemy     | Chroma SDK                | HTTPS
++-----------v-----------+    +---------v-----------+     +---------v----------+
+|  PostgreSQL 16 (DB)   |    | ChromaDB (VectorDB) |     | OpenAI / Groq LLMs |
+| * Users, Workspaces   |    | * SEBI 2026 Corpus  |     | * gpt-4o-mini      |
+| * Documents, Chunks   |    | * Uploaded DRHP     |     | * all-MiniLM-L6-v2 |
+| * Compliance & Logs   |    | * MMR Hybrid Search |     | * text-embedding-3 |
++-----------------------+    +---------------------+     +--------------------+
+
+================================================================================
+SECTION 3: TECHNOLOGY STACK & DEPENDENCIES
+================================================================================
+1. Backend Runtime:
+   - Python 3.11 + FastAPI 0.111
+   - Purpose: Provides high-throughput async API endpoints, strict Pydantic v2
+     validation, and automatic OpenAPI/Swagger documentation.
+
+2. ORM & Database:
+   - SQLAlchemy 2.0 (Async) + Asyncpg + PostgreSQL 16 (or local SQLite)
+   - Purpose: Async connection pooling, clean relational schema for multi-tenant
+     workspace isolation, and Alembic database migrations.
+
+3. Vector Store:
+   - ChromaDB 0.5 (Persistent Directory: /app/chroma_db)
+   - Purpose: Stores high-dimensional vector embeddings for SEBI ICDR regulations,
+     circulars, and uploaded company files.
+
+4. AI & RAG Engine:
+   - LangChain 0.2 + OpenAI SDK + Groq + Sentence-Transformers
+   - Purpose: Orchestrates semantic retrieval, MMR hybrid ranking, prompt formatting,
+     and LLM streaming (GPT-4o-mini / Llama-3). Uses local `all-MiniLM-L6-v2`
+     for offline-resilient embeddings.
+
+5. Document Parsing:
+   - PyMuPDF (fitz) + pdfplumber
+   - Purpose: Extracts raw text, page numbers, tables, and document metadata from
+     uploaded DRHP PDFs and financial reports.
+
+6. Frontend Core:
+   - React 18 + Vite 5 + TypeScript
+   - Purpose: Ultra-fast client-side rendering, strict typing across all API
+     contracts, and hot module replacement.
+
+7. State & UI Framework:
+   - TanStack Query v5 + Zustand + TailwindCSS + Lucide Icons
+   - Purpose: Global server-state caching (5min stale time), reactive client state,
+     and modern SEBI Navy design system.
+
+================================================================================
+SECTION 4: END-TO-END WORKFLOW & USER JOURNEY
+================================================================================
+Stage 1: Authentication & Workspace Tenancy
+- Users register and authenticate via secure JWT (`/api/v1/auth/login`).
+- Upon login, the user selects or creates a dedicated Workspace (e.g., "Acme Robotics
+  SME IPO"). Every subsequent operation is strictly scoped to `workspace_id`.
+
+Stage 2: Document Ingestion & Chunking
+- Users upload source PDFs (DRHP drafts, audited financials, board resolutions) via
+  `/api/v1/workspaces/{id}/documents`.
+- The backend saves files to `UPLOAD_DIR`, extracts text via PyMuPDF, divides content
+  into 1000-character semantic chunks (with 150-char overlap), and indexes them into
+  both PostgreSQL (`document_chunks`) and ChromaDB vector store (`get_workspace_vectorstore`).
+
+Stage 3: Automated SEBI Compliance Checking
+- Triggered via `/api/v1/workspaces/{id}/compliance/check`.
+- The engine loads the SEBI SME Checklist (`sebi_rules.json`), retrieves relevant
+  document chunks via vector similarity, and prompts the LLM to verify compliance.
+- Output: Status (`pass`, `warning`, `fail`), Exact Quote Evidence, Regulatory
+  Reference, and Confidence Score.
+
+Stage 4: Draft Review & Gap Analysis
+- Users submit specific DRHP sections (e.g., "Risk Factors") for deep review via
+  `/api/v1/workspaces/{id}/reviews`.
+- The AI compares text against mandatory SEBI disclosures, highlighting missing
+  sub-clauses, vague risk phrasing, and providing drop-in replacement suggestions.
+
+Stage 5: Professional DRHP Chart & Visual Analytics Generation
+- In the DRHP Generator (`/api/v1/workspaces/{id}/drhp/generate`), the backend computes
+  and attaches 3 professional visual analytics modules via `drhp_charts.py`:
+  1. Peer Comparison Bar Charts (P/E, RoNW, EBITDA vs listed peers)
+  2. Funds Utilization Donut Charts (Objects of Issue breakdown)
+  3. Revenue & PAT CAGR Trajectory Line Charts
+
+Stage 6: Persistent Copilot Chat & Evidence Rail
+- Users interact with the floating `FloatingCopilot` widget across any page or
+  navigate to the full SEBI Advisor page.
+- When a query is asked, the `rag_query_full` pipeline searches workspace documents
+  first, supplements with SEBI regulations, and streams tokens via Server-Sent
+  Events (`SSE`). The Evidence Rail displays full explainability citations.
+
+Stage 7: Audit Log Traceability & Export
+- All user actions (document uploads, compliance runs, AI prompts, status updates)
+  are cryptographically hashed and logged to `audit_events`.
+- Users export final validation reports and audit logs as downloadable PDFs or
+  Excel summaries via `/api/v1/workspaces/{id}/export`.
+
+================================================================================
+SECTION 5: CORE AI & RAG PIPELINE SPECIFICATIONS
+================================================================================
+5.1 Multi-Tier RAG Routing (`rag_pipeline.py`)
+To ensure high precision and eliminate generic advice, the `rag_query_full()` engine
+implements a strict 2-tier retrieval prioritization:
+1. Workspace Vector Store Priority: Queries `get_workspace_vectorstore(workspace_id)`
+   using `top_k=5`. If specific company documents contain relevant chunks, they are
+   placed at the top of the context prompt.
+2. SEBI Corpus Supplementation: Queries `get_sebi_vectorstore()`. If workspace
+   documents were found, SEBI retrieval is dynamically tuned to `top_k=1` (purely
+   for regulatory backing). If no workspace documents match, SEBI retrieval expands
+   to `top_k=5` using Maximal Marginal Relevance (`MMR`, `fetch_k=15`) to ensure
+   diverse clause coverage.
+
+5.2 SEBI 2026 Corpus & Amendments Integration (`sebi_corpus/`)
+The AI engine is pre-indexed with a curated repository of capital markets regulations,
+verified up to Q1-Q2 2026 (`v2.1.0`):
+- `icdr_regulations.txt` (28.0 KB): SEBI (ICDR) Regulations, 2018 — Chapter IX SME
+  IPO eligibility, lock-in rules, promoter contribution, and pricing mandates.
+- `lodr_regulations.txt` (19.7 KB): SEBI (LODR) Regulations, 2015 — Corporate
+  governance, audit committee composition, and mandatory disclosures.
+- `sebi_2026_amendments.txt` (17.7 KB): Latest 2026 SEBI Circulars: Digital DRHP
+  filings via PRISM portal, mandatory AI-generated content disclosure, UPI-only ASBA
+  limits, Green IPO sustainability frameworks, and GIFT City dual-listing norms.
+- `sme_ipo_guidelines.txt` (18.5 KB): NSE Emerge and BSE SME specific listing
+  criteria, post-issue capital thresholds (min Rs. 1 crore, max Rs. 25 crore).
+- `drhp_*_factors.txt` (42.2 KB total): Standardized templates and risk factor
+  taxonomies for Business Overview, Risk Factors, and Financial Statements.
+
+5.3 Anti-Hallucination & Explainability Guardrails
+- System Guard & Prompt Sanitization (`SYSTEM_GUARD`): If retrieved context docs
+  are empty, the prompt explicitly instructs the LLM: *"If the context does not
+  contain the answer, you MUST return EXACTLY: No supporting evidence found. Do not
+  hallucinate or guess."*
+- Evidence Rail UI (`EvidenceRail.tsx`): Every compliance check or chat answer
+  parses the LLM output into distinct visual compartments: Why it matters (regulatory
+  impact), AI Reasoning (deductive logic applied), and Supporting Citations (exact
+  verbatim text quotes from page X of document Y).
+- Offline-Resilient Embedding Router (`model_router.py`): Hardcodes/prefers local
+  `sentence-transformers/all-MiniLM-L6-v2` (`local_minilm`) for blazing-fast vector
+  embeddings directly inside the backend container without cloud rate limits.
+
+================================================================================
+SECTION 6: DATABASE & DATA MODEL ARCHITECTURE
+================================================================================
+1. `User` (`users`)
+   - Attributes: `id` (PK), `email`, `hashed_password`, `full_name`, `role`, `is_active`
+   - Purpose: Stores authenticated merchant bankers and SME users.
+
+2. `Workspace` (`workspaces`)
+   - Attributes: `id` (PK), `name`, `description`, `user_id` (FK -> users.id), `created_at`
+   - Purpose: The core multi-tenant boundary. Every document, compliance check,
+     review, and chat thread belongs to one workspace.
+
+3. `Company` (`companies`)
+   - Attributes: `id` (PK), `workspace_id` (FK), `name`, `cin`, `sector`,
+     `incorporation_date`, `paid_up_capital`
+   - Purpose: Corporate profile and capital metrics used to auto-evaluate SME eligibility.
+
+4. `Document` (`documents`)
+   - Attributes: `id` (PK), `workspace_id` (FK), `filename`, `file_path`, `file_size`,
+     `doc_type`, `version`, `status`
+   - Purpose: Tracks uploaded files with automated version incrementing.
+
+5. `DocumentChunk` (`document_chunks`)
+   - Attributes: `id` (PK), `document_id` (FK), `chunk_index`, `content`,
+     `page_number`, `chroma_id`
+   - Purpose: Stores semantic text segments in PostgreSQL alongside mapping IDs to ChromaDB.
+
+6. `ComplianceCheck` (`compliance_checks`)
+   - Attributes: `id` (PK), `workspace_id` (FK), `rule_id`, `rule_name`, `status`,
+     `evidence`, `why`, `confidence`
+   - Purpose: Records the structured JSON output of automated SEBI ICDR evaluations.
+
+7. `CopilotThread` & `CopilotMessage`
+   - Attributes: `id` (PK), `workspace_id` (FK), `thread_id` (FK), `role` (`user`/`assistant`),
+     `content`, `rag_sources`
+   - Purpose: Persists multi-turn conversational histories across sessions.
+
+8. `Review` (`reviews`)
+   - Attributes: `id` (PK), `workspace_id` (FK), `document_id` (FK), `section_name`,
+     `status`, `comments_json`
+   - Purpose: Stores section-level draft reviews, AI suggestions, and human sign-offs.
+
+9. `AuditEvent` (`audit_events`)
+   - Attributes: `id` (PK), `workspace_id` (FK), `user_id` (FK), `action`,
+     `resource_type`, `details`, `ip_address`
+   - Purpose: Immutable trail of all regulatory actions, logins, and document modifications.
+
+================================================================================
+SECTION 7: SECURITY & PRODUCTION HARDENING
+================================================================================
+7.1 Strict Workspace Tenancy Isolation
+Every API router (`documents.py`, `compliance.py`, `copilot.py`, `reviews.py`,
+`drhp.py`) enforces explicit workspace ownership validation using authenticated JWT:
+```python
+workspace = await db.scalar(
+    select(Workspace).where(
+        Workspace.id == workspace_id,
+        Workspace.user_id == current_user.id
+    )
+)
+```
+If the query returns `None`, the API immediately raises HTTP `404 Not Found` or `403 Forbidden`,
+ensuring users can never enumerate or access documents belonging to other SMEs.
+
+7.2 Path Traversal & File System Protections
+File upload (`/workspaces/{id}/documents/upload`) and download endpoints strictly
+sanitize incoming filenames and verify absolute directory boundaries:
+- Filenames are stripped of path components using `os.path.basename(file.filename)`
+  and validated against allowed extensions (`.pdf`, `.docx`, `.txt`, `.xlsx`).
+- Target paths are resolved using `Path(upload_path).resolve()` and asserted to start
+  with `Path(settings.UPLOAD_DIR).resolve()`, preventing directory traversal attacks.
+
+7.3 API Rate Limiting & Global Exception Handling
+- Rate Limiting (`slowapi`): High-cost AI generation and authentication endpoints
+  are throttled (`POST /workspaces/{id}/copilot/chat` is protected by `@limiter.limit('30/minute')`).
+- Global Exception Handlers (`main.py`): Custom async exception handlers intercept
+  `SQLAlchemyError`, `asyncio.TimeoutError`, and unhandled `Exception` instances.
+  Instead of exposing internal stack traces or SQL schemas, the API returns standardized,
+  clean JSON responses: `{"success": False, "error": {"code": "DATABASE_ERROR", "message": "..."}}`.
+
+================================================================================
+SECTION 8: FRONTEND ARCHITECTURE & DESIGN SYSTEM
+================================================================================
+8.1 State Management Architecture
+- TanStack Query v5 (Server State): All asynchronous backend queries (`useWorkspaces`,
+  `useDocuments`, `useComplianceChecks`) use TanStack Query with global
+  `staleTime: 5 * 60 * 1000` (5 minutes) and `gcTime: 30 * 60 * 1000` (30 minutes).
+- Zustand Stores (Client State): `useAuthStore` manages JWT tokens (`access_token`)
+  and current user profiles. `useWorkspaceStore` tracks `currentWorkspaceId` and
+  `currentWorkspaceName` across all route transitions.
+- Chat Context (`ChatContext.tsx`): Manages multi-thread conversational state,
+  persisting local chat backups to `localStorage` while synchronizing with backend tables.
+
+8.2 Key Interactive UI Components
+- `FloatingCopilot.tsx` (Persistent ChatGPT Widget): Mounted globally inside `AppShell.tsx`,
+  this floating blue widget stays visible across all pages without unmounting during
+  route navigation. Users can expand/collapse the panel, switch chat threads, and
+  stream responses with real-time typing indicators.
+- `ReadinessGauge.tsx` (SME IPO Readiness Score): Renders an interactive Recharts
+  radial gauge on the dashboard, computing a composite 0-100 score based on uploaded
+  documents and compliance check pass rates ("Ready to File" >=80, "In Progress" >=60).
+- `EvidenceRail.tsx` & `ComplianceCheckRow.tsx`: Collapsible cards displaying
+  compliance statuses (`Pass ▲`, `Review ■`, `Critical ▲`), exact quotes, and citations.
+
+================================================================================
+SECTION 9: DEPLOYMENT & OPERATIONS GUIDE
+================================================================================
+9.1 Container Services Overview (`docker-compose.yml`)
+1. `postgres` (`postgres:16-alpine`): Exposes port `5432` with health checks
+   (`pg_isready -U ipo -d ipo_copilot`) and persistent volume `postgres_data`.
+2. `backend` (`FastAPI / Python 3.11`): Exposes port `8000`, waits for `postgres:service_healthy`,
+   mounts `backend_uploads` (`/app/uploads`) and `backend_chroma` (`/app/chroma_db`),
+   and executes `uvicorn app.main:app --host 0.0.0.0 --port 8000`.
+3. `frontend` (`node:20-alpine`): Exposes port `3000`, runs Vite dev/build server
+   (`npm run dev -- --host 0.0.0.0`), connecting to the backend via CORS.
+
+9.2 Essential Environment Variables (`.env`)
+- `DATABASE_URL`       : `postgresql+asyncpg://ipo:ipo123@postgres:5432/ipo_copilot`
+- `SECRET_KEY`         : Cryptographic signing secret for JWT authentication tokens.
+- `OPENAI_API_KEY`     : API key for LLM generation (`LLM_MODEL=gpt-4o-mini`).
+- `EMBEDDING_MODEL`    : `all-MiniLM-L6-v2` (specifies HuggingFace local embedding model).
+- `CHROMA_PERSIST_DIR` : `/app/chroma_db` (absolute path to persistent vector database).
+- `UPLOAD_DIR`         : `/app/uploads` (absolute path to uploaded document storage).
+
+9.3 Automated Verification Scripts (`verify_e2e.py`)
+The repository includes comprehensive verification suites (`verify_e2e.py`,
+`verify_outputs.py`, `test_api.py`) that programmatically assert API health, user
+registration, token generation, workspace isolation, document upload processing, and
+compliance check execution.
+
+================================================================================
+SECTION 10: KNOWN LIMITATIONS & PRODUCTION ROADMAP
+================================================================================
+1. Object Storage Migration (AWS S3 / Azure Blob):
+   Currently, uploaded files reside on the local disk (`UPLOAD_DIR`). For multi-node
+   Kubernetes clusters, file storage must migrate to S3 to ensure load-balanced
+   instances can access uploaded PDFs uniformly.
+
+2. Distributed Vector Store Scaling:
+   While local persistent ChromaDB performs exceptionally well for SME IPO corpora
+   (~100,000 chunks), enterprise SaaS deployments handling thousands of concurrent
+   merchant bankers should scale to distributed vector stores such as Pinecone,
+   Qdrant, or Milvus.
+
+3. Specialized OCR for Dense Financial Tables:
+   Standard PDF extraction (`fitz`/`pdfplumber`) extracts text reliably but may
+   flatten highly complex, multi-page audited financial tables. Integrating tabular
+   OCR (e.g., Amazon Textract or specialized LLM vision parsers) will further elevate
+   numerical precision during balance sheet cross-checking.
+
+4. WebSocket Fallback for SSE:
+   Server-Sent Events (`SSE`) power our streaming chat effectively. However, certain
+   strict corporate banking firewalls occasionally drop idle HTTP streams; implementing
+   a dual SSE/WebSocket adapter will maximize connection resilience.
+
+================================================================================
+                         END OF PROJECT DOCUMENTATION
+================================================================================

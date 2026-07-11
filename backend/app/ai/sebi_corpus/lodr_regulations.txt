@@ -1,0 +1,245 @@
+SEBI LODR (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2015
+RELEVANT PROVISIONS FOR SME LISTED COMPANIES
+
+================================================================================
+CHAPTER I — PRELIMINARY
+================================================================================
+
+Regulation 1: Short title and commencement
+(1) These regulations may be called the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.
+(2) They shall come into force on the ninetieth day from the date of their publication in the Official Gazette.
+
+Regulation 2: Definitions
+(1) In these regulations, unless the context otherwise requires —
+(a) "annual report" means the report prepared by the listed entity as per the provisions of the Companies Act, 2013;
+(b) "audit committee" means the committee constituted by the listed entity as per the provisions of these regulations;
+(c) "board of directors" means the collective body of the directors of a listed entity;
+(d) "corporate governance" means the system by which companies are directed and controlled through a set of rules, practices and processes;
+(e) "designated stock exchange" means a stock exchange designated by a listed entity for the purpose of these regulations;
+(f) "event based disclosures" means disclosures to be made on occurrence of specified events;
+(g) "financial results" means the financial statements, including the balance sheet, profit and loss account, cash flow statement and notes thereto, as applicable;
+(h) "independent director" means a non-executive director as defined in sub-section (6) of section 149 of the Companies Act, 2013;
+(i) "key managerial personnel" has the meaning assigned to it under the Companies Act, 2013;
+(j) "listed entity" means an entity which has listed, on a recognised stock exchange(s), the designated securities issued by it or designated securities issued under schemes managed by it, in accordance with the listing agreement entered into between the entity and the recognised stock exchange(s);
+(k) "listing agreement" means an agreement entered into between a listed entity and the recognised stock exchange(s), as per the requirements specified by the Board;
+(l) "material event" means an event that is likely to have a bearing on the performance/operations of the listed entity or is price sensitive;
+(m) "material subsidiary" means a subsidiary whose income or net worth exceeds 10% of the consolidated income or net worth respectively, of the listed entity and its subsidiaries in the immediately preceding accounting year;
+(n) "promoter" and "promoter group" shall have the same meaning as assigned to them in the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018;
+(o) "related party" shall have the same meaning as assigned to it in the applicable Indian Accounting Standards;
+(p) "Schedules" means the schedules to these regulations.
+
+================================================================================
+CHAPTER II — PRINCIPLES GOVERNING DISCLOSURES AND OBLIGATIONS
+================================================================================
+
+Regulation 4: Principles governing disclosures and obligations
+(1) Based on the principles mentioned in sub-regulation (2), every listed entity shall make disclosures and abide by its obligations under these regulations.
+(2) The following principles shall govern the obligations and responsibilities of the listed entity:
+(a) Information that is necessary to enable the holders of securities of the listed entity and the public to appraise the position of the listed entity and to avoid the establishment of a false market in such securities of the listed entity, shall be disclosed on a continuous basis;
+(b) Disclosures made under these regulations and the listing agreement shall be adequate so as to enable investors to make well informed decisions;
+(c) Disclosures shall be made on a timely basis, i.e., the information shall be disclosed as soon as reasonably practicable after the information has come to its knowledge;
+(d) Information shall be disclosed in a simple and easily understandable language to enable investors and the general public to make sense of the information being disclosed;
+(e) Appropriate and fair communication of information to all holders of securities of the listed entity and the general public shall be made;
+(f) The principles of transparency, fairness, disclosure and accountability are followed and enforced.
+
+================================================================================
+CHAPTER III — OBLIGATIONS OF LISTED ENTITIES
+================================================================================
+
+Regulation 6: Compliance Officer and Grievance Redressal
+(1) The listed entity shall appoint a qualified company secretary as the compliance officer.
+(2) The compliance officer shall be responsible for:
+(a) ensuring conformity with the regulatory provisions applicable in letter and spirit;
+(b) co-ordinating with and reporting to the Board, recognized stock exchange(s) and depositories with respect to compliance of various laws, regulations and other directives;
+(c) ensuring that the correct procedures are followed that would result in the correctness, authenticity and comprehensiveness of the information, statements and reports filed by the listed entity under these regulations;
+(d) monitoring email address of grievance redressal division as designated by the listed entity for the purpose of registering complaints by investors.
+(3) The compliance officer shall ensure that all filings are made within the prescribed timelines.
+
+Regulation 7: Registrar and Transfer Agent
+(1) The listed entity shall appoint a SEBI registered Registrar and Transfer Agent.
+(2) The Registrar and Transfer Agent shall maintain all records of shareholders including:
+(a) Register of members
+(b) Register of transfers
+(c) Register of share certificates issued
+(3) The listed entity shall maintain details of changes in shareholders on a continuous basis.
+(4) Processing of all transfers, transmissions and transpositions shall be completed within the timelines prescribed by SEBI.
+
+Regulation 13: Grievance Redressal Mechanism
+(1) The listed entity shall ensure that adequate steps are taken for expeditious redressal of investor complaints.
+(2) The listed entity shall designate an email address exclusively for the purpose of registering investor complaints.
+(3) The listed entity shall create a mechanism for investor redressal and shall maintain records of:
+(a) Complaints received
+(b) Complaints resolved
+(c) Pending complaints with reasons for delay
+(4) The listed entity shall submit a quarterly report on investor complaints to the stock exchange within 21 days from end of each quarter.
+
+Regulation 14: Fees and Other Charges
+(1) The listed entity shall pay to the designated stock exchange, listing fees and such other charges as specified by the Board or the stock exchange from time to time.
+(2) Non-payment of listing fees shall be treated as non-compliance with the listing agreement.
+(3) The listed entity shall maintain a clear record of all fees paid to regulatory bodies.
+
+Regulation 15: Applicability of Corporate Governance Requirements
+(1) The provisions of Regulations 17 to 27 and clauses (b) to (i) of sub-regulation (2) of Regulation 46 and para C, D and E of Schedule V shall not apply to —
+(a) Listed entities having paid up equity share capital not exceeding rupees ten crore and net worth not exceeding rupees twenty five crore, as on the last day of the previous financial year.
+(2) Provided that where the provisions of Regulations 17 to 27 become applicable to a listed entity at a later date, such entity shall comply with the requirements within six months from the date on which the provisions become applicable.
+(3) SME listed entities shall comply with the minimum corporate governance requirements as specified in Regulation 15A.
+
+Regulation 15A: Corporate Governance Requirements for SME Listed Entities
+(1) SME listed entities shall comply with the following minimum corporate governance requirements:
+(a) The Board shall have at least one independent director;
+(b) The Board shall meet at least four times a year;
+(c) An Audit Committee shall be constituted with a majority of independent directors;
+(d) The listed entity shall have a Nomination and Remuneration Committee;
+(e) The listed entity shall have a Stakeholders Relationship Committee;
+(f) A code of conduct for directors and senior management shall be adopted.
+
+Regulation 17: Board of Directors
+(1) The board of directors of the listed entity shall have an optimum combination of executive and non-executive directors with at least one woman director.
+(2) The board of directors of the listed entity shall have at least one-third of its total number as independent directors.
+(3) No person shall be a director in more than eight listed companies.
+(4) Every independent director of the listed entity shall at the first meeting of the board in which they participate as a director and thereafter at the first meeting of the board in every financial year, give a declaration that they meet the criteria of independence.
+
+Regulation 18: Audit Committee
+(1) The listed entity shall constitute a qualified and independent audit committee.
+(2) The audit committee shall have a minimum of three directors as members. Two-thirds of the members of audit committee shall be independent directors.
+(3) All members of audit committee shall be financially literate and at least one member shall have accounting or related financial management expertise.
+(4) The chairperson of the audit committee shall be an independent director.
+(5) The audit committee shall meet at least four times in a year.
+(6) The quorum for audit committee meeting shall either be two members or one-third of the members of the audit committee, whichever is greater, with at least two independent directors.
+(7) The audit committee shall have powers to:
+(a) Investigate any activity within its terms of reference;
+(b) Seek information from any employee;
+(c) Obtain outside legal or other professional advice;
+(d) Secure attendance of outsiders with relevant expertise.
+(8) The role of the audit committee shall include:
+(a) Oversight of the listed entity's financial reporting process
+(b) Recommendation for appointment of auditors and remuneration thereof
+(c) Approval of related party transactions
+(d) Review of the financial statements before submission to the board
+(e) Review of whistle-blower mechanism
+
+Regulation 27: Other Corporate Governance Requirements
+(1) The listed entity shall comply with the following governance requirements:
+(a) Training of board members;
+(b) Evaluation of performance of non-executive directors;
+(c) Separate meeting of independent directors;
+(d) Familiarization programme for independent directors.
+(2) The listed entity shall ensure that the chairperson of the board is not related to the managing director or CEO.
+(3) All fees and compensation paid to non-executive directors shall be approved by the Board and disclosed in annual reports.
+
+Regulation 29: Prior intimation to stock exchange
+(1) The listed entity shall give prior intimation to the stock exchange about meetings of the Board of Directors:
+(a) At least 5 days in advance (excluding the date of the intimation and date of meeting) where financial results are to be considered;
+(b) At least 2 working days in advance (excluding the date of the intimation and date of meeting) where proposal for dividend or rights or bonus is to be considered.
+
+Regulation 30: Disclosure of events or information
+(1) Every listed entity shall make disclosures of any event or information which, in the opinion of the board of directors of the listed entity, is material.
+(2) The listed entity shall disclose the following as soon as reasonably practicable and not later than 24 hours from the occurrence of the event:
+(a) Commencement or joining of bankruptcy, insolvency or liquidation proceedings
+(b) Award or termination of orders/contracts not in the ordinary course of business for amounts exceeding 2% of turnover
+(c) Agreements entered into for joint venture, technology or IP
+(d) Change in directors, compliance officer or auditor
+(e) Disruption of operations due to natural calamity
+(f) Fraud, defaults by management or employees
+(g) Significant changes in accounting policies or practices
+(h) Acquisition or disposal of major assets
+(i) Outcome of any litigation or dispute
+(j) Change in the general character or nature of business
+
+Regulation 33: Financial Results
+(1) The listed entity shall submit the following financial results to the stock exchange:
+(a) Quarterly financial results within 45 days of the end of each quarter (other than last quarter)
+(b) Annual financial results within 60 days of end of the financial year
+(2) The financial results shall be prepared on the basis of accrual accounting policy and in accordance with the applicable standards.
+(3) The financial results shall be accompanied by a limited review report (for quarterly results) or an audit report (for annual results) from the statutory auditor.
+(4) The financial results shall be signed by the chairperson or managing director or whole-time director or in the absence of all of them, by any other director of the listed entity who is duly authorized by the board to sign the financial results.
+(5) The financial results shall be presented in the format specified by the Board.
+
+Regulation 34: Annual Report
+(1) The listed entity shall submit to the stock exchange and publish on its website:
+(a) Annual report within 21 working days of the annual general meeting
+(b) Annual report shall include all statutory and regulatory disclosures
+(2) The annual report shall include:
+(a) Audited standalone financial statements
+(b) Audited consolidated financial statements (if applicable)
+(c) Management Discussion and Analysis Report
+(d) Corporate Governance Report
+(e) Business Responsibility and Sustainability Report (if applicable)
+(f) Notice of AGM
+
+Regulation 36: Documents to be submitted to stock exchange
+(1) The listed entity shall submit the following documents/information at the time of listing:
+(a) Memorandum and Articles of Association
+(b) Prospectus/Offer Document
+(c) Underwriting agreement (if applicable)
+(d) Market Maker agreement
+(e) Statutory Auditor's report
+(f) Legal due diligence report
+
+Regulation 38: Minimum Public Shareholding
+(1) The listed entity shall comply with the minimum public shareholding requirements as specified in Rule 19A of the Securities Contracts (Regulation) Rules, 1957 and the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.
+(2) For SME listed entities, minimum public shareholding shall be 25% of post-issue paid-up capital.
+(3) The promoters shall not pledge, encumber or lien any of their shares post-listing without appropriate disclosure.
+
+Regulation 40: Transfer or transmission or transposition of securities
+(1) The listed entity shall ensure that the transfer of securities is done within 15 days from the date of receipt of request.
+(2) The listed entity shall not refuse to accept requests for transfer of shares unless the same is in violation of the listing agreement.
+
+Regulation 42: Record Date or Date of Closure of Transfer Books
+(1) The listed entity shall set a record date for the purpose of payment of dividend, issue of rights or bonus shares.
+(2) At least 7 working days' (before the record date) notice shall be given to the stock exchange.
+(3) The listed entity shall inform the stock exchange about the book closure dates at least 7 working days before the date of book closure.
+
+Regulation 43: Dividends
+(1) The listed entity shall declare and disclose dividends on equity shares in accordance with applicable law.
+(2) The listed entity shall disclose dividend policy within 5 days of adoption by the Board.
+(3) Dividend shall be paid within 30 days from the date of declaration.
+(4) The listed entity shall transfer unpaid/unclaimed dividends to the Investor Education and Protection Fund as required.
+
+Regulation 46: Website
+(1) The listed entity shall maintain a functional website containing basic information about the listed entity, and the listed entity shall ensure that the contents of the website are correct.
+(2) The website of the listed entity shall contain the following information:
+(a) Details of its business;
+(b) Terms and conditions of appointment of independent directors;
+(c) Composition of various committees of the board;
+(d) Code of conduct of the board and senior management;
+(e) Details of establishment of vigil mechanism/whistle-blower policy;
+(f) Policy on dealing with related party transactions;
+(g) Policy for determining material subsidiaries;
+(h) Details of familiarization programmes conducted for independent directors;
+(i) Financial results as per Regulation 33;
+(j) Shareholding pattern as per Regulation 31;
+(k) Annual report as per Regulation 34;
+(l) Details of agreements entered into with the media companies;
+(m) Schedule of analyst or institutional investor meet and presentations;
+(n) New name and the reasons for change of name, if the name has been changed;
+(o) Advertisements as per Regulation 47;
+(p) Credit ratings obtained by the entity for all its outstanding instruments (updated immediately on change);
+(q) Separate audited financial statements of each subsidiary.
+
+Regulation 47: Newspaper Advertisements
+(1) The listed entity shall publish in the newspaper the following:
+(a) Notice of board meeting where financial results are to be considered;
+(b) Financial results;
+(c) Notices given to shareholders by advertisement.
+(2) Publication shall be made in at least one national English daily newspaper circulating in the whole or substantially the whole of India and in one daily newspaper published in the language of the region where the registered office of the listed entity is situated.
+
+Regulation 48: Mode of Payment of Dividend and Interest
+(1) The listed entity shall use electronic mode of payment for the purpose of dividend payment.
+(2) Where dividends are not paid through electronic mode, the listed entity shall issue warrants or cheques payable at par.
+
+================================================================================
+SCHEDULE II — RELATED PARTY TRANSACTIONS
+================================================================================
+
+Regulation 23: Related Party Transactions
+(1) The listed entity shall formulate a policy on materiality of related party transactions and on dealing with related party transactions.
+(2) All related party transactions shall require prior approval of the audit committee.
+(3) All material related party transactions shall require approval of the shareholders through resolution.
+(4) A transaction with a related party shall be considered material if the transaction(s) to be entered into individually or taken together with previous transactions during a financial year, exceeds ten percent of the annual consolidated turnover of the listed entity as per the last audited financial statements of the listed entity.
+(5) No related party shall vote on any resolution relating to such related party transaction in the general meeting.
+(6) The listed entity shall disclose related party transactions in the format specified by the Board on a half-yearly basis.
+
+================================================================================
+END OF LODR REGULATIONS — SME COMPANY RELEVANT PROVISIONS
+================================================================================

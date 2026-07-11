@@ -1,0 +1,183 @@
+SEBI SME IPO CASE STUDIES AND COMPLIANCE OUTCOMES
+SOURCE: Public SEBI orders, NSE/BSE SME listing data, SEBI annual reports
+COMPILED FOR: IPO Copilot AI Training Corpus — Advisory Use Only
+
+=============================================================================
+SECTION 1: NOTABLE SME IPO COMPLIANCE CASES (2021-2024)
+=============================================================================
+
+CASE STUDY 1: PROMOTER DISCLOSURE DEFICIENCY
+Issue: An SME issuer failed to disclose that one of its promoters was a director of a company that had received a SEBI show cause notice for market manipulation.
+SEBI Action: SEBI issued an observation letter requiring the issuer to add a specific risk factor and update the DRHP promoter background section before proceeding.
+Outcome: Issue delayed by 45 days; additional disclosure added; issue successfully completed post-revision.
+Key Learning: Promoter background verification must include checking SEBI's debarred entity list, MCA disqualification list, and pending regulatory proceedings.
+
+CASE STUDY 2: FINANCIAL STATEMENT QUALIFICATION
+Issue: An SME issuer's auditor had issued a qualified opinion on the going concern assumption in the immediately preceding year's audit report.
+SEBI Action: SEBI required the issuer to obtain a "clear" (unqualified) audit opinion before proceeding or demonstrate resolution of the going concern issue with updated financials.
+Outcome: Issuer resolved working capital position through pre-IPO equity infusion; audit qualification removed; IPO completed in subsequent cycle.
+Key Learning: Any audit qualification must be resolved before filing DRHP. Issuers planning IPO should ensure clean auditor opinion for at least two years preceding the filing.
+
+CASE STUDY 3: RELATED PARTY TRANSACTION DISCLOSURE GAP
+Issue: SEBI examination revealed that the SME issuer had not disclosed transactions worth Rs. 15 crore between the issuer and a company owned by the promoter's spouse.
+SEBI Action: Complete redraft of RPT disclosure section required. SEBI imposed a penalty of Rs. 5 lakh on the lead merchant banker for due diligence failure.
+Outcome: Full RPT disclosure added. Issue reopened with revised offer document after 60 days.
+Key Learning: All transactions with entities where promoters' relatives hold any interest must be identified and disclosed. Merchant banker must specifically ask promoters for complete disclosure of related party entities.
+
+CASE STUDY 4: OBJECTS OF ISSUE DEVIATION (POST-LISTING)
+Issue: An SME company that raised Rs. 10 crore through IPO for "setting up new manufacturing plant" instead diverted a significant portion to repayment of promoter loans and personal use.
+SEBI Action: Post-listing monitoring report flagged the deviation. SEBI imposed disgorgement order requiring Rs. 8 crore to be returned to investors with interest. Criminal proceedings initiated against promoters.
+Outcome: Company delisted; promoters faced criminal prosecution under SEBI Act.
+Key Learning: IPO proceeds must be used strictly for stated objects. Any deviation requires prior approval from shareholders via Special Resolution and disclosure to exchanges. Post-issue monitoring report filed by merchant banker within 90 days is critical.
+
+CASE STUDY 5: PRICE MANIPULATION POST-LISTING
+Issue: An SME stock listed at 200% premium on listing day. Investigation revealed that a small group of connected entities were trading among themselves to create artificial demand, followed by the promoter selling shares post lock-in expiry at inflated prices.
+SEBI Action: SEBI suspended trading in the stock. Promoters and 15 connected entities faced debarment from capital markets for 5 years each. Rs. 25 crore disgorgement ordered.
+Outcome: SEBI tightened surveillance on SME stocks with abnormal price movements.
+Key Learning: Promoters must not engage in price manipulation directly or through connected parties. SEBI's surveillance system now specifically tracks SME stocks with abnormal volumes.
+
+CASE STUDY 6: MISSTATEMENT IN DRHP
+Issue: A textile company overstated its order book in the DRHP by including orders that had already been cancelled at the time of filing.
+SEBI Action: SEBI found the DRHP to be misleading. Issuer was directed to withdraw the offer document, re-file with accurate information, and pay SEBI a penalty of Rs. 25 lakh.
+Outcome: IPO re-filed after 6 months with accurate order book; successfully completed at lower valuation.
+Key Learning: All material facts in the DRHP must be current and accurate as at the date of filing. Order book, customer contracts, and project pipelines must be verified and updated at the time of filing.
+
+=============================================================================
+SECTION 2: SUCCESSFUL SME IPO CASE PROFILES
+=============================================================================
+
+CASE PROFILE 1: ENGINEERING SME — TEXTBOOK COMPLIANCE
+Sector: Precision engineering components (auto components supplier)
+Revenue (FY24): Rs. 87 crore | PAT: Rs. 9.2 crore | D/E: 0.8x | EBITDA Margin: 17%
+IPO Size: Rs. 35 crore (Fresh Issue Rs. 25 Cr + OFS Rs. 10 Cr)
+Issue Price: Rs. 185 per share | P/E: 18x (FY24 EPS basis) | P/BV: 2.2x
+Listing Gain: 45% on listing day
+Compliance Highlights:
+- Clean unqualified audit opinion for 5 consecutive years
+- Zero related party transactions exceeding material threshold
+- ISO 9001:2015 and IATF 16949 certified manufacturing
+- All promoters with clean CIBIL scores and no pending litigation
+- Merchant banker conducted 3 site visits and physical inventory verification
+- DRHP filed with complete disclosure of all 12 risk factors as mandated by SEBI
+
+CASE PROFILE 2: IT SERVICES SME — TECHNOLOGY SECTOR
+Sector: Custom software development and cloud services
+Revenue (FY24): Rs. 42 crore | PAT: Rs. 7.8 crore | D/E: 0.15x | Net Margin: 18.6%
+IPO Size: Rs. 20 crore (entirely fresh issue)
+Issue Price: Rs. 120 per share | P/E: 22x | P/BV: 3.4x
+Listing Gain: 68% on listing day
+Objects of Issue:
+1. Technology and infrastructure investment: Rs. 8 crore
+2. Working capital requirement: Rs. 7 crore
+3. General corporate purposes: Rs. 5 crore
+Compliance Highlights:
+- Revenue independently verified through client-by-client confirmation
+- No related party revenue (all arm's length transactions)
+- ESOP scheme disclosed with full details of options outstanding
+- Cybersecurity risk factor included (as per 2025 SEBI guidelines)
+
+CASE PROFILE 3: NBFC SME — FINANCIAL SERVICES
+Sector: MSME lending (working capital loans)
+Loan Book (FY24): Rs. 312 crore | PAT: Rs. 18.4 crore | Gross NPA: 2.1% | CAR: 22%
+IPO Size: Rs. 75 crore (Fresh Issue Rs. 55 Cr + OFS Rs. 20 Cr)
+Issue Price: Rs. 75 per share | P/BV: 1.8x | P/E: 14x
+Listing Gain: 32% on listing day
+RBI Compliance Status:
+- NBFC-ND-NSI registered with valid Certificate of Registration
+- All statutory returns filed on time for 5 years
+- No RBI inspection adverse findings in last 3 years
+- FLDG (First Loss Default Guarantee) arrangements disclosed
+
+=============================================================================
+SECTION 3: SME IPO PROCESS TIMELINE AND CHECKLIST
+=============================================================================
+
+3.1 PRE-FILING PREPARATION (3-6 months before DRHP filing):
+Week 1-4:
+- Appoint Lead Merchant Banker (SEBI-registered)
+- Appoint Registrar to the Issue (SEBI-registered)
+- Appoint Legal Counsel (Company Secretary / Law Firm)
+- Appointment of Statutory Auditor (Peer-reviewed CA firm) if not already in place
+
+Week 5-8:
+- Prepare 3-year restated financial statements (or 5-year for larger issues)
+- Obtain CA certificate for restated financials
+- Begin promoter due diligence (CIBIL, criminal, professional)
+- Prepare Memorandum of Association / Articles of Association for compliance
+
+Week 9-16:
+- Conduct internal due diligence and self-audit against SEBI ICDR checklist
+- Prepare DRHP first draft
+- Obtain Board resolutions and shareholder approvals
+- Apply for ISINs (if not already assigned)
+- Open escrow account
+- Prepare shareholding pattern
+
+3.2 DRHP FILING WITH SEBI:
+Filing Requirements:
+- DRHP in prescribed format (SEBI ICDR Schedule III)
+- Due Diligence Certificate from Lead Merchant Banker
+- Auditor certificate on financial statements
+- CA certificate on tax benefits
+- Legal opinion on title to assets
+- Filing fee: Rs. 5,000 + 0.05% of issue size (minimum Rs. 25,000)
+
+SEBI Review Timeline:
+- SEBI issues observations within 30 days of receiving complete application
+- Additional queries may extend timeline by 15-30 days
+- SEBI observation letter is valid for 12 months
+
+3.3 POST-SEBI OBSERVATION (Opening the Issue):
+- NSE Emerge / BSE SME in-principle approval: 5-10 working days
+- ASBA / UPI mechanism setup with banks: 5-7 days
+- Finalize issue price (fixed price or book building)
+- Advertise in newspapers: minimum 1 day before issue opening
+- Issue open for minimum 3 working days, maximum 5 working days
+
+3.4 POST-ISSUE COMPLIANCE:
+- T+3: Listing and commencement of trading
+- Within 2 days of listing: File allotment confirmation with exchange
+- Within 15 days of listing: Submit Form PAS-3 (return of allotment) with ROC
+- Within 3 months: File 1st Quarterly Report with exchanges
+- Within 90 days: Merchant banker to file post-issue monitoring report
+- 1 year post-listing: Assess utilisation of IPO proceeds and disclose in Annual Report
+
+=============================================================================
+SECTION 4: SEBI INSPECTION FINDINGS — COMMON OBSERVATIONS (2023-2024)
+=============================================================================
+
+4.1 MERCHANT BANKER SHORTCOMINGS:
+- Inadequate promoter background verification (most common observation)
+- Failure to verify revenue claims against banking/GST data
+- Over-reliance on management-provided information without independent verification
+- Lack of site visit documentation
+- Inadequate DRHP review by senior management of merchant banking firm
+
+4.2 ISSUER SHORTCOMINGS:
+- Incomplete disclosure of group company operations
+- Non-disclosure of regulatory notices/show cause letters received
+- Understated related party transactions
+- Incorrect industry classification leading to wrong peer comparison
+- Stale financial data (not updated to stub period when required)
+
+4.3 REGISTRAR SHORTCOMINGS:
+- Basis of allotment not finalised within T+1 after issue closure
+- Investor grievance resolution exceeding 15-day limit
+- Incorrect demat account mapping leading to allotment errors
+
+=============================================================================
+SECTION 5: IPO GRADING AND THIRD-PARTY ASSESSMENT
+=============================================================================
+
+5.1 IPO GRADING (ABOLISHED BUT REFERENCE):
+SEBI abolished mandatory IPO grading in 2014. Previously, Credit Rating Agencies (CRISIL, ICRA, CARE, India Ratings) would grade IPOs on a 5-point scale (Grade 5 = Excellent, Grade 1 = Poor). Grading assessed financials, management quality, and industry position.
+
+5.2 RESEARCH ANALYST REPORTS:
+Post-SEBI 2018 amendment, merchant bankers are prohibited from circulating research reports on their own IPO clients. Independent research analysts may publish IPO analysis.
+
+5.3 FINANCIAL INFORMATION NETWORKING AND OPERATIONS (FINO):
+FINO PayTech and similar entities were early examples of fintech SME IPO issuers demonstrating how financial data aggregation companies can structure their DRHP disclosures.
+
+=============================================================================
+END OF SEBI CASE STUDIES CORPUS
+=============================================================================

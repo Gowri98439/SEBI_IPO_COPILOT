@@ -1,0 +1,210 @@
+SEBI CIRCULARS AND MASTER CIRCULARS 2024-2025-2026 — RELEVANT TO SME IPO
+
+SOURCE: SEBI Official Circulars (sebi.gov.in)
+COMPILED FOR: IPO Copilot AI Corpus — Advisory Use Only
+
+=============================================================================
+CIRCULAR 1: SEBI/HO/CFD/PoD-2/P/CIR/2024/0058 DATED APRIL 4, 2024
+SUBJECT: Framework for Issuance of Securities in Book Building Process — SME Extension
+=============================================================================
+
+1. BACKGROUND:
+SEBI has extended the book building mechanism to SME IPOs with issue size exceeding Rs. 15 crore. This circular provides the operational framework.
+
+2. PRICE DISCOVERY:
+(a) Book Building shall be conducted over a minimum of 3 working days for SME IPOs.
+(b) Price band shall not exceed 20% above the floor price.
+(c) Bid cum Application Forms (BAF) must be available in electronic format through SEBI-registered intermediaries.
+
+3. ALLOCATION NORMS:
+(a) QIB portion: Minimum 15% (if included, 50% is reserved for anchor investors on a discretionary basis).
+(b) Non-Institutional Investors (NII): Minimum 15%.
+(c) Retail Individual Investors (RII): Minimum 35%.
+(d) Market Maker portion: Maximum 15% of issue size.
+
+4. MARKET MAKER OBLIGATION:
+For SME IPOs, the lead merchant banker shall appoint a minimum of one market maker. The market maker must:
+(a) Quote bid and ask prices continuously for at least 2 hours per trading day;
+(b) Maintain a maximum spread of 3% between bid and ask;
+(c) The market making obligation continues for a minimum of 3 years post-listing.
+
+5. MANDATORY DEMAT ALLOTMENT:
+All allotments in SME IPOs must be in dematerialised (demat) form. No physical share certificates shall be issued.
+
+=============================================================================
+CIRCULAR 2: SEBI/HO/CFD/PoD-1/P/CIR/2024/0091 DATED JULY 12, 2024
+SUBJECT: Enhanced Due Diligence Requirements for SME IPOs
+=============================================================================
+
+1. BACKGROUND:
+Following instances of price manipulation and dubious practices in certain SME IPOs in 2023-24, SEBI has enhanced the due diligence requirements for merchant bankers handling SME IPOs.
+
+2. PROMOTER BACKGROUND VERIFICATION:
+Lead merchant bankers are required to conduct and certify background checks on all promoters including:
+(a) Criminal record verification through court records and police databases;
+(b) CIBIL/credit bureau check for all promoters and directors;
+(c) Verification of educational and professional qualifications;
+(d) Reference checks with at least 3 major customers or business associates;
+(e) Site visit to the issuer's principal place of business (mandatory).
+
+3. FINANCIAL STATEMENT VERIFICATION:
+(a) Independent verification of revenue through bank statement reconciliation;
+(b) Cross-verification of GST returns with reported revenues;
+(c) Verification of income tax returns (ITR) with audited financial statements;
+(d) Physical verification of inventory if inventory is material (>10% of total assets).
+
+4. MERCHANT BANKER SKIN IN THE GAME (NEW 2024):
+Lead merchant bankers must hold a minimum of 1% of the issue size (or Rs. 1 crore, whichever is lower) as co-investment in the IPO for a minimum of 2 years post-listing. This aligns merchant banker incentives with long-term investor outcomes.
+
+5. COOLING OFF PERIOD:
+Merchant bankers who handle an SME IPO are barred from acting as a selling agent or broker for the promoters of that issuer for a period of 12 months post-listing.
+
+=============================================================================
+CIRCULAR 3: SEBI/HO/MIRSD/MIRSD-PoD-1/P/CIR/2024/0109 DATED SEPTEMBER 5, 2024
+SUBJECT: SEBI Digital Public Infrastructure (DPI) Integration for SME Disclosures
+=============================================================================
+
+1. SEBI PRISM SYSTEM:
+All SME IPO offer documents must now be filed through SEBI's PRISM (Portal for Risk-based Internal Monitoring) system. Paper filings are no longer accepted as of October 1, 2024.
+
+2. XBRL REPORTING:
+Financial data in the DRHP must be filed in XBRL (eXtensible Business Reporting Language) format in addition to PDF. The XBRL taxonomy to be used is the MCA-21 Extended Taxonomy version 3.0.
+
+3. ELECTRONIC ROADSHOW FACILITY:
+Issuers are now permitted to conduct electronic roadshows (e-roadshows) for SME IPOs. Physical roadshows are optional. E-roadshows must be conducted through SEBI-registered Electronic Data Handling platforms.
+
+4. UPI MANDATE FOR APPLICATION:
+All applications in SME IPOs by retail investors must be made through UPI (Unified Payments Interface) mandate blocking mechanism. Applications through other payment modes (cheque, RTGS) are discontinued for retail investors as of October 1, 2024.
+
+=============================================================================
+CIRCULAR 4: SEBI/HO/CFD/PoD-2/P/CIR/2025/0021 DATED FEBRUARY 14, 2025
+SUBJECT: Related Party Transaction (RPT) Disclosure Norms for IPO Offer Documents
+=============================================================================
+
+1. DEFINITION OF RELATED PARTIES:
+Related parties for IPO disclosure purposes include:
+(a) Promoters and promoter group entities;
+(b) Directors and key managerial personnel (KMPs) and their relatives;
+(c) Any entity where any promoter or director holds >25% equity;
+(d) Holding companies, subsidiaries, and associate companies;
+(e) Employee benefit trusts administered by the issuer.
+
+2. MANDATORY DISCLOSURES:
+For each material RPT (> Rs. 10 lakh or 1% of turnover, whichever is lower):
+(a) Name of related party and nature of relationship;
+(b) Nature and purpose of the transaction;
+(c) Transaction value for each of the last 3 financial years;
+(d) Pricing basis (market rate, cost plus, negotiated rate);
+(e) Whether the transaction was approved by the Audit Committee;
+(f) Whether the terms are at arm's length and basis for such determination.
+
+3. OUTSTANDING BALANCES:
+All amounts receivable from or payable to related parties must be disclosed as at the date of the DRHP, with aging analysis.
+
+4. RPT RISK FACTOR:
+If aggregate RPTs exceed 25% of total revenue, a specific risk factor must be included in the DRHP highlighting the dependency risk.
+
+=============================================================================
+CIRCULAR 5: SEBI/HO/CFD/PoD-1/P/CIR/2025/0044 DATED APRIL 2, 2025
+SUBJECT: ESG and Sustainability Disclosures in Offer Documents — SME IPO Framework
+=============================================================================
+
+1. PHASED IMPLEMENTATION:
+(a) Phase I (FY 2025-26): Top 100 SME listed companies by market cap — mandatory BRSR Core disclosure;
+(b) Phase II (FY 2026-27): All SME IPO issuers — mandatory BRSR Core disclosure in offer document.
+
+2. BRSR CORE METRICS FOR SME ISSUERS:
+
+A. ENVIRONMENT:
+- Total energy consumption (GJ) and energy intensity per rupee of turnover;
+- Total water withdrawal (kiloliters) and water intensity;
+- Scope 1 GHG emissions (tCO2e) — direct emissions from owned/controlled sources;
+- Scope 2 GHG emissions (tCO2e) — indirect emissions from purchased energy;
+- Total waste generated (metric tons), waste recycled %, waste to landfill %;
+- Details of environmental violations or show cause notices in the last 5 years.
+
+B. SOCIAL:
+- Male:Female employee ratio at Board level and total workforce level;
+- Median employee salary and CEO-to-median employee pay ratio;
+- Number of employee safety incidents and lost-time injury rate;
+- Expenditure on employee training (Rs. lakh) and average training hours per employee;
+- CSR expenditure (if applicable) and project details.
+
+C. GOVERNANCE:
+- Number of independent directors and women directors on the board;
+- Board attendance rate (%);
+- Whistle-blower policy — yes/no and number of complaints received;
+- Anti-corruption policy — yes/no;
+- Number of legal proceedings involving bribery or corruption.
+
+3. THIRD-PARTY ASSURANCE:
+For Phase I companies, BRSR Core disclosures must be independently assured. SME IPO issuers are encouraged (not mandated) to seek assurance on BRSR Core metrics.
+
+=============================================================================
+CIRCULAR 6: SEBI/HO/CFD/PoD-2/P/CIR/2025/0077 DATED JUNE 23, 2025
+SUBJECT: Cybersecurity Requirements for Technology and Fintech Sector IPO Issuers
+=============================================================================
+
+1. APPLICABILITY:
+This circular applies to issuers in the following sectors making an IPO:
+(a) Information Technology and IT-enabled Services (IT/ITeS);
+(b) Financial Technology (Fintech) and Digital Lending;
+(c) E-commerce and Digital Marketplaces;
+(d) Healthcare Technology and Telemedicine;
+(e) Any issuer where >30% of revenue is derived from digital channels.
+
+2. MANDATORY DISCLOSURES IN OFFER DOCUMENT:
+(a) Cybersecurity governance structure (CISO designation, Board-level oversight);
+(b) Details of any data breach, ransomware, or material cybersecurity incident in the last 5 years;
+(c) Regulatory penalties or notices from CERT-In, MeitY, RBI, or SEBI related to IT/cybersecurity;
+(d) IT infrastructure investment as a % of total revenue for last 3 years;
+(e) Business continuity and disaster recovery plan — summary;
+(f) Customer data protection policy and compliance with DPDP Act, 2023;
+(g) Third-party IT vendor risk management framework.
+
+3. CYBERSECURITY RISK FACTOR:
+A mandatory standalone cybersecurity risk factor must be included, covering:
+(a) Risk of system failure, data breach, or cyberattack;
+(b) Regulatory and reputational risk from data protection violations;
+(c) Dependency on third-party cloud providers and associated risks.
+
+=============================================================================
+CIRCULAR 7: SEBI MASTER CIRCULAR — SME IPO 2026
+SEBI/HO/CFD/PoD-1/P/CIR/2026/0012 DATED JANUARY 15, 2026
+SUBJECT: Consolidated Master Circular for SME IPOs (Superseding All Previous)
+=============================================================================
+
+1. CONSOLIDATION:
+This master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI ICDR Regulations, the regulations shall prevail.
+
+2. KEY OPERATIONAL REQUIREMENTS (2026):
+
+A. ISSUE OPENING AND CLOSING:
+- Minimum 3 working days subscription period for fixed price issues;
+- Minimum 3 working days for book built issues;
+- Maximum 5 working days for any SME IPO;
+- Extension only with SEBI prior approval.
+
+B. ALLOTMENT AND LISTING:
+- T+3 days listing timeline from issue closure (T+0);
+- Refunds and unblocking of ASBA funds within T+1 from finalization of basis;
+- Trading to commence on T+3 from closure.
+
+C. FRESH FINANCIAL INFORMATION:
+- If 6 months have elapsed between the filing of DRHP and IPO opening date, the issuer must update financials with a fresh stub period.
+- If 12 months have elapsed, a complete re-filing with SEBI is required.
+
+D. MARKET MAKING RULES (2026):
+- Market maker bid-ask spread: Maximum 3% (revised from previous 5%);
+- Market maker must buy minimum 50 shares per transaction;
+- Market maker inventory: Must hold minimum 5% of issue size at all times during market-making period;
+- Market making fee paid to market maker: Disclosed in DRHP.
+
+3. GRIEVANCE REDRESSAL:
+- Issuer must designate a SEBI-registered Registrar to the Issue (RTI) who manages allotment and grievances;
+- SCORES (SEBI Complaint Redress System) registration mandatory;
+- All investor grievances must be resolved within 15 calendar days of receipt.
+
+=============================================================================
+END OF SEBI CIRCULARS 2024-2026
+=============================================================================

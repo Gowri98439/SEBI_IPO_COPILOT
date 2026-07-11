@@ -1,0 +1,182 @@
+[
+  {
+    "id": "eligibility_01",
+    "category": "Eligibility",
+    "title": "Net Tangible Assets",
+    "check": "Verify that the issuer has net tangible assets of at least Rs. 3 crore in each of the preceding 3 full years.",
+    "keywords": ["net tangible assets", "3 crore", "preceding years", "eligibility"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "eligibility_02",
+    "category": "Eligibility",
+    "title": "Track Record of Distributable Profits",
+    "check": "Verify that the company has a track record of distributable profits for at least two out of immediately preceding three financial years.",
+    "keywords": ["distributable profits", "track record", "financial years"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "eligibility_03",
+    "category": "Eligibility",
+    "title": "Post Issue Paid-up Capital",
+    "check": "Verify that the post-issue paid-up capital of the company does not exceed Rs. 25 crore.",
+    "keywords": ["post-issue paid-up capital", "25 crore"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "financial_01",
+    "category": "Financial Disclosures",
+    "title": "Restated Financial Statements",
+    "check": "Ensure financial statements are restated for the last three years and are no older than six months from the issue opening date.",
+    "keywords": ["restated financial statements", "three years", "six months", "issue opening"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "financial_02",
+    "category": "Financial Disclosures",
+    "title": "Outstanding Litigations",
+    "check": "Verify disclosure of all outstanding litigations involving the issuer, promoters, and directors.",
+    "keywords": ["outstanding litigations", "legal proceedings", "promoters", "directors"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "promoter_01",
+    "category": "Promoters & Lock-In",
+    "title": "Minimum Promoters' Contribution",
+    "check": "Ensure promoters' contribution is not less than 20% of the post-issue capital.",
+    "keywords": ["promoters contribution", "20%", "post-issue capital"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "promoter_02",
+    "category": "Promoters & Lock-In",
+    "title": "Lock-In Period for Promoters' Contribution",
+    "check": "Verify that minimum promoters' contribution is locked in for a period of three years from the date of allotment.",
+    "keywords": ["lock-in period", "three years", "allotment", "promoters"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "promoter_03",
+    "category": "Promoters & Lock-In",
+    "title": "Lock-In Period for Other Pre-Issue Capital",
+    "check": "Ensure all pre-issue share capital, other than promoters' contribution, is locked in for one year from date of allotment.",
+    "keywords": ["pre-issue capital", "lock-in", "one year", "allotment"],
+    "severity": "medium",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "disclosure_01",
+    "category": "Disclosures",
+    "title": "Risk Factors",
+    "check": "Verify that risk factors are materially clear and prominently disclosed, including business risks and regulatory risks.",
+    "keywords": ["risk factors", "business risks", "regulatory risks"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "disclosure_02",
+    "category": "Disclosures",
+    "title": "Objects of the Issue",
+    "check": "Ensure detailed disclosure of the objects of the issue, project cost, and means of finance.",
+    "keywords": ["objects of the issue", "project cost", "means of finance"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "disclosure_03",
+    "category": "Disclosures",
+    "title": "Basis for Issue Price",
+    "check": "Verify that qualitative and quantitative factors justifying the issue price are disclosed.",
+    "keywords": ["issue price", "basis for issue price", "qualitative factors", "quantitative factors"],
+    "severity": "medium",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "governance_01",
+    "category": "Governance",
+    "title": "Board Composition",
+    "check": "Verify compliance with LODR regulations regarding the number of independent and women directors.",
+    "keywords": ["board composition", "independent directors", "women directors", "LODR"],
+    "severity": "high",
+    "source": "SEBI LODR"
+  },
+  {
+    "id": "governance_02",
+    "category": "Governance",
+    "title": "Key Managerial Personnel",
+    "check": "Ensure detailed profiles of Key Managerial Personnel (KMP) and their compensation are disclosed.",
+    "keywords": ["Key Managerial Personnel", "KMP", "compensation", "profiles"],
+    "severity": "medium",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "merchant_01",
+    "category": "Merchant Banker",
+    "title": "Lead Manager Registration",
+    "check": "Verify that the lead manager holds a valid SEBI registration.",
+    "keywords": ["lead manager", "SEBI registration", "merchant banker"],
+    "severity": "high",
+    "source": "SEBI Merchant Bankers Regulations"
+  },
+  {
+    "id": "merchant_02",
+    "category": "Merchant Banker",
+    "title": "Underwriting Agreement",
+    "check": "Ensure the issue is 100% underwritten, with at least 15% underwritten by the Lead Manager on its own accounts.",
+    "keywords": ["underwritten", "underwriting agreement", "15%", "Lead Manager"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "capital_01",
+    "category": "Capital Structure",
+    "title": "History of Share Capital",
+    "check": "Verify that the history of share capital built up over time is fully documented.",
+    "keywords": ["share capital", "history", "capital buildup", "allotments"],
+    "severity": "medium",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "capital_02",
+    "category": "Capital Structure",
+    "title": "Outstanding Warrants or Rights",
+    "check": "Check for proper disclosure of any outstanding warrants, options, or rights to convert debt into equity.",
+    "keywords": ["outstanding warrants", "convertible debt", "options"],
+    "severity": "medium",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "issue_01",
+    "category": "Issue Structure",
+    "title": "Minimum Application Value",
+    "check": "Verify that the minimum application size for SME IPO is Rs. 1,00,000.",
+    "keywords": ["minimum application size", "application value", "1,00,000"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "issue_02",
+    "category": "Issue Structure",
+    "title": "Market Making Requirement",
+    "check": "Ensure there is a market making agreement for at least three years from the date of listing.",
+    "keywords": ["market making", "agreement", "three years", "listing"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  },
+  {
+    "id": "issue_03",
+    "category": "Issue Structure",
+    "title": "Number of Prospective Allottees",
+    "check": "Verify that the minimum number of allottees is not less than 50.",
+    "keywords": ["minimum allottees", "50 allottees", "prospective allottees"],
+    "severity": "high",
+    "source": "ICDR Chapter IX - SME"
+  }
+]

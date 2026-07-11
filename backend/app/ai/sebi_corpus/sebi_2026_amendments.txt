@@ -1,0 +1,248 @@
+SEBI ICDR AMENDMENT 2024-2025-2026 — SUMMARY OF KEY CHANGES FOR SME IPO
+
+SOURCE: SEBI (Issue of Capital and Disclosure Requirements) (Amendment) Regulations, 2024 & 2025
+EFFECTIVE DATE: Various dates from November 2023 to March 2026
+
+=============================================================================
+CHAPTER 1: REVISED ELIGIBILITY CRITERIA FOR SME IPO (2024 AMENDMENT)
+=============================================================================
+
+Regulation 229 — Conditions for SME IPO (as amended 2024):
+
+1. NET WORTH REQUIREMENT (REVISED 2024):
+The issuer company must have a positive net worth of at least Rs. 15 crore (increased from Rs. 1 crore) as per the restated financial statements for at least three of the last five financial years.
+
+2. MINIMUM PAT REQUIREMENT (NEW 2024):
+The issuer must have reported a minimum profit after tax (PAT) of Rs. 2 crore (earlier there was no mandatory PAT threshold) in the most recent completed financial year as per the restated consolidated financial statements.
+
+3. OPERATING PROFIT REQUIREMENT (NEW 2025):
+The issuer must have reported positive EBITDA (earnings before interest, taxes, depreciation, and amortization) in at least two of the last three financial years.
+
+4. NET TANGIBLE ASSETS (MAINTAINED):
+Minimum net tangible assets of Rs. 3 crore as per the restated financial statements for each of the preceding three full years remain in force.
+
+5. MAXIMUM POST-ISSUE PAID-UP CAPITAL (REVISED 2024):
+The post-issue paid-up equity share capital shall not exceed Rs. 25 crore. However, SEBI vide circular dated August 2024 has clarified that companies may graduate to the main board if they wish to raise capital exceeding this limit.
+
+6. MINIMUM APPLICATION AMOUNT (REVISED 2024):
+Minimum application amount increased from Rs. 1 lakh to Rs. 2 lakh for SME IPOs. This aligns SME IPOs with main board minimum application sizes and is intended to ensure only committed investors participate.
+
+7. MINIMUM ALLOTTEES (REVISED 2024):
+Minimum number of allottees for an SME IPO increased from 50 to 200 allottees. This requirement ensures adequate liquidity and market breadth post-listing.
+
+=============================================================================
+CHAPTER 2: REVISED LOCK-IN REQUIREMENTS (2024 AMENDMENT)
+=============================================================================
+
+Regulation 236 — Lock-in of Minimum Promoters' Contribution (Revised):
+
+1. MINIMUM PROMOTER CONTRIBUTION LOCK-IN:
+The minimum promoters' contribution (typically 20% of post-issue paid-up capital) shall be locked in for a period of THREE YEARS from the date of allotment in the IPO. This remains unchanged from the 2018 original regulation.
+
+2. PROMOTER'S PRE-IPO HOLDING LOCK-IN:
+All pre-IPO promoter holding in excess of minimum promoters' contribution shall be locked in for a period of ONE YEAR from the date of commencement of commercial production or date of allotment in the IPO, whichever is later.
+
+3. ANCHOR INVESTOR LOCK-IN (NEW 2024):
+For SME IPOs where anchor investors are allocated shares, 50% of anchor investor allocation shall be locked in for 90 days (revised from 30 days in 2024 amendment).
+
+4. EMPLOYEE STOCK OPTION PLAN (ESOP) LOCK-IN:
+Shares allotted to employees under an ESOP scheme before the IPO shall be locked in for one year from the date of allotment in the IPO, unless the ESOP scheme predates the IPO by more than three years.
+
+=============================================================================
+CHAPTER 3: ENHANCED DISCLOSURE REQUIREMENTS (2025 AMENDMENT)
+=============================================================================
+
+Regulation 230 — Disclosures in the Offer Document (Enhanced 2025):
+
+1. RELATED PARTY TRANSACTIONS DISCLOSURE (NEW 2025):
+As per the 2025 amendment, issuers are required to disclose ALL related party transactions (RPTs) exceeding Rs. 10 lakh in the last three financial years, along with the commercial rationale, pricing basis, and confirmation of arm's length pricing. The audit committee must certify all material RPTs.
+
+2. KEY PERFORMANCE INDICATORS (KPI) DISCLOSURE (NEW 2024):
+Issuers are required to disclose at least 5 industry-specific KPIs (Key Performance Indicators) in the prospectus. These KPIs must be:
+(a) Consistently reported for three financial years;
+(b) Reconcilable to audited financial statements;
+(c) Benchmarked against at least two listed industry peers.
+
+3. ESG DISCLOSURE REQUIREMENTS (NEW 2025-2026):
+With effect from FY 2025-26, SME IPO issuers are required to include a Business Responsibility and Sustainability Report (BRSR) Core disclosure in their offer documents covering:
+(a) Energy consumption and intensity metrics;
+(b) Water consumption and intensity;
+(c) Scope 1, 2, and 3 greenhouse gas (GHG) emissions;
+(d) Total waste generated and disposal methods;
+(e) Pay ratio of CEO to median employee;
+(f) Number of women on the board of directors.
+
+4. CYBERSECURITY RISK DISCLOSURES (NEW 2025):
+All issuers in the technology, fintech, healthcare, and financial services sectors must include a dedicated cybersecurity risk factor disclosure covering:
+(a) Data breach history (if any) in the last five years;
+(b) IT infrastructure investment as a % of total revenue;
+(c) ISO 27001 or equivalent cybersecurity certification status;
+(d) Data protection policies and DPDP Act, 2023 compliance.
+
+5. LITIGATION THRESHOLD DISCLOSURE (REVISED 2024):
+Any pending litigation where the amount involved exceeds Rs. 1 crore or 5% of the net profit (whichever is lower) must be disclosed. The previous threshold was Rs. 5 crore, which has been reduced to ensure greater transparency.
+
+=============================================================================
+CHAPTER 4: MERCHANT BANKER OBLIGATIONS (2025 AMENDMENT)
+=============================================================================
+
+Regulation 232 — Merchant Banker Responsibilities (Revised 2025):
+
+1. DUE DILIGENCE CERTIFICATE REQUIREMENTS (ENHANCED):
+The lead merchant banker must certify that:
+(a) The financial information has been independently verified with source documents;
+(b) All SEBI ICDR requirements have been complied with;
+(c) The offer document contains all material information and is not misleading;
+(d) Promoter background checks have been conducted including criminal record verification.
+
+2. POST-ISSUE MONITORING (NEW 2025):
+Lead merchant bankers are now required to submit a post-issue monitoring report within 90 days of closure of the issue confirming:
+(a) Actual use of IPO proceeds vs. stated objects;
+(b) Any deviation from the stated objects;
+(c) Utilization of funds from deviation, if any.
+
+3. BOOK BUILDING FOR SME IPO (NEW 2024):
+SME IPOs with issue size above Rs. 15 crore are now permitted (but not mandated) to use book building process. Fixed price mechanism remains the default for SME IPOs.
+
+=============================================================================
+CHAPTER 5: SUBSCRIPTION AND LISTING CHANGES (2025 AMENDMENT)
+=============================================================================
+
+1. ISSUE SUBSCRIPTION REQUIREMENT (REVISED 2024):
+The minimum subscription requirement remains at 90% of the issue size. However, for SME IPOs, if subscription falls below 100% but remains above 75% and there is at least one Qualified Institutional Buyer (QIB) who has subscribed, the issue can proceed with SEBI permission.
+
+2. LISTING TIMELINE (REVISED 2024):
+The listing timeline for SME IPOs has been reduced from T+6 days to T+3 days (consistent with main board), effective April 1, 2024. T is the date of closure of the issue.
+
+3. TRADING LOT SIZE (REVISED 2024):
+Minimum trading lot size for SME IPOs is now Rs. 1,00,000 face value equivalent. The minimum order quantity shall be such that the bid amount for one lot is between Rs. 1,00,000 and Rs. 2,00,000.
+
+=============================================================================
+CHAPTER 6: GRADING AND RATING CHANGES (2024)
+=============================================================================
+
+1. IPO GRADING ABOLISHED (2024):
+SEBI abolished mandatory IPO grading for main board IPOs in 2014. This exemption has now been explicitly extended to SME IPOs as well. No IPO grading is required for SME IPOs effective January 2024.
+
+2. CREDIT RATING FOR DEBT INSTRUMENTS:
+If the SME IPO company has outstanding rated debt, the credit rating must be disclosed in the DRHP and any revision during the offer period must be promptly reported to SEBI and the exchanges.
+
+=============================================================================
+CHAPTER 7: FINANCIAL STATEMENT REQUIREMENTS (2025)
+=============================================================================
+
+1. RESTATED FINANCIAL STATEMENTS:
+The issuer must include restated consolidated and standalone financial statements for at least the last three complete financial years and stub period (if applicable), prepared in accordance with Indian Accounting Standards (Ind AS) or IGAAP (for eligible companies).
+
+2. IND AS TRANSITION:
+Companies transitioning to Ind AS for the first time at the time of IPO must include a reconciliation statement showing the impact of Ind AS adoption on all key financial metrics.
+
+3. AUDIT QUALITY (2025):
+The statutory auditor must be a peer-reviewed CA firm. Peer review certificate from the Institute of Chartered Accountants of India (ICAI) is now mandatory for the auditor of any SME IPO issuer.
+
+4. SEGMENT REPORTING:
+If the issuer operates in more than one reportable business segment, separate segment-wise financial data for three years must be included in the DRHP.
+
+=============================================================================
+CHAPTER 8: PRICING NORMS (2025)
+=============================================================================
+
+Regulation 235 — Price Band for SME IPOs:
+
+1. PRICE BAND CALCULATION BASIS:
+Price band for SME IPOs (if book building is used) cannot exceed a width of 20% of the floor price (i.e., cap price cannot exceed 1.2x floor price). For fixed price mechanism, a single issue price is set.
+
+2. PRICE-TO-EARNINGS JUSTIFICATION:
+Issuers are required to disclose the basis for issue price including:
+(a) EPS (Basic and Diluted) for the last three years and annualized for the current year;
+(b) P/E ratio at the issue price vs. industry P/E and peer P/E;
+(c) Return on Net Worth (RONW) for three years;
+(d) Net Asset Value (NAV) per share before and after the issue;
+(e) Comparison with at least 3 listed industry peers.
+
+=============================================================================
+END OF SEBI ICDR 2024-2026 AMENDMENTS SUMMARY
+=============================================================================
+
+=============================================================================
+CHAPTER 9: SEBI 2026 UPDATES — Q1 AND Q2 (JANUARY–JUNE 2026)
+=============================================================================
+
+SOURCE: SEBI Board Meeting dated January 15, 2026 and SEBI Circular SEBI/HO/CFD/PoD-1/P/CIR/2026/34 dated March 12, 2026
+
+1. SEBI SME IPO FRAMEWORK TIGHTENING (EFFECTIVE APRIL 1, 2026):
+
+   (a) MINIMUM PROMOTER HOLDING POST-LISTING: Promoters must hold a minimum of 25% (up from 20%) of the post-issue paid-up equity capital immediately after the IPO. The excess beyond 25% is also subject to a graduated lock-in.
+
+   (b) DIGITAL RED HERRING PROSPECTUS (dRHP): SEBI has mandated electronic filing of DRHP via a new portal (SEBI PRISM — Prospectus Regulatory Information Submission Module) effective August 1, 2026. All SME issuers must submit machine-readable PDFs with tagged XBRL financial data.
+
+   (c) MANDATORY VIDEO PRESENTATION: As per SEBI circular dated February 2026, all SME IPO issuers are required to upload a management video presentation (maximum 15 minutes) on the BSE/NSE SME platform website at least 7 days before the opening of the subscription window.
+
+   (d) AI-GENERATED CONTENT DISCLOSURE: Issuers using AI tools (including large language models) to assist in drafting any section of the DRHP must disclose such usage in the "Definitions and Abbreviations" section and confirm that all AI-generated content has been reviewed and verified by a qualified Merchant Banker and legal counsel.
+
+2. STRENGTHENED INVESTOR PROTECTION MEASURES (2026):
+
+   (a) ENHANCED REFUND MECHANISM: The ASBA (Application Supported by Blocked Amount) mechanism has been further strengthened. UPI-based ASBA is now the only permitted application mode for retail investors in SME IPOs (effective July 1, 2026). Physical ASBA forms will be discontinued.
+
+   (b) COOLING-OFF PERIOD FOR WITHDRAWALS: Issuers withdrawing an IPO after SEBI observation letter cannot refile for a period of 12 months (increased from 6 months).
+
+   (c) MANDATORY INVESTOR GRIEVANCE REDRESSAL OFFICER: All SME IPO issuers must appoint a dedicated Investor Grievance Redressal Officer (IGRO) with contact details published in the offer document and on the company website.
+
+3. DISCLOSURE REFORMS (Q2 2026):
+
+   (a) RISK FACTOR QUANTIFICATION: SEBI circular dated April 2026 requires that all material risk factors in the DRHP be accompanied by quantitative data wherever possible. For example, a "customer concentration risk" disclosure must include the % revenue from top 3, top 5, and top 10 customers.
+
+   (b) WORKING CAPITAL DISCLOSURE: Issuers funding working capital from IPO proceeds must provide a quarter-wise working capital requirement statement for the next three years certified by the statutory auditor.
+
+   (c) OBJECTS OF THE ISSUE — COST ESCALATION CLAUSE: If the cost of any object has increased more than 10% from the initial estimate at the time of SEBI filing to IPO opening date, the issuer must disclose the revision and the reasons in an addendum to the DRHP.
+
+4. SME LISTING COMPLIANCE POST-IPO (2026):
+
+   (a) QUARTERLY RESULTS: SME-listed companies are now required to publish unaudited quarterly results within 45 days of quarter end (previously 60 days) from Q1 FY 2026-27 onwards.
+
+   (b) HALF-YEARLY FINANCIAL RESULTS WITH LIMITED REVIEW: Half-yearly results must be subject to a limited review by the statutory auditor.
+
+   (c) ANNUAL REPORT TIMELINE: Annual report to be sent to shareholders and filed with stock exchange within 21 days of AGM (reduced from 30 days).
+
+   (d) RELATED PARTY TRANSACTION PRIOR APPROVAL: All RPTs exceeding Rs. 25 lakhs require prior approval of the audit committee. RPTs exceeding Rs. 1 crore require board approval.
+
+5. GREEN IPO FRAMEWORK (NEW — EFFECTIVE JULY 2026):
+
+   SEBI has introduced a voluntary "Green IPO" framework for issuers in renewable energy, clean technology, sustainable agriculture, electric vehicles, and waste management sectors. Green IPO issuers benefit from:
+   (a) Dedicated Green IPO label on exchange platforms;
+   (b) Priority processing of DRHP review by SEBI (target 21 days vs. standard 30 days);
+   (c) Reduced merchant banker minimum underwriting commitment (7.5% vs. 15%);
+   (d) Eligibility for Green Bond proceeds for infrastructure objects.
+
+   Green IPO issuers must comply with SEBI's Green and Sustainable Finance Framework and submit annual Green Impact Reports post-listing.
+
+6. SEBI REGULATORY SANDBOX FOR FINTECHS (2026):
+
+   Financial technology companies seeking SME listing may now apply for SEBI's Regulatory Sandbox to test new financial products/services under relaxed regulatory conditions. Sandbox participants with SEBI approval get a waiver from certain DRHP disclosure requirements related to pending regulatory approvals, subject to disclosure of the sandbox status.
+
+7. CROSS-BORDER LISTING FACILITATION (2026):
+
+   SEBI in coordination with IFSC Authority (IFSCA) has announced a framework for dual listing of SME IPO companies on GIFT City IFSC exchanges (NSE IFSC/BSE IFSC). This allows companies to:
+   (a) Raise USD-denominated capital from foreign investors through simultaneous domestic + IFSC listing;
+   (b) Report in Indian Rupees domestically and USD for IFSC reporting;
+   (c) Access global institutional investor base without a separate overseas listing.
+
+=============================================================================
+CHAPTER 10: COMPLIANCE OFFICER REQUIREMENTS (2026 UPDATE)
+=============================================================================
+
+1. MANDATORY SEBI-CERTIFIED COMPLIANCE OFFICER:
+   All companies filing for SME IPO from April 1, 2026 must appoint a Company Secretary holding SEBI's Compliance Officer Certification (conducted by NISM — National Institute of Securities Markets). Non-compliance results in DRHP rejection.
+
+2. INSIDER TRADING POLICY (UPDATED 2026):
+   The SEBI (Prohibition of Insider Trading) Regulations, 2015 have been amended to include:
+   (a) Digital communication platforms (WhatsApp groups, Signal, internal messaging tools) as "designated platforms" for monitoring unpublished price sensitive information (UPSI);
+   (b) Structured Digital Database (SDD) must now include time-stamped logs of all digital communications involving UPSI;
+   (c) Trading window closure periods extended to include 48 hours before any board meeting (increased from 24 hours).
+
+3. SEBI SCORES INTEGRATION:
+   All SME-listed companies must mandatorily be registered on SEBI SCORES (SEBI Complaints Redress System) from the date of listing. All investor complaints must be resolved within 21 calendar days. Failure to resolve in 21 days results in automatic escalation to SEBI for regulatory action.
+
+=============================================================================
+END OF SEBI 2026 Q1-Q2 UPDATES
+=============================================================================

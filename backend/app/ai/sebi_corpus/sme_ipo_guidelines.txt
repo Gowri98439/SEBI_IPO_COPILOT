@@ -1,0 +1,398 @@
+NSE EMERGE AND BSE SME PLATFORM — SME IPO GUIDELINES
+COMPREHENSIVE GUIDE FOR SME IPO LISTING IN INDIA
+
+================================================================================
+SECTION 1: OVERVIEW OF SME IPO PLATFORMS
+================================================================================
+
+1.1 NSE Emerge Platform
+NSE Emerge is the SME platform of the National Stock Exchange of India (NSE) dedicated to enabling small and medium enterprises to access public capital markets. The platform was launched in 2012 and has successfully listed hundreds of SMEs since inception.
+
+Key Features of NSE Emerge:
+- Dedicated platform for companies with post-issue paid-up capital up to Rs 25 crore
+- Minimum lot size of Rs 1 lakh per application
+- Mandatory market maker for liquidity
+- Relaxed periodic reporting requirements compared to mainboard
+- Migration to NSE mainboard possible upon meeting eligibility criteria
+- Simplified listing process with SEBI oversight
+
+1.2 BSE SME Platform
+BSE SME (formerly BSE ITP) is the BSE's platform for listing of small and medium enterprises. The platform operates under the supervision of SEBI and follows the regulatory framework prescribed under SEBI ICDR Regulations.
+
+Key Features of BSE SME:
+- Platform for SMEs with post-issue paid up capital up to Rs 25 crore
+- Minimum issue size of Rs 50 lakhs
+- Continuous market making mandatory for three years
+- 100% underwriting of the issue mandatory
+- Migration to BSE mainboard upon fulfilling criteria
+
+================================================================================
+SECTION 2: ELIGIBILITY CRITERIA FOR SME IPO
+================================================================================
+
+2.1 Basic Eligibility Requirements
+The following criteria must be met for eligibility for SME IPO:
+
+(a) Company Formation:
+- Must be incorporated as a company under Companies Act, 2013 or 1956
+- Must have an operational track record of at least 3 years from date of incorporation
+- The company must have been operating in its current business for minimum 2 years
+
+(b) Financial Criteria:
+- Post-issue paid-up equity share capital shall not exceed Rs 25 crore
+- Tangible assets of at least Rs 1.5 crore as per latest audited balance sheet
+- Positive net worth in the latest audited financial year
+- Distributable profits (as per Section 123 of Companies Act 2013) in at least 2 out of 3 immediately preceding financial years
+- Note: If profitability criteria not met, mandatory market maker required
+
+(c) Promoter Requirements:
+- Promoters must hold at least 20% of the post-issue paid-up capital
+- Promoters' contribution to be locked in for 3 years from allotment date
+- Promoters/directors must not be debarred from capital markets by SEBI
+- Promoters must not be classified as wilful defaulters by RBI
+- No serious criminal proceedings pending against promoters
+
+(d) Company Standing:
+- No winding up petition admitted against the company
+- No SEBI action pending against the company or its promoters
+- Company must have a functional website with required statutory disclosures
+- Must have an operational bank account with a scheduled commercial bank
+
+2.2 Additional NSE Emerge Specific Criteria
+- Minimum net worth requirement: Rs 1 crore (preferable)
+- Must have at least one full-time director with financial expertise
+- No adverse remarks in auditor's reports for the last 3 years
+- Company must have filed all statutory returns with MCA, ROC for the last 3 years
+
+2.3 Additional BSE SME Specific Criteria
+- The company must have a track record of at least 3 years (inclusive of years of business of any predecessor firm)
+- Net worth of the company should be positive as per audited balance sheet
+- The applicant company should have reported net profit in at least one of the three immediately preceding financial years
+
+================================================================================
+SECTION 3: DOCUMENTS REQUIRED FOR SME IPO
+================================================================================
+
+3.1 Core Documents (Mandatory)
+The following documents must be submitted to the stock exchange and SEBI:
+
+(a) Offer Document:
+- Draft Offer Document (Prospectus) — complete in all respects
+- Final Offer Document (Red Herring Prospectus or Fixed Price Prospectus)
+- All schedules and annexures to the offer document
+
+(b) Corporate Documents:
+- Certificate of Incorporation
+- Memorandum and Articles of Association (MoA & AoA)
+- Board resolution authorizing the IPO
+- Shareholders' resolution for the IPO (if required)
+- Copy of PAN Card of the company
+- Certificate of registration / incorporation of the company
+
+(c) Financial Documents:
+- Audited financial statements for the last 3 financial years (Balance Sheet, P&L, Cash Flow Statement)
+- Restated financial statements prepared by a statutory auditor
+- Auditor's Report on Restated Financial Statements
+- Limited Review Report (if stub period financials included)
+- Statement of Tax Benefits certified by statutory auditor
+- Working capital requirement certificate from auditor
+- Projections statement (if relied upon for objects of the issue)
+
+(d) Legal Documents:
+- Legal Due Diligence Report by company's legal counsel
+- All existing agreements: shareholders, promoters, customer contracts
+- All regulatory licenses and approvals held by the company
+- Property documents: owned/leased properties
+- Litigation certificate from company secretary
+- Certificate from directors regarding disqualification under Section 164
+
+(e) KYC and Compliance Documents:
+- KYC of all promoters (PAN, Aadhaar, address proof)
+- Net Worth Certificate for each promoter from a CA
+- Bank statements of the company for last 12 months
+- Bank statements of promoters for last 6 months (for promoter contribution)
+- Income Tax Returns of the company for last 3 years
+- Income Tax Returns of all promoters for last 3 years
+
+3.2 Appointment Letters and Agreements
+All of the following appointments must be evidenced by executed agreements:
+- Lead Manager Appointment Letter and Agreement
+- Registrar to the Issue Appointment Letter and Agreement
+- Market Maker Agreement (mandatory for SME IPO)
+- Bankers to the Issue (Collecting Banker) Agreement
+- Sponsor Bank Agreement (for ASBA)
+- Underwriting Agreement (mandatory for BSE SME, optional for NSE Emerge but recommended)
+- Printing Agreement (for offer document printing)
+- Advertising Agreement (for issue-related advertisements)
+
+3.3 DRHP Filing Requirements (for NSE Emerge)
+For NSE Emerge, the Draft Red Herring Prospectus (DRHP) must be filed directly with the stock exchange (not with SEBI). The DRHP must:
+- Be filed at least 30 days before the issue opening date
+- Contain all disclosures as per SEBI ICDR Regulations Chapter IX
+- Be accompanied by all mandatory certificates
+- Include processing fee as per exchange schedule
+
+3.4 DRHP Filing Requirements (for BSE SME)
+For BSE SME, the Draft Offer Document must be filed with BSE at least 30 days prior to opening of the issue. BSE then reviews and provides observations within 30 days.
+
+================================================================================
+SECTION 4: APPLICATION AND ALLOTMENT PROCESS
+================================================================================
+
+4.1 ASBA (Application Supported by Blocked Amount)
+All applications in an SME IPO must be submitted through the ASBA mechanism:
+- Applicant submits application at designated ASBA branch of their bank (SCSB)
+- Bank blocks the application amount in the applicant's account
+- Amount is only debited upon allotment
+- Unblocked immediately if not allotted or pro-rata allotted
+
+Eligible Application Methods:
+- Physical ASBA application at bank branches
+- Internet Banking ASBA (through net banking)
+- UPI-based ASBA (for retail individual investors)
+
+4.2 Application Categories
+Applications are accepted in the following categories:
+(a) Retail Individual Investors (RII): Individuals applying for value ≤ Rs 2 lakhs
+(b) Non-Institutional Investors (NII): Individuals/entities applying for value > Rs 2 lakhs
+(c) Market Maker: Reserved portion for market maker
+(d) QIB (if applicable): Qualified Institutional Buyers
+
+4.3 Minimum Application Size
+- Minimum lot size is determined by the company in consultation with the stock exchange
+- Minimum application amount must be at least Rs 1,00,000 (Rs 1 lakh)
+- All applications must be in multiples of the minimum lot size
+
+4.4 Reservation in Issue
+As per SEBI ICDR Regulations:
+- At least 50% of the net offer is reserved for retail individual investors
+- The remaining net offer is available to non-institutional investors and QIBs
+- A specified portion is reserved for market maker
+- Typical structure: 50% RII + 50% NII/QIB
+
+4.5 Basis of Allotment
+(a) In case of oversubscription:
+- Allotment is made on proportionate basis within each category
+- Minimum lot is allotted to each applicant and balance is distributed proportionately
+- If quotient exceeds available shares, allotment is made by draw of lots
+
+(b) In case of undersubscription:
+- Devolvement on underwriters as per underwriting agreement
+- Market maker must subscribe to the unsubscribed portion up to their committed amount
+- Issue may be withdrawn if 90% minimum subscription is not received
+
+4.6 Listing Timeline
+After closure of issue:
+- Day 0: Issue closes
+- Day 6: Allotment must be completed (within 6 working days)
+- Day 6: Refunds initiated for unsuccessful applicants
+- Day 6: Credit of shares to demat accounts
+- Day 7: Listing and commencement of trading on SME exchange
+- Day 7+: Market maker begins two-way quoting
+
+================================================================================
+SECTION 5: MARKET MAKER REQUIREMENTS
+================================================================================
+
+5.1 Role of Market Maker
+The market maker plays a critical role in ensuring liquidity on the SME exchange:
+- Provides continuous buy and sell quotes during trading hours
+- Maintains inventory of shares to facilitate trading
+- Prevents excessive volatility in share price
+- Ensures that investors can exit their positions
+
+5.2 Market Maker Eligibility
+- Must be a registered stock broker with the SME exchange
+- Must have minimum net worth as specified by the exchange
+- Must not be a related party to the issuer
+- Must have completed KYC as per exchange requirements
+
+5.3 Market Maker Obligations
+Duration: Minimum 3 years from date of listing
+
+Quoting Requirements:
+- Shall provide two-way quotes (bid and ask) on all trading days
+- Maximum spread between bid and ask as specified by exchange (typically ≤ 5%)
+- Minimum quote size equal to one trading lot
+- Quotes shall be active for at least 75% of trading time each day
+
+Inventory Requirements:
+- Market maker shall maintain inventory of at least 5% of issue size
+- Inventory can be maintained through open position or actual holdings
+- Daily reporting of inventory position to the exchange
+
+Restrictions:
+- Market maker cannot buy more than 15% of the issue size in the market during the market making period
+- Market maker cannot sell more than 15% of the issue size in the market during the market making period
+- Market maker cannot sell at a price below the offer price during the market making period
+- Market maker shall not do any manipulation in share prices
+
+5.4 Market Maker Agreement
+The issuer shall execute a formal Market Maker Agreement covering:
+- Scope and duration of market making
+- Inventory maintenance obligations
+- Spread maintenance obligations
+- Compensation mechanism (if any)
+- Exit provisions
+- Penalty for non-performance
+
+================================================================================
+SECTION 6: POST-LISTING OBLIGATIONS
+================================================================================
+
+6.1 Continuous Disclosures
+After listing, SME companies must comply with SEBI LODR Regulations 2015:
+
+Quarterly Obligations:
+- Submit unaudited quarterly financial results within 45 days of quarter end
+- Submit shareholding pattern within 21 days of end of each quarter
+- Submit investor complaints report within 21 days of end of each quarter
+- Submit corporate governance compliance report (if applicable)
+
+Annual Obligations:
+- Submit audited annual financial results within 60 days of financial year end
+- Annual report to all shareholders within 21 working days of AGM
+- Annual return filing with ROC as per Companies Act 2013
+
+Event-Based Disclosures (within 24 hours of event):
+- Change in directors or key management personnel
+- Change in statutory auditors
+- Award or loss of major contracts/orders
+- Commencement or conclusion of major litigation
+- Change in general business character or nature
+- Board meeting outcomes (dividend, bonus, rights, etc.)
+
+6.2 Board Meeting Requirements
+- Board must meet at least 4 times a year
+- Prior intimation to stock exchange at least 5 working days before meeting (for results)
+- Outcome of board meeting to be disclosed within 30 minutes of conclusion
+
+6.3 Shareholder Meeting Requirements
+- Annual General Meeting (AGM) within 6 months of financial year end
+- Extra-ordinary General Meeting (EGM) as required
+- Postal ballot for certain resolutions as per Companies Act 2013
+
+6.4 Insider Trading Prevention
+- All promoters, directors, KMP and designated employees are "insiders"
+- Insiders must pre-clear trades with compliance officer
+- Trading window shall be closed during 48 hours before and 48 hours after financial results
+- All trades by insiders must be disclosed to stock exchange within 2 trading days
+
+6.5 Fund Utilization Reporting
+- Quarterly statement of utilization of IPO proceeds to Audit Committee
+- Annual utilization report to shareholders
+- Deviation from stated objects must be approved by shareholders
+- Immediate disclosure to stock exchange if utilization varies from offer document
+
+================================================================================
+SECTION 7: FREQUENTLY REQUIRED DISCLOSURES IN OFFER DOCUMENT
+================================================================================
+
+7.1 Risk Factor Disclosure Guidelines
+Risk factors must be disclosed in the following format:
+- Internal risks (specific to company): business, financial, operational, legal
+- External risks: industry, regulatory, macroeconomic
+- Issue-related risks: shares, market
+- Each risk factor: description of risk, potential impact, mitigation measures
+- Top 5 risk factors must appear on cover page
+
+7.2 Financial Disclosure Checklist
+The following financial disclosures are mandatory:
+☐ Audited Balance Sheet for last 3 financial years
+☐ Audited Profit & Loss Account for last 3 financial years
+☐ Audited Cash Flow Statement for last 3 financial years
+☐ Restated Financial Statements (with restatement adjustments)
+☐ Summary of Restated Financial Statements
+☐ EPS (basic and diluted) for last 3 years
+☐ Return on Net Worth for last 3 years
+☐ Net Asset Value per share
+☐ P/E ratio at issue price
+☐ Comparison with peer companies
+☐ Statement of Tax Benefits
+☐ Working Capital Requirement Statement
+☐ Capitalization Statement
+
+7.3 Management Disclosure Checklist
+☐ Full profiles of all directors with qualifications
+☐ Full profiles of key managerial personnel
+☐ Shareholding of promoters (pre and post issue)
+☐ Details of shares pledged by promoters
+☐ Compensation paid to directors and KMP
+☐ Interest of directors in the company
+☐ Changes in Board of Directors in last 3 years
+☐ Disclosures on independence of independent directors
+☐ All other directorships held by each director
+
+7.4 Legal Disclosure Checklist
+☐ All pending civil litigations against the company
+☐ All pending criminal proceedings against company/directors/promoters
+☐ All outstanding tax demands and disputes
+☐ All regulatory proceedings pending
+☐ All arbitration proceedings
+☐ Environmental/statutory compliance matters
+☐ Outstanding payment defaults
+☐ All approvals/licenses held
+☐ All approvals/licenses applied for but pending
+
+7.5 Objects of Issue Disclosure Checklist
+☐ Specific head-wise objects with amounts
+☐ Schedule of implementation and fund deployment
+☐ Phasing of capital expenditure
+☐ Escalation clause (if any)
+☐ Alternate sources of funds
+☐ Bridge loan details (if any)
+☐ Capacity and production post-capex
+☐ Revenue projections (optional but recommended)
+
+================================================================================
+SECTION 8: CHECKLIST FOR SME IPO READINESS
+================================================================================
+
+8.1 Pre-Filing Checklist
+□ Company has been operational for 3+ years
+□ Post-issue paid-up capital will be ≤ Rs 25 crore
+□ Tangible assets ≥ Rs 1.5 crore (latest audited)
+□ Positive net worth confirmed
+□ Distributable profits in 2 of last 3 years
+□ No winding up petition pending
+□ Promoters not debarred by SEBI
+□ Company not a wilful defaulter
+□ Lead manager appointed and agreement executed
+□ Registrar to the issue appointed
+□ Market maker identified and agreement drafted
+□ Statutory auditor has prepared restated financials
+□ All regulatory approvals obtained or in process
+□ Board resolution passed for the IPO
+□ Shareholders' resolution obtained (if required)
+
+8.2 Offer Document Completeness Checklist
+□ Cover page with all mandatory disclosures
+□ All sections per Schedule IV of ICDR Regulations
+□ Risk factors section: minimum 20 risk factors
+□ Company history and promoter background
+□ Industry and business overview with data
+□ Financial information: 3-year restated
+□ Capital structure details complete
+□ Objects of the issue with schedule
+□ Basis for issue price computation
+□ Statement of tax benefits (CA certified)
+□ Legal section: litigations complete
+□ Corporate governance disclosures
+□ All declarations signed
+□ All annexures attached
+
+8.3 Post-Filing Checklist
+□ Offer document filed with stock exchange
+□ Processing fee paid to exchange
+□ Observations received and incorporated
+□ Final offer document filed
+□ Issue dates fixed and announced
+□ Applications forms printed and distributed
+□ Lead manager running roadshows
+□ Banker/SCSB relationships confirmed
+□ ASBA process tested
+□ Underwriting commitments confirmed
+
+================================================================================
+END OF SME IPO GUIDELINES
+================================================================================
