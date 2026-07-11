@@ -26,3 +26,4 @@ python-magic
 slowapi
 rank-bm25
 aiosqlite
+email-validator
