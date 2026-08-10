@@ -20,6 +20,11 @@ from reportlab.platypus import (
     Spacer, Table, TableStyle, PageBreak, HRFlowable,
     KeepTogether,
 )
+try:
+    from reportlab.platypus import AnchorFlowable
+    _HAS_ANCHOR = True
+except ImportError:
+    _HAS_ANCHOR = False
 from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_JUSTIFY, TA_RIGHT
 
 from app.schemas.drhp import DrhpRequest, FinancialYear
@@ -48,6 +53,27 @@ C_AMBER = colors.HexColor('#B45309')
 
 # ── In-memory job store (for demo; replace with DB in prod) ──
 _jobs: Dict[str, Dict[str, Any]] = {}
+
+
+def _section_h1(title: str, styles, anchor_id: Optional[str] = None) -> list:
+    """
+    Return a list of flowables that start a major section:
+    - An optional PDF bookmark anchor (for navigable PDF outlines)
+    - The H1 heading paragraph
+    - A navy underline rule
+    - A small spacer
+
+    The anchor_id is derived from the title if not supplied.
+    """
+    anchor_name = anchor_id or title.lower().replace(" ", "_").replace("/", "").replace("(", "").replace(")", "")
+    flows = []
+    if _HAS_ANCHOR:
+        flows.append(AnchorFlowable(anchor_name))
+    flows.append(Paragraph(title, styles['H1']))
+    flows.append(HRFlowable(width=INNER_W, thickness=1.5, color=C_NAVY))
+    flows.append(Spacer(1, 6*mm))
+    return flows
+
 
 
 def _get_styles():
@@ -262,9 +288,7 @@ def _table_of_contents(styles) -> list:
 
 
 def _definitions(styles) -> list:
-    elems = [Paragraph('SECTION I — DEFINITIONS AND ABBREVIATIONS', styles['H1'])]
-    elems.append(HRFlowable(width=INNER_W, thickness=1.5, color=C_NAVY))
-    elems.append(Spacer(1, 6*mm))
+    elems = _section_h1('SECTION I — DEFINITIONS AND ABBREVIATIONS', styles, 'section_i_definitions')
 
     defs = [
         ('Term', 'Meaning'),

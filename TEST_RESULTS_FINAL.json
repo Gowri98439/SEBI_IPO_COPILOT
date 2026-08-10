@@ -1,0 +1,194 @@
+{
+  "summary": {
+    "total": 37,
+    "passed": 36,
+    "failed": 1
+  },
+  "results": [
+    {
+      "test": "Backend /health endpoint",
+      "status": "PASS",
+      "detail": "{'status': 'healthy', 'version': '2.0.0', 'database': 'connected', 'timestamp': '2026-08-09T09:17:43Z'}"
+    },
+    {
+      "test": "Frontend reachable",
+      "status": "FAIL",
+      "detail": "HTTP 404"
+    },
+    {
+      "test": "OpenAPI docs accessible",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Enterprise intelligence routes registered",
+      "status": "PASS",
+      "detail": "Routes: ['/api/v1/workspaces/{workspace_id}/drhp/v2/intelligence/{job_id}', '/api/v1/workspaces/{workspace_id}/intelligence/readiness', '/api/v1/workspaces/{workspace_id}/intelligence/risks', '/api/v1"
+    },
+    {
+      "test": "DRHP v2 routes registered",
+      "status": "PASS",
+      "detail": "Has v2: True"
+    },
+    {
+      "test": "Login (demo user)",
+      "status": "PASS",
+      "detail": "Token obtained"
+    },
+    {
+      "test": "Invalid login returns 401/400",
+      "status": "PASS",
+      "detail": "HTTP 401"
+    },
+    {
+      "test": "Protected routes require auth (401/403)",
+      "status": "PASS",
+      "detail": "HTTP 401"
+    },
+    {
+      "test": "List workspaces",
+      "status": "PASS",
+      "detail": "HTTP 200, count=7"
+    },
+    {
+      "test": "List companies",
+      "status": "PASS",
+      "detail": "Count=7"
+    },
+    {
+      "test": "Using existing workspace",
+      "status": "PASS",
+      "detail": "502408e0-7f9f-4024-8b93-5a0832e50724"
+    },
+    {
+      "test": "Dashboard loads",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Dashboard has stats",
+      "status": "PASS",
+      "detail": "{'workspace_id': '502408e0-7f9f-4024-8b93-5a0832e50724', 'readiness_score': 60, 'documents_uploaded'"
+    },
+    {
+      "test": "List documents",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Documents exist",
+      "status": "PASS",
+      "detail": "Count=3"
+    },
+    {
+      "test": "Compliance endpoint accessible",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Copilot responds",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Copilot has answer field",
+      "status": "PASS",
+      "detail": "['response', 'rag_sources']"
+    },
+    {
+      "test": "List drafts",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "DRHP v2 generation starts",
+      "status": "PASS",
+      "detail": "HTTP 202: {'job_id': 'd5a6eb22-831d-4ab4-9f39-40085fc4eaea', 'status': 'pending', 'message': 'Enterprise DRHP pipeline started. Stream progress at /drhp/stream/{job_id}', 'stream_url': '/workspaces/50"
+    },
+    {
+      "test": "DRHP job_id returned",
+      "status": "PASS",
+      "detail": "d5a6eb22-831d-4ab4-9f39-40085fc4eaea"
+    },
+    {
+      "test": "DRHP generation completes",
+      "status": "PASS",
+      "detail": "Final status: done"
+    },
+    {
+      "test": "DRHP PDF download HTTP 200",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "DRHP PDF Content-Type correct",
+      "status": "PASS",
+      "detail": "Content-Type: application/pdf"
+    },
+    {
+      "test": "DRHP PDF is valid PDF (starts with %PDF)",
+      "status": "PASS",
+      "detail": "First 4 bytes: b'%PDF'"
+    },
+    {
+      "test": "DRHP PDF has content (>10KB)",
+      "status": "PASS",
+      "detail": "Size: 132117 bytes"
+    },
+    {
+      "test": "Intelligence Report download HTTP 200",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Intelligence Report is PDF",
+      "status": "PASS",
+      "detail": "First 4 bytes: b'%PDF'"
+    },
+    {
+      "test": "Readiness endpoint responds",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Readiness has overall_score",
+      "status": "PASS",
+      "detail": "{'overall_score': 100.0, 'readiness_band': 'READY FOR FILING', 'component_scores': {'regulatory_read"
+    },
+    {
+      "test": "Readiness has readiness_band",
+      "status": "PASS",
+      "detail": "READY FOR FILING"
+    },
+    {
+      "test": "Risk profile endpoint responds",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Knowledge graph endpoint responds",
+      "status": "PASS",
+      "detail": "HTTP 200"
+    },
+    {
+      "test": "Workspace isolation: fake UUID blocked (403 or 404)",
+      "status": "PASS",
+      "detail": "HTTP 403"
+    },
+    {
+      "test": "Invalid JWT returns 401/403",
+      "status": "PASS",
+      "detail": "HTTP 401"
+    },
+    {
+      "test": "Malformed UUID returns 4xx",
+      "status": "PASS",
+      "detail": "HTTP 403"
+    },
+    {
+      "test": "TypeScript: no compile errors",
+      "status": "PASS",
+      "detail": "Clean compile"
+    }
+  ]
+}

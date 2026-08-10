@@ -1,0 +1,72 @@
+[
+  {
+    "test": "Auth Login",
+    "status": "PASS",
+    "detail": "Obtained JWT token",
+    "code": 200,
+    "latency_ms": 2317.328929901123
+  },
+  {
+    "test": "Get Workspaces",
+    "status": "PASS",
+    "detail": "Workspace ID: b217444f-e4f5-43b6-8f40-16f2f1e3df07",
+    "code": 200,
+    "latency_ms": 2057.2004318237305
+  },
+  {
+    "test": "GET /drhp/overview (21 SEBI Sections)",
+    "status": "PASS",
+    "detail": "Sections count: 21, Readiness Score: 0%",
+    "code": 200,
+    "latency_ms": 2089.1003608703613
+  },
+  {
+    "test": "GET /drhp/sections/risk_factors",
+    "status": "PASS",
+    "detail": "Title: Risk Factors",
+    "code": 200,
+    "latency_ms": 2039.2310619354248
+  },
+  {
+    "test": "PUT /drhp/sections/risk_factors (Autosave & Versioning)",
+    "status": "PASS",
+    "detail": "New Version: 2, Compliance Status: pending",
+    "code": 200,
+    "latency_ms": 2099.6432304382324
+  },
+  {
+    "test": "GET /drhp/sections/risk_factors/versions",
+    "status": "PASS",
+    "detail": "Version count: 1",
+    "code": 200,
+    "latency_ms": 2061.6719722747803
+  },
+  {
+    "test": "POST /drhp/sections/risk_factors/ai-assist",
+    "status": "PASS",
+    "detail": "Generated 5165 chars, Citations: 4",
+    "code": 200,
+    "latency_ms": 15042.656183242798
+  },
+  {
+    "test": "POST /drhp/sections/risk_factors/comments",
+    "status": "PASS",
+    "detail": "Comment added successfully",
+    "code": 200,
+    "latency_ms": 2092.334032058716
+  },
+  {
+    "test": "GET /drhp/sections/risk_factors/comments",
+    "status": "PASS",
+    "detail": "Comments count: 1",
+    "code": 200,
+    "latency_ms": 2050.3296852111816
+  },
+  {
+    "test": "GET /drhp/export/docx (Native Microsoft Word)",
+    "status": "PASS",
+    "detail": "DOCX Size: 38377 bytes, CT: application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "code": 200,
+    "latency_ms": 2487.8005981445312
+  }
+]

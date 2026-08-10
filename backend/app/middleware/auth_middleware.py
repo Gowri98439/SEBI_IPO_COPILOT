@@ -55,3 +55,35 @@ async def require_admin(
             detail="Administrator access required",
         )
     return current_user
+
+
+async def verify_workspace_ownership(
+    workspace_id: str,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+) -> None:
+    """
+    Shared FastAPI dependency that verifies the authenticated user owns the
+    given workspace. Raises HTTP 403 if not. Inject into any endpoint that
+    operates on workspace sub-resources (compliance, dashboard, sessions, drafts).
+
+    Usage:
+        @router.get("/workspaces/{workspace_id}/something")
+        async def my_endpoint(
+            workspace_id: str,
+            _: None = Depends(verify_workspace_ownership),
+            ...
+        ):
+    """
+    from app.models.workspace import Workspace
+    workspace = await db.scalar(
+        select(Workspace).where(
+            Workspace.id == workspace_id,
+            Workspace.created_by == str(current_user.id),
+        )
+    )
+    if workspace is None:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="You do not have access to this workspace.",
+        )

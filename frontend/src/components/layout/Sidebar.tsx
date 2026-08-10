@@ -95,7 +95,7 @@ export default function Sidebar() {
       </div>
 
       {/* ── Navigation ────────────────────────────────────────────────── */}
-      <nav className="no-scrollbar flex-1 overflow-y-auto px-3 pb-4">
+      <nav className="no-scrollbar flex-1 overflow-y-auto px-3 pb-4" aria-label="Main navigation">
         {getNavGroups(currentWorkspaceId).map((group) => (
           <div key={group.phase} className="mb-5">
             <p className="mb-2 px-3 text-[10px] font-data font-semibold uppercase tracking-widest text-ipo-text-secondary">
@@ -134,6 +134,9 @@ export default function Sidebar() {
           <button
             onClick={() => setWorkspaceOpen((o) => !o)}
             className="flex w-full items-center gap-2.5 rounded-md bg-ipo-overlay px-3 py-2.5 text-sm transition-colors hover:bg-ipo-border/50"
+            aria-expanded={workspaceOpen}
+            aria-controls="workspace-dropdown"
+            aria-label="Switch workspace"
           >
             <FolderOpen className="h-3.5 w-3.5 text-ipo-text-secondary flex-shrink-0" />
             <span className="flex-1 truncate text-left text-ipo-text text-sm font-body">
@@ -147,7 +150,7 @@ export default function Sidebar() {
           </button>
 
           {workspaceOpen && (
-            <div className="absolute bottom-full mb-1 w-full rounded-md bg-ipo-overlay border border-ipo-border py-1 shadow-panel z-50">
+            <div id="workspace-dropdown" className="absolute bottom-full mb-1 w-full rounded-md bg-ipo-overlay border border-ipo-border py-1 shadow-panel z-50">
               {workspaces.length === 0 ? (
                 <p className="px-3 py-2 text-xs text-ipo-text-secondary font-body">No workspaces yet</p>
               ) : (
@@ -178,6 +181,9 @@ export default function Sidebar() {
           <button
             onClick={() => setUserMenuOpen((o) => !o)}
             className="flex w-full items-center gap-3 rounded-md px-3 py-2 text-sm transition-colors hover:bg-ipo-overlay"
+            aria-expanded={userMenuOpen}
+            aria-controls="user-menu-dropdown"
+            aria-label="Open user menu"
           >
             <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-ipo-ai text-xs font-semibold text-white font-body">
               {user ? getInitials(user.full_name) : 'U'}
@@ -196,7 +202,7 @@ export default function Sidebar() {
           </button>
 
           {userMenuOpen && (
-            <div className="absolute bottom-full mb-1 w-full rounded-md bg-ipo-overlay border border-ipo-border py-1 shadow-panel z-50">
+            <div id="user-menu-dropdown" className="absolute bottom-full mb-1 w-full rounded-md bg-ipo-overlay border border-ipo-border py-1 shadow-panel z-50">
               <button
                 onClick={() => { navigate('/settings'); setUserMenuOpen(false) }}
                 className="flex w-full items-center gap-2.5 px-3 py-2 text-sm text-ipo-text font-body transition-colors hover:bg-ipo-border/50"

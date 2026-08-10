@@ -1,0 +1,688 @@
+{
+  "cover_page": {
+    "section_id": "cover_page",
+    "title": "Cover Page",
+    "content": "COVER PAGE\n\nThis section of the DRHP covers cover page for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Cover Page' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_cover_page"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "disclaimer": {
+    "section_id": "disclaimer",
+    "title": "Important Disclaimer",
+    "content": "IMPORTANT DISCLAIMER\n\nThis section of the DRHP covers important disclaimer for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Important Disclaimer' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_disclaimer"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "toc": {
+    "section_id": "toc",
+    "title": "Table of Contents",
+    "content": "TABLE OF CONTENTS\n\nThis section of the DRHP covers table of contents for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Table of Contents' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_toc"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "definitions": {
+    "section_id": "definitions",
+    "title": "Definitions and Abbreviations",
+    "content": "DEFINITIONS AND ABBREVIATIONS\n\nThis section of the DRHP covers definitions and abbreviations for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Definitions and Abbreviations' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_definitions"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "forward_looking": {
+    "section_id": "forward_looking",
+    "title": "Forward Looking Statements",
+    "content": "FORWARD LOOKING STATEMENTS\n\nThis Draft Red Herring Prospectus contains certain \"forward-looking statements.\" These forward-looking statements \ngenerally can be identified by words or phrases such as \"aim\", \"anticipate\", \"believe\", \"expect\", \"estimate\", \n\"intend\", \"objective\", \"plan\", \"project\", \"shall\", \"will\", \"will continue\", \"will pursue\" or other words or \nphrases of similar import.\n\nAll forward-looking statements are subject to risks, uncertainties and assumptions about Test Company - Profile_5 that could \ncause actual results to differ materially from those contemplated by the relevant forward-looking statement.\n\nImportant factors that could cause actual results to differ materially from the Company's expectations include, \nbut are not limited to:\n\u2022 General economic and business conditions in India and globally;\n\u2022 The Company's ability to successfully implement its growth strategy;\n\u2022 Changes in the competitive landscape in the Software sector;\n\u2022 Changes in laws and regulations that apply to the Company's business;\n\u2022 Changes in political and social conditions in India;\n\u2022 The occurrence of natural disasters, acts of terrorism or other events;\n\u2022 The ability to attract and retain key personnel.\n\nNeither the Company nor the Lead Manager, nor any of their respective affiliates have any obligation to update \nor otherwise revise any statements reflecting circumstances arising after the date hereof or to reflect the \noccurrence of underlying events, even if the underlying assumptions do not come to fruition.\n",
+    "citations": [
+      {
+        "type": "regulatory",
+        "ref": "SEBI ICDR Regulations 2018, Schedule VI, Part A"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "issue_summary": {
+    "section_id": "issue_summary",
+    "title": "Issue Summary",
+    "content": "ISSUE SUMMARY\n\nThis section of the DRHP covers issue summary for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Issue Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_issue_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "risk_factors": {
+    "section_id": "risk_factors",
+    "title": "Risk Factors",
+    "content": "RISK FACTORS\n\nInvestment in equity shares involves a degree of risk. Investors should carefully read all risk factors \nbefore taking an investment decision. Additional risks not currently known may also materially impair \nthe Company's business, financial condition, and results of operations.\n\n**1. Limited Operating History Risk**\nTest Company - Profile_5 was incorporated on 2010-01-01. Our limited operating history makes it difficult to assess future performance.\n\n**2. Sector-Specific Competition Risk**\nThe Software sector is highly competitive. We face competition from larger, better-capitalised entities with greater market reach.\n\n**3. Working Capital Risk**\nOur business requires continuous working capital deployment. Delays in receivables or unforeseen capital requirements may impact liquidity.\n\n**4. Key Personnel Risk**\nOur success depends on senior management retention. Loss of key personnel may adversely affect our business.\n\n**5. Regulatory Compliance Risk**\nOur Software business is subject to central and state government regulations. Changes in applicable laws could adversely impact operations.\n\n**6. No Prior Public Market Risk**\nThere is no prior public market for our equity shares. The Issue price may not be indicative of the post-listing trading price.\n\n**7. Promoter Lock-in Risk**\nPromoter shares are subject to SEBI-mandated lock-in for 3 years. Post lock-in exit by promoters may create downward price pressure.\n\n**8. General Economic Risk**\nOur financial performance is linked to overall economic conditions in India and globally. Economic \ndownturns, inflationary pressures, interest rate changes, and foreign exchange fluctuations could \nadversely affect our business.\n\n**9. Geopolitical and Force Majeure Risk**\nUnforeseen events including natural disasters, pandemics, geopolitical tensions, and social unrest \ncould disrupt supply chains, reduce consumer demand, and adversely impact results.\n\nNote: The above risk factors are based on information provided and general sector knowledge. \nCompany-specific risk factors based on uploaded documents and detailed business information \nshould be added by the legal team and merchant banker before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "financial_data_for_risk_calibration",
+      "customer_concentration_data"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.75,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "hybrid",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "business_overview": {
+    "section_id": "business_overview",
+    "title": "Business Overview",
+    "content": "[GENERATION ERROR: Section 'Business Overview' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99360, Requested 912. Please try again in 3m55.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_business_overview"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "business_model": {
+    "section_id": "business_model",
+    "title": "Business Model",
+    "content": "[GENERATION ERROR: Section 'Business Model' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99358, Requested 907. Please try again in 3m48.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_business_model"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "competitive_strengths": {
+    "section_id": "competitive_strengths",
+    "title": "Competitive Strengths",
+    "content": "[GENERATION ERROR: Section 'Competitive Strengths' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99357, Requested 942. Please try again in 4m18.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_competitive_strengths"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "strategies": {
+    "section_id": "strategies",
+    "title": "Business Strategies",
+    "content": "[GENERATION ERROR: Section 'Business Strategies' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99355, Requested 862. Please try again in 3m7.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_strategies"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "industry_overview": {
+    "section_id": "industry_overview",
+    "title": "Industry Overview",
+    "content": "[GENERATION ERROR: Section 'Industry Overview' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99354, Requested 839. Please try again in 2m46.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_industry_overview"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "market_opportunity": {
+    "section_id": "market_opportunity",
+    "title": "Market Opportunity",
+    "content": "[GENERATION ERROR: Section 'Market Opportunity' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99352, Requested 823. Please try again in 2m31.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_market_opportunity"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "competition": {
+    "section_id": "competition",
+    "title": "Competition",
+    "content": "[GENERATION ERROR: Section 'Competition' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99351, Requested 862. Please try again in 3m4.031999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_competition"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "corporate_structure": {
+    "section_id": "corporate_structure",
+    "title": "Corporate Structure",
+    "content": "CORPORATE STRUCTURE\n\nThis section of the DRHP covers corporate structure for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Corporate Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "promoters": {
+    "section_id": "promoters",
+    "title": "Promoters and Promoter Group",
+    "content": "PROMOTERS AND PROMOTER GROUP\n\nThis section of the DRHP covers promoters and promoter group for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Promoters and Promoter Group' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_promoters"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "directors": {
+    "section_id": "directors",
+    "title": "Board of Directors and Key Management",
+    "content": "BOARD OF DIRECTORS AND KEY MANAGEMENT\n\nThis section of the DRHP covers board of directors and key management for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Board of Directors and Key Management' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_directors"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "mda": {
+    "section_id": "mda",
+    "title": "Management Discussion and Analysis",
+    "content": "[GENERATION ERROR: Section 'Management Discussion and Analysis' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99349, Requested 883. Please try again in 3m20.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_mda"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "capital_structure": {
+    "section_id": "capital_structure",
+    "title": "Capital Structure",
+    "content": "CAPITAL STRUCTURE\n\nThis section of the DRHP covers capital structure for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Capital Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_capital_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "shareholding_pattern": {
+    "section_id": "shareholding_pattern",
+    "title": "Shareholding Pattern",
+    "content": "SHAREHOLDING PATTERN\n\nThis section of the DRHP covers shareholding pattern for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Shareholding Pattern' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_shareholding_pattern"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "objects_of_issue": {
+    "section_id": "objects_of_issue",
+    "title": "Objects of the Issue",
+    "content": "[GENERATION ERROR: Section 'Objects of the Issue' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99347, Requested 904. Please try again in 3m36.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_objects_of_issue"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "use_of_proceeds": {
+    "section_id": "use_of_proceeds",
+    "title": "Use of Proceeds",
+    "content": "USE OF PROCEEDS\n\nThis section of the DRHP covers use of proceeds for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Use of Proceeds' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_use_of_proceeds"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "basis_for_price": {
+    "section_id": "basis_for_price",
+    "title": "Basis for Issue Price",
+    "content": "[GENERATION ERROR: Section 'Basis for Issue Price' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99345, Requested 926. Please try again in 3m54.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_basis_for_price"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "dividend_policy": {
+    "section_id": "dividend_policy",
+    "title": "Dividend Policy",
+    "content": "DIVIDEND POLICY\n\nTest Company - Profile_5 has not declared any dividends in the past. The Company does not presently intend to pay dividends in the near term as the Company intends to retain earnings to fund growth. Any future dividend payments will depend on earnings, financial condition, capital requirements, and applicable legal requirements.\n\nThere is no guarantee that dividends will be declared or paid in any financial year. Any dividends paid \nin the future will be subject to applicable laws and regulations, including Companies Act 2013, and will \nbe recommended by the Board of Directors from time to time.\n\nInvestors should note that past financial performance, including past dividend payments (if any), is not \nindicative of future results.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "related_party": {
+    "section_id": "related_party",
+    "title": "Related Party Transactions",
+    "content": "RELATED PARTY TRANSACTIONS\n\nThis section of the DRHP covers related party transactions for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Related Party Transactions' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_related_party"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "outstanding_litigation": {
+    "section_id": "outstanding_litigation",
+    "title": "Outstanding Litigation",
+    "content": "OUTSTANDING LITIGATION AND MATERIAL DEVELOPMENTS\n\n[MISSING: Management declaration of outstanding litigation status \u2014 required before filing]\n\nNote to the Merchant Banker and Legal Counsel: This section requires a formal declaration from the Board of Directors and Legal Counsel confirming whether there are or are not any outstanding litigations, suits, criminal or civil prosecutions, proceedings or tax liabilities against Test Company - Profile_5, its Directors, Promoters or Group Companies that may have a material adverse effect on the business.\n\nThis declaration has NOT been provided in the company data submission. The section CANNOT be completed until this information is received and verified.\n\nRequired from the Company before this section can be finalized:\n- Board resolution or legal opinion confirming litigation status\n- Search report from company's legal counsel (if nil litigation)\n- Details of all pending proceedings if any exist\n- Nature, forum, parties, amounts involved, and current status for each proceeding\n\nCompanies are required under SEBI (ICDR) Regulations 2018 to disclose all material litigation regardless of outcome.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "legal_proceedings"
+    ],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "contingent_liabilities": {
+    "section_id": "contingent_liabilities",
+    "title": "Contingent Liabilities",
+    "content": "CONTINGENT LIABILITIES\n\nThis section of the DRHP covers contingent liabilities for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Contingent Liabilities' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_contingent_liabilities"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "government_approvals": {
+    "section_id": "government_approvals",
+    "title": "Government and Other Approvals",
+    "content": "GOVERNMENT AND OTHER APPROVALS\n\nThis section of the DRHP covers government and other approvals for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Government and Other Approvals' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_government_approvals"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "material_contracts": {
+    "section_id": "material_contracts",
+    "title": "Material Contracts",
+    "content": "MATERIAL CONTRACTS\n\nThis section of the DRHP covers material contracts for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Material Contracts' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_material_contracts"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "intellectual_property": {
+    "section_id": "intellectual_property",
+    "title": "Intellectual Property",
+    "content": "INTELLECTUAL PROPERTY\n\nThis section of the DRHP covers intellectual property for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Intellectual Property' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_intellectual_property"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "employees": {
+    "section_id": "employees",
+    "title": "Employees",
+    "content": "EMPLOYEES\n\n[MISSING: Total employee count as of a specific date]\n\nThe Company believes that its employees are its most valuable asset. Test Company - Profile_5 is committed to \nemployee development, fair compensation, and a safe working environment.\n\n[MISSING: Employee category breakdown (permanent vs contract, male vs female, departmental split)]\n[MISSING: Key HR policies and employee benefit schemes]\n\n[MISSING: Confirmation from management regarding labor dispute history \u2014 required before filing]\n\nNote to Merchant Banker and Legal Counsel: The Company's legal counsel must provide a declaration confirming whether any material labor disputes, strikes, or lockouts have occurred or are pending. This cannot be stated as \"nil\" in the DRHP without an explicit management declaration. The above section requires formal HR disclosure before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "employee_count"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.8,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "properties": {
+    "section_id": "properties",
+    "title": "Properties",
+    "content": "PROPERTIES\n\nThis section of the DRHP covers properties for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Properties' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_properties"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "esg_summary": {
+    "section_id": "esg_summary",
+    "title": "ESG Summary",
+    "content": "[GENERATION ERROR: Section 'ESG Summary' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99343, Requested 871. Please try again in 3m4.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_esg_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "corporate_governance": {
+    "section_id": "corporate_governance",
+    "title": "Corporate Governance",
+    "content": "CORPORATE GOVERNANCE\n\nThis section of the DRHP covers corporate governance for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Corporate Governance' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_governance"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "compliance_matrix": {
+    "section_id": "compliance_matrix",
+    "title": "SEBI Compliance Matrix",
+    "content": "SEBI COMPLIANCE MATRIX\n\nThis section of the DRHP covers sebi compliance matrix for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'SEBI Compliance Matrix' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_compliance_matrix"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "annexures": {
+    "section_id": "annexures",
+    "title": "Annexures",
+    "content": "ANNEXURES\n\nThis section of the DRHP covers annexures for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Annexures' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_annexures"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "glossary": {
+    "section_id": "glossary",
+    "title": "Glossary",
+    "content": "GLOSSARY\n\nThis section of the DRHP covers glossary for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Glossary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_glossary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "declaration": {
+    "section_id": "declaration",
+    "title": "Declaration and Undertaking",
+    "content": "DECLARATION AND UNDERTAKING\n\nThis section of the DRHP covers declaration and undertaking for Test Company - Profile_5.\n\n[MISSING: Detailed content for 'Declaration and Undertaking' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_declaration"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  }
+}

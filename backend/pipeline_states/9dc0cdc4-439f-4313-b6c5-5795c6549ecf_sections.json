@@ -1,0 +1,912 @@
+{
+  "cover_page": {
+    "section_id": "cover_page",
+    "title": "Cover Page",
+    "content": "COVER PAGE\n\nThis section of the DRHP covers cover page for .\n\n[MISSING: Detailed content for 'Cover Page' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_cover_page"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "disclaimer": {
+    "section_id": "disclaimer",
+    "title": "Important Disclaimer",
+    "content": "IMPORTANT DISCLAIMER\n\nThis section of the DRHP covers important disclaimer for .\n\n[MISSING: Detailed content for 'Important Disclaimer' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_disclaimer"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "toc": {
+    "section_id": "toc",
+    "title": "Table of Contents",
+    "content": "TABLE OF CONTENTS\n\nThis section of the DRHP covers table of contents for .\n\n[MISSING: Detailed content for 'Table of Contents' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_toc"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "definitions": {
+    "section_id": "definitions",
+    "title": "Definitions and Abbreviations",
+    "content": "DEFINITIONS AND ABBREVIATIONS\n\nThis section of the DRHP covers definitions and abbreviations for .\n\n[MISSING: Detailed content for 'Definitions and Abbreviations' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_definitions"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "forward_looking": {
+    "section_id": "forward_looking",
+    "title": "Forward Looking Statements",
+    "content": "FORWARD LOOKING STATEMENTS\n\nThis Draft Red Herring Prospectus contains certain \"forward-looking statements.\" These forward-looking statements \ngenerally can be identified by words or phrases such as \"aim\", \"anticipate\", \"believe\", \"expect\", \"estimate\", \n\"intend\", \"objective\", \"plan\", \"project\", \"shall\", \"will\", \"will continue\", \"will pursue\" or other words or \nphrases of similar import.\n\nAll forward-looking statements are subject to risks, uncertainties and assumptions about  that could \ncause actual results to differ materially from those contemplated by the relevant forward-looking statement.\n\nImportant factors that could cause actual results to differ materially from the Company's expectations include, \nbut are not limited to:\n\u2022 General economic and business conditions in India and globally;\n\u2022 The Company's ability to successfully implement its growth strategy;\n\u2022 Changes in the competitive landscape in the  sector;\n\u2022 Changes in laws and regulations that apply to the Company's business;\n\u2022 Changes in political and social conditions in India;\n\u2022 The occurrence of natural disasters, acts of terrorism or other events;\n\u2022 The ability to attract and retain key personnel.\n\nNeither the Company nor the Lead Manager, nor any of their respective affiliates have any obligation to update \nor otherwise revise any statements reflecting circumstances arising after the date hereof or to reflect the \noccurrence of underlying events, even if the underlying assumptions do not come to fruition.\n",
+    "citations": [
+      {
+        "type": "regulatory",
+        "ref": "SEBI ICDR Regulations 2018, Schedule VI, Part A"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "issue_summary": {
+    "section_id": "issue_summary",
+    "title": "Issue Summary",
+    "content": "ISSUE SUMMARY\n\nThis section of the DRHP covers issue summary for .\n\n[MISSING: Detailed content for 'Issue Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_issue_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "risk_factors": {
+    "section_id": "risk_factors",
+    "title": "Risk Factors",
+    "content": "RISK FACTORS\n\nInvestment in equity shares involves a degree of risk. Investors should carefully read all risk factors \nbefore taking an investment decision. Additional risks not currently known may also materially impair \nthe Company's business, financial condition, and results of operations.\n\n**1. Limited Operating History Risk**\n was incorporated on . Our limited operating history makes it difficult to assess future performance.\n\n**2. Sector-Specific Competition Risk**\nThe  sector is highly competitive. We face competition from larger, better-capitalised entities with greater market reach.\n\n**3. Working Capital Risk**\nOur business requires continuous working capital deployment. Delays in receivables or unforeseen capital requirements may impact liquidity.\n\n**4. Key Personnel Risk**\nOur success depends on senior management retention. Loss of key personnel may adversely affect our business.\n\n**5. Regulatory Compliance Risk**\nOur  business is subject to central and state government regulations. Changes in applicable laws could adversely impact operations.\n\n**6. No Prior Public Market Risk**\nThere is no prior public market for our equity shares. The Issue price may not be indicative of the post-listing trading price.\n\n**7. Promoter Lock-in Risk**\nPromoter shares are subject to SEBI-mandated lock-in for 3 years. Post lock-in exit by promoters may create downward price pressure.\n\n**8. General Economic Risk**\nOur financial performance is linked to overall economic conditions in India and globally. Economic \ndownturns, inflationary pressures, interest rate changes, and foreign exchange fluctuations could \nadversely affect our business.\n\n**9. Geopolitical and Force Majeure Risk**\nUnforeseen events including natural disasters, pandemics, geopolitical tensions, and social unrest \ncould disrupt supply chains, reduce consumer demand, and adversely impact results.\n\nNote: The above risk factors are based on information provided and general sector knowledge. \nCompany-specific risk factors based on uploaded documents and detailed business information \nshould be added by the legal team and merchant banker before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "customer_concentration_data"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.75,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "hybrid",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "business_overview": {
+    "section_id": "business_overview",
+    "title": "Business Overview",
+    "content": "**BUSINESS OVERVIEW**\n\nOur company, with a CIN of [MISSING: CIN] and PAN [MISSING: PAN], was incorporated on [MISSING: INCORPORATED]. We are part of the [MISSING: SECTOR] sector, with our specific sub-sector being [MISSING: Sub-sector].\n\n**REGISTERED ADDRESS AND WEBSITE**\n\nOur registered address is [MISSING: REGISTERED ADDRESS]. For more information about our company, please visit our website at [MISSING: WEBSITE].\n\n**BUSINESS DESCRIPTION**\n\nOur business description is [MISSING: BUSINESS DESCRIPTION].\n\n**KEY PRODUCTS/SERVICES AND GEOGRAPHIES**\n\nWe offer [MISSING: KEY PRODUCTS/SERVICES] to our customers across [MISSING: GEOGRAPHIES].\n\n**CERTIFICATIONS AND EMPLOYEES**\n\nWe have obtained [MISSING: CERTIFICATIONS] certifications. As of the date of this Draft Red Herring Prospectus, we have [MISSING: EMPLOYEES] employees.\n\n**PROMOTERS**\n\nOur promoter is [MISSING: PROMOTER NAME], who holds [0.0%] of our equity shares.\n\n**FINANCIAL PERFORMANCE**\n\nOur financial performance for the last three fiscal years is as follows:\n\n| Year | Revenue (INR Lakhs) | PAT (INR Lakhs) | EBITDA | Total Assets (INR Lakhs) | Equity (INR Lakhs) |\n| --- | --- | --- | --- | --- | --- |\n| 2021-22 | \u20b90.00L | \u20b90.00L | Not Provided | \u20b90.00L | \u20b90.00L |\n| 2022-23 | \u20b90.00L | \u20b90.00L | Not Provided | \u20b90.00L | \u20b90.00L |\n| 2023-24 | \u20b90.00L | \u20b90.00L | Not Provided | \u20b90.00L | \u20b90.00L |\n\n**STATUTORY AUDITOR**\n\nOur statutory auditor is [MISSING: STATUTORY AUDITOR].\n\n**INDUSTRY OVERVIEW**\n\nAs we are part of the [MISSING: SECTOR] sector, our industry overview is [MISSING: INDUSTRY OVERVIEW].\n\n**REGULATORY FRAMEWORK**\n\nOur company is subject to various regulations and laws, including the [MISSING: REGULATORY FRAMEWORK]. We are required to comply with the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018, and other applicable laws and regulations.\n\n**INTERNAL CONTROL SYSTEMS**\n\nWe have established internal control systems to ensure compliance with applicable laws and regulations. Our internal control systems include [MISSING: INTERNAL CONTROL SYSTEMS].\n\n**RISK MANAGEMENT**\n\nWe have identified certain risks that may affect our business, including [MISSING: RISK MANAGEMENT]. We have implemented risk management strategies to mitigate these risks.\n\nBy order of the Board of Directors,\n\n[MISSING: AUTHORIZED SIGNATORY]\n\nNote: The above draft is based on the provided company data and may require additional information to complete the 'Business Overview' section.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. SEBI PRISM SYSTEM:\nAll SME IPO offer documents must now be filed through SEBI's PRISM (Portal for Risk-based Internal Monitoring) system. Paper filings are no longer accepted as of October 1, 20"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "CIN",
+      "PAN",
+      "INCORPORATED",
+      "SECTOR",
+      "Sub-sector",
+      "REGISTERED ADDRESS",
+      "WEBSITE",
+      "BUSINESS DESCRIPTION",
+      "KEY PRODUCTS/SERVICES",
+      "GEOGRAPHIES",
+      "CERTIFICATIONS",
+      "EMPLOYEES",
+      "PROMOTER NAME",
+      "STATUTORY AUDITOR",
+      "SECTOR",
+      "INDUSTRY OVERVIEW",
+      "REGULATORY FRAMEWORK",
+      "INTERNAL CONTROL SYSTEMS",
+      "RISK MANAGEMENT",
+      "AUTHORIZED SIGNATORY"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3422.3162999987835
+  },
+  "business_model": {
+    "section_id": "business_model",
+    "title": "Business Model",
+    "content": "## Business Model\n\nOur company's business model is designed to [MISSING: business description]. The company operates in the [MISSING: sector] sector, with a sub-sector focus on [MISSING: sub-sector].\n\n### Overview of Key Products/Services\n\nThe company's key products/services are [MISSING: key products/services]. These products/services are designed to [MISSING: product/service description] and are targeted at [MISSING: target market].\n\n### Geographical Presence\n\nThe company operates in [MISSING: geographies]. Our geographical presence is [MISSING: geographical description].\n\n### Certifications and Compliance\n\nThe company holds [MISSING: certifications] certifications, which are [MISSING: certification description]. We comply with all applicable laws and regulations, including [MISSING: relevant laws and regulations].\n\n### Revenue Streams\n\nThe company generates revenue from [MISSING: revenue streams]. Our revenue model is based on [MISSING: revenue model description].\n\n### Key Activities\n\nThe company's key activities include [MISSING: key activities]. These activities are designed to [MISSING: activity description] and are essential to our business model.\n\n### Key Resources\n\nThe company's key resources include [MISSING: key resources]. These resources are [MISSING: resource description] and are necessary for our business operations.\n\n### Value Proposition\n\nThe company's value proposition is [MISSING: value proposition]. We offer [MISSING: unique selling points] to our customers, which sets us apart from our competitors.\n\n### Customer Relationships\n\nThe company's customer relationships are [MISSING: customer relationships]. We interact with our customers through [MISSING: customer interaction channels].\n\n### Channels\n\nThe company uses [MISSING: channels] to reach its customers. Our channels include [MISSING: channel description].\n\n### Cost Structure\n\nThe company's cost structure includes [MISSING: cost structure]. Our major costs are [MISSING: major costs], which are [MISSING: cost description].\n\n### Key Partners\n\nThe company's key partners are [MISSING: key partners]. We partner with [MISSING: partner description] to [MISSING: partnership description].\n\nAs required by the SEBI ICDR Regulations, we disclose that our business model is subject to various risks and uncertainties, including [MISSING: risk factors]. We are committed to complying with all applicable laws and regulations, including the SEBI ICDR Regulations, and to maintaining the highest standards of corporate governance and transparency.\n\nIn accordance with the SEBI PRISM system, our offer document has been filed through the PRISM portal. Our financial data has been filed in XBRL format, using the MCA-21 Extended Taxonomy, in addition to the PDF format.\n\nOur company is [MISSING: company description], with a registered address at [MISSING: registered address]. Our website is [MISSING: website], and we have [MISSING: employees] employees. Our statutory auditor is [MISSING: statutory auditor]. \n\nOur promoters are [MISSING: promoters], who hold [MISSING: promoter shareholding] of our equity share capital. \n\nOur financial performance for the last three fiscal years is as follows:\n- 2021-22: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA Not Provided, Total Assets \u20b90.00L, Equity \u20b90.00L\n- 2022-23: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA Not Provided, Total Assets \u20b90.00L, Equity \u20b90.00L\n- 2023-24: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA Not Provided, Total Assets \u20b90.00L, Equity \u20b90.00L\n\nThe issue details are as follows:\n- Issue Size: \u20b90.00 Crore\n- Fresh Issue: \u20b90.00 Crore | OFS: \u20b90.00 Crore\n- Price Band: \u20b90 \u2013 \u20b90 | Face Value: \u20b910\n- Objects of Issue: [MISSING: objects of issue]\n- Lead Manager: [MISSING: lead manager]\n\nWe believe that our business model is well-positioned to [MISSING: business model description] and to achieve our objectives. However, our business is subject to various risks and uncertainties, and there can be no assurance that we will be able to achieve our goals.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "business description",
+      "sector",
+      "sub-sector",
+      "key products/services",
+      "product/service description",
+      "target market",
+      "geographies",
+      "geographical description",
+      "certifications",
+      "certification description",
+      "relevant laws and regulations",
+      "revenue streams",
+      "revenue model description",
+      "key activities",
+      "activity description",
+      "key resources",
+      "resource description",
+      "value proposition",
+      "unique selling points",
+      "customer relationships",
+      "customer interaction channels",
+      "channels",
+      "channel description",
+      "cost structure",
+      "major costs",
+      "cost description",
+      "key partners",
+      "partner description",
+      "partnership description",
+      "risk factors",
+      "company description",
+      "registered address",
+      "website",
+      "employees",
+      "statutory auditor",
+      "promoters",
+      "promoter shareholding",
+      "objects of issue",
+      "lead manager",
+      "business model description"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 4287.187800000538
+  },
+  "competitive_strengths": {
+    "section_id": "competitive_strengths",
+    "title": "Competitive Strengths",
+    "content": "## Competitive Strengths\n\nOur Company's competitive strengths are a crucial aspect of our business strategy and play a significant role in our ability to operate effectively in the market. The following are the key competitive strengths of our Company:\n\n### Established Track Record\nOur Company has [MISSING: description of track record], which is a testament to our ability to [MISSING: description of ability]. However, due to the lack of available data, we are unable to provide a detailed description of our established track record.\n\n### Experienced Promoter and Management Team\nOur Promoter, [MISSING: promoter name], has [MISSING: years of industry experience] years of experience in the [MISSING: sector/sub-sector] sector. However, we do not have information on the specific experience of our management team.\n\n### Quality Certifications\nWe do not have information on any quality certifications, such as ISO, BIS, FSSAI, GMP, etc., that our Company may possess.\n\n### Geographically Diversified Operations/Distribution\nOur Company operates in [MISSING: geographies], which enables us to [MISSING: description of benefits]. However, due to the lack of available data, we are unable to provide a detailed description of our geographically diversified operations/distribution.\n\n### Strong Backward Integration / Forward Integration\nWe do not have information on whether our Company has strong backward integration or forward integration.\n\n### Asset-Light / Capital-Efficient Business Model\nWe do not have information on whether our Company's business model is asset-light or capital-efficient.\n\n### Other Competitive Strengths\nOur Company may have other competitive strengths, such as [MISSING: description of other strengths]. However, due to the lack of available data, we are unable to provide a detailed description of these strengths.\n\nAs our Company's business and operations are not fully described in the available data, we are unable to provide a comprehensive analysis of our competitive strengths. However, we will continue to focus on developing and leveraging our strengths to achieve our business objectives.\n\n## About the Company \u2014 Industry and Business Overview\n\n### Industry Overview\nWe do not have information on the industry in which our Company operates, including statistical data.\n\n### Business Overview\nOur Company's business overview, including the nature of our business and products/services, is not available.\n\n### Key Competitive Strengths\nAs mentioned earlier, our Company's key competitive strengths are not fully described in the available data.\n\n### Business Strategy\nWe do not have information on our Company's business strategy.\n\n### Description of Properties\nWe do not have information on our Company's properties.\n\n### Key Raw Materials and Suppliers\nWe do not have information on our Company's key raw materials and suppliers.\n\n### Key Customers and Marketing Strategy\nWe do not have information on our Company's key customers and marketing strategy.\n\n### Details of Orders/Projects in Hand\nWe do not have information on our Company's orders/projects in hand.\n\nIn accordance with the SEBI ICDR regulations, we will ensure that all necessary disclosures are made in our DRHP filing. However, due to the lack of available data, we are unable to provide a comprehensive 'Competitive Strengths' section. We will continue to work on providing the necessary information to ensure compliance with the regulatory requirements.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1.2 COMPETITIVE STRENGTHS (STANDARD SECTIONS):\n(a) Established track record with diversified customer base;\n(b) Experienced promoter and management team with [X] years of industry experience;\n(c) Q"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "description of track record",
+      "description of ability",
+      "promoter name",
+      "years of industry experience",
+      "sector/sub-sector",
+      "geographies",
+      "description of benefits",
+      "description of other strengths"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3977.9456999967806
+  },
+  "strategies": {
+    "section_id": "strategies",
+    "title": "Business Strategies",
+    "content": "## Business Strategies\n\nOur company's business strategies are designed to achieve our objectives and create long-term value for our stakeholders. However, due to the limited information available, we are unable to provide a comprehensive overview of our business strategies.\n\n### Overview of Business\nOur company is incorporated in [MISSING: incorporation details] and operates in the [MISSING: sector] sector. The sub-sector in which we operate is [MISSING: sub-sector]. Our registered address is [MISSING: registered address], and our website is [MISSING: website].\n\n### Key Products/Services\nWe offer [MISSING: key products/services] to our customers. However, due to the lack of information, we are unable to provide further details on our products or services.\n\n### Geographical Presence\nOur company operates in [MISSING: geographies]. We are unable to provide further information on our geographical presence due to the limited data available.\n\n### Certifications\nWe have obtained [MISSING: certifications] certifications. However, due to the lack of information, we are unable to provide further details on our certifications.\n\n### Business Description\nOur business description is [MISSING: business description]. We apologize for the lack of information and are unable to provide further details.\n\n### Promoters\nOur promoter is [MISSING: promoter name] with a shareholding of [MISSING: percentage]%. However, according to the provided data, the promoter's name and percentage are not available.\n\n### Financial Performance\nOur financial performance for the last three years is as follows:\n- 2021-22: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA Not Provided, Total Assets \u20b90.00L, Equity \u20b90.00L\n- 2022-23: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA Not Provided, Total Assets \u20b90.00L, Equity \u20b90.00L\n- 2023-24: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA Not Provided, Total Assets \u20b90.00L, Equity \u20b90.00L\n\n### Issue Details\nThe details of our issue are as follows:\n- Issue Size: \u20b90.00 Crore\n- Fresh Issue: \u20b90.00 Crore\n- Offer for Sale (OFS): \u20b90.00 Crore\n- Price Band: \u20b90 \u2013 \u20b90\n- Face Value: \u20b910\n- Objects of Issue: [MISSING: objects of issue]\n- Lead Manager: [MISSING: lead manager]\n\n### Regulatory Compliance\nWe are committed to complying with all applicable laws, regulations, and guidelines, including the SEBI ICDR Regulations, 2018. We will ensure that our issue is made in compliance with the provisions of the SEBI ICDR Regulations, 2018, and other applicable laws.\n\n### Reservation in Issue\nAs per the SEBI ICDR Regulations, 2018, at least 50% of the net offer will be reserved for retail individual investors. The remaining net offer will be available to non-institutional investors and Qualified Institutional Buyers (QIBs). A specified portion will be reserved for the market maker.\n\nIn conclusion, due to the limited information available, we are unable to provide a comprehensive overview of our business strategies. We apologize for any inconvenience this may cause and will ensure that all necessary information is provided in accordance with the SEBI ICDR Regulations, 2018, and other applicable laws.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "incorporation details",
+      "sector",
+      "sub-sector",
+      "registered address",
+      "website",
+      "key products/services",
+      "geographies",
+      "certifications",
+      "business description",
+      "promoter name",
+      "percentage",
+      "objects of issue",
+      "lead manager"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 4039.7193000098923
+  },
+  "industry_overview": {
+    "section_id": "industry_overview",
+    "title": "Industry Overview",
+    "content": "## Industry Overview\n\nThe Indian economy has been witnessing significant growth across various sectors. However, due to the lack of specific information regarding the company's sub-sector, a detailed analysis of the relevant sector cannot be provided.\n\n### Introduction to the Sector\n\nGiven the absence of specific details about the company's sub-sector, it is challenging to provide an in-depth overview of the industry. The company operates in the [MISSING: sector] sector, but without further information on the sub-sector, it is not possible to delve into the trends, challenges, and opportunities specific to that area.\n\n### Market Size and Growth Prospects\n\nThe market size and growth prospects for the company's sector are not available due to the lack of specific information about the sub-sector. Typically, understanding the market size, growth rate, and potential for expansion is crucial for assessing the company's position and future prospects within its sector.\n\n### Competitive Landscape\n\nThe competitive landscape of the company's sector is also not discernible without specific details on the sub-sector. Understanding the competitive landscape, including key players, market share, and the competitive advantages of the company, is essential for evaluating its potential for success.\n\n### Regulatory Environment\n\nThe regulatory environment for the company's sector is governed by various laws and regulations. However, without specific information on the sub-sector, it is not possible to outline the exact regulatory framework that applies to the company. Compliance with these regulations is crucial for the company's operations and growth.\n\n### Trends and Outlook\n\nThe trends and outlook for the company's sector are influenced by various factors, including economic conditions, government policies, and technological advancements. Without specific information on the sub-sector, it is challenging to discuss these factors in detail and their potential impact on the company.\n\n### Conclusion\n\nIn conclusion, while the company operates in a specific sector, the lack of detailed information regarding its sub-sector limits the ability to provide a comprehensive industry overview. Understanding the sector, including its trends, challenges, and opportunities, is essential for evaluating the company's potential for growth and success.\n\n### Mandatory SEBI Disclosures\n\nAs per SEBI ICDR Regulations, the following disclosures are mandatory:\n\n- The company is required to provide detailed information about its sector and sub-sector to enable a comprehensive understanding of its operations and market.\n- The regulatory environment and compliance requirements for the company's sector must be outlined.\n- The competitive landscape and market trends for the company's sector should be discussed.\n\nGiven the absence of specific information, these disclosures cannot be fully addressed in this section. It is essential for the company to provide detailed and accurate information to facilitate a thorough understanding of its industry and operations.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "sector"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3831.1247999954503
+  },
+  "market_opportunity": {
+    "section_id": "market_opportunity",
+    "title": "Market Opportunity",
+    "content": "## Market Opportunity\n\nThe market opportunity for our company is influenced by various factors, including industry trends, market size, and growth prospects. However, due to the limited information available, we are unable to provide a comprehensive analysis of the market opportunity.\n\n### Industry Overview\nThe industry in which our company operates is [MISSING: Sub-sector]. The overall sector is [MISSING: Sector], but without more specific information about the sub-sector, it is challenging to assess the market opportunity accurately.\n\n### Market Size and Growth Prospects\nThe market size and growth prospects for our company's [MISSING: Key Products/Services] in [MISSING: Geographies] are not available. As a result, we cannot estimate the potential market share or the company's ability to capitalize on emerging trends.\n\n### Competitive Landscape\nThe competitive landscape for our company is [MISSING: Description of competitors and market positioning]. Without this information, it is difficult to assess our company's competitive strengths and weaknesses.\n\n### Regulatory Environment\nOur company operates in a regulatory environment governed by [MISSING: Relevant laws and regulations]. Compliance with these regulations is crucial for our business, but without more specific information, we cannot provide a detailed analysis of the regulatory environment and its impact on our market opportunity.\n\n### Market Trends\nMarket trends in [MISSING: Sector] are [MISSING: Description of trends]. These trends may present opportunities or challenges for our company, but without more information, we cannot assess their potential impact.\n\n### Conclusion\nIn conclusion, while our company has a [MISSING: Business Description], the market opportunity is influenced by various factors that are not fully disclosed due to the lack of information. We are [MISSING: Description of company's ability to capitalize on market opportunity].\n\n### Reservation in Issue\nAs per SEBI ICDR Regulations, our issue will reserve at least 50% of the net offer for retail individual investors, with the remaining net offer available to non-institutional investors and Qualified Institutional Buyers (QIBs). A specified portion will be reserved for the market maker.\n\n### Objects of the Issue\nThe objects of the issue are [MISSING: Objects of Issue]. The proceeds from the issue will be utilized towards [MISSING: Utilization of proceeds].\n\nBy following the SEBI ICDR Regulations and reserving the specified portion of the issue for retail individual investors, non-institutional investors, QIBs, and the market maker, we aim to provide a fair and transparent opportunity for all investors to participate in our growth story. However, due to the limited information available, we are unable to provide a more detailed analysis of the market opportunity.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 4.4 Reservation in Issue\nAs per SEBI ICDR Regulations:\n- At least 50% of the net offer is reserved for retail individual investors\n- The remaining net offer is available to non-institutional invest"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Sub-sector",
+      "Sector",
+      "Key Products/Services",
+      "Geographies",
+      "Description of competitors and market positioning",
+      "Relevant laws and regulations",
+      "Sector",
+      "Description of trends",
+      "Business Description",
+      "Description of company's ability to capitalize on market opportunity",
+      "Objects of Issue",
+      "Utilization of proceeds"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 4024.5552999986103
+  },
+  "competition": {
+    "section_id": "competition",
+    "title": "Competition",
+    "content": "## Competition\n\nThe Company operates in a sector where [MISSING: sub-sector] is a key area of focus. However, due to the lack of specific information regarding the sub-sector, it is challenging to provide a detailed analysis of the competitive landscape.\n\n### Industry Overview\n\nThe [MISSING: sector] sector is characterized by [MISSING: description of the sector]. The key products/services offered by the Company are [MISSING: key products/services]. The Company's geographies of operation are [MISSING: geographies]. \n\n### Competitive Landscape\n\nThe competitive landscape of the [MISSING: sector] sector is marked by the presence of [MISSING: number and description of competitors]. The Company competes with these entities on the basis of [MISSING: factors of competition]. However, due to the unavailability of specific data regarding the Company's products/services, geographies, and certifications, it is difficult to provide a comprehensive analysis of the competitive dynamics.\n\n### Market Share\n\nThe Company's market share in the [MISSING: sub-sector] is [MISSING: market share]. The market share of the Company's competitors is [MISSING: market share of competitors]. \n\n### Basis of Competition\n\nThe basis of competition in the [MISSING: sector] sector includes [MISSING: factors of competition]. The Company's strategy to compete in this landscape is [MISSING: competitive strategy]. \n\n### Regulatory Environment\n\nThe [MISSING: sector] sector is subject to regulations and guidelines issued by [MISSING: regulatory bodies]. The Company is required to comply with these regulations, which may impact its competitive position.\n\nIn accordance with the SEBI ICDR Regulations, 2018, the Company is required to disclose information regarding its competitors. However, due to the lack of specific information, the Company is unable to provide a detailed analysis of the competitive landscape.\n\n### Risk Factors\n\nThe Company's competitive position is subject to various risks and uncertainties, including [MISSING: risk factors]. These risks may impact the Company's ability to compete effectively in the [MISSING: sector] sector.\n\nBy order of the Board of Directors,\n\n[MISSING: authorized representative]\n\nDate: [MISSING: date]",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "sub-sector",
+      "sector",
+      "description of the sector",
+      "key products/services",
+      "geographies",
+      "sector",
+      "number and description of competitors",
+      "factors of competition",
+      "sub-sector",
+      "market share",
+      "market share of competitors",
+      "sector",
+      "factors of competition",
+      "competitive strategy",
+      "sector",
+      "regulatory bodies",
+      "risk factors",
+      "sector",
+      "authorized representative",
+      "date"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3310.3073999955086
+  },
+  "corporate_structure": {
+    "section_id": "corporate_structure",
+    "title": "Corporate Structure",
+    "content": "CORPORATE STRUCTURE\n\nThis section of the DRHP covers corporate structure for .\n\n[MISSING: Detailed content for 'Corporate Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "promoters": {
+    "section_id": "promoters",
+    "title": "Promoters and Promoter Group",
+    "content": "PROMOTERS AND PROMOTER GROUP\n\nThis section of the DRHP covers promoters and promoter group for .\n\n[MISSING: Detailed content for 'Promoters and Promoter Group' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_promoters"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "directors": {
+    "section_id": "directors",
+    "title": "Board of Directors and Key Management",
+    "content": "BOARD OF DIRECTORS AND KEY MANAGEMENT\n\nThis section of the DRHP covers board of directors and key management for .\n\n[MISSING: Detailed content for 'Board of Directors and Key Management' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_directors"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "mda": {
+    "section_id": "mda",
+    "title": "Management Discussion and Analysis",
+    "content": "**Management Discussion and Analysis**\n\nAs required by the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018, our Company is providing this Management Discussion and Analysis to provide an overview of our business, financial performance, and future prospects.\n\n**Introduction**\n\nOur Company, [MISSING: Company Name], was incorporated on [MISSING: Incorporation Date]. We are engaged in [MISSING: Business Description]. However, due to the lack of information provided, we are unable to provide a detailed overview of our business operations, products, or services.\n\n**Industry and Market**\n\nThe [MISSING: Sector] industry, in which we operate, is [MISSING: Description of the industry]. However, due to the unavailability of information, we are unable to provide a detailed analysis of the industry trends, market size, growth prospects, and competitive landscape.\n\n**Financial Performance**\n\nOur financial performance for the last three fiscal years is as follows:\n\n| Year | Revenue (INR Lakhs) | PAT (INR Lakhs) | Total Assets (INR Lakhs) | Equity (INR Lakhs) |\n| --- | --- | --- | --- | --- |\n| 2021-22 | \u20b90.00 | \u20b90.00 | \u20b90.00 | \u20b90.00 |\n| 2022-23 | \u20b90.00 | \u20b90.00 | \u20b90.00 | \u20b90.00 |\n| 2023-24 | \u20b90.00 | \u20b90.00 | \u20b90.00 | \u20b90.00 |\n\nAs evident from the above table, our revenue, profit after tax, total assets, and equity have been [MISSING: Description of the trend]. However, due to the lack of information, we are unable to provide a detailed analysis of our financial performance, including our revenue streams, cost structure, and profitability.\n\n**Key Financial Ratios**\n\nDue to the unavailability of financial data, we are unable to provide key financial ratios such as debt-equity ratio, return on equity, and return on assets.\n\n**Future Prospects**\n\nOur future prospects depend on various factors, including [MISSING: Description of the factors]. However, due to the lack of information, we are unable to provide a detailed analysis of our future plans, growth strategies, and potential risks and challenges.\n\n**Internal Control Systems and Risk Management**\n\nWe have [MISSING: Description of the internal control systems] in place to ensure the accuracy and reliability of our financial reporting and to mitigate potential risks. However, due to the unavailability of information, we are unable to provide a detailed description of our internal control systems and risk management practices.\n\n**Regulatory Compliance**\n\nWe are committed to complying with all applicable laws, regulations, and standards, including the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018. However, due to the lack of information, we are unable to provide a detailed description of our regulatory compliance framework.\n\n**Conclusion**\n\nIn conclusion, due to the unavailability of information, we are unable to provide a comprehensive Management Discussion and Analysis. We are committed to providing accurate and reliable information to our stakeholders and will strive to improve our disclosure practices in the future.\n\n**SEBI Disclosure Requirements**\n\nWe hereby confirm that our Company has complied with all applicable SEBI regulations, including the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018. We have also ensured that our financial statements have been prepared in accordance with the applicable accounting standards and have been audited by [MISSING: Statutory Auditor].",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Company Name",
+      "Incorporation Date",
+      "Business Description",
+      "Sector",
+      "Description of the industry",
+      "Description of the trend",
+      "Description of the factors",
+      "Description of the internal control systems",
+      "Statutory Auditor"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3692.129000002751
+  },
+  "capital_structure": {
+    "section_id": "capital_structure",
+    "title": "Capital Structure",
+    "content": "CAPITAL STRUCTURE\n\nThis section of the DRHP covers capital structure for .\n\n[MISSING: Detailed content for 'Capital Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_capital_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "shareholding_pattern": {
+    "section_id": "shareholding_pattern",
+    "title": "Shareholding Pattern",
+    "content": "SHAREHOLDING PATTERN\n\nThis section of the DRHP covers shareholding pattern for .\n\n[MISSING: Detailed content for 'Shareholding Pattern' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_shareholding_pattern"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "objects_of_issue": {
+    "section_id": "objects_of_issue",
+    "title": "Objects of the Issue",
+    "content": "## Objects of the Issue\n\nThe Company proposes to utilize the proceeds of the Fresh Issue of [MISSING: Issue Size] towards the following objects:\n\n### Specific Objects of the Issue\n\nThe proceeds of the Fresh Issue will be utilized for [MISSING: Specific objects for which the issue proceeds will be utilized]. The breakdown of the proposed utilization of the Fresh Issue proceeds is as follows:\n\n* [MISSING: Amount proposed to be utilized for each object]\n\n### Schedule of Deployment of Funds\n\nThe deployment of funds towards the above objects is expected to be completed within [MISSING: Timeframe for deployment of funds] from the date of listing of the Equity Shares on the Stock Exchanges.\n\n### Sources of Funds\n\nIn the event that the proceeds of the Fresh Issue are insufficient to meet the objects of the Issue, the Company proposes to [MISSING: Sources of funds if issue proceeds are insufficient to meet the objects].\n\n### Bridge Financing\n\nThe Company has [MISSING: Details of bridge financing, if any, obtained for the objects of the Issue].\n\n### Utilization of Issue Proceeds\n\nThe Company will ensure that the proceeds of the Issue are utilized only for the purposes stated above and in accordance with the provisions of the SEBI ICDR Regulations.\n\n### Monitoring of Utilization of Issue Proceeds\n\nThe Audit Committee of the Board of Directors of the Company will monitor the utilization of the Issue proceeds in accordance with the provisions of the SEBI ICDR Regulations.\n\nBy order of the Board of Directors of the Company,\n\n[MISSING: Authorized Signatory]\n\nNote: The above section is prepared based on the available company data and SEBI regulatory requirements. However, due to the lack of specific information, certain details have been marked as [MISSING: <description of what is needed>]. It is essential to provide the necessary information to complete this section accurately.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Issue Size",
+      "Specific objects for which the issue proceeds will be utilized",
+      "Amount proposed to be utilized for each object",
+      "Timeframe for deployment of funds",
+      "Sources of funds if issue proceeds are insufficient to meet the objects",
+      "Details of bridge financing, if any, obtained for the objects of the Issue",
+      "Authorized Signatory",
+      "<description of what is needed>"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2964.6387999964645
+  },
+  "use_of_proceeds": {
+    "section_id": "use_of_proceeds",
+    "title": "Use of Proceeds",
+    "content": "USE OF PROCEEDS\n\nThis section of the DRHP covers use of proceeds for .\n\n[MISSING: Detailed content for 'Use of Proceeds' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_use_of_proceeds"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "basis_for_price": {
+    "section_id": "basis_for_price",
+    "title": "Basis for Issue Price",
+    "content": "## Basis for Issue Price\n\nThe issue price of \u20b90 per equity share has been determined by the company in consultation with the lead manager, taking into account various factors, including the company's financials, industry trends, market conditions, and the objects of the issue.\n\n### Qualitative Factors\n\nThe company's business description and promoter background have been considered while determining the issue price. However, due to the lack of available data on key products/services, geographies, certifications, and employee count, a comprehensive analysis of these factors could not be undertaken.\n\n### Quantitative Factors\n\nThe company's financial performance over the last three years (2021-22, 2022-23, and 2023-24) has been considered. The financial highlights are as follows:\n\n- Revenue: \u20b90.00L, \u20b90.00L, and \u20b90.00L for the years 2021-22, 2022-23, and 2023-24, respectively.\n- Profit After Tax (PAT): \u20b90.00L, \u20b90.00L, and \u20b90.00L for the years 2021-22, 2022-23, and 2023-24, respectively.\n- EBITDA: Not Provided for all three years.\n- Total Assets: \u20b90.00L, \u20b90.00L, and \u20b90.00L for the years 2021-22, 2022-23, and 2023-24, respectively.\n- Equity: \u20b90.00L, \u20b90.00L, and \u20b90.00L for the years 2021-22, 2022-23, and 2023-24, respectively.\n\nGiven the absence of financial performance indicators such as revenue, PAT, and EBITDA, and the lack of information on the company's return on equity, return on capital employed, and other relevant financial ratios, the determination of the issue price has been significantly constrained.\n\n### Industry Comparables\n\nDue to [MISSING: sub-sector] information, a detailed comparison with industry peers could not be undertaken. This lack of data hinders a comprehensive analysis of the company's valuation multiples in relation to its industry counterparts.\n\n### Market Conditions\n\nThe current market conditions and trends in the [MISSING: sector] have been considered. However, without specific data on the company's position within its sector and the prevailing market conditions, a thorough assessment of these factors in relation to the issue price could not be made.\n\n### Objects of the Issue\n\nThe objects of the issue, as outlined in the draft red herring prospectus, have been taken into account while determining the issue price. However, without detailed financial projections and plans for the utilization of the issue proceeds, the impact of these objects on the company's future financial performance and valuation could not be fully assessed.\n\n### Price Earnings (P/E) Ratio\n\nGiven the absence of earnings (PAT) for the company, the price-to-earnings ratio could not be calculated.\n\n### Return on Equity (ROE)\n\nThe return on equity for the company could not be determined due to the lack of net profit and equity values.\n\n### Comparison with Industry Peers\n\nA comparison with industry peers in terms of valuation multiples such as price-to-book value, enterprise value to EBITDA, etc., could not be made due to the absence of necessary financial data and industry comparables.\n\n### Justification of Issue Price\n\nIn the absence of comprehensive financial data, industry comparables, and other relevant information, the justification of the issue price is significantly constrained. The company and the lead manager have considered the available information and market conditions to arrive at the issue price. However, investors are advised to make their own assessment of the company's prospects and the issue price, considering all available information.\n\n### Conclusion\n\nThe issue price of \u20b90 per equity share has been determined based on the limited available data and in consultation with the lead manager. Investors should carefully evaluate the risk factors, financial information, and other details provided in the draft red herring prospectus before making an investment decision. The company and the lead manager believe that the issue price is justified based on the available information and market conditions. However, the lack of comprehensive data limits the ability to provide a detailed analysis of the basis for the issue price.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 4.4 Reservation in Issue\nAs per SEBI ICDR Regulations:\n- At least 50% of the net offer is reserved for retail individual investors\n- The remaining net offer is available to non-institutional invest"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "sub-sector",
+      "sector"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 5156.75559999363
+  },
+  "dividend_policy": {
+    "section_id": "dividend_policy",
+    "title": "Dividend Policy",
+    "content": "DIVIDEND POLICY\n\n has not declared any dividends in the past. The Company does not presently intend to pay dividends in the near term as the Company intends to retain earnings to fund growth. Any future dividend payments will depend on earnings, financial condition, capital requirements, and applicable legal requirements.\n\nThere is no guarantee that dividends will be declared or paid in any financial year. Any dividends paid \nin the future will be subject to applicable laws and regulations, including Companies Act 2013, and will \nbe recommended by the Board of Directors from time to time.\n\nInvestors should note that past financial performance, including past dividend payments (if any), is not \nindicative of future results.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_statements": {
+    "section_id": "financial_statements",
+    "title": "Financial Statements Summary",
+    "content": "FINANCIAL STATEMENTS SUMMARY\n\nThis section of the DRHP covers financial statements summary for .\n\n[MISSING: Detailed content for 'Financial Statements Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_statements"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_ratios": {
+    "section_id": "financial_ratios",
+    "title": "Key Financial Ratios",
+    "content": "KEY FINANCIAL RATIOS\n\nThis section of the DRHP covers key financial ratios for .\n\n[MISSING: Detailed content for 'Key Financial Ratios' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_ratios"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "related_party": {
+    "section_id": "related_party",
+    "title": "Related Party Transactions",
+    "content": "RELATED PARTY TRANSACTIONS\n\nThis section of the DRHP covers related party transactions for .\n\n[MISSING: Detailed content for 'Related Party Transactions' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_related_party"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "outstanding_litigation": {
+    "section_id": "outstanding_litigation",
+    "title": "Outstanding Litigation",
+    "content": "OUTSTANDING LITIGATION AND MATERIAL DEVELOPMENTS\n\n[MISSING: Management declaration of outstanding litigation status \u2014 required before filing]\n\nNote to the Merchant Banker and Legal Counsel: This section requires a formal declaration from the Board of Directors and Legal Counsel confirming whether there are or are not any outstanding litigations, suits, criminal or civil prosecutions, proceedings or tax liabilities against , its Directors, Promoters or Group Companies that may have a material adverse effect on the business.\n\nThis declaration has NOT been provided in the company data submission. The section CANNOT be completed until this information is received and verified.\n\nRequired from the Company before this section can be finalized:\n- Board resolution or legal opinion confirming litigation status\n- Search report from company's legal counsel (if nil litigation)\n- Details of all pending proceedings if any exist\n- Nature, forum, parties, amounts involved, and current status for each proceeding\n\nCompanies are required under SEBI (ICDR) Regulations 2018 to disclose all material litigation regardless of outcome.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "legal_proceedings"
+    ],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "contingent_liabilities": {
+    "section_id": "contingent_liabilities",
+    "title": "Contingent Liabilities",
+    "content": "CONTINGENT LIABILITIES\n\nThis section of the DRHP covers contingent liabilities for .\n\n[MISSING: Detailed content for 'Contingent Liabilities' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_contingent_liabilities"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "government_approvals": {
+    "section_id": "government_approvals",
+    "title": "Government and Other Approvals",
+    "content": "GOVERNMENT AND OTHER APPROVALS\n\nThis section of the DRHP covers government and other approvals for .\n\n[MISSING: Detailed content for 'Government and Other Approvals' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_government_approvals"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "material_contracts": {
+    "section_id": "material_contracts",
+    "title": "Material Contracts",
+    "content": "MATERIAL CONTRACTS\n\nThis section of the DRHP covers material contracts for .\n\n[MISSING: Detailed content for 'Material Contracts' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_material_contracts"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "intellectual_property": {
+    "section_id": "intellectual_property",
+    "title": "Intellectual Property",
+    "content": "INTELLECTUAL PROPERTY\n\nThis section of the DRHP covers intellectual property for .\n\n[MISSING: Detailed content for 'Intellectual Property' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_intellectual_property"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "employees": {
+    "section_id": "employees",
+    "title": "Employees",
+    "content": "EMPLOYEES\n\n[MISSING: Total employee count as of a specific date]\n\nThe Company believes that its employees are its most valuable asset.  is committed to \nemployee development, fair compensation, and a safe working environment.\n\n[MISSING: Employee category breakdown (permanent vs contract, male vs female, departmental split)]\n[MISSING: Key HR policies and employee benefit schemes]\n\n[MISSING: Confirmation from management regarding labor dispute history \u2014 required before filing]\n\nNote to Merchant Banker and Legal Counsel: The Company's legal counsel must provide a declaration confirming whether any material labor disputes, strikes, or lockouts have occurred or are pending. This cannot be stated as \"nil\" in the DRHP without an explicit management declaration. The above section requires formal HR disclosure before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "employee_count"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.8,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "properties": {
+    "section_id": "properties",
+    "title": "Properties",
+    "content": "PROPERTIES\n\nThis section of the DRHP covers properties for .\n\n[MISSING: Detailed content for 'Properties' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_properties"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "esg_summary": {
+    "section_id": "esg_summary",
+    "title": "ESG Summary",
+    "content": "**ESG Summary**\n\nAs required by the SEBI ICDR Regulations, we provide below a summary of our Environmental, Social, and Governance (ESG) practices and performance.\n\n### Environmental\n\nOur company is committed to minimizing its impact on the environment. However, due to the lack of available data, we are unable to provide specific details on our environmental initiatives and performance. [MISSING: Environmental policies and initiatives] [MISSING: Environmental impact assessment]\n\n### Social\n\nWe recognize the importance of social responsibility and strive to make a positive impact on the communities we operate in. Unfortunately, we do not have sufficient information to provide a detailed account of our social initiatives and achievements. [MISSING: Social responsibility policies and initiatives] [MISSING: Community engagement and development programs]\n\n### Governance\n\nOur company is dedicated to maintaining the highest standards of corporate governance. We have [MISSING: Board composition and structure] and [MISSING: Audit committee details]. Our [MISSING: Statutory auditor] ensures that our financial statements are audited and presented in accordance with applicable laws and regulations.\n\n### ESG Performance\n\nDue to the unavailability of relevant data, we are unable to provide a comprehensive overview of our ESG performance. [MISSING: ESG metrics and key performance indicators] [MISSING: ESG goals and targets]\n\n### ESG Risks and Opportunities\n\nWe acknowledge that ESG factors can have a significant impact on our business. However, without sufficient information, we cannot provide a detailed analysis of the ESG risks and opportunities that our company faces. [MISSING: ESG risk assessment and management] [MISSING: ESG opportunities and strategies]\n\n### Disclosure\n\nIn accordance with the SEBI ICDR Regulations, we disclose that our ESG practices and performance are not fully reported due to the lack of available data. We will strive to improve our ESG disclosure and reporting in the future.\n\nBy order of the Board of Directors,\n\n[MISSING: Authorized representative]",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Environmental policies and initiatives",
+      "Environmental impact assessment",
+      "Social responsibility policies and initiatives",
+      "Community engagement and development programs",
+      "Board composition and structure",
+      "Audit committee details",
+      "Statutory auditor",
+      "ESG metrics and key performance indicators",
+      "ESG goals and targets",
+      "ESG risk assessment and management",
+      "ESG opportunities and strategies",
+      "Authorized representative"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2749.3599000008544
+  },
+  "corporate_governance": {
+    "section_id": "corporate_governance",
+    "title": "Corporate Governance",
+    "content": "CORPORATE GOVERNANCE\n\nThis section of the DRHP covers corporate governance for .\n\n[MISSING: Detailed content for 'Corporate Governance' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_governance"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "compliance_matrix": {
+    "section_id": "compliance_matrix",
+    "title": "SEBI Compliance Matrix",
+    "content": "SEBI COMPLIANCE MATRIX\n\nThis section of the DRHP covers sebi compliance matrix for .\n\n[MISSING: Detailed content for 'SEBI Compliance Matrix' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_compliance_matrix"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "annexures": {
+    "section_id": "annexures",
+    "title": "Annexures",
+    "content": "ANNEXURES\n\nThis section of the DRHP covers annexures for .\n\n[MISSING: Detailed content for 'Annexures' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_annexures"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "glossary": {
+    "section_id": "glossary",
+    "title": "Glossary",
+    "content": "GLOSSARY\n\nThis section of the DRHP covers glossary for .\n\n[MISSING: Detailed content for 'Glossary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_glossary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "declaration": {
+    "section_id": "declaration",
+    "title": "Declaration and Undertaking",
+    "content": "DECLARATION AND UNDERTAKING\n\nThis section of the DRHP covers declaration and undertaking for .\n\n[MISSING: Detailed content for 'Declaration and Undertaking' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_declaration"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  }
+}

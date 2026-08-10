@@ -1,3 +1,4 @@
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -18,6 +19,15 @@ class Settings(BaseSettings):
     ALLOWED_ORIGINS: str = "http://localhost:3000,http://localhost:5173,https://ipo-copilot.vercel.app,https://ipocopilot1.netlify.app,https://ipocopilot.netlify.app"
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+
+    @field_validator("DATABASE_URL", mode="before")
+    @classmethod
+    def fix_postgres_url(cls, v: str) -> str:
+        if v and v.startswith("postgres://"):
+            return v.replace("postgres://", "postgresql+asyncpg://", 1)
+        if v and v.startswith("postgresql://") and not v.startswith("postgresql+asyncpg://"):
+            return v.replace("postgresql://", "postgresql+asyncpg://", 1)
+        return v
 
 
 settings = Settings()

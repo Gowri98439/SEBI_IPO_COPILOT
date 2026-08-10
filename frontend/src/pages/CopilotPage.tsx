@@ -1,101 +1,31 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import {
-  Send, Plus, Trash2, MessageSquare, User, Bot,
-  Info, BookOpen, ChevronDown, ChevronUp,
-} from 'lucide-react';
+import { BookOpen, Plus, MessagesSquare, Sparkles } from 'lucide-react';
 import api from '../api/client';
-import { useChatContext, ChatMessage } from '../context/ChatContext';
+import { useChatContext, ChatMessage as ChatMessageType } from '../context/ChatContext';
 
-/* ── Suggested starter questions ───────────────────────────────────────── */
+import { ChatLayout } from '../components/chat/ChatLayout';
+import { ChatHeader } from '../components/chat/ChatHeader';
+import { ConversationList } from '../components/chat/ConversationList';
+import { ChatMessage } from '../components/chat/ChatMessage';
+import { StreamingStatus } from '../components/chat/StreamingStatus';
+import { PromptComposer } from '../components/chat/PromptComposer';
+
 const SUGGESTED = [
-  'What is the minimum net tangible assets required for SME IPO under SEBI ICDR?',
-  'What are the 2024 SEBI amendments to SME IPO eligibility criteria?',
-  'Explain the lock-in requirements for promoters in an SME IPO.',
+  'What is the minimum net tangible assets required for SME IPO?',
+  'What are the 2024 SEBI amendments to SME IPO eligibility?',
+  'Explain the lock-in requirements for promoters.',
   'What financial disclosures are mandatory in a DRHP?',
-  'What is the difference between SME IPO and main board IPO?',
-  'How does book building work for SME IPOs?',
-  'What are the new ESG disclosure requirements for IPO issuers in 2025?',
-  'What is the minimum number of allottees required for an SME IPO?',
 ];
 
-/* ── Simple markdown-to-JSX renderer ────────────────────────────────────── */
-function renderMarkdown(text: string): React.ReactNode[] {
-  const lines = text.split('\n');
-  const result: React.ReactNode[] = [];
-  let i = 0;
-  while (i < lines.length) {
-    const line = lines[i];
-    if (line.startsWith('### ')) {
-      result.push(<h4 key={i} style={{ margin: '1rem 0 0.375rem', fontWeight: 700, fontSize: '0.9375rem', color: 'var(--text-primary)' }}>{line.slice(4)}</h4>);
-    } else if (line.startsWith('## ')) {
-      result.push(<h3 key={i} style={{ margin: '1rem 0 0.375rem', fontWeight: 700, fontSize: '1rem', color: 'var(--text-primary)' }}>{line.slice(3)}</h3>);
-    } else if (line.startsWith('**') && line.endsWith('**')) {
-      result.push(<p key={i} style={{ margin: '0.25rem 0', fontWeight: 700, color: 'var(--text-primary)' }}>{line.slice(2, -2)}</p>);
-    } else if (/^(\d+\.|-|\*) /.test(line)) {
-      // Collect consecutive list items
-      const listItems: string[] = [];
-      while (i < lines.length && /^(\d+\.|-|\*) /.test(lines[i])) {
-        listItems.push(lines[i].replace(/^(\d+\.|-|\*) /, ''));
-        i++;
-      }
-      result.push(
-        <ul key={i} style={{ margin: '0.5rem 0', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-          {listItems.map((item, j) => (
-            <li key={j} style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.65 }}>{formatInline(item)}</li>
-          ))}
-        </ul>
-      );
-      continue;
-    } else if (line.trim() === '') {
-      result.push(<br key={i} />);
-    } else {
-      result.push(<p key={i} style={{ margin: '0.2rem 0', lineHeight: 1.7, color: 'var(--text-secondary)', fontSize: '0.9375rem' }}>{formatInline(line)}</p>);
-    }
-    i++;
-  }
-  return result;
-}
-
-function formatInline(text: string): React.ReactNode {
-  // Bold **text**, inline code `code`, citations [ICDR ...]
-  const parts = text.split(/(\*\*[^*]+\*\*|`[^`]+`|\[ICDR[^\]]+\]|\[LODR[^\]]+\]|\[Reg[^\]]+\])/g);
-  return parts.map((part, i) => {
-    if (part.startsWith('**') && part.endsWith('**'))
-      return <strong key={i}>{part.slice(2, -2)}</strong>;
-    if (part.startsWith('`') && part.endsWith('`'))
-      return <code key={i} style={{ background: 'var(--bg-elevated)', padding: '0 4px', borderRadius: '4px', fontSize: '0.85em', fontFamily: 'monospace' }}>{part.slice(1, -1)}</code>;
-    if (part.startsWith('[ICDR') || part.startsWith('[LODR') || part.startsWith('[Reg'))
-      return <span key={i} style={{ background: 'var(--accent-light)', color: 'var(--accent)', borderRadius: '4px', padding: '0 4px', fontSize: '0.8em', fontWeight: 600 }}>{part}</span>;
-    return part;
-  });
-}
-
-function formatTime(iso: string) {
-  return new Date(iso).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
-}
-function formatDate(iso: string) {
-  const d = new Date(iso);
-  const today = new Date();
-  if (d.toDateString() === today.toDateString()) return 'Today';
-  const yest = new Date(); yest.setDate(yest.getDate() - 1);
-  if (d.toDateString() === yest.toDateString()) return 'Yesterday';
-  return d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short' });
-}
-
-/* ── Main Component ─────────────────────────────────────────────────────── */
 const CopilotPage: React.FC = () => {
   const { workspaceId } = useParams<{ workspaceId: string }>();
   const chat = useChatContext();
 
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
-  const [showSidebar, setShowSidebar] = useState(true);
-  const [showSuggested, setShowSuggested] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
-  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  // Init workspace in chat context on mount
   useEffect(() => {
     if (workspaceId) chat.initWorkspace(workspaceId);
   }, [workspaceId, chat.initWorkspace]);
@@ -109,20 +39,12 @@ const CopilotPage: React.FC = () => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages.length, loading]);
 
-  // Auto-resize textarea
-  useEffect(() => {
-    if (textareaRef.current) {
-      textareaRef.current.style.height = 'auto';
-      textareaRef.current.style.height = Math.min(textareaRef.current.scrollHeight, 160) + 'px';
-    }
-  }, [input]);
-
-  const sendMessage = async (text?: string) => {
-    const content = (text ?? input).trim();
+  const sendMessage = async () => {
+    const content = input.trim();
     if (!content || loading || !workspaceId || !activeThread) return;
     setInput('');
 
-    const userMsg: ChatMessage = {
+    const userMsg: ChatMessageType = {
       id: `msg_${Date.now()}`,
       role: 'user',
       content,
@@ -131,16 +53,15 @@ const CopilotPage: React.FC = () => {
     chat.addMessage(workspaceId, activeThread.id, userMsg);
     setLoading(true);
 
-    // Build history from all current messages for multi-turn context
     const history = messages.map((m) => ({ role: m.role, content: m.content }));
 
     try {
-      const data = await api.post(`/workspaces/${workspaceId}/copilot/chat`, {
+      const data: any = await api.post(`/workspaces/${workspaceId}/copilot/chat`, {
         message: content,
         history,
       });
       const reply = data?.response ?? data?.message ?? 'No response received.';
-      const botMsg: ChatMessage = {
+      const botMsg: ChatMessageType = {
         id: `msg_${Date.now() + 1}`,
         role: 'assistant',
         content: reply,
@@ -149,7 +70,8 @@ const CopilotPage: React.FC = () => {
       };
       chat.addMessage(workspaceId, activeThread.id, botMsg);
     } catch (err: any) {
-      const detail = err?.response?.data?.detail ?? err?.message ?? 'Please check your connection and try again.';
+      const detail =
+        err?.response?.data?.detail ?? err?.message ?? 'Please check your connection and try again.';
       chat.addMessage(workspaceId, activeThread.id, {
         id: `msg_${Date.now() + 2}`,
         role: 'assistant',
@@ -161,361 +83,136 @@ const CopilotPage: React.FC = () => {
     }
   };
 
-  const handleKey = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+  const handleStop = () => setLoading(false);
+
+  const handleRegenerate = () => {
+    if (messages.length >= 2) {
+      const lastUserMsg = [...messages].reverse().find((m) => m.role === 'user');
+      if (lastUserMsg) setInput(lastUserMsg.content);
+    }
   };
 
-  const newChat = () => { if (workspaceId) chat.newThread(workspaceId); };
-
-  // Group threads by date for sidebar display
-  const threadsByDate: Record<string, typeof threads> = {};
-  threads.forEach((t) => {
-    const dateKey = formatDate(t.updatedAt);
-    if (!threadsByDate[dateKey]) threadsByDate[dateKey] = [];
-    threadsByDate[dateKey].push(t);
-  });
-
-  return (
-    <div style={{
-      height: 'calc(100vh - 4rem)', display: 'flex', flexDirection: 'row', overflow: 'hidden',
-      background: 'var(--bg-base)', margin: '-1.5rem',
-    }}>
-
-      {/* ── Left sidebar: conversation history ──────────────────────────── */}
-      {showSidebar && (
-        <div style={{
-          width: '260px', flexShrink: 0, borderRight: '1px solid var(--border)',
-          display: 'flex', flexDirection: 'column', background: 'var(--bg-card)',
-          overflow: 'hidden',
-        }}>
-          {/* Sidebar header */}
-          <div style={{ padding: '1rem', borderBottom: '1px solid var(--border)', flexShrink: 0 }}>
-            <button
-              onClick={newChat}
-              className="btn btn-primary"
-              style={{ width: '100%', justifyContent: 'center', gap: '0.5rem' }}
-            >
-              <Plus size={16} /> New Chat
-            </button>
-          </div>
-
-          {/* Thread list */}
-          <div style={{ flex: 1, overflowY: 'auto', padding: '0.5rem' }}>
-            {Object.entries(threadsByDate).map(([date, dateThreads]) => (
-              <div key={date}>
-                <p style={{
-                  fontSize: '0.6875rem', fontWeight: 700, color: 'var(--text-muted)',
-                  textTransform: 'uppercase', letterSpacing: '0.06em',
-                  padding: '0.5rem 0.5rem 0.25rem',
-                }}>
-                  {date}
-                </p>
-                {dateThreads.map((thread) => {
-                  const isActive = thread.id === activeThread?.id;
-                  return (
-                    <div
-                      key={thread.id}
-                      style={{
-                        display: 'flex', alignItems: 'center', gap: '0.5rem',
-                        borderRadius: '8px', marginBottom: '2px',
-                        background: isActive ? 'var(--accent-light)' : 'transparent',
-                        cursor: 'pointer',
-                      }}
-                      onClick={() => workspaceId && chat.setActive(workspaceId, thread.id)}
-                      onMouseEnter={(e) => { if (!isActive) e.currentTarget.style.background = 'var(--bg-elevated)'; }}
-                      onMouseLeave={(e) => { if (!isActive) e.currentTarget.style.background = 'transparent'; }}
-                    >
-                      <MessageSquare size={13} color={isActive ? 'var(--accent)' : 'var(--text-muted)'} style={{ flexShrink: 0, marginLeft: '0.625rem' }} />
-                      <span style={{
-                        flex: 1, fontSize: '0.8125rem', color: isActive ? 'var(--accent)' : 'var(--text-secondary)',
-                        padding: '0.5rem 0', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
-                        fontWeight: isActive ? 600 : 400,
-                      }}>
-                        {thread.title}
-                      </span>
-                      {thread.messages.length > 0 && (
-                        <button
-                          onClick={(e) => { e.stopPropagation(); workspaceId && chat.deleteThread(workspaceId, thread.id); }}
-                          style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem 0.5rem', flexShrink: 0, opacity: 0 }}
-                          className="thread-delete-btn"
-                          title="Delete conversation"
-                        >
-                          <Trash2 size={12} color="var(--text-muted)" />
-                        </button>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            ))}
-          </div>
-
-          {/* Disclaimer */}
-          <div style={{ padding: '0.75rem', borderTop: '1px solid var(--border)', flexShrink: 0 }}>
-            <p style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', lineHeight: 1.5, margin: 0 }}>
-              Advisory use only. Verify outputs with a qualified legal professional. Powered by SEBI regulations 2018-2026.
-            </p>
-          </div>
-        </div>
-      )}
-
-      {/* ── Right: chat area ─────────────────────────────────────────────── */}
-      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-
-        {/* Chat header */}
-        <div style={{
-          display: 'flex', alignItems: 'center', gap: '0.75rem',
-          padding: '0.75rem 1.25rem', borderBottom: '1px solid var(--border)',
-          background: 'var(--bg-card)', flexShrink: 0,
-        }}>
-          <button
-            onClick={() => setShowSidebar((v) => !v)}
-            style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.25rem', display: 'flex' }}
-            title={showSidebar ? 'Hide history' : 'Show history'}
-          >
-            <MessageSquare size={18} color="var(--text-muted)" />
-          </button>
-          <div style={{ flex: 1 }}>
-            <h2 style={{ margin: 0, fontSize: '0.9375rem', fontWeight: 700, color: 'var(--text-primary)' }}>
-              SEBI Advisor
-            </h2>
-            <p style={{ margin: 0, fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-              SEBI ICDR 2018 · Amendments 2024-2026 · NSE/BSE SME Guidelines
-            </p>
-          </div>
-          <div className="alert alert-info" style={{ margin: 0, padding: '0.375rem 0.75rem', fontSize: '0.75rem', alignItems: 'center' }}>
-            <Info size={13} style={{ flexShrink: 0 }} />
-            Advisory use only — verify with legal counsel
-          </div>
-        </div>
-
-        {/* Messages */}
-        <div style={{
-          flex: 1, overflowY: 'auto', padding: '1.5rem',
-          display: 'flex', flexDirection: 'column', gap: '1.5rem',
-        }}>
-
-          {/* Empty state */}
-          {messages.length === 0 && (
-            <div style={{ maxWidth: '720px', margin: '0 auto', width: '100%' }}>
-              <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                <div style={{
-                  width: '56px', height: '56px', borderRadius: '50%',
-                  background: 'var(--accent-light)', border: '1px solid var(--border)',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  margin: '0 auto 1rem',
-                }}>
-                  <BookOpen size={28} color="var(--accent)" />
-                </div>
-                <h3 style={{ margin: '0 0 0.375rem', fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-primary)' }}>
-                  SEBI Advisor
-                </h3>
-                <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '0.9375rem' }}>
-                  Ask anything about SEBI regulations, SME IPO process, and DRHP requirements.
-                  Trained on SEBI ICDR 2018, circulars up to 2026, and 500+ DRHP patterns.
-                </p>
-              </div>
-
-              {/* Suggested questions */}
-              <button
-                onClick={() => setShowSuggested((v) => !v)}
-                style={{
-                  width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                  background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem 0',
-                  marginBottom: '0.75rem',
-                }}
-              >
-                <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Suggested questions</span>
-                {showSuggested ? <ChevronUp size={15} color="var(--text-muted)" /> : <ChevronDown size={15} color="var(--text-muted)" />}
-              </button>
-
-              {(showSuggested || true) && (
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.625rem' }}>
-                  {SUGGESTED.map((q) => (
-                    <button
-                      key={q}
-                      onClick={() => sendMessage(q)}
-                      style={{
-                        textAlign: 'left', padding: '0.875rem 1rem',
-                        background: 'var(--bg-card)', border: '1.5px solid var(--border)',
-                        borderRadius: '10px', cursor: 'pointer', fontSize: '0.8125rem',
-                        color: 'var(--text-secondary)', lineHeight: 1.5, transition: 'all 150ms',
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = 'var(--accent)';
-                        e.currentTarget.style.background = 'var(--accent-light)';
-                        e.currentTarget.style.color = 'var(--accent)';
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = 'var(--border)';
-                        e.currentTarget.style.background = 'var(--bg-card)';
-                        e.currentTarget.style.color = 'var(--text-secondary)';
-                      }}
-                    >
-                      {q}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-          )}
-
-          {/* Message list */}
-          {messages.map((msg) => (
-            <div
-              key={msg.id}
-              style={{
-                maxWidth: '760px', width: '100%',
-                margin: msg.role === 'user' ? '0 0 0 auto' : '0 auto 0 0',
-              }}
-            >
-              <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', flexDirection: msg.role === 'user' ? 'row-reverse' : 'row' }}>
-                {/* Avatar */}
-                <div style={{
-                  width: '34px', height: '34px', borderRadius: '50%', flexShrink: 0,
-                  background: msg.role === 'user' ? 'var(--accent)' : 'var(--bg-elevated)',
-                  border: '1.5px solid',
-                  borderColor: msg.role === 'user' ? 'var(--accent)' : 'var(--border)',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                }}>
-                  {msg.role === 'user'
-                    ? <User size={16} color="white" />
-                    : <Bot size={16} color="var(--accent)" />}
-                </div>
-
-                {/* Bubble */}
-                <div style={{
-                  flex: 1,
-                  padding: '0.875rem 1.125rem',
-                  borderRadius: msg.role === 'user' ? '16px 4px 16px 16px' : '4px 16px 16px 16px',
-                  background: msg.role === 'user' ? 'var(--accent)' : 'var(--bg-card)',
-                  border: '1px solid',
-                  borderColor: msg.role === 'user' ? 'transparent' : 'var(--border)',
-                  color: msg.role === 'user' ? 'white' : 'var(--text-primary)',
-                  boxShadow: '0 1px 3px rgba(0,0,0,0.06)',
-                }}>
-                  {msg.role === 'user' ? (
-                    <p style={{ margin: 0, fontSize: '0.9375rem', lineHeight: 1.65, whiteSpace: 'pre-wrap' }}>
-                      {msg.content}
-                    </p>
-                  ) : (
-                    <div style={{ fontSize: '0.9375rem' }}>
-                      {renderMarkdown(msg.content)}
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              {/* Timestamp + sources */}
-              <div style={{
-                display: 'flex', gap: '0.75rem', alignItems: 'center',
-                justifyContent: msg.role === 'user' ? 'flex-end' : 'flex-start',
-                marginTop: '0.25rem', paddingLeft: msg.role === 'user' ? 0 : '46px',
-                paddingRight: msg.role === 'user' ? '46px' : 0,
-              }}>
-                <span style={{ fontSize: '0.6875rem', color: 'var(--text-muted)' }}>
-                  {formatTime(msg.timestamp)}
-                </span>
-                {msg.ragSources != null && msg.ragSources > 0 && msg.role === 'assistant' && (
-                  <span style={{
-                    fontSize: '0.6875rem', color: 'var(--accent)', fontWeight: 600,
-                    background: 'var(--accent-light)', padding: '1px 6px', borderRadius: '99px',
-                  }}>
-                    {msg.ragSources} regulation{msg.ragSources !== 1 ? 's' : ''} cited
-                  </span>
-                )}
-              </div>
-            </div>
-          ))}
-
-          {/* Typing indicator */}
-          {loading && (
-            <div style={{ maxWidth: '760px', width: '100%' }}>
-              <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
-                <div style={{
-                  width: '34px', height: '34px', borderRadius: '50%',
-                  background: 'var(--bg-elevated)', border: '1.5px solid var(--border)',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0,
-                }}>
-                  <Bot size={16} color="var(--accent)" />
-                </div>
-                <div style={{
-                  padding: '0.875rem 1.125rem', background: 'var(--bg-card)',
-                  border: '1px solid var(--border)', borderRadius: '4px 16px 16px 16px',
-                  display: 'flex', gap: '5px', alignItems: 'center',
-                }}>
-                  {[0, 1, 2].map((i) => (
-                    <span key={i} style={{
-                      width: '7px', height: '7px', borderRadius: '50%',
-                      background: 'var(--accent)', opacity: 0.7,
-                      animation: `typing-dot 1.4s ease-in-out ${i * 0.2}s infinite`,
-                    }} />
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
-
-          <div ref={bottomRef} />
-        </div>
-
-        {/* ── Input bar ────────────────────────────────────────────────── */}
-        <div style={{
-          borderTop: '1px solid var(--border)', padding: '1rem 1.25rem',
-          background: 'var(--bg-card)', flexShrink: 0,
-        }}>
-          <div style={{
-            maxWidth: '760px', margin: '0 auto',
-            display: 'flex', gap: '0.75rem', alignItems: 'flex-end',
-            background: 'var(--bg-base)', border: '1.5px solid var(--border)',
-            borderRadius: '12px', padding: '0.5rem 0.75rem',
-            transition: 'border-color 150ms',
-          }}
-            onFocusCapture={(e) => e.currentTarget.style.borderColor = 'var(--border-focus)'}
-            onBlurCapture={(e) => e.currentTarget.style.borderColor = 'var(--border)'}
-          >
-            <textarea
-              ref={textareaRef}
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={handleKey}
-              placeholder="Ask about SEBI regulations, DRHP requirements, SME IPO process..."
-              rows={1}
-              style={{
-                flex: 1, resize: 'none', background: 'transparent', border: 'none',
-                outline: 'none', fontFamily: 'var(--font-sans)', fontSize: '0.9375rem',
-                color: 'var(--text-primary)', lineHeight: 1.6,
-                maxHeight: '160px', overflowY: 'auto', padding: '0.25rem 0',
-              }}
-            />
-            <button
-              onClick={() => sendMessage()}
-              disabled={!input.trim() || loading}
-              style={{
-                background: input.trim() && !loading ? 'var(--accent)' : 'var(--bg-elevated)',
-                border: 'none', borderRadius: '8px', padding: '0.5rem',
-                cursor: input.trim() && !loading ? 'pointer' : 'not-allowed',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                flexShrink: 0, transition: 'background 150ms',
-              }}
-            >
-              <Send size={17} color={input.trim() && !loading ? 'white' : 'var(--text-muted)'} />
-            </button>
-          </div>
-          <p style={{ textAlign: 'center', fontSize: '0.6875rem', color: 'var(--text-muted)', margin: '0.5rem 0 0' }}>
-            Shift+Enter for new line · Enter to send · Covers SEBI regulations up to 2026
-          </p>
-        </div>
+  // ── SIDEBAR ──────────────────────────────────────────────────────────────────
+  const sidebarContent = (
+    <div className="flex flex-col h-full bg-gray-50 border-r border-gray-200">
+      {/* New Chat button */}
+      <div className="p-3">
+        <button
+          className="w-full flex items-center justify-between px-3 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium text-[13px] transition-colors shadow-sm"
+          onClick={() => { if (workspaceId) chat.newThread(workspaceId); }}
+        >
+          <span className="flex items-center gap-2">
+            <MessagesSquare size={15} />
+            New Chat
+          </span>
+          <Plus size={15} />
+        </button>
       </div>
 
-      <style>{`
-        @keyframes typing-dot {
-          0%, 60%, 100% { transform: translateY(0); opacity: 0.7; }
-          30% { transform: translateY(-6px); opacity: 1; }
-        }
-        .thread-delete-btn:hover { opacity: 1 !important; }
-        div:hover > div > .thread-delete-btn { opacity: 0.6 !important; }
-      `}</style>
+      {/* Thread history */}
+      <ConversationList
+        threads={threads}
+        activeThreadId={activeThread?.id}
+        onSelect={(id) => { if (workspaceId) chat.setActive(workspaceId, id); }}
+        onDelete={(id) => { if (workspaceId) chat.deleteThread(workspaceId, id); }}
+      />
+
+      {/* Disclaimer */}
+      <div className="p-3 text-[10px] text-gray-400 text-center border-t border-gray-200">
+        SEBI Advisor is an AI tool. Verify all advice with qualified legal counsel.
+      </div>
+    </div>
+  );
+
+  // ── MAIN CHAT ─────────────────────────────────────────────────────────────────
+  const mainContent = (
+    <div className="flex flex-col h-full bg-white">
+      {/* Fixed header */}
+      <ChatHeader />
+
+      {/* Scrollable message area */}
+      <div className="flex-1 overflow-y-auto custom-scrollbar">
+        {messages.length === 0 ? (
+          /* ── Empty state: welcome screen ─────────────────────────── */
+          <div className="flex flex-col items-center justify-center min-h-full px-6 py-16">
+            <div className="w-14 h-14 rounded-2xl bg-blue-50 border border-blue-100 flex items-center justify-center mb-5 shadow-sm">
+              <BookOpen size={28} className="text-blue-600" />
+            </div>
+            <h1
+              className="text-[26px] font-bold text-gray-900 mb-2 text-center"
+              style={{ fontFamily: 'Inter, sans-serif' }}
+            >
+              SEBI Copilot
+            </h1>
+            <p
+              className="text-gray-500 text-center text-[15px] leading-relaxed max-w-[480px] mb-10"
+              style={{ fontFamily: 'Inter, sans-serif' }}
+            >
+              Ask anything about SEBI regulations, SME IPO processes, and DRHP drafting.
+              Trained on ICDR 2018 and the latest 2026 amendments.
+            </p>
+
+            {/* Suggested prompts */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full max-w-[700px]">
+              {SUGGESTED.map((q) => (
+                <button
+                  key={q}
+                  onClick={() => setInput(q)}
+                  className="group text-left px-4 py-3.5 rounded-xl border border-gray-200 bg-white hover:border-blue-400 hover:bg-blue-50/50 transition-all shadow-sm hover:shadow-md"
+                >
+                  <div className="flex items-start gap-2.5">
+                    <Sparkles
+                      size={14}
+                      className="text-blue-400 mt-0.5 flex-shrink-0 group-hover:text-blue-600 transition-colors"
+                    />
+                    <p
+                      className="text-[13px] text-gray-600 group-hover:text-gray-900 leading-relaxed font-medium transition-colors"
+                      style={{ fontFamily: 'Inter, sans-serif' }}
+                    >
+                      {q}
+                    </p>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+        ) : (
+          /* ── Messages thread ──────────────────────────────────────── */
+          <div className="w-full">
+            {/* Separator line with session label */}
+            <div className="flex items-center gap-3 px-6 py-3">
+              <div className="flex-1 h-px bg-gray-100" />
+              <span className="text-[11px] font-medium text-gray-400 uppercase tracking-wide">
+                This session
+              </span>
+              <div className="flex-1 h-px bg-gray-100" />
+            </div>
+
+            {messages.map((msg) => (
+              <ChatMessage key={msg.id} message={msg} onRegenerate={handleRegenerate} />
+            ))}
+
+            {loading && <StreamingStatus onStop={handleStop} />}
+            <div ref={bottomRef} className="h-4" />
+          </div>
+        )}
+      </div>
+
+      {/* ── Pinned input at bottom ─────────────────────────────────── */}
+      <div className="flex-shrink-0 border-t border-gray-100 bg-white px-4 pt-3 pb-2">
+        <PromptComposer
+          input={input}
+          setInput={setInput}
+          onSend={sendMessage}
+          loading={loading}
+        />
+      </div>
+    </div>
+  );
+
+  return (
+    <div style={{ height: 'calc(100vh - 4rem)', margin: '-1.5rem' }}>
+      <ChatLayout sidebarContent={sidebarContent} mainContent={mainContent} />
     </div>
   );
 };

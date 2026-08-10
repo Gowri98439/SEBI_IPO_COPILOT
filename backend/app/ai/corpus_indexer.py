@@ -49,54 +49,72 @@ DRHP_HEADERS = [
     "FINANCIAL STATEMENTS"
 ]
 
-# Mapping of filename → source label
+# Mapping of filename → source label and regulatory versions
 CORPUS_FILES: dict[str, dict] = {
     "icdr_regulations.txt": {
         "source_label": "SEBI ICDR Regulations 2018",
         "source_file": "icdr_regulations.txt",
         "doc_type": "regulation",
+        "regulation_version": "ICDR-2018-V1",
+        "effective_date": "2018-09-11",
     },
     "lodr_regulations.txt": {
         "source_label": "SEBI LODR Regulations 2015",
         "source_file": "lodr_regulations.txt",
         "doc_type": "regulation",
+        "regulation_version": "LODR-2015-V1",
+        "effective_date": "2015-09-02",
     },
     "sme_ipo_guidelines.txt": {
         "source_label": "NSE Emerge & BSE SME Platform Guidelines",
         "source_file": "sme_ipo_guidelines.txt",
         "doc_type": "guideline",
+        "regulation_version": "SME-GL-2024",
+        "effective_date": "2024-01-01",
     },
     # ── 2024-2026 Amendments & Circulars ────────────────────────────────
     "sebi_2026_amendments.txt": {
         "source_label": "SEBI ICDR Amendments 2024-2026 (SME IPO)",
         "source_file": "sebi_2026_amendments.txt",
         "doc_type": "regulation",
+        "regulation_version": "ICDR-AMEND-2026",
+        "effective_date": "2026-01-01",
     },
     "sebi_circular_2026.txt": {
         "source_label": "SEBI Circulars 2024-2026",
         "source_file": "sebi_circular_2026.txt",
         "doc_type": "circular",
+        "regulation_version": "SEBI-CIR-2026",
+        "effective_date": "2026-01-01",
     },
     # ── DRHP Training Corpus ─────────────────────────────────────────────
     "drhp_risk_factors.txt": {
         "source_label": "DRHP Risk Factors Templates by Sector",
         "source_file": "drhp_risk_factors.txt",
         "doc_type": "drhp_template",
+        "regulation_version": "TEMPLATE-V1",
+        "effective_date": "2026-01-01",
     },
     "drhp_financial_statements.txt": {
         "source_label": "Financial Statement Analysis for DRHP — Ind AS",
         "source_file": "drhp_financial_statements.txt",
         "doc_type": "drhp_template",
+        "regulation_version": "INDAS-V1",
+        "effective_date": "2026-01-01",
     },
     "drhp_business_overview.txt": {
         "source_label": "DRHP Business Overview and Industry Analysis",
         "source_file": "drhp_business_overview.txt",
         "doc_type": "drhp_template",
+        "regulation_version": "TEMPLATE-V1",
+        "effective_date": "2026-01-01",
     },
     "sebi_case_studies.txt": {
         "source_label": "SEBI SME IPO Case Studies and Compliance Outcomes",
         "source_file": "sebi_case_studies.txt",
         "doc_type": "case_study",
+        "regulation_version": "CASE-2026",
+        "effective_date": "2026-01-01",
     },
 }
 
@@ -242,6 +260,8 @@ def _load_and_chunk_file(filepath: Path, file_meta: dict) -> list[Document]:
                     "section": section_meta,
                     "chapter": "",
                     "corpus_version_id": CORPUS_VERSION,
+                    "regulation_version": file_meta.get("regulation_version", "unknown"),
+                    "effective_date": file_meta.get("effective_date", "unknown"),
                 },
             )
             documents.append(doc)

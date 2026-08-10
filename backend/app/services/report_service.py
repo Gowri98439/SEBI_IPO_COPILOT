@@ -34,12 +34,18 @@ class ReportService:
         doc.addPageTemplates([template])
 
         styles = getSampleStyleSheet()
-        styles.add(ParagraphStyle(name='CoverTitle', fontSize=28, leading=32, spaceAfter=30, textColor=colors.HexColor('#002b49'), alignment=1))
-        styles.add(ParagraphStyle(name='CoverSubtitle', fontSize=18, leading=22, spaceAfter=20, textColor=colors.HexColor('#004f86'), alignment=1))
-        styles.add(ParagraphStyle(name='Heading1', fontSize=18, leading=22, spaceAfter=15, textColor=colors.HexColor('#002b49')))
-        styles.add(ParagraphStyle(name='Heading2', fontSize=14, leading=18, spaceAfter=10, textColor=colors.HexColor('#004f86')))
-        styles.add(ParagraphStyle(name='Heading3', fontSize=12, leading=14, spaceAfter=8, textColor=colors.HexColor('#333333')))
-        styles.add(ParagraphStyle(name='NormalStyle', fontSize=10, leading=14, spaceAfter=10))
+        
+        def _add_style(name, **kwargs):
+            """Safely add a style, ignoring if already registered."""
+            if name not in styles:
+                styles.add(ParagraphStyle(name=name, **kwargs))
+        
+        _add_style('CoverTitle', fontSize=28, leading=32, spaceAfter=30, textColor=colors.HexColor('#002b49'), alignment=1)
+        _add_style('CoverSubtitle', fontSize=18, leading=22, spaceAfter=20, textColor=colors.HexColor('#004f86'), alignment=1)
+        _add_style('Heading1', fontSize=18, leading=22, spaceAfter=15, textColor=colors.HexColor('#002b49'))
+        _add_style('Heading2', fontSize=14, leading=18, spaceAfter=10, textColor=colors.HexColor('#004f86'))
+        _add_style('Heading3', fontSize=12, leading=14, spaceAfter=8, textColor=colors.HexColor('#333333'))
+        _add_style('NormalStyle', fontSize=10, leading=14, spaceAfter=10)
 
         elements = []
 
@@ -106,7 +112,7 @@ class ReportService:
             ]
             
             for idx, c in enumerate(compliance_checks, start=1):
-                status_str = c.status.upper()
+                status_str = c.status.upper() if c.status else "PENDING"
                 bg_color = colors.white
                 if c.status == 'pass':
                     bg_color = colors.HexColor('#e6f4ea') # light green
@@ -116,11 +122,12 @@ class ReportService:
                     bg_color = colors.HexColor('#fef7e0') # light yellow
                     
                 title_text = f"{c.regulation}"
+                confidence_score = getattr(c, 'confidence_score', None)
                 
                 data.append([
                     Paragraph(title_text, styles['NormalStyle']),
                     status_str,
-                    f"{int(c.confidence_score * 100)}%" if c.confidence_score else "N/A"
+                    f"{int(confidence_score * 100)}%" if confidence_score is not None else "N/A"
                 ])
                 # Add background color for the row
                 table_styles.append(('BACKGROUND', (0, idx), (-1, idx), bg_color))
@@ -138,8 +145,9 @@ class ReportService:
         for c in compliance_checks:
             if c.status != 'pass':
                 elements.append(Paragraph(f"Rule: {c.regulation}", styles['Heading2']))
-                elements.append(Paragraph(f"<b>Status:</b> {c.status.upper()}", styles['NormalStyle']))
-                elements.append(Paragraph(f"<b>Confidence:</b> {int(c.confidence_score * 100)}%" if c.confidence_score else "<b>Confidence:</b> N/A", styles['NormalStyle']))
+                elements.append(Paragraph(f"<b>Status:</b> {c.status.upper() if c.status else 'N/A'}", styles['NormalStyle']))
+                confidence_score = getattr(c, 'confidence_score', None)
+                elements.append(Paragraph(f"<b>Confidence:</b> {int(confidence_score * 100)}%" if confidence_score is not None else "<b>Confidence:</b> N/A", styles['NormalStyle']))
                 elements.append(Paragraph("<b>AI Reasoning:</b>", styles['Heading3']))
                 elements.append(Paragraph(c.ai_reasoning or "No reasoning provided.", styles['NormalStyle']))
                 elements.append(Spacer(1, 15))

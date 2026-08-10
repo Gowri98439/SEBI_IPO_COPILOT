@@ -258,9 +258,59 @@ async def seed(db: AsyncSession) -> None:
         db.add(check)
 
     await db.commit()
-    print("✅ Seed completed successfully!")
+
+    # 7. Historical IPO data (SYNTHETIC — labelled clearly)
+    await seed_historical_ipos(db)
+
+    print("Seed completed successfully!")
     print(f"   Demo login: {DEMO_USER['email']} / {DEMO_USER['password']}")
     print(f"   Workspace ID: {DEMO_WORKSPACE['id']}")
+
+
+async def seed_historical_ipos(db: AsyncSession) -> None:
+    """
+    Populate HistoricalIPO table with SYNTHETIC demonstration data.
+    All records have verification_status=SYNTHETIC.
+    DO NOT use in SEBI filings without verified sources.
+    """
+    from app.models.enterprise import HistoricalIPO
+    from sqlalchemy import select
+
+    # Check if already seeded
+    existing = await db.execute(select(HistoricalIPO).limit(1))
+    if existing.scalars().first():
+        print("   Historical IPO data already seeded — skipping.")
+        return
+
+    SYNTHETIC_IPOS = [
+        {"company_name": "Illustrative Pharma Ltd",   "sector": "Pharmaceuticals", "exchange": "NSE Emerge", "issue_size_cr": 22.5, "revenue_cr": 85.3,  "pat_cr": 7.2,  "eps": 8.4,  "subscription_times": 4.2,  "listing_performance_pct": 12.5},
+        {"company_name": "Illustrative Textile Ltd",  "sector": "Textiles",        "exchange": "BSE SME",    "issue_size_cr": 15.0, "revenue_cr": 62.1,  "pat_cr": 4.8,  "eps": 6.2,  "subscription_times": 2.8,  "listing_performance_pct": 8.3},
+        {"company_name": "Illustrative FMCG Ltd",     "sector": "FMCG",            "exchange": "BSE SME",    "issue_size_cr": 18.0, "revenue_cr": 110.5, "pat_cr": 9.1,  "eps": 10.2, "subscription_times": 6.5,  "listing_performance_pct": 18.7},
+        {"company_name": "Illustrative Tech Ltd",     "sector": "Technology",      "exchange": "NSE Emerge", "issue_size_cr": 30.0, "revenue_cr": 45.2,  "pat_cr": 8.5,  "eps": 14.2, "subscription_times": 12.3, "listing_performance_pct": 35.1},
+        {"company_name": "Illustrative Infra Ltd",    "sector": "Infrastructure",  "exchange": "NSE Emerge", "issue_size_cr": 40.0, "revenue_cr": 195.0, "pat_cr": 12.0, "eps": 9.8,  "subscription_times": 3.1,  "listing_performance_pct": 5.2},
+        {"company_name": "Illustrative Chemicals Ltd","sector": "Chemicals",       "exchange": "BSE SME",    "issue_size_cr": 25.0, "revenue_cr": 78.5,  "pat_cr": 6.3,  "eps": 7.5,  "subscription_times": 5.4,  "listing_performance_pct": 14.3},
+        {"company_name": "Illustrative Food Ltd",     "sector": "Food Processing", "exchange": "BSE SME",    "issue_size_cr": 12.0, "revenue_cr": 55.0,  "pat_cr": 3.8,  "eps": 5.1,  "subscription_times": 1.9,  "listing_performance_pct": -2.1},
+        {"company_name": "Illustrative Logistics Ltd","sector": "Logistics",       "exchange": "NSE Emerge", "issue_size_cr": 28.0, "revenue_cr": 142.0, "pat_cr": 8.9,  "eps": 8.9,  "subscription_times": 3.8,  "listing_performance_pct": 9.6},
+    ]
+
+    for record in SYNTHETIC_IPOS:
+        ipo = HistoricalIPO(
+            company_name=record["company_name"],
+            sector=record["sector"],
+            exchange=record["exchange"],
+            issue_size_cr=record["issue_size_cr"],
+            revenue_cr=record["revenue_cr"],
+            pat_cr=record["pat_cr"],
+            eps=record["eps"],
+            subscription_times=record["subscription_times"],
+            listing_performance_pct=record["listing_performance_pct"],
+            source="SYNTHETIC/DEMONSTRATION DATA - not for SEBI filing",
+            verification_status="SYNTHETIC",
+        )
+        db.add(ipo)
+
+    await db.commit()
+    print(f"   Seeded {len(SYNTHETIC_IPOS)} synthetic historical IPO records.")
 
 
 async def main() -> None:

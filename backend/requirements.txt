@@ -28,3 +28,7 @@ rank-bm25
 aiosqlite
 email-validator
 langchain-huggingface
+pytest
+pytest-asyncio
+pytest-cov
+respx

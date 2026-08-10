@@ -6,7 +6,9 @@ import {
 } from 'lucide-react'
 import { useForm } from 'react-hook-form'
 import { motion, AnimatePresence } from 'framer-motion'
+import toast from 'react-hot-toast'
 import { useDraftReviews, useCreateDraftReview } from '@/api/reviews'
+import { useIPOReadiness, useRiskProfile } from '@/api/intelligence'
 import { apiClient } from '@/api/client'
 import { formatDate } from '@/utils/formatters'
 import AIReasoningStream from '@/components/ui/AIReasoningStream'
@@ -48,12 +50,15 @@ const itemVariants = {
 
 export default function DraftReviewPage() {
   const { workspaceId } = useParams<{ workspaceId: string }>()
+  const [activeTab, setActiveTab] = useState<'review' | 'readiness' | 'risk'>('review')
   const [selectedSection, setSelectedSection] = useState(SECTIONS[0])
   const [activeReviewId, setActiveReviewId] = useState<string | null>(null)
   const [showReasoning, setShowReasoning] = useState(false)
   const { setEvidence } = useEvidenceRail()
 
   const { data: rawReviews = [], refetch } = useDraftReviews(workspaceId!)
+  const { data: readinessData } = useIPOReadiness(workspaceId!)
+  const { data: riskData } = useRiskProfile(workspaceId!)
   const createReview = useCreateDraftReview()
   const reviews = rawReviews
 
@@ -79,7 +84,7 @@ export default function DraftReviewPage() {
       await apiClient.patch(`/drafts/${reviewId}`, { status })
       refetch()
     } catch (e) {
-      console.error(e)
+      toast.error('Failed to update review status. Please try again.')
     }
   }
 
@@ -119,7 +124,7 @@ export default function DraftReviewPage() {
 
       {/* AI Reasoning overlay */}
       <AnimatePresence mode="wait">
-        {showReasoning && (
+        {showReasoning && activeTab === 'review' && (
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -136,7 +141,13 @@ export default function DraftReviewPage() {
         )}
       </AnimatePresence>
 
-      {!showReasoning && (
+      <div className="flex space-x-2 border-b border-gray-200 pb-2 mb-6">
+        <button onClick={() => setActiveTab('review')} className={`px-4 py-2 font-semibold text-sm rounded-t-lg ${activeTab === 'review' ? 'border-b-2 border-ipo-ai text-ipo-ai' : 'text-gray-500 hover:text-gray-700'}`}>Document Review</button>
+        <button onClick={() => setActiveTab('readiness')} className={`px-4 py-2 font-semibold text-sm rounded-t-lg ${activeTab === 'readiness' ? 'border-b-2 border-ipo-ai text-ipo-ai' : 'text-gray-500 hover:text-gray-700'}`}>IPO Readiness</button>
+        <button onClick={() => setActiveTab('risk')} className={`px-4 py-2 font-semibold text-sm rounded-t-lg ${activeTab === 'risk' ? 'border-b-2 border-ipo-ai text-ipo-ai' : 'text-gray-500 hover:text-gray-700'}`}>Risk Profile</button>
+      </div>
+
+      {!showReasoning && activeTab === 'review' && (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left: Submit Form */}
           <div className="space-y-6">
@@ -374,6 +385,61 @@ export default function DraftReviewPage() {
             )}
           </motion.div>
         </div>
+      )}
+
+      {activeTab === 'readiness' && (
+        <motion.div variants={itemVariants} className="bg-white rounded-xl shadow p-6 border border-gray-200">
+          <h2 className="text-xl font-bold mb-4">IPO Readiness Score</h2>
+          {readinessData ? (
+            <div className="space-y-4">
+              <div className="flex justify-between items-center bg-gray-50 p-4 rounded-lg">
+                <span className="text-gray-600 font-semibold">Overall Readiness</span>
+                <span className={`text-xl font-bold ${readinessData.readiness_band === 'READY FOR FILING' ? 'text-green-600' : 'text-yellow-600'}`}>{readinessData.overall_score}% ({readinessData.readiness_band})</span>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <span className="text-gray-600 font-semibold block mb-1">Regulatory Readiness</span>
+                  <span className="text-lg font-bold">{readinessData.component_scores.regulatory_readiness}%</span>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <span className="text-gray-600 font-semibold block mb-1">Risk Profile Score</span>
+                  <span className="text-lg font-bold">{readinessData.component_scores.risk_profile}%</span>
+                </div>
+              </div>
+              {readinessData.critical_blockers && readinessData.critical_blockers.length > 0 && (
+                <div className="mt-4 p-4 bg-red-50 text-red-700 rounded-lg border border-red-200">
+                  <h3 className="font-bold mb-2">Critical Blockers:</h3>
+                  <ul className="list-disc pl-5 space-y-1 text-sm">
+                    {readinessData.critical_blockers.map((b: string, i: number) => <li key={i}>{b}</li>)}
+                  </ul>
+                </div>
+              )}
+            </div>
+          ) : (
+            <p className="text-gray-500">Loading readiness data...</p>
+          )}
+        </motion.div>
+      )}
+
+      {activeTab === 'risk' && (
+        <motion.div variants={itemVariants} className="bg-white rounded-xl shadow p-6 border border-gray-200">
+          <h2 className="text-xl font-bold mb-4">Risk Profile Findings</h2>
+          {riskData ? (
+            <div className="space-y-3">
+              {riskData.length > 0 ? riskData.map((r: any, i: number) => (
+                <div key={i} className={`p-4 rounded-lg border ${r.severity === 'CRITICAL' ? 'bg-red-50 border-red-200' : r.severity === 'HIGH' ? 'bg-orange-50 border-orange-200' : 'bg-yellow-50 border-yellow-200'}`}>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-bold text-sm uppercase tracking-wider">{r.category} RISK</span>
+                    <span className={`text-xs font-bold px-2 py-1 rounded ${r.severity === 'CRITICAL' ? 'bg-red-200 text-red-800' : 'bg-orange-200 text-orange-800'}`}>{r.severity}</span>
+                  </div>
+                  <p className="text-sm text-gray-800">{r.description}</p>
+                </div>
+              )) : <p className="text-gray-500">No major risks identified.</p>}
+            </div>
+          ) : (
+            <p className="text-gray-500">Loading risk data...</p>
+          )}
+        </motion.div>
       )}
     </motion.div>
   )

@@ -1,5 +1,14 @@
 version: '3.9'
 
+# ── IPO Copilot AI — Docker Compose ──────────────────────────────────────────
+# Stack: FastAPI + Groq (llama-3.3-70b-versatile) + ChromaDB + SQLite (dev) / PostgreSQL (prod)
+#
+# Prerequisites:
+#   1. Copy backend/.env.example to backend/.env and fill in GROQ_API_KEY and GOOGLE_API_KEY
+#   2. Run: docker compose up --build
+#
+# NEVER commit backend/.env to version control.
+
 services:
   postgres:
     image: postgres:16-alpine
@@ -7,7 +16,8 @@ services:
     environment:
       POSTGRES_DB: ipo_copilot
       POSTGRES_USER: ipo
-      POSTGRES_PASSWORD: ipo123
+      # Source password from env — never hardcode in source-controlled files
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me-in-env}
     ports:
       - "5432:5432"
     volumes:
@@ -26,11 +36,13 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql+asyncpg://ipo:ipo123@postgres:5432/ipo_copilot
+      - DATABASE_URL=postgresql+asyncpg://ipo:${POSTGRES_PASSWORD:-change-me-in-env}@postgres:5432/ipo_copilot
       - SECRET_KEY=${SECRET_KEY:-hackathon-secret-key}
-      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
-      - LLM_MODEL=${LLM_MODEL:-gpt-4o-mini}
-      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-text-embedding-3-small}
+      # ── AI Stack: Groq (NOT OpenAI) ────────────────────────────────────────
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - LLM_MODEL=${LLM_MODEL:-llama-3.3-70b-versatile}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-all-MiniLM-L6-v2}
       - CHROMA_PERSIST_DIR=/app/chroma_db
       - UPLOAD_DIR=/app/uploads
     volumes:

@@ -2,8 +2,8 @@ import os
 import time
 from playwright.sync_api import sync_playwright, expect
 
-ARTIFACTS_DIR = r"C:\Users\sgowr\.gemini\antigravity-ide\brain\d4970cdc-f4dd-45b5-8f8a-ff3adbd873a5"
-REPORT_FILE = os.path.join(ARTIFACTS_DIR, "frontend_report.md")
+ARTIFACTS_DIR = r"C:\Users\sgowr\.gemini\antigravity-ide\brain\3e032851-9e54-47c9-8db4-8ca884f78b07"
+REPORT_FILE = os.path.join(ARTIFACTS_DIR, "BROWSER_E2E_REPORT.md")
 
 def append_report(content):
     with open(REPORT_FILE, "a", encoding="utf-8") as f:
@@ -89,7 +89,7 @@ def run_tests():
 
         # Workflow 1: Login
         def login():
-            page.goto("http://localhost:3000/login")
+            page.goto("http://localhost:5173/login")
             page.fill("input[type='email']", "demo@ipocolpilot.ai")
             page.fill("input[type='password']", "Demo@1234")
             page.click("button[type='submit']")
@@ -101,9 +101,9 @@ def run_tests():
         # Workflow 2: Create Workspace (Seed Demo)
         def create_workspace():
             page.click("button:has-text('Load Sample Enterprise Workspace')")
-            page.wait_for_url("**/app/workspace/*", timeout=20000)
+            page.wait_for_url("**/app/dashboard/*", timeout=20000)
             workspace_id[0] = page.url.split("/")[-1]
-            page.wait_for_timeout(3000)
+            page.wait_for_timeout(2000)
             
             # Use strict DOM assertion
             try:
@@ -119,7 +119,7 @@ def run_tests():
             f.write(workspace_id[0])
 
         def validation():
-            page.goto(f"http://localhost:3000/app/workspace/{workspace_id[0]}/documents")
+            page.goto(f"http://localhost:5173/app/validation/{workspace_id[0]}")
             page.wait_for_timeout(3000)
             try:
                 page.wait_for_selector("text=Validation", timeout=5000)
@@ -128,7 +128,7 @@ def run_tests():
         log_step("4. AI Validation", validation)
 
         def compliance():
-            page.goto(f"http://localhost:3000/app/workspace/{workspace_id[0]}/compliance")
+            page.goto(f"http://localhost:5173/app/compliance/{workspace_id[0]}")
             page.wait_for_timeout(3000)
             try:
                 page.wait_for_selector("text=Compliance", timeout=5000)
@@ -137,7 +137,7 @@ def run_tests():
         log_step("5. Compliance", compliance)
         
         def export():
-            page.goto(f"http://localhost:3000/app/workspace/{workspace_id[0]}/export")
+            page.goto(f"http://localhost:5173/app/export/{workspace_id[0]}")
             page.wait_for_timeout(2000)
             try:
                 page.wait_for_selector("text=Export", timeout=5000)

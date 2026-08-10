@@ -1,0 +1,879 @@
+{
+  "cover_page": {
+    "section_id": "cover_page",
+    "title": "Cover Page",
+    "content": "COVER PAGE\n\nThis section of the DRHP covers cover page for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Cover Page' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_cover_page"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "disclaimer": {
+    "section_id": "disclaimer",
+    "title": "Important Disclaimer",
+    "content": "IMPORTANT DISCLAIMER\n\nThis section of the DRHP covers important disclaimer for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Important Disclaimer' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_disclaimer"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "toc": {
+    "section_id": "toc",
+    "title": "Table of Contents",
+    "content": "TABLE OF CONTENTS\n\nThis section of the DRHP covers table of contents for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Table of Contents' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_toc"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "definitions": {
+    "section_id": "definitions",
+    "title": "Definitions and Abbreviations",
+    "content": "DEFINITIONS AND ABBREVIATIONS\n\nThis section of the DRHP covers definitions and abbreviations for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Definitions and Abbreviations' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_definitions"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "forward_looking": {
+    "section_id": "forward_looking",
+    "title": "Forward Looking Statements",
+    "content": "FORWARD LOOKING STATEMENTS\n\nThis Draft Red Herring Prospectus contains certain \"forward-looking statements.\" These forward-looking statements \ngenerally can be identified by words or phrases such as \"aim\", \"anticipate\", \"believe\", \"expect\", \"estimate\", \n\"intend\", \"objective\", \"plan\", \"project\", \"shall\", \"will\", \"will continue\", \"will pursue\" or other words or \nphrases of similar import.\n\nAll forward-looking statements are subject to risks, uncertainties and assumptions about Sunrise Specialty Chemicals Ltd that could \ncause actual results to differ materially from those contemplated by the relevant forward-looking statement.\n\nImportant factors that could cause actual results to differ materially from the Company's expectations include, \nbut are not limited to:\n\u2022 General economic and business conditions in India and globally;\n\u2022 The Company's ability to successfully implement its growth strategy;\n\u2022 Changes in the competitive landscape in the Chemicals sector;\n\u2022 Changes in laws and regulations that apply to the Company's business;\n\u2022 Changes in political and social conditions in India;\n\u2022 The occurrence of natural disasters, acts of terrorism or other events;\n\u2022 The ability to attract and retain key personnel.\n\nNeither the Company nor the Lead Manager, nor any of their respective affiliates have any obligation to update \nor otherwise revise any statements reflecting circumstances arising after the date hereof or to reflect the \noccurrence of underlying events, even if the underlying assumptions do not come to fruition.\n",
+    "citations": [
+      {
+        "type": "regulatory",
+        "ref": "SEBI ICDR Regulations 2018, Schedule VI, Part A"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "issue_summary": {
+    "section_id": "issue_summary",
+    "title": "Issue Summary",
+    "content": "ISSUE SUMMARY\n\nThis section of the DRHP covers issue summary for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Issue Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_issue_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "risk_factors": {
+    "section_id": "risk_factors",
+    "title": "Risk Factors",
+    "content": "RISK FACTORS\n\nInvestment in equity shares involves a degree of risk. Investors should carefully read all risk factors \nbefore taking an investment decision. Additional risks not currently known may also materially impair \nthe Company's business, financial condition, and results of operations.\n\n**1. Limited Operating History Risk**\nSunrise Specialty Chemicals Ltd was incorporated on 2000-01-01. Our limited operating history makes it difficult to assess future performance.\n\n**2. Sector-Specific Competition Risk**\nThe Chemicals sector is highly competitive. We face competition from larger, better-capitalised entities with greater market reach.\n\n**3. Working Capital Risk**\nOur business requires continuous working capital deployment. Delays in receivables or unforeseen capital requirements may impact liquidity.\n\n**4. Key Personnel Risk**\nOur success depends on senior management retention. Loss of key personnel may adversely affect our business.\n\n**5. Regulatory Compliance Risk**\nOur Chemicals business is subject to central and state government regulations. Changes in applicable laws could adversely impact operations.\n\n**6. No Prior Public Market Risk**\nThere is no prior public market for our equity shares. The Issue price may not be indicative of the post-listing trading price.\n\n**7. Promoter Lock-in Risk**\nPromoter shares are subject to SEBI-mandated lock-in for 3 years. Post lock-in exit by promoters may create downward price pressure.\n\n**8. General Economic Risk**\nOur financial performance is linked to overall economic conditions in India and globally. Economic \ndownturns, inflationary pressures, interest rate changes, and foreign exchange fluctuations could \nadversely affect our business.\n\n**9. Geopolitical and Force Majeure Risk**\nUnforeseen events including natural disasters, pandemics, geopolitical tensions, and social unrest \ncould disrupt supply chains, reduce consumer demand, and adversely impact results.\n\nNote: The above risk factors are based on information provided and general sector knowledge. \nCompany-specific risk factors based on uploaded documents and detailed business information \nshould be added by the legal team and merchant banker before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "customer_concentration_data"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.75,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "hybrid",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "business_overview": {
+    "section_id": "business_overview",
+    "title": "Business Overview",
+    "content": "**SECTION 1: OUR BUSINESS**\n\n**1.1 Introduction**\n\nSunrise Specialty Chemicals Ltd, incorporated on January 1, 2000, with its registered address in Mumbai, is a company operating in the Chemicals sector, specifically in the Specialty sub-sector. Our website can be accessed at http://example.com.\n\n**1.2 Business Description**\n\nOur company is engaged in [MISSING: business description]. The company's operations are [MISSING: key aspects of operations]. We aim to [MISSING: company objectives].\n\n**1.3 Products/Services**\n\nThe key products/services offered by our company are [MISSING: key products/services]. These products/services cater to [MISSING: target market/customer base].\n\n**1.4 Geographical Presence**\n\nOur company operates in [MISSING: geographies]. The geographical presence of our company is [MISSING: description of geographical presence].\n\n**1.5 Certifications**\n\nWe have obtained [MISSING: certifications] that demonstrate our commitment to [MISSING: aspects of certifications].\n\n**1.6 Promoters and Management**\n\nOur company is promoted by Alpha, who holds 50.0% of the equity and serves as the Managing Director. The management team of our company is [MISSING: management team description].\n\n**1.7 Employees**\n\nOur company has [MISSING: number of employees] employees.\n\n**1.8 Financial Performance**\n\nAs of the financial year 2023-24, our company reported revenue of \u20b91,000.00 lakhs, profit after tax (PAT) of \u20b9100.00 lakhs, EBITDA of \u20b9150.00 lakhs, total assets of \u20b9500.00 lakhs, and equity of \u20b9200.00 lakhs.\n\n**1.9 Issue Details**\n\nThe present issue is for \u20b950.00 crores, consisting of a fresh issue of \u20b925.00 crores and an offer for sale (OFS) of \u20b925.00 crores. The price band for the issue is \u20b9100 to \u20b9120, with a face value of \u20b910 per equity share. The objects of the issue are to finance expansion.\n\n**1.10 Statutory Auditor**\n\nOur statutory auditor is [MISSING: statutory auditor].\n\n**1.11 Regulatory Filings**\n\nIn compliance with SEBI regulations, our company has filed this Draft Red Herring Prospectus (DRHP) through the SEBI PRISM system and will file financial data in XBRL format. The XBRL taxonomy used is the MCA-21 Extended Taxonomy.\n\n**1.12 Reservation in Issue**\n\nIn accordance with SEBI ICDR Regulations, at least 50% of the net offer is reserved for retail individual investors, with the remaining net offer available to non-institutional investors and Qualified Institutional Buyers (QIBs). A specified portion is reserved for the market maker. The typical structure is 50% for retail individual investors and 50% for non-institutional investors and QIBs.\n\nBy order of the Board of Directors,\n\nFor Sunrise Specialty Chemicals Ltd.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. SEBI PRISM SYSTEM:\nAll SME IPO offer documents must now be filed through SEBI's PRISM (Portal for Risk-based Internal Monitoring) system. Paper filings are no longer accepted as of October 1, 20"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "business description",
+      "key aspects of operations",
+      "company objectives",
+      "key products/services",
+      "target market/customer base",
+      "geographies",
+      "description of geographical presence",
+      "certifications",
+      "aspects of certifications",
+      "management team description",
+      "number of employees",
+      "statutory auditor"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2534.7930999996606
+  },
+  "business_model": {
+    "section_id": "business_model",
+    "title": "Business Model",
+    "content": "## Business Model\n\n### Introduction\n\nSunrise Specialty Chemicals Ltd, incorporated on January 1, 2000, operates in the chemicals sector, specifically in the specialty sub-sector. The company is registered in Mumbai and can be accessed online at http://example.com.\n\n### Business Overview\n\nThe business description of Sunrise Specialty Chemicals Ltd is as follows: Dummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company description. This description outlines the core activities and focus areas of the company.\n\n### Products/Services\n\nThe key products/services offered by Sunrise Specialty Chemicals Ltd are [MISSING: Key Products/Services]. The company's product/service portfolio is designed to cater to the needs of its customers in the specialty chemicals sector.\n\n### Operational Geography\n\nThe geographical areas in which Sunrise Specialty Chemicals Ltd operates are [MISSING: Geographies]. Understanding the company's operational footprint is crucial for assessing its market reach and potential for expansion.\n\n### Certifications and Compliance\n\nSunrise Specialty Chemicals Ltd holds [MISSING: Certifications] certifications, which are essential for ensuring compliance with industry standards and regulatory requirements. These certifications underscore the company's commitment to quality and operational excellence.\n\n### Organizational Structure\n\nThe company is led by its Managing Director, Alpha, who holds 50.0% of the company's shares. The leadership and ownership structure play a significant role in shaping the company's strategic direction and decision-making processes.\n\n### Financial Overview\n\nAs of the financial year 2023-24, Sunrise Specialty Chemicals Ltd reported revenue of \u20b91,000.00 Lakhs, with a Profit After Tax (PAT) of \u20b9100.00 Lakhs and an EBITDA of \u20b9150.00 Lakhs. The company's total assets stood at \u20b9500.00 Lakhs, with an equity base of \u20b9200.00 Lakhs. These financial metrics provide insight into the company's performance and financial health.\n\n### Issue Objectives\n\nThe current issue, sized at \u20b950.00 Crore, comprises a fresh issue of \u20b925.00 Crore and an offer for sale (OFS) of \u20b925.00 Crore. The price band for the issue is set between \u20b9100 and \u20b9120, with a face value of \u20b910 per share. The primary objective of the issue is to support the company's expansion plans, which are expected to drive future growth and enhance its market position.\n\n### Regulatory Compliance\n\nSunrise Specialty Chemicals Ltd is committed to complying with all applicable regulatory requirements, including those related to the SEBI ICDR Regulations and other relevant laws. The company has filed its offer document through the SEBI PRISM system, as mandated, and has also ensured that its financial data is reported in XBRL format, in line with the prescribed taxonomy.\n\n### Conclusion\n\nIn conclusion, the business model of Sunrise Specialty Chemicals Ltd is centered around its operations in the specialty chemicals sector. While certain key details such as products/services, operational geographies, certifications, and employee count are [MISSING: respective descriptions], the available information provides a foundation for understanding the company's business and financial profile. The company's commitment to regulatory compliance and its plans for expansion underscore its focus on sustainable growth and value creation for its stakeholders.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Key Products/Services",
+      "Geographies",
+      "Certifications",
+      "respective descriptions"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2925.0727999969968
+  },
+  "competitive_strengths": {
+    "section_id": "competitive_strengths",
+    "title": "Competitive Strengths",
+    "content": "## Competitive Strengths\n\nOur Company, Sunrise Specialty Chemicals Ltd, has established itself as a notable player in the specialty chemicals sector. The following are the key competitive strengths that contribute to our position in the market:\n\n### Established Track Record\nAlthough the specifics of our customer base are [MISSING: customer base description], our financial performance indicates a stable and growing business. For the financial year 2023-24, we reported revenue of \u20b91,000.00 Lakhs, profit after tax (PAT) of \u20b9100.00 Lakhs, EBITDA of \u20b9150.00 Lakhs, total assets of \u20b9500.00 Lakhs, and equity of \u20b9200.00 Lakhs. This financial track record underscores our ability to operate effectively within the specialty chemicals sector.\n\n### Experienced Promoter and Management Team\nOur promoter, Alpha, holds 50.0% of the Company and serves as the Managing Director. However, the exact years of industry experience of our promoter and management team are [MISSING: years of experience]. The presence of an experienced leadership team is crucial for strategic decision-making and navigating the complexities of the specialty chemicals industry.\n\n### Quality Certifications\nThe details of our quality certifications, such as ISO, BIS, FSSAI, GMP, etc., are [MISSING: certification details]. These certifications are essential for ensuring the quality and safety of our products and are typically a requirement for operating in the specialty chemicals sector.\n\n### Geographically Diversified Operations/Distribution\nInformation regarding the geographical diversification of our operations and distribution network is [MISSING: geographical diversification details]. A diversified geographical presence can enhance our market reach and reduce dependence on any single market.\n\n### Strong Backward Integration / Forward Integration\nThe extent of our backward integration and forward integration is [MISSING: integration details]. Strong integration can lead to better control over the supply chain, reduced costs, and improved product quality.\n\n### Asset-Light / Capital-Efficient Operations\nThe nature of our operations in terms of being asset-light or capital-efficient is [MISSING: operational efficiency details]. Such operations can lead to lower capital expenditures and higher returns on investment.\n\n### Business Overview\nOur business involves [MISSING: business description], which is part of the broader specialty chemicals sector. The sector overview, including statistical data, is not provided. However, our business strategy focuses on [MISSING: business strategy], which is aimed at achieving [MISSING: business objectives].\n\n### Key Competitive Strengths\nGiven the [MISSING: key products/services] we offer, our key competitive strengths include [MISSING: specific strengths related to products/services]. These strengths enable us to compete effectively in the market.\n\n### Business Strategy\nOur business strategy is centered around [MISSING: business strategy details], which involves [MISSING: strategy implementation]. This strategy is designed to leverage our competitive strengths and achieve our business objectives.\n\n### Description of Properties\nThe description of our properties, including manufacturing facilities, warehouses, and other significant assets, is [MISSING: property description].\n\n### Key Raw Materials and Suppliers\nInformation regarding our key raw materials and suppliers is [MISSING: raw materials and suppliers details]. The availability and cost of these raw materials can significantly impact our operations.\n\n### Key Customers and Marketing Strategy\nDetails about our key customers and marketing strategy are [MISSING: customers and marketing strategy]. Understanding our customer base and effectively marketing our products are crucial for our business growth.\n\n### Details of Orders/Projects in Hand\nThe specifics of our current orders and projects, including their value and timelines, are [MISSING: orders and projects details]. This information is essential for assessing our current workload and future revenue streams.\n\nIn conclusion, while certain details regarding our competitive strengths are [MISSING: various missing details], our established track record, experienced promoter, and financial performance underscore our position in the specialty chemicals sector. As we move forward with our expansion plans, leveraging these strengths will be crucial for achieving our objectives.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1.2 COMPETITIVE STRENGTHS (STANDARD SECTIONS):\n(a) Established track record with diversified customer base;\n(b) Experienced promoter and management team with [X] years of industry experience;\n(c) Q"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "customer base description",
+      "years of experience",
+      "certification details",
+      "geographical diversification details",
+      "integration details",
+      "operational efficiency details",
+      "business description",
+      "business strategy",
+      "business objectives",
+      "key products/services",
+      "specific strengths related to products/services",
+      "business strategy details",
+      "strategy implementation",
+      "property description",
+      "raw materials and suppliers details",
+      "customers and marketing strategy",
+      "orders and projects details",
+      "various missing details"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3425.2457000002323
+  },
+  "strategies": {
+    "section_id": "strategies",
+    "title": "Business Strategies",
+    "content": "## Business Strategies\n\n### Introduction\nOur Company, Sunrise Specialty Chemicals Ltd, is engaged in the business of [MISSING: Key Products/Services]. As part of our growth strategy, we intend to leverage our expertise and experience in the chemicals sector to expand our operations and increase our market presence.\n\n### Business Model\nOur business model is focused on [MISSING: Business Description]. We aim to achieve this by [MISSING: Key Strategies]. Our goal is to become a leading player in the specialty chemicals sector by providing high-quality products and services to our customers.\n\n### Market Strategy\nWe intend to expand our market presence by [MISSING: Market Strategy]. Our target market includes [MISSING: Geographies], where we believe there is a growing demand for our products. We will focus on building strong relationships with our customers and providing them with tailored solutions to meet their needs.\n\n### Operational Strategy\nTo achieve our business objectives, we will focus on [MISSING: Operational Strategy]. This will include investing in [MISSING: Key Areas of Investment], such as [MISSING: Technology Upgrades] and [MISSING: Employee Training]. We will also strive to improve our operational efficiency by [MISSING: Efficiency Improvement Measures].\n\n### Financial Strategy\nOur financial strategy is focused on achieving sustainable growth and profitability. We intend to achieve this by [MISSING: Financial Strategy], including [MISSING: Revenue Growth Initiatives] and [MISSING: Cost Optimization Measures]. Our financial performance for the year 2023-24 is as follows:\n- Revenue: \u20b91,000.00 Lakhs\n- Profit After Tax (PAT): \u20b9100.00 Lakhs\n- Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA): \u20b9150.00 Lakhs\n- Total Assets: \u20b9500.00 Lakhs\n- Equity: \u20b9200.00 Lakhs\n\n### Regulatory Compliance\nWe are committed to complying with all applicable laws and regulations, including the SEBI ICDR Regulations, 2018. We have ensured that our issue is in compliance with the regulatory requirements, including the reservation of at least 50% of the net offer for retail individual investors.\n\n### Objects of the Issue\nThe objects of the issue are to [MISSING: Objects of Issue]. The issue size is \u20b950.00 Crore, consisting of a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The proceeds of the fresh issue will be used for [MISSING: Use of Proceeds].\n\n### Conclusion\nIn conclusion, our business strategies are focused on achieving sustainable growth and profitability. We believe that our expertise and experience in the chemicals sector, combined with our commitment to regulatory compliance and customer satisfaction, will enable us to achieve our business objectives and create value for our stakeholders.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Key Products/Services",
+      "Business Description",
+      "Key Strategies",
+      "Market Strategy",
+      "Geographies",
+      "Operational Strategy",
+      "Key Areas of Investment",
+      "Technology Upgrades",
+      "Employee Training",
+      "Efficiency Improvement Measures",
+      "Financial Strategy",
+      "Revenue Growth Initiatives",
+      "Cost Optimization Measures",
+      "Objects of Issue",
+      "Use of Proceeds"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2424.286099998426
+  },
+  "industry_overview": {
+    "section_id": "industry_overview",
+    "title": "Industry Overview",
+    "content": "## Industry Overview\n\nThe Indian manufacturing sector has been a significant contributor to the country's economic growth, with the chemicals sector being a vital component of this growth. As per the available data, Sunrise Specialty Chemicals Ltd operates in the chemicals sector, specifically in the specialty sub-sector.\n\n### Introduction to the Chemicals Sector\n\nThe chemicals sector is a diverse and complex industry, encompassing a wide range of products and applications. Specialty chemicals, in particular, are high-value products that cater to specific needs of various industries, including pharmaceuticals, agrochemicals, and personal care, among others.\n\n### Market Trends and Outlook\n\nThe demand for specialty chemicals is driven by various factors, including the growth of end-use industries, increasing demand for high-performance products, and the need for sustainable and environmentally friendly solutions. However, the sector is also subject to challenges such as intense competition, fluctuating raw material prices, and stringent regulatory requirements.\n\n### Regulatory Framework\n\nThe chemicals sector is regulated by various government agencies and laws, including the Environment (Protection) Act, 1986, the Factories Act, 1948, and the Chemicals (Management and Safety) Rules, 2017. These regulations aim to ensure the safe manufacture, use, and disposal of chemicals, as well as protect the environment and human health.\n\n### Company Overview\n\nSunrise Specialty Chemicals Ltd, incorporated on January 1, 2000, is a [MISSING: description of the company's business operations and products]. The company is headquartered in Mumbai and has a website at http://example.com. However, [MISSING: key products/services], [MISSING: geographies], [MISSING: certifications], and [MISSING: employee count] are not available in the provided company data.\n\n### Financial Performance\n\nAs per the available financial data, Sunrise Specialty Chemicals Ltd reported revenue of \u20b91,000.00 lakhs, profit after tax (PAT) of \u20b9100.00 lakhs, EBITDA of \u20b9150.00 lakhs, total assets of \u20b9500.00 lakhs, and equity of \u20b9200.00 lakhs for the financial year 2023-24.\n\n### Issue Details\n\nThe company is proposing to issue [MISSING: description of the issue], with an issue size of \u20b950.00 crores, comprising a fresh issue of \u20b925.00 crores and an offer for sale (OFS) of \u20b925.00 crores. The price band for the issue is \u20b9100 to \u20b9120, with a face value of \u20b910 per share. The objects of the issue are [MISSING: description of the objects of the issue], with the lead manager being Banker A.\n\n### Conclusion\n\nIn conclusion, the chemicals sector, particularly the specialty chemicals sub-sector, is a significant contributor to the Indian economy. Sunrise Specialty Chemicals Ltd, with its [MISSING: business operations and products], is poised to [MISSING: description of the company's growth prospects]. However, the company's [MISSING: key products/services], [MISSING: geographies], [MISSING: certifications], and [MISSING: employee count] are not available in the provided company data, and therefore, a comprehensive analysis of the company's industry overview is limited.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "description of the company's business operations and products",
+      "key products/services",
+      "geographies",
+      "certifications",
+      "employee count",
+      "description of the issue",
+      "description of the objects of the issue",
+      "business operations and products",
+      "description of the company's growth prospects",
+      "key products/services",
+      "geographies",
+      "certifications",
+      "employee count"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2732.0104999998875
+  },
+  "market_opportunity": {
+    "section_id": "market_opportunity",
+    "title": "Market Opportunity",
+    "content": "## Market Opportunity\n\n### Introduction\nThe market opportunity for Sunrise Specialty Chemicals Ltd is driven by the growing demand for specialty chemicals in various industries. As a company incorporated in 2000 and operating in the chemicals sector, specifically in the sub-sector of specialty chemicals, we are well-positioned to capitalize on this trend.\n\n### Industry Overview\nThe specialty chemicals industry is a significant segment of the overall chemicals industry, with a wide range of applications across various sectors. However, due to [MISSING: key products/services information], we are unable to provide specific details on our product offerings and their applications.\n\n### Market Size and Growth Prospects\nThe market size and growth prospects for the specialty chemicals industry are influenced by factors such as [MISSING: geographies information] and [MISSING: certifications information]. Despite the lack of specific data, we believe that the industry is poised for growth, driven by increasing demand from [MISSING: key industries or sectors].\n\n### Competitive Landscape\nThe competitive landscape for the specialty chemicals industry is characterized by the presence of [MISSING: number of players and their market share information]. As a company with [MISSING: employees information] and a registered address in Mumbai, we aim to establish ourselves as a significant player in the industry.\n\n### Market Trends\nThe market trends for the specialty chemicals industry are influenced by factors such as [MISSING: key trends and their impact on the industry]. We believe that our company is well-positioned to capitalize on these trends, driven by our [MISSING: business description and key strengths].\n\n### Growth Drivers\nThe growth drivers for the specialty chemicals industry include [MISSING: key growth drivers and their impact on the industry]. We believe that our company's focus on [MISSING: key areas of focus] will enable us to capitalize on these growth drivers and achieve our business objectives.\n\n### Conclusion\nIn conclusion, the market opportunity for Sunrise Specialty Chemicals Ltd is significant, driven by the growing demand for specialty chemicals in various industries. While we are unable to provide specific details on our product offerings, market size, and growth prospects due to [MISSING: key information], we believe that our company is well-positioned to capitalize on the trends and growth drivers in the industry.\n\n### SEBI Disclosures\nAs required by the SEBI ICDR Regulations, we disclose that the issue size is \u20b950.00 Crore, with a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The price band is \u20b9100 \u2013 \u20b9120, with a face value of \u20b910. The objects of the issue are expansion, and the lead manager is Banker A. We also disclose that at least 50% of the net offer will be reserved for retail individual investors, with the remaining net offer available to non-institutional investors and QIBs, and a specified portion reserved for market makers.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 4.4 Reservation in Issue\nAs per SEBI ICDR Regulations:\n- At least 50% of the net offer is reserved for retail individual investors\n- The remaining net offer is available to non-institutional invest"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "key products/services information",
+      "geographies information",
+      "certifications information",
+      "key industries or sectors",
+      "number of players and their market share information",
+      "employees information",
+      "key trends and their impact on the industry",
+      "business description and key strengths",
+      "key growth drivers and their impact on the industry",
+      "key areas of focus",
+      "key information"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2369.781100002001
+  },
+  "competition": {
+    "section_id": "competition",
+    "title": "Competition",
+    "content": "## Competition\n\nAs required by the SEBI ICDR Regulations, 2018, we are providing an overview of the competitive landscape in which Sunrise Specialty Chemicals Ltd operates.\n\n### Industry Overview\n\nThe specialty chemicals sector is a highly competitive and dynamic industry. The demand for specialty chemicals is driven by various factors, including the growth of end-use industries such as automotive, construction, and consumer goods. However, the sector is also subject to fluctuations in raw material prices, regulatory changes, and intense competition from both domestic and international players.\n\n### Market Structure\n\nThe specialty chemicals market in India is characterized by the presence of a large number of players, including multinational corporations, domestic companies, and small and medium-sized enterprises. The market is highly fragmented, with no single player dominating the market. The competition in the market is driven by factors such as product quality, price, and customer service.\n\n### Competitors\n\nSunrise Specialty Chemicals Ltd faces competition from various players in the specialty chemicals sector. However, due to the lack of available information, we are unable to provide a detailed list of competitors. The company's competitive position is influenced by its product offerings, pricing strategy, and customer relationships.\n\n### Competitive Strengths and Weaknesses\n\nThe competitive strengths and weaknesses of Sunrise Specialty Chemicals Ltd are as follows:\n\n* Competitive strengths: [MISSING: Key products/services], [MISSING: Geographies], and [MISSING: Certifications] are some of the factors that contribute to the company's competitive strengths.\n* Competitive weaknesses: The company's competitive weaknesses include [MISSING: Employee count], [MISSING: Key products/services], and [MISSING: Geographies], which may impact its ability to compete with larger players in the industry.\n\n### Basis of Competition\n\nThe basis of competition in the specialty chemicals sector includes:\n\n* Product quality and innovation\n* Pricing strategy\n* Customer service and relationships\n* Distribution network and logistics\n* Regulatory compliance and certifications\n\nSunrise Specialty Chemicals Ltd competes with other players in the industry on these factors, and its ability to differentiate itself and provide value to its customers will be critical to its success.\n\n### Regulatory Environment\n\nThe specialty chemicals sector is subject to various regulations and laws, including environmental and safety regulations. The company must comply with these regulations to operate its business. However, due to the lack of available information, we are unable to provide a detailed overview of the regulatory environment and its impact on the company's competitive position.\n\nIn conclusion, the competition in the specialty chemicals sector is intense, and Sunrise Specialty Chemicals Ltd faces competition from various players. The company's ability to compete will depend on its product offerings, pricing strategy, customer relationships, and regulatory compliance. However, due to the lack of available information, we are unable to provide a more detailed analysis of the company's competitive position.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Key products/services",
+      "Geographies",
+      "Certifications",
+      "Employee count",
+      "Key products/services",
+      "Geographies"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2531.9433999975445
+  },
+  "corporate_structure": {
+    "section_id": "corporate_structure",
+    "title": "Corporate Structure",
+    "content": "CORPORATE STRUCTURE\n\nThis section of the DRHP covers corporate structure for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Corporate Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "promoters": {
+    "section_id": "promoters",
+    "title": "Promoters and Promoter Group",
+    "content": "PROMOTERS AND PROMOTER GROUP\n\nThis section of the DRHP covers promoters and promoter group for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Promoters and Promoter Group' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_promoters"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "directors": {
+    "section_id": "directors",
+    "title": "Board of Directors and Key Management",
+    "content": "BOARD OF DIRECTORS AND KEY MANAGEMENT\n\nThis section of the DRHP covers board of directors and key management for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Board of Directors and Key Management' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_directors"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "mda": {
+    "section_id": "mda",
+    "title": "Management Discussion and Analysis",
+    "content": "**Management Discussion and Analysis**\n\nAs required by the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018, the Management Discussion and Analysis (MD&A) section provides an overview of the company's financial performance, business operations, and future prospects.\n\n### Introduction\n\nSunrise Specialty Chemicals Ltd (the \"Company\") is a [MISSING: sector/sub-sector] company incorporated on January 1, 2000. The Company is registered at Mumbai and has a website at http://example.com. The Company's business description is as follows: Dummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company description.\n\n### Financial Performance\n\nThe Company's financial performance for the year ended 2023-24 is as follows:\n\n* Revenue: \u20b91,000.00 Lakhs\n* Profit After Tax (PAT): \u20b9100.00 Lakhs\n* Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA): \u20b9150.00 Lakhs\n* Total Assets: \u20b9500.00 Lakhs\n* Equity: \u20b9200.00 Lakhs\n\nThe Company's financial performance indicates a [MISSING: description of financial performance, e.g., stable, growing, declining]. The Company's revenue and profitability are influenced by various factors, including [MISSING: factors influencing revenue and profitability].\n\n### Business Operations\n\nThe Company's business operations involve [MISSING: description of business operations]. The Company's key products/services are [MISSING: key products/services]. The Company operates in [MISSING: geographies] and has [MISSING: certifications] certifications.\n\n### Industry and Market\n\nThe Company operates in the [MISSING: sector/sub-sector] industry, which is [MISSING: description of industry trends and outlook]. The Company's market share is [MISSING: market share]. The Company competes with [MISSING: competitors] in the market.\n\n### Future Prospects\n\nThe Company's future prospects are influenced by various factors, including [MISSING: factors influencing future prospects]. The Company plans to expand its operations and increase its revenue through [MISSING: description of expansion plans]. The Company's objects of the issue are to [MISSING: objects of the issue, e.g., expansion, debt repayment].\n\n### Risk Management\n\nThe Company is exposed to various risks, including [MISSING: risks]. The Company has implemented [MISSING: risk management strategies] to mitigate these risks.\n\n### Internal Control Systems\n\nThe Company has established internal control systems to ensure the accuracy and reliability of its financial reporting. The Company's internal control systems include [MISSING: internal control systems]. The Company's statutory auditor is [MISSING: statutory auditor].\n\n### Outlook\n\nThe Company's outlook for the future is [MISSING: description of outlook]. The Company is confident that it will be able to achieve its objectives and increase its revenue and profitability in the future.\n\n### Conclusion\n\nIn conclusion, the Company's financial performance, business operations, and future prospects indicate a [MISSING: description of overall performance and prospects]. The Company is committed to creating value for its shareholders and stakeholders and is confident that it will be able to achieve its objectives in the future.\n\n**Forward-Looking Statements**\n\nThis MD&A section contains forward-looking statements that are based on the Company's current expectations and assumptions. These forward-looking statements are subject to various risks and uncertainties and may not be realized. The Company undertakes no obligation to update these forward-looking statements to reflect events or circumstances after the date of this document.\n\n**Disclaimer**\n\nThis MD&A section is intended to provide a general overview of the Company's financial performance, business operations, and future prospects. It is not intended to be a comprehensive or definitive analysis of the Company's affairs. The Company disclaims any liability for any loss or damage that may arise from the use of this document.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "sector/sub-sector",
+      "description of financial performance, e.g., stable, growing, declining",
+      "factors influencing revenue and profitability",
+      "description of business operations",
+      "key products/services",
+      "geographies",
+      "certifications",
+      "sector/sub-sector",
+      "description of industry trends and outlook",
+      "market share",
+      "competitors",
+      "factors influencing future prospects",
+      "description of expansion plans",
+      "objects of the issue, e.g., expansion, debt repayment",
+      "risks",
+      "risk management strategies",
+      "internal control systems",
+      "statutory auditor",
+      "description of outlook",
+      "description of overall performance and prospects"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2908.0775000002177
+  },
+  "capital_structure": {
+    "section_id": "capital_structure",
+    "title": "Capital Structure",
+    "content": "CAPITAL STRUCTURE\n\nThis section of the DRHP covers capital structure for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Capital Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_capital_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "shareholding_pattern": {
+    "section_id": "shareholding_pattern",
+    "title": "Shareholding Pattern",
+    "content": "SHAREHOLDING PATTERN\n\nThis section of the DRHP covers shareholding pattern for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Shareholding Pattern' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_shareholding_pattern"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "objects_of_issue": {
+    "section_id": "objects_of_issue",
+    "title": "Objects of the Issue",
+    "content": "## Objects of the Issue\n\nThe objects of the issue of equity shares by Sunrise Specialty Chemicals Ltd (the \"Company\") are set out below.\n\n### Introduction\nThe Company is proposing to raise funds through a public issue of equity shares (the \"Issue\") aggregating to \u20b950.00 Crore, consisting of a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The Issue is being made in accordance with the provisions of the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018 (the \"SEBI ICDR Regulations\").\n\n### Objects of the Issue\nThe proceeds of the Fresh Issue will be utilized towards the object of expansion. The Company proposes to utilize the proceeds of the Fresh Issue as follows:\n\n- **Expansion**: \u20b925.00 Crore (entire proceeds of the Fresh Issue)\n\nThe Company believes that the expansion will enable it to increase its production capacity, enhance its market presence, and achieve economies of scale.\n\n### Schedule of Deployment of Funds\nThe deployment of funds towards the object of expansion is expected to be completed within [MISSING: time frame for completion of expansion]. The Company will review and monitor the progress of the expansion on a regular basis to ensure that the funds are utilized in accordance with the objects of the Issue.\n\n### Sources of Funds\nThe Company believes that the proceeds of the Fresh Issue will be sufficient to meet the objects of the Issue. However, if the proceeds of the Issue are insufficient to meet the objects, the Company may explore alternative sources of funding, including debt financing or internal accruals.\n\n### Bridge Financing\nThe Company has not obtained any bridge financing for the objects of the Issue.\n\n### Utilization of Offer for Sale Proceeds\nThe proceeds of the Offer for Sale will not be received by the Company and will be directly credited to the selling shareholders.\n\nBy order of the Board of Directors of Sunrise Specialty Chemicals Ltd.\n\nDate: [MISSING: Date]\n\nPlace: Mumbai\n\nNote: The above section is based on the information provided and is in compliance with the SEBI ICDR Regulations. However, certain information such as the time frame for completion of expansion, statutory auditor, employees, key products/services, geographies, certifications, and date are missing and need to be filled in accordingly.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "time frame for completion of expansion",
+      "Date"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2440.467099997477
+  },
+  "use_of_proceeds": {
+    "section_id": "use_of_proceeds",
+    "title": "Use of Proceeds",
+    "content": "USE OF PROCEEDS\n\nThis section of the DRHP covers use of proceeds for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Use of Proceeds' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_use_of_proceeds"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "basis_for_price": {
+    "section_id": "basis_for_price",
+    "title": "Basis for Issue Price",
+    "content": "## Basis for Issue Price\n\nThe issue price of \u20b9100 to \u20b9120 per equity share has been determined by the company and the Lead Manager, Banker A, in accordance with the applicable provisions of the SEBI ICDR Regulations and after considering various factors, including the company's financials, industry trends, market conditions, and the objects of the issue.\n\n### Qualitative Factors\n\nThe company's business description is as follows: Dummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company descriptionDummy company description. However, the key products/services offered by the company are [MISSING: key products/services]. The company operates in the chemicals sector, specifically in the specialty sub-sector.\n\nThe company's promoter, Alpha, holds 50.0% of the equity share capital and is the Managing Director of the company. The company's management team has [MISSING: information on management team's experience and expertise].\n\n### Quantitative Factors\n\nThe company's financial performance for the year 2023-24 is as follows:\n\n- Revenue: \u20b91,000.00 Lakhs\n- Profit After Tax (PAT): \u20b9100.00 Lakhs\n- Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA): \u20b9150.00 Lakhs\n- Total Assets: \u20b9500.00 Lakhs\n- Equity: \u20b9200.00 Lakhs\n\nThe price to earnings (P/E) ratio, price to book value (P/BV) ratio, and other relevant ratios have been considered while determining the issue price. However, the company's [MISSING: employee count], [MISSING: geographies], and [MISSING: certifications] are not available.\n\n### Issue-Related Factors\n\nThe issue size is \u20b950.00 Crore, consisting of a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The objects of the issue are to expand the company's business. The issue price has been determined to ensure that the company raises sufficient funds to achieve its objectives.\n\n### Comparison with Industry Peers\n\nThe company's financial performance and other relevant parameters have been compared with those of its industry peers. However, the [MISSING: information on industry peers] is not available.\n\n### Regulatory Disclosures\n\nIn accordance with the SEBI ICDR Regulations, the company has made the following disclosures:\n\n- The company has reserved at least 50% of the net offer to retail individual investors.\n- The remaining net offer is available to non-institutional investors and qualified institutional buyers (QIBs).\n- A specified portion is reserved for market makers.\n\nThe company has complied with all applicable regulations and guidelines issued by SEBI, including the SEBI ICDR Regulations, and has made all necessary disclosures in this draft red herring prospectus.\n\n### Conclusion\n\nThe issue price of \u20b9100 to \u20b9120 per equity share has been determined after considering various qualitative and quantitative factors, including the company's financials, industry trends, market conditions, and the objects of the issue. The company believes that the issue price is fair and reasonable, and it is in the best interests of the company and its shareholders.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 4.4 Reservation in Issue\nAs per SEBI ICDR Regulations:\n- At least 50% of the net offer is reserved for retail individual investors\n- The remaining net offer is available to non-institutional invest"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "key products/services",
+      "information on management team's experience and expertise",
+      "employee count",
+      "geographies",
+      "certifications",
+      "information on industry peers"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2874.4745000003604
+  },
+  "dividend_policy": {
+    "section_id": "dividend_policy",
+    "title": "Dividend Policy",
+    "content": "DIVIDEND POLICY\n\nSunrise Specialty Chemicals Ltd has not declared any dividends in the past. The Board of Directors may recommend dividends in the future, subject to the profits available for distribution, after considering the Company's growth plans, future capital requirements, financial condition, and applicable legal requirements. Any future declaration of dividends will require the approval of the shareholders of the Company at the Annual General Meeting and will be at the discretion of the Board.\n\nThere is no guarantee that dividends will be declared or paid in any financial year. Any dividends paid \nin the future will be subject to applicable laws and regulations, including Companies Act 2013, and will \nbe recommended by the Board of Directors from time to time.\n\nInvestors should note that past financial performance, including past dividend payments (if any), is not \nindicative of future results.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_statements": {
+    "section_id": "financial_statements",
+    "title": "Financial Statements Summary",
+    "content": "FINANCIAL STATEMENTS SUMMARY\n\nThis section of the DRHP covers financial statements summary for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Financial Statements Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_statements"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_ratios": {
+    "section_id": "financial_ratios",
+    "title": "Key Financial Ratios",
+    "content": "KEY FINANCIAL RATIOS\n\nThis section of the DRHP covers key financial ratios for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Key Financial Ratios' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_ratios"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "related_party": {
+    "section_id": "related_party",
+    "title": "Related Party Transactions",
+    "content": "RELATED PARTY TRANSACTIONS\n\nThis section of the DRHP covers related party transactions for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Related Party Transactions' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_related_party"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "outstanding_litigation": {
+    "section_id": "outstanding_litigation",
+    "title": "Outstanding Litigation",
+    "content": "OUTSTANDING LITIGATION AND MATERIAL DEVELOPMENTS\n\nExcept as disclosed below, there are no outstanding litigation, suits, criminal or civil prosecutions, \nproceedings or tax liabilities against Sunrise Specialty Chemicals Ltd, its Directors, Promoters or Group Companies as of the \ndate of this Draft Red Herring Prospectus that may have a material adverse effect on the business.\n\nAs disclosed by the management of Sunrise Specialty Chemicals Ltd, there are no outstanding litigations, disputes, or proceedings \npending as of the date of this Draft Red Herring Prospectus.\n\n[MISSING: Management confirmation of nil litigation / actual legal proceedings if any exist]\n\nNote: Companies are required to disclose all material litigation regardless of outcome. The above statement \nis based on information provided by management and has not been independently verified.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "legal_proceedings"
+    ],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "contingent_liabilities": {
+    "section_id": "contingent_liabilities",
+    "title": "Contingent Liabilities",
+    "content": "CONTINGENT LIABILITIES\n\nThis section of the DRHP covers contingent liabilities for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Contingent Liabilities' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_contingent_liabilities"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "government_approvals": {
+    "section_id": "government_approvals",
+    "title": "Government and Other Approvals",
+    "content": "GOVERNMENT AND OTHER APPROVALS\n\nThis section of the DRHP covers government and other approvals for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Government and Other Approvals' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_government_approvals"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "material_contracts": {
+    "section_id": "material_contracts",
+    "title": "Material Contracts",
+    "content": "MATERIAL CONTRACTS\n\nThis section of the DRHP covers material contracts for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Material Contracts' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_material_contracts"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "intellectual_property": {
+    "section_id": "intellectual_property",
+    "title": "Intellectual Property",
+    "content": "INTELLECTUAL PROPERTY\n\nThis section of the DRHP covers intellectual property for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Intellectual Property' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_intellectual_property"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "employees": {
+    "section_id": "employees",
+    "title": "Employees",
+    "content": "EMPLOYEES\n\n[MISSING: Total employee count as of a specific date]\n\nThe Company believes that its employees are its most valuable asset. Sunrise Specialty Chemicals Ltd is committed to \nemployee development, fair compensation, and a safe working environment.\n\n[MISSING: Employee category breakdown (permanent vs contract, male vs female, departmental split)]\n[MISSING: Key HR policies and employee benefit schemes]\n\nThe Company has not experienced any material labor disputes or strikes that have had or are likely \nto have a material adverse effect on its operations.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "employee_count"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.8,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "properties": {
+    "section_id": "properties",
+    "title": "Properties",
+    "content": "PROPERTIES\n\nThis section of the DRHP covers properties for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Properties' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_properties"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "esg_summary": {
+    "section_id": "esg_summary",
+    "title": "ESG Summary",
+    "content": "**ESG Summary**\n\nAs required by the SEBI ICDR Regulations, we provide below a summary of our Environmental, Social, and Governance (ESG) practices and performance.\n\n### Environmental\n\nOur company, Sunrise Specialty Chemicals Ltd, operates in the chemicals sector, specifically in the specialty sub-sector. However, due to the lack of specific information on our key products/services and geographies, we are unable to provide detailed insights into our environmental impact. \n\n[MISSING: Key products/services information]\n[MISSING: Geographies information]\n\nWe acknowledge the importance of environmental sustainability and are committed to adhering to all applicable environmental laws and regulations. However, without specific data on our operations and products, we cannot provide a comprehensive overview of our environmental footprint or initiatives aimed at reducing it.\n\n### Social\n\nIn terms of social responsibility, our business description outlines our general operations but does not provide specific details on our social initiatives or policies. \n\n[MISSING: Employees information]\n[MISSING: Certifications information]\n\nWe recognize the significance of social responsibility and aim to contribute positively to the communities in which we operate. However, due to the absence of detailed information on our employee base, community engagement, and certifications, we are unable to elaborate on our social performance and initiatives.\n\n### Governance\n\nOur governance structure is led by our Managing Director, Alpha, who holds 50.0% of the company. This leadership structure is crucial for our strategic decision-making processes.\n\nWe are committed to maintaining high standards of corporate governance, ensuring transparency, and complying with all regulatory requirements. Our financials for the year 2023-24 indicate a revenue of \u20b91,000.00L, PAT of \u20b9100.00L, EBITDA of \u20b9150.00L, Total Assets of \u20b9500.00L, and Equity of \u20b9200.00L.\n\nHowever, [MISSING: Statutory Auditor information] limits our ability to discuss the role of our auditor in ensuring the integrity of our financial reporting.\n\n### Conclusion\n\nIn conclusion, while we strive to maintain robust ESG practices, the lack of specific information in certain areas hinders our ability to provide a comprehensive ESG summary. We are committed to transparency and compliance with regulatory requirements and will continue to work towards enhancing our ESG performance and disclosure.\n\n### SEBI ICDR Disclosures\n\nAs per the SEBI ICDR Regulations, we confirm that our issue size is \u20b950.00 Crore, with a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The price band for this issue is \u20b9100 \u2013 \u20b9120, with a face value of \u20b910. The objects of the issue are for expansion purposes, and Banker A is our lead manager.\n\nWe hereby declare that the information provided in this ESG summary is accurate and in compliance with the SEBI ICDR Regulations to the best of our knowledge and based on the information available to us.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Key products/services information",
+      "Geographies information",
+      "Employees information",
+      "Certifications information",
+      "Statutory Auditor information"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 4856.446699999651
+  },
+  "corporate_governance": {
+    "section_id": "corporate_governance",
+    "title": "Corporate Governance",
+    "content": "CORPORATE GOVERNANCE\n\nThis section of the DRHP covers corporate governance for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Corporate Governance' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_governance"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "compliance_matrix": {
+    "section_id": "compliance_matrix",
+    "title": "SEBI Compliance Matrix",
+    "content": "SEBI COMPLIANCE MATRIX\n\nThis section of the DRHP covers sebi compliance matrix for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'SEBI Compliance Matrix' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_compliance_matrix"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "annexures": {
+    "section_id": "annexures",
+    "title": "Annexures",
+    "content": "ANNEXURES\n\nThis section of the DRHP covers annexures for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Annexures' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_annexures"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "glossary": {
+    "section_id": "glossary",
+    "title": "Glossary",
+    "content": "GLOSSARY\n\nThis section of the DRHP covers glossary for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Glossary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_glossary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "declaration": {
+    "section_id": "declaration",
+    "title": "Declaration and Undertaking",
+    "content": "DECLARATION AND UNDERTAKING\n\nThis section of the DRHP covers declaration and undertaking for Sunrise Specialty Chemicals Ltd.\n\n[MISSING: Detailed content for 'Declaration and Undertaking' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_declaration"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  }
+}

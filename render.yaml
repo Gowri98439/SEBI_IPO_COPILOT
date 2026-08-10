@@ -1,0 +1,25 @@
+databases:
+  - name: ipo-copilot-db
+    databaseName: ipocopilot
+    user: ipouser
+
+services:
+  - type: web
+    name: ipo-copilot-backend
+    env: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 2
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ipo-copilot-db
+          property: connectionString
+      - key: ALLOWED_ORIGINS
+        value: "http://localhost:3000,https://<YOUR_NETLIFY_URL>.netlify.app"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false

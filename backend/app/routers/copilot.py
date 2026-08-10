@@ -8,7 +8,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 
 from app.database import get_db
-from app.middleware.auth_middleware import get_current_user
+from app.middleware.auth_middleware import get_current_user, verify_workspace_ownership
 from app.models.user import User
 from app.models.workspace import Workspace
 from app.models.copilot import CopilotSession
@@ -66,6 +66,7 @@ async def create_session(
     workspace_id: str,
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user),
+    _: None = Depends(verify_workspace_ownership),
 ) -> SessionResponse:
     session = await CopilotService.create_session(
         db, workspace_id, str(current_user.id)
@@ -93,6 +94,7 @@ async def list_sessions(
     workspace_id: str,
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user),
+    _: None = Depends(verify_workspace_ownership),
 ) -> list[SessionResponse]:
     sessions = await CopilotService.get_sessions(db, workspace_id)
     return sessions  # type: ignore[return-value]

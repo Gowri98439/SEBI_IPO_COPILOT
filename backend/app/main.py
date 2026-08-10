@@ -1,9 +1,11 @@
 import os
+import time
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from starlette.middleware.base import BaseHTTPMiddleware
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
 from app.security.rate_limiter import limiter
@@ -12,6 +14,13 @@ from app.config import settings
 from app.database import create_tables
 from app.routers import auth, companies, workspaces, documents, compliance, copilot, reviews, dashboard
 from app.routers import drhp as drhp_router
+try:
+    from app.routers import enterprise as enterprise_router
+    _enterprise_router_available = True
+except Exception as _e:
+    import logging as _log
+    _log.getLogger(__name__).warning("Enterprise router unavailable: %s", _e)
+    _enterprise_router_available = False
 
 
 @asynccontextmanager
@@ -51,6 +60,24 @@ app = FastAPI(
 
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
+
+# ── Secure Headers Middleware ─────────────────────────────────────────────
+class SecurityHeadersMiddleware(BaseHTTPMiddleware):
+    """Adds OWASP-recommended security headers to every response."""
+    async def dispatch(self, request: Request, call_next):
+        response = await call_next(request)
+        response.headers["X-Content-Type-Options"] = "nosniff"
+        response.headers["X-Frame-Options"] = "DENY"
+        response.headers["X-XSS-Protection"] = "1; mode=block"
+        response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+        response.headers["Permissions-Policy"] = "geolocation=(), microphone=(), camera=()"
+        # Only set HSTS on HTTPS connections
+        if request.url.scheme == "https":
+            response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+        return response
+
+app.add_middleware(SecurityHeadersMiddleware)
 
 # ── CORS ────────────────────────────────────────────────────────────────
 origins = [origin.strip() for origin in settings.ALLOWED_ORIGINS.split(",")]
@@ -95,6 +122,10 @@ app.include_router(dashboard.router, prefix=API_V1)
 # drhp_router uses /workspaces/{id}/drhp/...
 app.include_router(drhp_router.router, prefix=API_V1)
 
+# enterprise router uses /workspaces/{id}/intelligence/...
+if _enterprise_router_available:
+    app.include_router(enterprise_router.router, prefix=API_V1)
+
 
 @app.get("/", tags=["Root"])
 async def root():
@@ -103,7 +134,15 @@ async def root():
 
 @app.get("/health", tags=["Health"])
 async def health():
-    return {"status": "healthy", "version": "1.0.0"}
+    """Health endpoint — checks DB connectivity."""
+    from app.database import check_database_connection
+    db_ok = await check_database_connection()
+    return {
+        "status": "healthy" if db_ok else "degraded",
+        "version": "2.0.0",
+        "database": "connected" if db_ok else "unavailable",
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+    }
 
 
 from sqlalchemy.exc import SQLAlchemyError
@@ -137,13 +176,22 @@ async def timeout_exception_handler(request, exc):
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request, exc):
-    # Only return string representation of exception in message, not full traceback
-    error_message = str(exc) if str(exc) else "An unexpected error occurred"
+    # Log the full exception internally — do NOT expose to the client
+    _logger.error(
+        "Unhandled exception on %s %s: %s",
+        request.method,
+        request.url.path,
+        exc,
+        exc_info=True,
+    )
     return JSONResponse(
         status_code=500,
         content={
             "success": False,
             "data": None,
-            "error": {"code": "INTERNAL_ERROR", "message": error_message},
+            "error": {
+                "code": "INTERNAL_ERROR",
+                "message": "An unexpected internal error occurred. Please try again later.",
+            },
         },
     )

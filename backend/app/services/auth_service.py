@@ -22,16 +22,26 @@ from app.utils.security import (
 
 class AuthService:
     @staticmethod
-    async def log_failure(db: AsyncSession, email: str, action: str):
-        audit_event = AuditEvent(
-            action_category="AUTH",
-            action=action,
-            target_id=email,
-            status="failure",
-            workspace_id="00000000-0000-0000-0000-000000000000"  # default
-        )
-        db.add(audit_event)
-        await db.commit()
+    async def log_failure(email: str, action: str):
+        """Log a failed auth attempt in its own DB session.
+        Uses workspace_id=None to avoid FK violation (workspace doesn't exist for failed logins).
+        This runs in an independent session so FK errors and rollbacks don't affect the caller.
+        """
+        try:
+            from app.database import async_session_factory
+            async with async_session_factory() as session:
+                audit_event = AuditEvent(
+                    action_category="AUTH",
+                    action=action,
+                    target_id=email,
+                    status="failure",
+                    workspace_id=None,  # No FK violation: workspace_id is nullable
+                )
+                session.add(audit_event)
+                await session.commit()
+        except Exception:
+            pass  # Never let audit logging produce a 500
+
 
     @staticmethod
     async def register(db: AsyncSession, user_create: UserCreate) -> AuthResponse:
@@ -80,7 +90,8 @@ class AuthService:
         result = await db.execute(select(User).where(User.email == email))
         user = result.scalar_one_or_none()
         if not user or not verify_password(password, user.password_hash):  # type: ignore
-            await AuthService.log_failure(db, email, "LOGIN_FAILED")
+            await AuthService.log_failure(email, "LOGIN_FAILED")
+
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
                 detail="Invalid email or password",

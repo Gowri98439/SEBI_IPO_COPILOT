@@ -1,0 +1,149 @@
+name: CI — IPO Copilot AI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ── Backend Tests ──────────────────────────────────────────────────────────
+  backend:
+    name: Backend Tests (Python)
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: backend
+
+    env:
+      PYTHONPATH: .
+      DATABASE_URL: sqlite+aiosqlite:///./test_ipo_copilot.db
+      SECRET_KEY: ci-test-secret-key-do-not-use-in-prod
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      LLM_PROVIDER: groq
+      LLM_MODEL: llama-3.3-70b-versatile
+      EMBEDDING_MODEL: all-MiniLM-L6-v2
+      CHROMA_PERSIST_DIR: ./test_chroma_db
+      UPLOAD_DIR: ./test_uploads
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install --no-cache-dir -r requirements.txt
+
+      - name: Run pytest (all tests including AI evaluation)
+        run: |
+          python -m pytest tests/ evaluation/ \
+            -v \
+            --tb=short \
+            --junit-xml=test-results.xml \
+            -p no:warnings
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: backend-test-results
+          path: backend/test-results.xml
+
+  # ── Security Audit ─────────────────────────────────────────────────────────
+  security:
+    name: Security Scan
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install bandit (security scanner)
+        run: pip install bandit
+
+      - name: Run bandit security scan
+        run: bandit -r app/ -ll -x app/seed.py -f json -o bandit-report.json || true
+
+      - name: Upload bandit report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: security-scan-report
+          path: backend/bandit-report.json
+
+  # ── Frontend Tests ─────────────────────────────────────────────────────────
+  frontend:
+    name: Frontend Build & TypeScript Check
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript check (zero errors required)
+        run: npx tsc --noEmit
+
+      - name: Vite production build (must succeed)
+        run: npm run build
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: frontend-dist
+          path: frontend/dist/
+          retention-days: 7
+
+  # ── Docker Build Validation ────────────────────────────────────────────────
+  docker:
+    name: Docker Build Validation
+    runs-on: ubuntu-latest
+    needs: [backend, frontend]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build backend Docker image
+        run: docker build -t ipo-backend:ci ./backend
+
+      - name: Build frontend Docker image
+        run: docker build -t ipo-frontend:ci ./frontend
+
+      - name: Smoke test backend container
+        run: |
+          docker run -d --name ipo-backend-test \
+            -e DATABASE_URL=sqlite+aiosqlite:///./test.db \
+            -e SECRET_KEY=ci-smoke-test-key \
+            -e GROQ_API_KEY=placeholder \
+            -p 8000:8000 \
+            ipo-backend:ci
+          sleep 10
+          curl -f http://localhost:8000/health || exit 1
+          docker stop ipo-backend-test

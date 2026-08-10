@@ -1,0 +1,320 @@
+[
+  {
+    "test": "GET /health",
+    "status": "PASS",
+    "detail": "{\"status\":\"healthy\",\"version\":\"1.0.0\"}",
+    "code": 200
+  },
+  {
+    "test": "GET / (root)",
+    "status": "PASS",
+    "detail": "{\"message\":\"IPO Copilot AI API\",\"version\":\"1.0.0\",\"docs\":\"/docs\"}",
+    "code": 200
+  },
+  {
+    "test": "GET /docs (OpenAPI)",
+    "status": "PASS",
+    "detail": "OpenAPI UI available: True",
+    "code": 200
+  },
+  {
+    "test": "POST /auth/register (new user)",
+    "status": "PASS",
+    "detail": "User registered, token received",
+    "code": 201
+  },
+  {
+    "test": "POST /auth/login (wrong password)",
+    "status": "PASS",
+    "detail": "Expected 401, got 401: {\"detail\":\"Invalid email or password\"}",
+    "code": 401
+  },
+  {
+    "test": "POST /auth/login (nonexistent user)",
+    "status": "PASS",
+    "detail": "Expected 401/404, got 401",
+    "code": 401
+  },
+  {
+    "test": "GET /auth/me (no token)",
+    "status": "PASS",
+    "detail": "Expected 401, got 401",
+    "code": 401
+  },
+  {
+    "test": "GET /auth/me (valid token)",
+    "status": "PASS",
+    "detail": "{\"id\":\"96ea7027-de07-4e58-a747-981320bd54eb\",\"email\":\"qatest@sebi.gov.in\",\"full_name\":\"QA Tester\",\"r",
+    "code": 200
+  },
+  {
+    "test": "GET /auth/me (invalid JWT)",
+    "status": "PASS",
+    "detail": "Expected 401, got 401",
+    "code": 401
+  },
+  {
+    "test": "POST /auth/refresh (valid token)",
+    "status": "PASS",
+    "detail": "New tokens issued",
+    "code": 200
+  },
+  {
+    "test": "POST /companies (create)",
+    "status": "PASS",
+    "detail": "Company created: c16a9e78-ac38-4e12-84bb-d2b6d6c95666",
+    "code": 201
+  },
+  {
+    "test": "GET /companies (list)",
+    "status": "PASS",
+    "detail": "Got 1 companies",
+    "code": 200
+  },
+  {
+    "test": "GET /companies (no auth)",
+    "status": "PASS",
+    "detail": "Expected 401, got 401",
+    "code": 401
+  },
+  {
+    "test": "POST /workspaces (create)",
+    "status": "PASS",
+    "detail": "Workspace created: 60cda64c-a14f-44a5-ae26-8c41fd6a033c",
+    "code": 201
+  },
+  {
+    "test": "GET /workspaces (list)",
+    "status": "PASS",
+    "detail": "Got 1 workspaces",
+    "code": 200
+  },
+  {
+    "test": "GET /workspaces/{id}",
+    "status": "PASS",
+    "detail": "{\"id\":\"60cda64c-a14f-44a5-ae26-8c41fd6a033c\",\"company_id\":\"c16a9e78-ac38-4e12-84bb-d2b6d6c95666\",\"na",
+    "code": 200
+  },
+  {
+    "test": "PATCH /workspaces/{id}",
+    "status": "PASS",
+    "detail": "{\"id\":\"60cda64c-a14f-44a5-ae26-8c41fd6a033c\",\"company_id\":\"c16a9e78-ac38-4e12-84bb-d2b6d6c95666\",\"na",
+    "code": 200
+  },
+  {
+    "test": "GET /workspaces/{id} (no auth)",
+    "status": "PASS",
+    "detail": "Expected 401, got 401",
+    "code": 401
+  },
+  {
+    "test": "GET /workspaces (non-existent)",
+    "status": "PASS",
+    "detail": "Expected 404, got 404",
+    "code": 404
+  },
+  {
+    "test": "POST /workspaces/{id}/documents (upload)",
+    "status": "PASS",
+    "detail": "Document uploaded: 464b73da-acbc-4134-a07d-b36f89d37270",
+    "code": 201
+  },
+  {
+    "test": "POST /workspaces/{id}/documents (wrong type)",
+    "status": "FAIL",
+    "detail": "Expected 400/422, got 415: {\"detail\":\"File type '.exe' is not supported. Accepted: PDF, DOC, DOCX, XLS, XLSX, CSV.\"}",
+    "code": 415
+  },
+  {
+    "test": "GET /workspaces/{id}/documents (list)",
+    "status": "PASS",
+    "detail": "Got 1 docs",
+    "code": 200
+  },
+  {
+    "test": "GET /documents/{id}",
+    "status": "PASS",
+    "detail": "{\"id\":\"464b73da-acbc-4134-a07d-b36f89d37270\",\"workspace_id\":\"60cda64c-a14f-44a5-ae26-8c41fd6a033c\",\"",
+    "code": 200
+  },
+  {
+    "test": "POST /documents/{id}/validate",
+    "status": "PASS",
+    "detail": "{\"message\":\"Validation triggered\",\"validation_id\":\"284d96ee-5979-45d1-9d0d-692b5a48c487\",\"status\":\"p",
+    "code": 202
+  },
+  {
+    "test": "GET /documents/{id}/validation-result",
+    "status": "PASS",
+    "detail": "{\"id\":\"284d96ee-5979-45d1-9d0d-692b5a48c487\",\"document_id\":\"464b73da-acbc-4134-a07d-b36f89d37270\",\"status\":\"completed\",\"issues\":[{\"type\":\"compliance\",",
+    "code": 200
+  },
+  {
+    "test": "GET /documents/{id}/versions",
+    "status": "PASS",
+    "detail": "[{\"id\":\"d793d613-2149-408a-b7b0-f03f2bebf9e9\",\"document_id\":\"464b73da-acbc-4134-a07d-b36f89d37270\",\"",
+    "code": 200
+  },
+  {
+    "test": "POST /workspaces/{id}/compliance/run",
+    "status": "PASS",
+    "detail": "{\"message\":\"Compliance run triggered\",\"checks_created\":30,\"workspace_id\":\"60cda64c-a14f-44a5-ae26-8c41fd6a033c\"}",
+    "code": 202
+  },
+  {
+    "test": "GET /workspaces/{id}/compliance (list)",
+    "status": "PASS",
+    "detail": "Got 50 checks",
+    "code": 200
+  },
+  {
+    "test": "GET /workspaces/{id}/compliance/{check_id}",
+    "status": "PASS",
+    "detail": "{\"id\":\"570f76a2-5b97-4a91-a069-554f7a067391\",\"workspace_id\":\"60cda64c-a14f-44a5-ae26-8c41fd6a033c\",\"",
+    "code": 200
+  },
+  {
+    "test": "POST /workspaces/{id}/copilot/sessions",
+    "status": "PASS",
+    "detail": "Session: 452ed5da-87c4-420d-8670-8aa81a0b3fb1",
+    "code": 201
+  },
+  {
+    "test": "GET /workspaces/{id}/copilot/sessions",
+    "status": "PASS",
+    "detail": "[{\"id\":\"452ed5da-87c4-420d-8670-8aa81a0b3fb1\",\"workspace_id\":\"60cda64c-a14f-44a5-ae26-8c41fd6a033c\",",
+    "code": 200
+  },
+  {
+    "test": "POST /copilot/sessions/{id}/message",
+    "status": "PASS",
+    "detail": "{\"id\":\"619c4fab-a557-4f40-b2f1-c981080c069f\",\"session_id\":\"452ed5da-87c4-420d-8670-8aa81a0b3fb1\",\"ro",
+    "code": 201
+  },
+  {
+    "test": "POST /copilot/sessions/{id}/message (injection)",
+    "status": "PASS",
+    "detail": "Code 201: {\"id\":\"1334da9c-29da-4738-aae8-8bdb3422dd34\",\"session_id\":\"452ed5da-87c4-420d-8670-8aa81a0b3fb1\",\"ro",
+    "code": 201
+  },
+  {
+    "test": "GET /copilot/sessions/{id}/messages",
+    "status": "PASS",
+    "detail": "[{\"id\":\"619c4fab-a557-4f40-b2f1-c981080c069f\",\"session_id\":\"452ed5da-87c4-420d-8670-8aa81a0b3fb1\",\"r",
+    "code": 200
+  },
+  {
+    "test": "POST /workspaces/{id}/copilot/chat",
+    "status": "PASS",
+    "detail": "{\"response\":\"As per SEBI ICDR Regulations 2018, the minimum net worth requirement for an SME IPO is not explicitly specified. However, as per Regulation 106M of SEBI ICDR Regulations 2018, the issuer ",
+    "code": 200
+  },
+  {
+    "test": "GET /copilot/rag-search",
+    "status": "PASS",
+    "detail": "{'regulation_id': 'track record requirements SME IPO', 'content': 'Regulation details not found in corpus.', 'source': ''}",
+    "code": 200
+  },
+  {
+    "test": "POST /workspaces/{id}/drafts (create)",
+    "status": "PASS",
+    "detail": "Review: 7c7f130d-4968-4be3-b160-21e0ac4d2813",
+    "code": 201
+  },
+  {
+    "test": "GET /workspaces/{id}/drafts",
+    "status": "FAIL",
+    "detail": "{\"success\":false,\"data\":null,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"1 validation errors:\\n  {'t",
+    "code": 500
+  },
+  {
+    "test": "GET /drafts/{id}",
+    "status": "FAIL",
+    "detail": "{\"success\":false,\"data\":null,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"1 validation errors:\\n  {'t",
+    "code": 500
+  },
+  {
+    "test": "PATCH /drafts/{id}",
+    "status": "FAIL",
+    "detail": "{\"success\":false,\"data\":null,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"'DraftReviewUpdate' object ",
+    "code": 500
+  },
+  {
+    "test": "POST /workspaces/{id}/reviews (create task)",
+    "status": "FAIL",
+    "detail": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"task_type\"],\"msg\":\"Field required\",\"input\":{\"workspace_i",
+    "code": 422
+  },
+  {
+    "test": "GET /workspaces/{id}/reviews",
+    "status": "PASS",
+    "detail": "[]",
+    "code": 200
+  },
+  {
+    "test": "GET /workspaces/{id}/dashboard",
+    "status": "PASS",
+    "detail": "{'workspace_id': '60cda64c-a14f-44a5-ae26-8c41fd6a033c', 'readiness_score': 43, 'documents_uploaded': 1, 'documents_required': 5, 'compliance_total': 50, 'compliance_passing': 0, 'compliance_failed': ",
+    "code": 200
+  },
+  {
+    "test": "GET /workspaces/{id}/audit-logs",
+    "status": "PASS",
+    "detail": "Events: 6",
+    "code": 200
+  },
+  {
+    "test": "GET /workspaces/{id}/export/report.pdf",
+    "status": "FAIL",
+    "detail": "Size: 126 bytes, CT: application/json",
+    "code": 500
+  },
+  {
+    "test": "Path traversal attempt",
+    "status": "PASS",
+    "detail": "Expected 400/404, got 404",
+    "code": 404
+  },
+  {
+    "test": "SQL injection (query param)",
+    "status": "PASS",
+    "detail": "Got 200",
+    "code": 200
+  },
+  {
+    "test": "Expired/invalid JWT",
+    "status": "PASS",
+    "detail": "Expected 401, got 401",
+    "code": 401
+  },
+  {
+    "test": "Large payload (100KB)",
+    "status": "PASS",
+    "detail": "Got 200",
+    "code": 200
+  },
+  {
+    "test": "XSS input sanitization",
+    "status": "FAIL",
+    "detail": "XSS in response: YES - VULNERABLE",
+    "code": 201
+  },
+  {
+    "test": "GET /workspaces/{id}/drhp/outline",
+    "status": "PASS",
+    "detail": "{\"detail\":\"Not Found\"}",
+    "code": 404
+  },
+  {
+    "test": "POST /auth/logout",
+    "status": "PASS",
+    "detail": "{\"detail\":\"Successfully logged out\"}",
+    "code": 200
+  },
+  {
+    "test": "GET /auth/me (after logout)",
+    "status": "PASS",
+    "detail": "Expected 401, got 401 (blacklist may not be checked)",
+    "code": 401
+  }
+]

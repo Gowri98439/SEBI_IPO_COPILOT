@@ -94,7 +94,7 @@ async def run_single_compliance_check(
     logger.info("Running compliance check: %s — %s for workspace: %s", check_id, regulation.get("title", regulation.get("name", "Unknown")), workspace_id)
 
     # Step 1: RAG query for regulatory context from SEBI corpus
-    rag_context = await build_compliance_context(
+    rag_context, reg_version = await build_compliance_context(
         regulation_description=regulation["check"],
         top_k=3,
     )
@@ -115,6 +115,7 @@ async def run_single_compliance_check(
             "category": regulation.get("category", "general"),
             "severity": regulation.get("severity", "medium"),
             "source": "",
+            "regulation_version": reg_version,
         }
 
     # Prepare document text
@@ -148,10 +149,14 @@ async def run_single_compliance_check(
     try:
         result: ComplianceCheckResult = await structured_llm.ainvoke(messages)
         
-        # Calculate combined confidence
-        # Since retrieval score from ChromaDB is distance (0 is perfect), we synthesize a naive score.
-        # Ideally, we would use the actual doc score. We'll extract a naive retrieval score for now.
-        retrieval_score = 0.85 if workspace_docs else 0.0
+        # Calculate combined confidence using REAL retrieval score from ChromaDB.
+        # similarity_score is a relevance score (1.0 = perfect match, 0.0 = unrelated).
+        similarity_scores = [
+            doc.get("similarity_score", 0.75)
+            for doc in workspace_docs
+            if isinstance(doc.get("similarity_score"), (int, float))
+        ]
+        retrieval_score = sum(similarity_scores) / len(similarity_scores) if similarity_scores else 0.75
         combined_confidence = (0.6 * retrieval_score) + (0.4 * result.confidence_score)
         
         status = result.status
@@ -170,7 +175,9 @@ async def run_single_compliance_check(
             "source": result.source,
             "category": regulation.get("category", "general"),
             "severity": regulation.get("severity", "medium"),
+            "regulation_version": reg_version,
         }
+
     except Exception as exc:
         logger.error("Compliance check failed for %s: %s", check_id, exc, exc_info=True)
         return {

@@ -6,16 +6,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'ipo-base': '#F9FAFB', // Tailwind gray-50
-        'ipo-elevated': '#FFFFFF',
-        'ipo-overlay': '#FFFFFF',
-        'ipo-border': '#E5E7EB', // Tailwind gray-200
-        'ipo-text': '#111827', // Tailwind gray-900
-        'ipo-text-secondary': '#6B7280', // Tailwind gray-500
-        'ipo-verified': '#059669', // Emerald-600
-        'ipo-attention': '#D97706', // Amber-600
-        'ipo-critical': '#DC2626', // Red-600
-        'ipo-ai': '#4F46E5', // Indigo-600
+        // --- Core brand (matches CSS var(--accent) = #003087) ---
+        'ipo-base':           '#F1F5F9',  // var(--bg-page)
+        'ipo-elevated':       '#FFFFFF',  // var(--bg-card)
+        'ipo-overlay':        '#F8FAFC',  // var(--bg-elevated)
+        'ipo-border':         '#E2E8F0',  // var(--border)
+        'ipo-text':           '#0F172A',  // var(--text-primary)
+        'ipo-text-secondary': '#475569',  // var(--text-secondary)
+        'ipo-muted':          '#64748B',  // WCAG AA on white: 4.6:1 (replaces #94A3B8)
+        'ipo-verified':       '#15803D',  // var(--success)
+        'ipo-attention':      '#B45309',  // var(--warning)
+        'ipo-critical':       '#B91C1C',  // var(--danger)
+        'ipo-ai':             '#1A56DB',  // var(--accent-mid)
+        'ipo-accent':         '#003087',  // var(--accent) — primary SEBI navy
+        'ipo-sidebar':        '#0F2040',  // var(--bg-sidebar)
+        'ipo-sidebar-hover':  'rgba(255,255,255,0.07)',
       },
       borderRadius: {
         'sm': '0.375rem',

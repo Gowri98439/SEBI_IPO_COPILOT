@@ -203,6 +203,8 @@ export default function FloatingCopilot() {
         <button
           onClick={() => setOpen(true)}
           title="Open SEBI Advisor"
+          aria-label="Open SEBI Advisor chat"
+          aria-expanded={false}
           style={{
             position: 'fixed',
             bottom: '1.5rem',

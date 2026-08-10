@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -9,10 +9,11 @@
       content="IPO Copilot AI — SEBI SME IPO compliance assistant for Merchant Bankers, SMEs, and Compliance Officers preparing DRHP filings."
     />
     <title>IPO Copilot AI — SEBI SME IPO Assistant</title>
+    <!-- Inter font — primary UI font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;1,14..32,400&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -22,11 +23,14 @@
         padding: 0;
       }
       body {
-        background-color: #0B0F1A;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        background-color: #F1F5F9;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
       }
     </style>
   </head>
-  <body class="antialiased" style="background-color: #0B0F1A;">
+  <body class="antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

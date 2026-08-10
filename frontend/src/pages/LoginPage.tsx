@@ -17,7 +17,7 @@ const LoginPage: React.FC = () => {
     setError('');
     setLoading(true);
     try {
-      const data = await api.post('/auth/login', { email, password });
+      const data = await api.post('/auth/login', { email, password }) as any;
       const user = data.user ?? { id: '', email, full_name: email, role: 'user' };
       setAuth(user, data.access_token);
       localStorage.setItem('ipo_copilot_token', data.access_token);

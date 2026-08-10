@@ -13,7 +13,8 @@ class DraftReviewCreate(BaseModel):
 
 class DraftReviewUpdate(BaseModel):
     status: str | None = None
-    ai_feedback: list[Any] | None = None
+    draft_content: str | None = None
+    ai_feedback: Any | None = None  # Accept dict or list for AI feedback
 
 
 class DraftReviewResponse(BaseModel):
@@ -21,7 +22,7 @@ class DraftReviewResponse(BaseModel):
     workspace_id: UUID
     section: str
     draft_content: str | None
-    ai_feedback: list[Any]
+    ai_feedback: Any  # Stored as dict by AI task, or list for legacy; accept both
     status: str
     created_at: datetime
 

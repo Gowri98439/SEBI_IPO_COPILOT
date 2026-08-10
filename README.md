@@ -2,20 +2,54 @@
 
 > **AI-Driven Assistant for SME IPO Document Preparation & SEBI Compliance**
 >
-> Built for the SEBI Hackathon — empowering investment bankers and SMEs to navigate the IPO journey with confidence.
+# 🚀 IPO Copilot AI — Enterprise DRHP Authoring Engine
 
----
+An AI-Assisted IPO Compliance Review, DRHP Analysis, Risk Detection, and Regulatory Intelligence Platform designed for SME IPOs.
 
-## 📋 Project Overview
+## Enterprise Upgrades (v2.0)
+The platform has been heavily upgraded to include professional compliance layers:
+- **Evidence Engine**: End-to-end traceability for every generated statement, linking back to the exact SEBI regulation and user-uploaded document.
+- **Financial Intelligence**: Evaluates Altman Z-score, profitability metrics, and automatically detects inconsistencies in the balance sheet.
+- **Consistency Engine**: Validates numbers across different sections (e.g., EPS matches PAT, Auditors are consistent).
+- **Risk Intelligence**: Automatically extracts and scores Business, Financial, Legal, and Governance risks based on severity.
+- **IPO Readiness Engine**: Computes an aggregate "Ready for Filing" score based on the risk and consistency profiles.
+- **Peer Comparison Engine**: Compares the target company against historical IPOs to evaluate valuations and margins.
+- **Knowledge Graph**: Maintains a strict SQL-based graph of Promoters, Directors, Auditors, and Sectors to identify complex relationships.
+- **Immutable Audit Trail**: Logs every human review decision and AI generation step with strict Role-Based Access Control (RBAC).
 
-IPO Copilot AI is a production-ready, AI-powered platform that automates and accelerates the preparation of SME IPO documents in compliance with SEBI regulations. It combines a Retrieval-Augmented Generation (RAG) pipeline, real-time DRHP validation, and an intelligent copilot chat interface to reduce document preparation time from weeks to days.
+## Architecture
+- **Backend:** FastAPI, SQLAlchemy (Async), PostgreSQL (Enterprise Data), ChromaDB (RAG Vectors)
+- **Frontend:** React, Vite, Framer Motion
+- **AI Integration:** LangChain, Google Gemini, Groq, local embedding models
+- **PDF Engine:** ReportLab
 
-**Core Capabilities:**
-- 📄 **Document Intelligence** — Upload and parse DRHP, financial statements, legal disclosures
-- ✅ **SEBI Compliance Validation** — Automated checks against ICDR Regulations 2018
-- 🤖 **AI Copilot Chat** — Context-aware Q&A grounded in SEBI circulars and your documents
-- 🔍 **Draft Review Engine** — Section-level gap analysis and actionable suggestions
-- 📊 **Workspace Dashboard** — Multi-company, multi-document project management
+## Getting Started
+
+### Local Deployment
+
+1. Clone the repository and configure `.env` (copy `.env.example`).
+2. Start the Backend:
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+python -m app.seed
+uvicorn app.main:app --reload --port 8000
+```
+3. Start the Frontend:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Docker Deployment
+Run the following command to deploy the entire stack using Docker Compose:
+```bash
+docker-compose up --build -d
+```
+The application will be available at `http://localhost:5173`.
 
 ---
 

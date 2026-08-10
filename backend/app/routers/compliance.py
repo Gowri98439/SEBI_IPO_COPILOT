@@ -2,7 +2,7 @@ from fastapi import APIRouter, BackgroundTasks, Depends, status, Request
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import get_db
-from app.middleware.auth_middleware import get_current_user
+from app.middleware.auth_middleware import get_current_user, verify_workspace_ownership
 from app.models.user import User
 from app.schemas.compliance import ComplianceCheckResponse
 from app.services.compliance_service import ComplianceService
@@ -33,6 +33,7 @@ async def run_compliance(
     background_tasks: BackgroundTasks,
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user),
+    _: None = Depends(verify_workspace_ownership),
 ) -> dict:
     checks = await ComplianceService.run_checks(db, workspace_id)
     # AI evaluation runs asynchronously — one LLM call per SEBI regulation
@@ -64,6 +65,7 @@ async def list_compliance_checks(
     workspace_id: str,
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user),
+    _: None = Depends(verify_workspace_ownership),
 ) -> list[ComplianceCheckResponse]:
     checks = await ComplianceService.get_checks(db, workspace_id)
     return checks  # type: ignore[return-value]

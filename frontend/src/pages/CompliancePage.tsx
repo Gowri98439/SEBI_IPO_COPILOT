@@ -1,6 +1,7 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { ShieldCheck, ShieldAlert, AlertTriangle, ChevronDown, ChevronUp, RefreshCw, BookOpen } from 'lucide-react';
+import toast from 'react-hot-toast';
 import api from '../api/client';
 
 interface EvidencePayload {
@@ -48,8 +49,17 @@ const CompliancePage: React.FC = () => {
   const [checks, setChecks] = useState<ComplianceCheck[]>([]);
   const [loading, setLoading] = useState(true);
   const [running, setRunning] = useState(false);
+  const [statusMsg, setStatusMsg] = useState<string>('');
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [filter, setFilter] = useState<'all' | 'pass' | 'fail' | 'warning'>('all');
+  const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Cleanup on unmount to prevent memory leaks
+  useEffect(() => () => {
+    if (pollRef.current) clearInterval(pollRef.current);
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+  }, []);
 
   const fetchChecks = useCallback(async () => {
     if (!workspaceId) return;
@@ -64,18 +74,31 @@ const CompliancePage: React.FC = () => {
 
   const runCompliance = async () => {
     setRunning(true);
+    setStatusMsg('Starting compliance check…');
     try {
       await api.post(`/workspaces/${workspaceId}/compliance/run`);
-      // Poll every 3 seconds for up to 90 seconds
+      setStatusMsg('Compliance check running — checking SEBI rules…');
       let attempts = 0;
-      const poll = setInterval(async () => {
+      pollRef.current = setInterval(async () => {
         attempts++;
         await fetchChecks();
-        if (attempts >= 30) clearInterval(poll);
+        if (attempts >= 30) {
+          if (pollRef.current) clearInterval(pollRef.current);
+        }
       }, 3000);
-      setTimeout(() => { clearInterval(poll); setRunning(false); }, 95000);
+      timeoutRef.current = setTimeout(() => {
+        if (pollRef.current) clearInterval(pollRef.current);
+        setRunning(false);
+        setStatusMsg('Compliance check timed out. Please re-run.');
+        toast('Compliance check timed out after 90 seconds. Results may be partial.', {
+          icon: '⚠️',
+          duration: 6000,
+        });
+      }, 95000);
     } catch {
       setRunning(false);
+      setStatusMsg('Failed to start compliance check.');
+      toast.error('Failed to start compliance check. Please try again.');
     }
   };
 
@@ -95,6 +118,11 @@ const CompliancePage: React.FC = () => {
 
   return (
     <div>
+      {/* aria-live region for screen readers — announces async status changes */}
+      <div aria-live="polite" aria-atomic="true" className="sr-only" style={{ position: 'absolute', left: '-9999px', top: 'auto', width: '1px', height: '1px', overflow: 'hidden' }}>
+        {statusMsg}
+      </div>
+
       {/* Header */}
       <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
         <div>

@@ -6,7 +6,7 @@ from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import get_db
-from app.middleware.auth_middleware import get_current_user
+from app.middleware.auth_middleware import get_current_user, verify_workspace_ownership
 from app.models.compliance_check import ComplianceCheck
 from app.models.document import Document
 from app.models.review import DraftReview, ReviewTask
@@ -22,6 +22,7 @@ async def get_dashboard(
     workspace_id: str,
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user),
+    _: None = Depends(verify_workspace_ownership),
 ) -> dict[str, Any]:
     ws_uuid = workspace_id
 
@@ -139,6 +140,7 @@ async def get_readiness_history(
     workspace_id: str,
     db: AsyncSession = Depends(get_db),
     current_user: User = Depends(get_current_user),
+    _: None = Depends(verify_workspace_ownership),
 ) -> list[dict[str, Any]]:
     # Generate a realistic trend leading up to today's readiness score.
     # In a fully deployed system, this would query a daily snapshot table.

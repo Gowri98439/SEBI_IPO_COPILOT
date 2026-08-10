@@ -65,6 +65,16 @@ async def run_document_validation_task(
 
             from app.utils.file_storage import get_file_path
             abs_file_path = get_file_path(file_path)
+            
+            # Phase 2: Document Intelligence Engine -> Indexing
+            from app.ai.document_indexer import index_workspace_document
+            await index_workspace_document(
+                file_path=abs_file_path,
+                document_id=str(document.id),
+                workspace_id=str(document.workspace_id),
+                doc_type=doc_type or "other",
+                company_id="unknown" # Can be updated if company linkage is available later
+            )
 
             # Run AI validation pipeline (returns dict with issues, missing_info, summary)
             result = await validate_document(
@@ -167,40 +177,53 @@ async def run_compliance_checks_task(workspace_id: str) -> None:
             # Call the concurrent function passing the workspace_id
             batch_results = await run_all_compliance_checks(workspace_id)
             
+            from app.models.enterprise import ComplianceFinding
+            from app.ai.evidence_engine import EvidenceEngine
+
             for check_result in batch_results:
                 reg_id = check_result["check_id"]
                 try:
-                    # Upsert: check_type = regulation id, regulation = regulation name
-                    existing_stmt = select(ComplianceCheck).where(
-                        ComplianceCheck.workspace_id == workspace_id,
-                        ComplianceCheck.check_type == reg_id,
+                    # 1. Generate Evidence Record first
+                    # "source" may look like "File: DRHP.pdf, Page: 4"
+                    # "regulation_version" came from the RAG query
+                    evidence_record = await EvidenceEngine.generate_evidence(
+                        db=session,
+                        workspace_id=workspace_id,
+                        claim_text=check_result["ai_reasoning"],
+                        source_text=check_result.get("evidence", ""),
+                        source_document_id=None, # Can map if exact document is known
+                        page_number=check_result.get("source", ""),
+                        section_name=None,
+                        regulation_id=check_result.get("regulation_reference", reg_id),
+                        ai_model="gpt-4o-mini",
+                        is_synthetic=False
+                    )
+
+                    # 2. Upsert Compliance Finding
+                    existing_stmt = select(ComplianceFinding).where(
+                        ComplianceFinding.workspace_id == workspace_id,
+                        ComplianceFinding.rule_id == reg_id,
                     )
                     existing_result = await session.execute(existing_stmt)
                     existing_check = existing_result.scalars().first()
 
-                    # evidence: store as dict with reasoning and suggestions
-                    evidence_payload = {
-                        "evidence": check_result.get("evidence", ""),
-                        "confidence": check_result.get("confidence", "strong"),
-                        "regulation_reference": check_result.get("regulation_reference", ""),
-                        "suggestions": check_result.get("suggestions", []),
-                        "category": check_result.get("category", "general"),
-                        "severity": check_result.get("severity", "medium"),
-                        "source": check_result.get("source", ""),
-                    }
-
                     if existing_check:
                         existing_check.status = check_result["status"]
-                        existing_check.evidence = evidence_payload  # type: ignore
-                        existing_check.ai_reasoning = check_result["ai_reasoning"]
+                        existing_check.evidence_id = evidence_record.id
+                        existing_check.reasoning = check_result["ai_reasoning"]
+                        existing_check.confidence = 0.9 if check_result.get("confidence") == "strong" else 0.5
                     else:
-                        new_check = ComplianceCheck(
+                        new_check = ComplianceFinding(
                             workspace_id=workspace_id,
-                            check_type=reg_id,
+                            rule_id=reg_id,
                             regulation=check_result["regulation_name"],
+                            requirement=check_result.get("regulation_name", ""),
                             status=check_result["status"],
-                            evidence=evidence_payload,
-                            ai_reasoning=check_result["ai_reasoning"],
+                            evidence_id=evidence_record.id,
+                            page=check_result.get("source", ""),
+                            reasoning=check_result["ai_reasoning"],
+                            confidence=0.9 if check_result.get("confidence") == "strong" else 0.5,
+                            review_requirement=True if check_result["status"] in ("fail", "warning") else False
                         )
                         session.add(new_check)
 
@@ -223,7 +246,7 @@ async def run_compliance_checks_task(workspace_id: str) -> None:
                             session.add(new_task)
 
                     await session.commit()
-                    logger.info("[compliance_task] %s — %s: %s", workspace_id, reg_id, check_result["status"])
+                    logger.info("[compliance_task] %s — %s: %s (Evidence: %s)", workspace_id, reg_id, check_result["status"], evidence_record.id)
 
                 except Exception as exc:
                     logger.error("[compliance_task] Saving check %s failed: %s", reg_id, exc, exc_info=True)

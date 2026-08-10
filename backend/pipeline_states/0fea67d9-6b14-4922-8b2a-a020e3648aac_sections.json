@@ -1,0 +1,926 @@
+{
+  "cover_page": {
+    "section_id": "cover_page",
+    "title": "Cover Page",
+    "content": "COVER PAGE\n\nThis section of the DRHP covers cover page for BASKARA.\n\n[MISSING: Detailed content for 'Cover Page' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_cover_page"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "disclaimer": {
+    "section_id": "disclaimer",
+    "title": "Important Disclaimer",
+    "content": "IMPORTANT DISCLAIMER\n\nThis section of the DRHP covers important disclaimer for BASKARA.\n\n[MISSING: Detailed content for 'Important Disclaimer' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_disclaimer"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "toc": {
+    "section_id": "toc",
+    "title": "Table of Contents",
+    "content": "TABLE OF CONTENTS\n\nThis section of the DRHP covers table of contents for BASKARA.\n\n[MISSING: Detailed content for 'Table of Contents' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_toc"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "definitions": {
+    "section_id": "definitions",
+    "title": "Definitions and Abbreviations",
+    "content": "DEFINITIONS AND ABBREVIATIONS\n\nThis section of the DRHP covers definitions and abbreviations for BASKARA.\n\n[MISSING: Detailed content for 'Definitions and Abbreviations' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_definitions"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "forward_looking": {
+    "section_id": "forward_looking",
+    "title": "Forward Looking Statements",
+    "content": "FORWARD LOOKING STATEMENTS\n\nThis Draft Red Herring Prospectus contains certain \"forward-looking statements.\" These forward-looking statements \ngenerally can be identified by words or phrases such as \"aim\", \"anticipate\", \"believe\", \"expect\", \"estimate\", \n\"intend\", \"objective\", \"plan\", \"project\", \"shall\", \"will\", \"will continue\", \"will pursue\" or other words or \nphrases of similar import.\n\nAll forward-looking statements are subject to risks, uncertainties and assumptions about BASKARA that could \ncause actual results to differ materially from those contemplated by the relevant forward-looking statement.\n\nImportant factors that could cause actual results to differ materially from the Company's expectations include, \nbut are not limited to:\n\u2022 General economic and business conditions in India and globally;\n\u2022 The Company's ability to successfully implement its growth strategy;\n\u2022 Changes in the competitive landscape in the  sector;\n\u2022 Changes in laws and regulations that apply to the Company's business;\n\u2022 Changes in political and social conditions in India;\n\u2022 The occurrence of natural disasters, acts of terrorism or other events;\n\u2022 The ability to attract and retain key personnel.\n\nNeither the Company nor the Lead Manager, nor any of their respective affiliates have any obligation to update \nor otherwise revise any statements reflecting circumstances arising after the date hereof or to reflect the \noccurrence of underlying events, even if the underlying assumptions do not come to fruition.\n",
+    "citations": [
+      {
+        "type": "regulatory",
+        "ref": "SEBI ICDR Regulations 2018, Schedule VI, Part A"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "issue_summary": {
+    "section_id": "issue_summary",
+    "title": "Issue Summary",
+    "content": "ISSUE SUMMARY\n\nThis section of the DRHP covers issue summary for BASKARA.\n\n[MISSING: Detailed content for 'Issue Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_issue_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "risk_factors": {
+    "section_id": "risk_factors",
+    "title": "Risk Factors",
+    "content": "RISK FACTORS\n\nInvestment in equity shares involves a degree of risk. Investors should carefully read all risk factors \nbefore taking an investment decision. Additional risks not currently known may also materially impair \nthe Company's business, financial condition, and results of operations.\n\n**1. Limited Operating History Risk**\nBASKARA was incorporated on . Our limited operating history makes it difficult to assess future performance.\n\n**2. Sector-Specific Competition Risk**\nThe  sector is highly competitive. We face competition from larger, better-capitalised entities with greater market reach.\n\n**3. Working Capital Risk**\nOur business requires continuous working capital deployment. Delays in receivables or unforeseen capital requirements may impact liquidity.\n\n**4. Key Personnel Risk**\nOur success depends on senior management retention. Loss of key personnel may adversely affect our business.\n\n**5. Regulatory Compliance Risk**\nOur  business is subject to central and state government regulations. Changes in applicable laws could adversely impact operations.\n\n**6. No Prior Public Market Risk**\nThere is no prior public market for our equity shares. The Issue price may not be indicative of the post-listing trading price.\n\n**7. Promoter Lock-in Risk**\nPromoter shares are subject to SEBI-mandated lock-in for 3 years. Post lock-in exit by promoters may create downward price pressure.\n\n**8. General Economic Risk**\nOur financial performance is linked to overall economic conditions in India and globally. Economic \ndownturns, inflationary pressures, interest rate changes, and foreign exchange fluctuations could \nadversely affect our business.\n\n**9. Geopolitical and Force Majeure Risk**\nUnforeseen events including natural disasters, pandemics, geopolitical tensions, and social unrest \ncould disrupt supply chains, reduce consumer demand, and adversely impact results.\n\nNote: The above risk factors are based on information provided and general sector knowledge. \nCompany-specific risk factors based on uploaded documents and detailed business information \nshould be added by the legal team and merchant banker before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "customer_concentration_data"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.75,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "hybrid",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "business_overview": {
+    "section_id": "business_overview",
+    "title": "Business Overview",
+    "content": "**OUR BUSINESS**\n\n**Introduction**\n\nBaskara, a company incorporated in [MISSING: incorporation date], is engaged in [MISSING: business description]. Our Company is part of the [MISSING: sector] industry, specifically in the [MISSING: sub-sector] segment.\n\n**Overview of Our Business**\n\nOur Company's primary objective is to [MISSING: business objective]. We aim to achieve this through [MISSING: key strategies]. Our operations are currently focused on [MISSING: geographies], with plans to expand into new markets in the future.\n\n**Products/Services**\n\nWe offer a range of [MISSING: key products/services] to our customers. These products/services are designed to [MISSING: product/service description] and cater to the needs of [MISSING: target market].\n\n**Certifications and Compliance**\n\nOur Company has obtained [MISSING: certifications] and complies with all applicable laws and regulations, including [MISSING: relevant regulations].\n\n**Management and Employees**\n\nOur Company is led by [MISSING: promoter name], who holds [MISSING: percentage] of the equity share capital. We have a team of [MISSING: number] employees, who are responsible for the day-to-day operations of the Company.\n\n**Financial Performance**\n\nOur Company's financial performance for the last three fiscal years is as follows:\n\n| Year | Revenue (\u20b9 Lakhs) | PAT (\u20b9 Lakhs) | EBITDA (\u20b9 Lakhs) | Total Assets (\u20b9 Lakhs) | Equity (\u20b9 Lakhs) |\n| --- | --- | --- | --- | --- | --- |\n| 2021-22 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n| 2022-23 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n| 2023-24 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n\n**Issue Details**\n\nOur Company is proposing to issue [MISSING: issue size] of equity shares, with a face value of \u20b910 each, in the price band of \u20b9100 to \u20b9120 per equity share. The issue consists of a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The objects of the issue are [MISSING: objects of issue].\n\n**Lead Manager and Statutory Auditor**\n\nThe lead manager to the issue is Alpha. Our Company's statutory auditor is [MISSING: statutory auditor].\n\n**Website and Registered Address**\n\nOur Company's registered address is [MISSING: registered address]. Our website is [MISSING: website].\n\n**Reservation in Issue**\n\nAs per SEBI ICDR Regulations, at least 50% of the net offer is reserved for retail individual investors, with the remaining net offer available to non-institutional investors and qualified institutional buyers. A specified portion is reserved for market makers. The typical structure is 50% RII + 50% NII/QIB.\n\n**XBRL Reporting and SEBI PRISM System**\n\nOur Company will file its financial data in XBRL format, as per the MCA-21 Extended Taxonomy, in addition to the PDF format. The issue document will be filed through SEBI's PRISM system, as required by SEBI regulations.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. SEBI PRISM SYSTEM:\nAll SME IPO offer documents must now be filed through SEBI's PRISM (Portal for Risk-based Internal Monitoring) system. Paper filings are no longer accepted as of October 1, 20"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "incorporation date",
+      "business description",
+      "sector",
+      "sub-sector",
+      "business objective",
+      "key strategies",
+      "geographies",
+      "key products/services",
+      "product/service description",
+      "target market",
+      "certifications",
+      "relevant regulations",
+      "promoter name",
+      "percentage",
+      "number",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "issue size",
+      "objects of issue",
+      "statutory auditor",
+      "registered address",
+      "website"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3353.374199999962
+  },
+  "business_model": {
+    "section_id": "business_model",
+    "title": "Business Model",
+    "content": "## Business Model\n\n### Introduction\nOur company, BASKARA, is [MISSING: sector] company incorporated in [MISSING: incorporation date]. The company's business model is designed to [MISSING: business description].\n\n### Key Products/Services\nThe company's key products/services are [MISSING: key products/services]. These products/services are [MISSING: description of key products/services and their significance to the company's business model].\n\n### Geographies\nThe company operates in [MISSING: geographies]. Our presence in these geographies enables us to [MISSING: description of how the company's presence in these geographies contributes to its business model].\n\n### Certifications\nThe company holds [MISSING: certifications]. These certifications are [MISSING: description of the significance of these certifications to the company's business model].\n\n### Revenue Streams\nThe company generates revenue through [MISSING: revenue streams]. Our revenue streams are [MISSING: description of how the company's revenue streams contribute to its business model].\n\n### Key Activities\nThe company's key activities include [MISSING: key activities]. These activities are essential to [MISSING: description of how these activities contribute to the company's business model].\n\n### Key Resources\nThe company's key resources include [MISSING: key resources]. These resources are [MISSING: description of how these resources contribute to the company's business model].\n\n### Value Proposition\nThe company's value proposition is [MISSING: value proposition]. Our value proposition is designed to [MISSING: description of how the company's value proposition contributes to its business model].\n\n### Customer Relationships\nThe company's customer relationships are [MISSING: customer relationships]. We maintain these relationships through [MISSING: description of how the company maintains its customer relationships].\n\n### Channels\nThe company uses [MISSING: channels] to reach its customers. These channels are [MISSING: description of how the company's channels contribute to its business model].\n\n### Cost Structure\nThe company's cost structure includes [MISSING: cost structure]. Our costs are [MISSING: description of how the company's costs contribute to its business model].\n\n### Key Partners\nThe company's key partners are [MISSING: key partners]. These partners are [MISSING: description of how the company's key partners contribute to its business model].\n\nAs required by the SEBI ICDR Regulations, we have disclosed our business model in accordance with the regulatory requirements. However, due to the lack of available information, certain details regarding our business model are [MISSING: description of missing information]. We will continue to operate and disclose our business model in compliance with the applicable regulations.\n\nIn accordance with the SEBI PRISM system and XBRL reporting requirements, our financial data is filed in XBRL format and is available on the SEBI website. Our statutory auditor is [MISSING: statutory auditor]. \n\nThe company's financial performance for the last three years is as follows:\n- 2021-22: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA [MISSING: EBITDA], Total Assets \u20b90.00L, Equity \u20b90.00L\n- 2022-23: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA [MISSING: EBITDA], Total Assets \u20b90.00L, Equity \u20b90.00L\n- 2023-24: Revenue \u20b90.00L, PAT \u20b90.00L, EBITDA [MISSING: EBITDA], Total Assets \u20b90.00L, Equity \u20b90.00L\n\nThe objects of the issue are [MISSING: objects of issue]. The issue size is \u20b950.00 Crore, consisting of a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The price band is \u20b9100 \u2013 \u20b9120, and the face value is \u20b910. The lead manager for the issue is Alpha.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "sector",
+      "incorporation date",
+      "business description",
+      "key products/services",
+      "description of key products/services and their significance to the company's business model",
+      "geographies",
+      "description of how the company's presence in these geographies contributes to its business model",
+      "certifications",
+      "description of the significance of these certifications to the company's business model",
+      "revenue streams",
+      "description of how the company's revenue streams contribute to its business model",
+      "key activities",
+      "description of how these activities contribute to the company's business model",
+      "key resources",
+      "description of how these resources contribute to the company's business model",
+      "value proposition",
+      "description of how the company's value proposition contributes to its business model",
+      "customer relationships",
+      "description of how the company maintains its customer relationships",
+      "channels",
+      "description of how the company's channels contribute to its business model",
+      "cost structure",
+      "description of how the company's costs contribute to its business model",
+      "key partners",
+      "description of how the company's key partners contribute to its business model",
+      "description of missing information",
+      "statutory auditor",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "objects of issue"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3228.2290999992256
+  },
+  "competitive_strengths": {
+    "section_id": "competitive_strengths",
+    "title": "Competitive Strengths",
+    "content": "## Competitive Strengths\n\nOur Company, BASKARA, aims to leverage its strengths to achieve its business objectives. However, due to the limited information available, we are unable to provide a comprehensive overview of our competitive strengths.\n\n### Established Track Record\n\nWe are [MISSING: incorporated date] and have been operating in the [MISSING: sector/sub-sector] industry. However, we do not have any revenue or profit to report for the past three financial years (2021-22, 2022-23, and 2023-24), with revenue and PAT of \u20b90.00L for each year.\n\n### Experienced Promoter and Management Team\n\nOur promoter is [MISSING: promoter name], with [MISSING: years of industry experience] years of experience in the industry. However, we do not have any information on the management team's experience.\n\n### Quality Certifications\n\nWe do not have any information on quality certifications such as ISO, BIS, FSSAI, GMP, etc.\n\n### Geographically Diversified Operations/Distribution\n\nWe do not have any information on our geographically diversified operations or distribution.\n\n### Strong Backward Integration / Forward Integration\n\nWe do not have any information on our backward or forward integration.\n\n### Asset-Light / Capital-Efficient\n\nWe have total assets of \u20b90.00L as of the last three financial years (2021-22, 2022-23, and 2023-24), indicating a minimal asset base. However, we do not have any information on our capital efficiency.\n\n### Business Overview\n\nOur business description is [MISSING: business description]. We do not have any information on our key products/services, key raw materials and suppliers, key customers, or marketing strategy.\n\n### Industry Overview\n\nWe operate in the [MISSING: sector/sub-sector] industry. However, we do not have any statistical data or information on the industry overview.\n\nIn conclusion, due to the limited information available, we are unable to provide a comprehensive overview of our competitive strengths. We will strive to develop and leverage our strengths to achieve our business objectives.\n\n## Disclosure\n\nWe disclose that the information provided in this section is limited due to the unavailability of certain data. We will ensure that all necessary information is disclosed in accordance with the SEBI ICDR regulations. \n\nNote: The above section is generated based on the provided company data and SEBI regulatory requirements. The company should ensure that all necessary information is disclosed in accordance with the SEBI ICDR regulations.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1.2 COMPETITIVE STRENGTHS (STANDARD SECTIONS):\n(a) Established track record with diversified customer base;\n(b) Experienced promoter and management team with [X] years of industry experience;\n(c) Q"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "incorporated date",
+      "sector/sub-sector",
+      "promoter name",
+      "years of industry experience",
+      "business description",
+      "sector/sub-sector"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3000.8316000003106
+  },
+  "strategies": {
+    "section_id": "strategies",
+    "title": "Business Strategies",
+    "content": "## Business Strategies\n\n### Introduction\nOur company, BASKARA, is [MISSING: sector] company with [MISSING: sub-sector] focus. The following business strategies have been devised to achieve our objectives and create long-term value for our stakeholders.\n\n### Key Business Strategies\nGiven the limited information available, our key business strategies will focus on the following areas:\n\n1. **Market Development**: We aim to [MISSING: description of market development strategy] in [MISSING: geographies] to increase our presence and revenue.\n2. **Product/Service Enhancement**: We intend to [MISSING: description of product/service enhancement strategy] to improve our [MISSING: key products/services] and increase customer satisfaction.\n3. **Operational Efficiency**: We will strive to [MISSING: description of operational efficiency strategy] to reduce costs and improve profitability.\n\n### Competitive Strategy\nOur competitive strategy will be based on [MISSING: description of competitive strategy], which will enable us to differentiate ourselves from our competitors and establish a strong market presence.\n\n### Growth Strategy\nOur growth strategy will focus on [MISSING: description of growth strategy], which will enable us to increase our revenue and market share.\n\n### Risk Management\nWe have identified [MISSING: description of risks] as key risks to our business and will implement [MISSING: description of risk management strategy] to mitigate these risks.\n\n### Regulatory Compliance\nWe will ensure compliance with all applicable laws and regulations, including the SEBI ICDR Regulations, 2018, and other relevant regulations.\n\n### Objectives of the Issue\nThe proceeds of the issue will be utilized to [MISSING: objects of issue, other than \"test\"]. The issue size is \u20b950.00 Crore, consisting of a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore.\n\n### Conclusion\nOur business strategies are designed to achieve our objectives and create long-term value for our stakeholders. We believe that our strategies will enable us to establish a strong market presence, increase our revenue and profitability, and achieve our growth objectives.\n\n### SEBI Disclosures\nAs required by the SEBI ICDR Regulations, 2018, we disclose that:\n\n* At least 50% of the net offer is reserved for retail individual investors.\n* The remaining net offer is available to non-institutional investors and QIBs.\n* A specified portion is reserved for market maker.\n* The typical structure of the issue is 50% RII + 50% NII/QIB.\n\nWe confirm that we have complied with all applicable laws and regulations, including the SEBI ICDR Regulations, 2018, and other relevant regulations.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "sector",
+      "sub-sector",
+      "description of market development strategy",
+      "geographies",
+      "description of product/service enhancement strategy",
+      "key products/services",
+      "description of operational efficiency strategy",
+      "description of competitive strategy",
+      "description of growth strategy",
+      "description of risks",
+      "description of risk management strategy",
+      "objects of issue, other than \"test\""
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2960.1844000007986
+  },
+  "industry_overview": {
+    "section_id": "industry_overview",
+    "title": "Industry Overview",
+    "content": "## Industry Overview\n\nThe Indian economy has been witnessing significant growth across various sectors. However, due to the lack of specific information regarding the sub-sector in which Baskara operates, a detailed analysis of the industry trends and outlook for the specific sub-sector cannot be provided.\n\n### Introduction to the Sector\n\nBaskara is incorporated in [MISSING: incorporation date] and operates in the [MISSING: sector] sector. The company's business description is [MISSING: business description]. Given the absence of detailed information about the company's operations, products, or services, it is challenging to provide a comprehensive overview of the industry in which Baskara operates.\n\n### Market Trends and Outlook\n\nMarket trends and outlook for the [MISSING: sub-sector] in which Baskara operates are not available due to the lack of specific information about the company's sub-sector. Typically, an analysis of market trends would include discussions on growth drivers, challenges, and future prospects. However, without specific details about Baskara's sub-sector, such an analysis cannot be accurately provided.\n\n### Regulatory Environment\n\nThe regulatory environment for companies operating in India is governed by various laws and regulations, including those related to corporate governance, environmental protection, labor laws, and tax laws. The Securities and Exchange Board of India (SEBI) plays a crucial role in regulating the securities market. However, the specific regulatory requirements for the [MISSING: sub-sector] in which Baskara operates are not detailed due to the absence of information about the company's sub-sector.\n\n### Competitive Landscape\n\nThe competitive landscape of the [MISSING: sub-sector] in which Baskara operates cannot be determined without specific information about the company's products or services and the geographies in which it operates. Typically, an analysis of the competitive landscape would include an overview of key players, market share, and competitive strategies. However, such information is not available for Baskara due to the lack of detailed company data.\n\n### Conclusion\n\nIn conclusion, while Baskara is seeking to raise funds through an initial public offering (IPO), the lack of specific information about its sub-sector, products or services, geographies, and other key aspects of its business operations limits the ability to provide a comprehensive industry overview. The company's financial performance, as disclosed, shows revenues and profits of \u20b90.00L for the years 2021-22, 2022-23, and 2023-24, indicating a need for further investment to grow its operations. However, without more detailed information, it is challenging to assess the company's position within its industry or the industry's outlook and trends.\n\n### SEBI Disclosures\n\nAs per SEBI ICDR Regulations, the issue size is \u20b950.00 Crore, with a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The price band for the issue is \u20b9100 to \u20b9120, with a face value of \u20b910 per share. The objects of the issue are [MISSING: detailed objects of the issue, mentioned as \"test\" in the provided data]. The lead manager for the issue is Alpha. At least 50% of the net offer is reserved for retail individual investors, with the remaining net offer available to non-institutional investors and Qualified Institutional Buyers (QIBs), and a specified portion reserved for the market maker, in accordance with SEBI regulations.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "incorporation date",
+      "sector",
+      "business description",
+      "sub-sector",
+      "sub-sector",
+      "sub-sector",
+      "detailed objects of the issue, mentioned as \"test\" in the provided data"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3621.65289999939
+  },
+  "market_opportunity": {
+    "section_id": "market_opportunity",
+    "title": "Market Opportunity",
+    "content": "## Market Opportunity\n\n### Introduction\nBaskara, with its incorporation details and registered address as [MISSING: incorporation date] and [MISSING: registered address] respectively, is poised to capitalize on the market opportunities present in its sector. However, due to the lack of specific information regarding the sub-sector, key products/services, geographies, and certifications, a detailed analysis of the market opportunity is challenging.\n\n### Industry Overview\nThe [MISSING: sector] sector, in which Baskara operates, is [MISSING: description of the sector's current state and trends]. Given the absence of specific data on Baskara's sub-sector, it is difficult to provide a precise overview of the industry dynamics and trends that the company is likely to encounter.\n\n### Market Size and Growth Prospects\nThe market size and growth prospects for Baskara's [MISSING: key products/services] are [MISSING: market size and growth prospects]. Without specific financial data, such as revenue figures from previous years, it is challenging to assess the company's current market position and potential for growth.\n\n### Competitive Landscape\nThe competitive landscape in Baskara's [MISSING: sub-sector] is [MISSING: description of the competitive landscape]. Key competitors, market share, and the company's competitive advantage are crucial pieces of information that are currently unavailable.\n\n### Market Trends\nMarket trends in the [MISSING: sector] sector include [MISSING: trends]. Understanding these trends is essential for Baskara to position itself strategically and capitalize on emerging opportunities.\n\n### Regulatory Environment\nThe regulatory environment for Baskara's sector is governed by [MISSING: relevant regulations and policies]. Compliance with these regulations is crucial for the company's operations and growth.\n\n### Growth Drivers\nThe growth drivers for Baskara include [MISSING: growth drivers]. These could be related to market demand, technological advancements, government initiatives, or other factors specific to the company's operations.\n\n### Challenges\nThe challenges facing Baskara in its market include [MISSING: challenges]. Addressing these challenges will be critical for the company's success and ability to capitalize on the market opportunity.\n\n### Conclusion\nIn conclusion, while Baskara is seeking to raise \u20b950.00 Crore through its initial public offering, with \u20b925.00 Crore being a fresh issue and \u20b925.00 Crore through an offer for sale, the lack of detailed information about its operations, sector, and market makes it difficult to fully assess the market opportunity. The company's ability to capitalize on this opportunity will depend on its strategic positioning, competitive advantage, and ability to navigate the regulatory and competitive landscape.\n\n### Reservation in Issue\nAs per SEBI ICDR Regulations, the issue will be reserved as follows: at least 50% of the net offer will be reserved for retail individual investors, with the remaining net offer available to non-institutional investors and Qualified Institutional Buyers (QIBs). A specified portion will also be reserved for the market maker, in line with typical structures that allocate 50% to retail individual investors and 50% to non-institutional investors and QIBs.\n\n### Objects of the Issue\nThe objects of the issue, as stated, are for \"test\" purposes. However, the specific utilization of the funds raised through the fresh issue of \u20b925.00 Crore is [MISSING: detailed objects of the issue]. The offer for sale of \u20b925.00 Crore will not accrue to the company, as it is being offered by existing shareholders.\n\n### Lead Manager\nThe lead manager for this issue is Alpha, which will oversee the process to ensure compliance with SEBI regulations and facilitate a successful public offering.\n\nGiven the constraints of missing information, this section highlights the importance of detailed company data in assessing market opportunities and the potential for growth. Baskara's future success will depend on its ability to navigate its market sector effectively, capitalize on growth drivers, and address the challenges it faces.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 4.4 Reservation in Issue\nAs per SEBI ICDR Regulations:\n- At least 50% of the net offer is reserved for retail individual investors\n- The remaining net offer is available to non-institutional invest"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "incorporation date",
+      "registered address",
+      "sector",
+      "description of the sector's current state and trends",
+      "key products/services",
+      "market size and growth prospects",
+      "sub-sector",
+      "description of the competitive landscape",
+      "sector",
+      "trends",
+      "relevant regulations and policies",
+      "growth drivers",
+      "challenges",
+      "detailed objects of the issue"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 4310.664499998893
+  },
+  "competition": {
+    "section_id": "competition",
+    "title": "Competition",
+    "content": "## Competition\n\nThe Company operates in a sector where [MISSING: sector description] and sub-sector [MISSING: sub-sector description]. The competitive landscape of this sector is characterized by [MISSING: description of competitive landscape].\n\n### Market Structure\n\nThe market structure of the sector in which the Company operates is [MISSING: market structure description]. The key players in this sector are [MISSING: key players description]. The Company's position within this market structure is [MISSING: company position description].\n\n### Competitive Factors\n\nThe competitive factors that affect the Company's business include [MISSING: competitive factors description]. The Company competes with other companies on the basis of [MISSING: basis of competition description].\n\n### Competitors\n\nThe Company's main competitors are [MISSING: competitors description]. These competitors have [MISSING: competitor strengths and weaknesses description]. The Company's competitive strengths and weaknesses in relation to these competitors are [MISSING: company competitive strengths and weaknesses description].\n\n### Barriers to Entry\n\nThe barriers to entry in the sector in which the Company operates are [MISSING: barriers to entry description]. These barriers include [MISSING: specific barriers description]. The Company's ability to overcome these barriers is [MISSING: company ability to overcome barriers description].\n\n### Regulatory Environment\n\nThe regulatory environment in which the Company operates is governed by [MISSING: regulatory framework description]. The Company is subject to [MISSING: specific regulations description]. The impact of these regulations on the Company's business is [MISSING: impact of regulations description].\n\nAs per SEBI ICDR Regulations, 2018, the Company is required to disclose all material information that may impact the investment decision of the investors. The Company has made all efforts to provide accurate and complete information about its competitive landscape, market structure, and regulatory environment. However, due to [MISSING: reason for missing information], certain information is not available.\n\nIn accordance with the SEBI ICDR Regulations, 2018, the Company hereby discloses that it has complied with all applicable regulations and has made all necessary disclosures. The Company's management believes that the information provided in this section is accurate and complete to the best of their knowledge and belief.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "sector description",
+      "sub-sector description",
+      "description of competitive landscape",
+      "market structure description",
+      "key players description",
+      "company position description",
+      "competitive factors description",
+      "basis of competition description",
+      "competitors description",
+      "competitor strengths and weaknesses description",
+      "company competitive strengths and weaknesses description",
+      "barriers to entry description",
+      "specific barriers description",
+      "company ability to overcome barriers description",
+      "regulatory framework description",
+      "specific regulations description",
+      "impact of regulations description",
+      "reason for missing information"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2728.1184000003122
+  },
+  "corporate_structure": {
+    "section_id": "corporate_structure",
+    "title": "Corporate Structure",
+    "content": "CORPORATE STRUCTURE\n\nThis section of the DRHP covers corporate structure for BASKARA.\n\n[MISSING: Detailed content for 'Corporate Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "promoters": {
+    "section_id": "promoters",
+    "title": "Promoters and Promoter Group",
+    "content": "PROMOTERS AND PROMOTER GROUP\n\nThis section of the DRHP covers promoters and promoter group for BASKARA.\n\n[MISSING: Detailed content for 'Promoters and Promoter Group' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_promoters"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "directors": {
+    "section_id": "directors",
+    "title": "Board of Directors and Key Management",
+    "content": "BOARD OF DIRECTORS AND KEY MANAGEMENT\n\nThis section of the DRHP covers board of directors and key management for BASKARA.\n\n[MISSING: Detailed content for 'Board of Directors and Key Management' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_directors"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "mda": {
+    "section_id": "mda",
+    "title": "Management Discussion and Analysis",
+    "content": "**Management Discussion and Analysis**\n\nAs required by the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018, the following discussion and analysis of the financial condition and results of operations of Baskara (the \"Company\") should be read in conjunction with the financial statements and notes thereto.\n\n### Introduction\n\nThe Company was incorporated as [MISSING: Incorporation details]. The Registered Address of the Company is [MISSING: Registered Address]. The Company's website is [MISSING: Website]. The Company operates in the [MISSING: Sector] sector, specifically in the [MISSING: Sub-sector] sub-sector.\n\n### Business Overview\n\nThe Company's business description is [MISSING: Business Description]. The Company's key products/services are [MISSING: Key Products/Services]. The Company operates in [MISSING: Geographies] geographies. The Company has obtained [MISSING: Certifications] certifications.\n\n### Financial Performance\n\nThe Company's financial performance for the last three financial years is as follows:\n\n| Year | Revenue (\u20b9 Lakhs) | PAT (\u20b9 Lakhs) | EBITDA (\u20b9 Lakhs) | Total Assets (\u20b9 Lakhs) | Equity (\u20b9 Lakhs) |\n| --- | --- | --- | --- | --- | --- |\n| 2021-22 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n| 2022-23 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n| 2023-24 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n\nThe Company's revenue, profit after tax (PAT), and earnings before interest, taxes, depreciation, and amortization (EBITDA) have been [MISSING: Trend analysis] over the last three financial years.\n\n### Objects of the Issue\n\nThe Company is proposing to raise \u20b950.00 Crore through the issue of equity shares, consisting of a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The objects of the issue are [MISSING: Objects of Issue, except \"test\"].\n\n### Industry and Market\n\nThe Company operates in the [MISSING: Sector] sector, which is [MISSING: Industry trends]. The market for the Company's products/services is [MISSING: Market trends].\n\n### Outlook\n\nThe Company's future outlook is [MISSING: Future outlook]. The Company's strategy for achieving its goals is [MISSING: Business strategy].\n\n### Risk Management\n\nThe Company is exposed to various risks, including [MISSING: Risk factors]. The Company has implemented [MISSING: Risk management policies] to mitigate these risks.\n\n### Internal Control Systems\n\nThe Company has established internal control systems, including [MISSING: Internal control systems]. The Company's internal control systems are designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements.\n\n### Auditors\n\nThe Company's statutory auditor is [MISSING: Statutory Auditor].\n\n### Conclusion\n\nIn conclusion, the Company's financial condition and results of operations are [MISSING: Conclusion]. The Company's management is [MISSING: Management's discussion] about the Company's future prospects.\n\nThis Management Discussion and Analysis has been prepared in accordance with the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018, and is based on the financial statements and other data available to the Company. The Company's management is responsible for the preparation and presentation of this discussion and analysis.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Incorporation details",
+      "Registered Address",
+      "Website",
+      "Sector",
+      "Sub-sector",
+      "Business Description",
+      "Key Products/Services",
+      "Geographies",
+      "Certifications",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "Trend analysis",
+      "Objects of Issue, except \"test\"",
+      "Sector",
+      "Industry trends",
+      "Market trends",
+      "Future outlook",
+      "Business strategy",
+      "Risk factors",
+      "Risk management policies",
+      "Internal control systems",
+      "Statutory Auditor",
+      "Conclusion",
+      "Management's discussion"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3491.016399999353
+  },
+  "capital_structure": {
+    "section_id": "capital_structure",
+    "title": "Capital Structure",
+    "content": "CAPITAL STRUCTURE\n\nThis section of the DRHP covers capital structure for BASKARA.\n\n[MISSING: Detailed content for 'Capital Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_capital_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "shareholding_pattern": {
+    "section_id": "shareholding_pattern",
+    "title": "Shareholding Pattern",
+    "content": "SHAREHOLDING PATTERN\n\nThis section of the DRHP covers shareholding pattern for BASKARA.\n\n[MISSING: Detailed content for 'Shareholding Pattern' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_shareholding_pattern"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "objects_of_issue": {
+    "section_id": "objects_of_issue",
+    "title": "Objects of the Issue",
+    "content": "## Objects of the Issue\n\nThe objects of the issue of equity shares by BASKARA (the \"Company\") are set out below.\n\n### Introduction\nThe Company is proposing to raise funds through a public issue of equity shares (the \"Issue\") aggregating to \u20b950.00 Crore, consisting of a fresh issue of \u20b925.00 Crore and an offer for sale of \u20b925.00 Crore. The Issue is being made in accordance with the provisions of the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations, 2018, as amended (the \"SEBI ICDR Regulations\").\n\n### Objects of the Issue\nThe proceeds of the Fresh Issue will be utilized towards the following objects:\n1. **[MISSING: Specific objects for which the issue proceeds will be utilized]**\n2. **[MISSING: Amount proposed to be utilized for each object]**\n3. **[MISSING: Schedule of deployment of funds]**\n\nThe Company will utilize the proceeds of the Fresh Issue as stated above. However, due to the lack of specific information, the exact allocation and timeline for the utilization of the proceeds cannot be provided.\n\n### Sources of Funds\nIn the event that the proceeds of the Issue are insufficient to meet the objects of the Issue, the Company will [MISSING: Sources of funds if issue proceeds are insufficient to meet the objects].\n\n### Bridge Financing\nThe Company has [MISSING: Details of bridge financing, if any, obtained for the objects of the Issue].\n\n### Utilization of Offer for Sale Proceeds\nThe proceeds of the Offer for Sale will not be received by the Company and will be directly credited to the selling shareholders.\n\n### Reservation in Issue\nAs per the SEBI ICDR Regulations, at least 50% of the net offer is reserved for retail individual investors, with the remaining net offer available to non-institutional investors and Qualified Institutional Buyers (QIBs). A specified portion is also reserved for the market maker.\n\nBy order of the Board of Directors of BASKARA\n\nFor [MISSING: Statutory Auditor]\n\nDate: [MISSING: Date]",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "Specific objects for which the issue proceeds will be utilized",
+      "Amount proposed to be utilized for each object",
+      "Schedule of deployment of funds",
+      "Sources of funds if issue proceeds are insufficient to meet the objects",
+      "Details of bridge financing, if any, obtained for the objects of the Issue",
+      "Statutory Auditor",
+      "Date"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2683.884099998977
+  },
+  "use_of_proceeds": {
+    "section_id": "use_of_proceeds",
+    "title": "Use of Proceeds",
+    "content": "USE OF PROCEEDS\n\nThis section of the DRHP covers use of proceeds for BASKARA.\n\n[MISSING: Detailed content for 'Use of Proceeds' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_use_of_proceeds"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "basis_for_price": {
+    "section_id": "basis_for_price",
+    "title": "Basis for Issue Price",
+    "content": "## Basis for Issue Price\n\nThe issue price of \u20b9100 to \u20b9120 per equity share has been determined by the Company and the Lead Manager, after considering various factors, including the Company's financials, industry trends, market conditions, and the objects of the issue.\n\n### Qualitative Factors\n\nThe Company's business description and sector are not available, and therefore, we are unable to provide a detailed analysis of the qualitative factors that have been considered in determining the issue price. However, the Company's promoters, [MISSING: promoter names and percentage holdings], have been instrumental in shaping the Company's strategy and direction.\n\n### Quantitative Factors\n\nThe Company's financial performance over the past three years is as follows:\n\n| Year | Revenue (\u20b9 Lakhs) | PAT (\u20b9 Lakhs) | EBITDA (\u20b9 Lakhs) | Total Assets (\u20b9 Lakhs) | Equity (\u20b9 Lakhs) |\n| --- | --- | --- | --- | --- | --- |\n| 2021-22 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n| 2022-23 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n| 2023-24 | 0.00 | 0.00 | [MISSING: EBITDA] | 0.00 | 0.00 |\n\nAs the Company's financial performance is not available, we are unable to provide a detailed analysis of the quantitative factors that have been considered in determining the issue price.\n\n### Price Earnings Ratio\n\nThe price earnings ratio has not been calculated, as the Company's earnings per share are not available.\n\n### Return on Net Worth\n\nThe return on net worth has not been calculated, as the Company's net worth and earnings are not available.\n\n### Industry Comparables\n\nThe Company's industry and sub-sector are not available, and therefore, we are unable to provide a detailed analysis of the industry comparables that have been considered in determining the issue price.\n\n### Market Conditions\n\nThe market conditions at the time of filing of this Draft Red Herring Prospectus are not favorable, and the issue price has been determined after considering the current market conditions.\n\n### Objects of the Issue\n\nThe objects of the issue are to [MISSING: objects of the issue, other than \"test\"].\n\n### Issue Structure\n\nThe issue structure is as follows:\n\n* Issue size: \u20b950.00 Crore\n* Fresh issue: \u20b925.00 Crore\n* Offer for sale: \u20b925.00 Crore\n* Price band: \u20b9100 to \u20b9120 per equity share\n* Face value: \u20b910 per equity share\n\nThe issue price has been determined after considering the above factors, and the Company believes that the issue price is fair and reasonable.\n\n### Reservation in Issue\n\nAs per SEBI ICDR Regulations, at least 50% of the net offer is reserved for retail individual investors, and the remaining net offer is available to non-institutional investors and QIBs. A specified portion is reserved for market maker.\n\n### Conclusion\n\nThe basis for the issue price has been determined after considering various factors, including the Company's financials, industry trends, market conditions, and the objects of the issue. The Company believes that the issue price is fair and reasonable, and it is in the best interest of the Company and its shareholders.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 4.4 Reservation in Issue\nAs per SEBI ICDR Regulations:\n- At least 50% of the net offer is reserved for retail individual investors\n- The remaining net offer is available to non-institutional invest"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "promoter names and percentage holdings",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "objects of the issue, other than \"test\""
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 4068.902500001059
+  },
+  "dividend_policy": {
+    "section_id": "dividend_policy",
+    "title": "Dividend Policy",
+    "content": "DIVIDEND POLICY\n\nBASKARA has not declared any dividends in the past. The Company does not presently intend to pay dividends in the near term as the Company intends to retain earnings to fund growth. Any future dividend payments will depend on earnings, financial condition, capital requirements, and applicable legal requirements.\n\nThere is no guarantee that dividends will be declared or paid in any financial year. Any dividends paid \nin the future will be subject to applicable laws and regulations, including Companies Act 2013, and will \nbe recommended by the Board of Directors from time to time.\n\nInvestors should note that past financial performance, including past dividend payments (if any), is not \nindicative of future results.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_statements": {
+    "section_id": "financial_statements",
+    "title": "Financial Statements Summary",
+    "content": "FINANCIAL STATEMENTS SUMMARY\n\nThis section of the DRHP covers financial statements summary for BASKARA.\n\n[MISSING: Detailed content for 'Financial Statements Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_statements"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_ratios": {
+    "section_id": "financial_ratios",
+    "title": "Key Financial Ratios",
+    "content": "KEY FINANCIAL RATIOS\n\nThis section of the DRHP covers key financial ratios for BASKARA.\n\n[MISSING: Detailed content for 'Key Financial Ratios' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_ratios"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "related_party": {
+    "section_id": "related_party",
+    "title": "Related Party Transactions",
+    "content": "RELATED PARTY TRANSACTIONS\n\nThis section of the DRHP covers related party transactions for BASKARA.\n\n[MISSING: Detailed content for 'Related Party Transactions' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_related_party"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "outstanding_litigation": {
+    "section_id": "outstanding_litigation",
+    "title": "Outstanding Litigation",
+    "content": "OUTSTANDING LITIGATION AND MATERIAL DEVELOPMENTS\n\nExcept as disclosed below, there are no outstanding litigation, suits, criminal or civil prosecutions, \nproceedings or tax liabilities against BASKARA, its Directors, Promoters or Group Companies as of the \ndate of this Draft Red Herring Prospectus that may have a material adverse effect on the business.\n\nAs disclosed by the management of BASKARA, there are no outstanding litigations, disputes, or proceedings \npending as of the date of this Draft Red Herring Prospectus.\n\n[MISSING: Management confirmation of nil litigation / actual legal proceedings if any exist]\n\nNote: Companies are required to disclose all material litigation regardless of outcome. The above statement \nis based on information provided by management and has not been independently verified.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "legal_proceedings"
+    ],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "contingent_liabilities": {
+    "section_id": "contingent_liabilities",
+    "title": "Contingent Liabilities",
+    "content": "CONTINGENT LIABILITIES\n\nThis section of the DRHP covers contingent liabilities for BASKARA.\n\n[MISSING: Detailed content for 'Contingent Liabilities' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_contingent_liabilities"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "government_approvals": {
+    "section_id": "government_approvals",
+    "title": "Government and Other Approvals",
+    "content": "GOVERNMENT AND OTHER APPROVALS\n\nThis section of the DRHP covers government and other approvals for BASKARA.\n\n[MISSING: Detailed content for 'Government and Other Approvals' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_government_approvals"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "material_contracts": {
+    "section_id": "material_contracts",
+    "title": "Material Contracts",
+    "content": "MATERIAL CONTRACTS\n\nThis section of the DRHP covers material contracts for BASKARA.\n\n[MISSING: Detailed content for 'Material Contracts' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_material_contracts"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "intellectual_property": {
+    "section_id": "intellectual_property",
+    "title": "Intellectual Property",
+    "content": "INTELLECTUAL PROPERTY\n\nThis section of the DRHP covers intellectual property for BASKARA.\n\n[MISSING: Detailed content for 'Intellectual Property' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_intellectual_property"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "employees": {
+    "section_id": "employees",
+    "title": "Employees",
+    "content": "EMPLOYEES\n\n[MISSING: Total employee count as of a specific date]\n\nThe Company believes that its employees are its most valuable asset. BASKARA is committed to \nemployee development, fair compensation, and a safe working environment.\n\n[MISSING: Employee category breakdown (permanent vs contract, male vs female, departmental split)]\n[MISSING: Key HR policies and employee benefit schemes]\n\nThe Company has not experienced any material labor disputes or strikes that have had or are likely \nto have a material adverse effect on its operations.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "employee_count"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.8,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "properties": {
+    "section_id": "properties",
+    "title": "Properties",
+    "content": "PROPERTIES\n\nThis section of the DRHP covers properties for BASKARA.\n\n[MISSING: Detailed content for 'Properties' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_properties"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "esg_summary": {
+    "section_id": "esg_summary",
+    "title": "ESG Summary",
+    "content": "**ESG Summary**\n\nAs required by the SEBI ICDR Regulations, we provide below a summary of our Environmental, Social, and Governance (ESG) practices and performance.\n\n### Introduction\n\nBaskara, with its [MISSING: incorporation date] incorporation, is committed to adopting and implementing sustainable practices that minimize our environmental footprint, promote social responsibility, and ensure good governance. This ESG summary outlines our approach to managing ESG factors that are material to our business.\n\n### Environmental Factors\n\nGiven the [MISSING: sector] and [MISSING: sub-sector] nature of our business, our environmental impact is [MISSING: description of environmental impact]. We are committed to reducing our environmental footprint through [MISSING: environmental initiatives]. However, due to the lack of specific data on our environmental performance, we are unable to provide detailed metrics on our energy consumption, greenhouse gas emissions, water usage, or waste management practices.\n\n### Social Factors\n\nOur social responsibility initiatives are focused on [MISSING: social initiatives]. As an organization with [MISSING: number of employees] employees, we recognize the importance of fostering a positive and inclusive work environment. However, we do not have information on our employee demographics, diversity, equity, and inclusion initiatives, or community engagement programs to report.\n\n### Governance Factors\n\nOur governance structure is designed to ensure transparency, accountability, and fairness in all our business dealings. The Board of Directors, comprising [MISSING: number of directors], oversees the management of the company. However, we do not have information on our board composition, audit committee, or other governance-related metrics to disclose.\n\n### ESG Performance Metrics\n\nDue to the unavailability of specific data, we are unable to provide ESG performance metrics, including but not limited to:\n\n- Environmental metrics: [MISSING: environmental metrics]\n- Social metrics: [MISSING: social metrics]\n- Governance metrics: [MISSING: governance metrics]\n\n### ESG Risks and Opportunities\n\nWe recognize that ESG factors can pose both risks and opportunities to our business. However, without specific data on our ESG performance, we are unable to identify and assess the material ESG risks and opportunities that may impact our operations and financial performance.\n\n### Conclusion\n\nIn conclusion, while Baskara is committed to ESG principles, the lack of specific data on our environmental, social, and governance practices limits our ability to provide a comprehensive ESG summary. We will strive to improve our ESG disclosures in the future by collecting and reporting relevant data on our ESG performance.\n\n### Disclaimer\n\nThis ESG summary is provided in compliance with the SEBI ICDR Regulations and is based on the information available to us as of the date of this document. The company disclaims any liability for any inaccuracies or omissions in this summary.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [
+      "incorporation date",
+      "sector",
+      "sub-sector",
+      "description of environmental impact",
+      "environmental initiatives",
+      "social initiatives",
+      "number of employees",
+      "number of directors",
+      "environmental metrics",
+      "social metrics",
+      "governance metrics"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 5829.814299999271
+  },
+  "corporate_governance": {
+    "section_id": "corporate_governance",
+    "title": "Corporate Governance",
+    "content": "CORPORATE GOVERNANCE\n\nThis section of the DRHP covers corporate governance for BASKARA.\n\n[MISSING: Detailed content for 'Corporate Governance' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_governance"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "compliance_matrix": {
+    "section_id": "compliance_matrix",
+    "title": "SEBI Compliance Matrix",
+    "content": "SEBI COMPLIANCE MATRIX\n\nThis section of the DRHP covers sebi compliance matrix for BASKARA.\n\n[MISSING: Detailed content for 'SEBI Compliance Matrix' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_compliance_matrix"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "annexures": {
+    "section_id": "annexures",
+    "title": "Annexures",
+    "content": "ANNEXURES\n\nThis section of the DRHP covers annexures for BASKARA.\n\n[MISSING: Detailed content for 'Annexures' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_annexures"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "glossary": {
+    "section_id": "glossary",
+    "title": "Glossary",
+    "content": "GLOSSARY\n\nThis section of the DRHP covers glossary for BASKARA.\n\n[MISSING: Detailed content for 'Glossary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_glossary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "declaration": {
+    "section_id": "declaration",
+    "title": "Declaration and Undertaking",
+    "content": "DECLARATION AND UNDERTAKING\n\nThis section of the DRHP covers declaration and undertaking for BASKARA.\n\n[MISSING: Detailed content for 'Declaration and Undertaking' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_declaration"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  }
+}

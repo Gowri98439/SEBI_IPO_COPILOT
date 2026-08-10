@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { ClipboardList, Plus, CheckCircle2, Clock, AlertCircle, User, Calendar } from 'lucide-react'
+import toast from 'react-hot-toast'
 import { useReviewTasks, useCreateReviewTask } from '@/api/reviews'
 import { apiClient } from '@/api/client'
 import { formatDate } from '@/utils/formatters'
@@ -42,7 +43,7 @@ export default function HumanReviewPage() {
       await apiClient.patch(`/reviews/${taskId}`, { status })
       refetch()
     } catch (e) {
-      console.error(e)
+      toast.error('Failed to update task status. Please try again.')
     }
   }
 

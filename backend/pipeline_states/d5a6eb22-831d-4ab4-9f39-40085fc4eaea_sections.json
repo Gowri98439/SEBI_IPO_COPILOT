@@ -1,0 +1,750 @@
+{
+  "cover_page": {
+    "section_id": "cover_page",
+    "title": "Cover Page",
+    "content": "COVER PAGE\n\nThis section of the DRHP covers cover page for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Cover Page' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_cover_page"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "disclaimer": {
+    "section_id": "disclaimer",
+    "title": "Important Disclaimer",
+    "content": "IMPORTANT DISCLAIMER\n\nThis section of the DRHP covers important disclaimer for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Important Disclaimer' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_disclaimer"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "toc": {
+    "section_id": "toc",
+    "title": "Table of Contents",
+    "content": "TABLE OF CONTENTS\n\nThis section of the DRHP covers table of contents for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Table of Contents' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_toc"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "definitions": {
+    "section_id": "definitions",
+    "title": "Definitions and Abbreviations",
+    "content": "DEFINITIONS AND ABBREVIATIONS\n\nThis section of the DRHP covers definitions and abbreviations for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Definitions and Abbreviations' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_definitions"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "forward_looking": {
+    "section_id": "forward_looking",
+    "title": "Forward Looking Statements",
+    "content": "FORWARD LOOKING STATEMENTS\n\nThis Draft Red Herring Prospectus contains certain \"forward-looking statements.\" These forward-looking statements \ngenerally can be identified by words or phrases such as \"aim\", \"anticipate\", \"believe\", \"expect\", \"estimate\", \n\"intend\", \"objective\", \"plan\", \"project\", \"shall\", \"will\", \"will continue\", \"will pursue\" or other words or \nphrases of similar import.\n\nAll forward-looking statements are subject to risks, uncertainties and assumptions about Test Pharma Ltd that could \ncause actual results to differ materially from those contemplated by the relevant forward-looking statement.\n\nImportant factors that could cause actual results to differ materially from the Company's expectations include, \nbut are not limited to:\n\u2022 General economic and business conditions in India and globally;\n\u2022 The Company's ability to successfully implement its growth strategy;\n\u2022 Changes in the competitive landscape in the Pharmaceuticals sector;\n\u2022 Changes in laws and regulations that apply to the Company's business;\n\u2022 Changes in political and social conditions in India;\n\u2022 The occurrence of natural disasters, acts of terrorism or other events;\n\u2022 The ability to attract and retain key personnel.\n\nNeither the Company nor the Lead Manager, nor any of their respective affiliates have any obligation to update \nor otherwise revise any statements reflecting circumstances arising after the date hereof or to reflect the \noccurrence of underlying events, even if the underlying assumptions do not come to fruition.\n",
+    "citations": [
+      {
+        "type": "regulatory",
+        "ref": "SEBI ICDR Regulations 2018, Schedule VI, Part A"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "issue_summary": {
+    "section_id": "issue_summary",
+    "title": "Issue Summary",
+    "content": "ISSUE SUMMARY\n\nThis section of the DRHP covers issue summary for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Issue Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_issue_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "risk_factors": {
+    "section_id": "risk_factors",
+    "title": "Risk Factors",
+    "content": "RISK FACTORS\n\nInvestment in equity shares involves a degree of risk. Investors should carefully read all risk factors \nbefore taking an investment decision. Additional risks not currently known may also materially impair \nthe Company's business, financial condition, and results of operations.\n\n**1. Limited Operating History Risk**\nTest Pharma Ltd was incorporated on 2018-01-15. Our limited operating history makes it difficult to assess future performance.\n\n**2. Sector-Specific Competition Risk**\nThe Pharmaceuticals sector is highly competitive. We face competition from larger, better-capitalised entities with greater market reach.\n\n**3. Working Capital Risk**\nOur business requires continuous working capital deployment. Delays in receivables or unforeseen capital requirements may impact liquidity.\n\n**4. Key Personnel Risk**\nOur success depends on senior management retention. Loss of key personnel may adversely affect our business.\n\n**5. Regulatory Compliance Risk**\nOur Pharmaceuticals business is subject to central and state government regulations. Changes in applicable laws could adversely impact operations.\n\n**6. No Prior Public Market Risk**\nThere is no prior public market for our equity shares. The Issue price may not be indicative of the post-listing trading price.\n\n**7. Promoter Lock-in Risk**\nPromoter shares are subject to SEBI-mandated lock-in for 3 years. Post lock-in exit by promoters may create downward price pressure.\n\n**8. General Economic Risk**\nOur financial performance is linked to overall economic conditions in India and globally. Economic \ndownturns, inflationary pressures, interest rate changes, and foreign exchange fluctuations could \nadversely affect our business.\n\n**9. Geopolitical and Force Majeure Risk**\nUnforeseen events including natural disasters, pandemics, geopolitical tensions, and social unrest \ncould disrupt supply chains, reduce consumer demand, and adversely impact results.\n\nNote: The above risk factors are based on information provided and general sector knowledge. \nCompany-specific risk factors based on uploaded documents and detailed business information \nshould be added by the legal team and merchant banker before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "customer_concentration_data"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.75,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "hybrid",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "business_overview": {
+    "section_id": "business_overview",
+    "title": "Business Overview",
+    "content": "**BUSINESS OVERVIEW**\n\n**Introduction**\n\nTest Pharma Ltd, a company incorporated on January 15, 2018, under the Companies Act, 2013, with its registered office located at 123 MG Road, Mumbai, Maharashtra 400001, is a generic pharmaceutical manufacturer producing quality medicines for the domestic and export markets. Our company has over 6 years of operating history and serves hospitals, distributors, and retail chemists across 10 Indian states.\n\n**Business Description**\n\nWe are engaged in the manufacture of generic pharmaceutical products, including tablets, capsules, and syrups. Our business operations are focused on providing affordable and high-quality medicines to our customers. We have a strong presence in the states of Maharashtra, Gujarat, and Rajasthan, with plans to expand our reach to other parts of the country.\n\n**Products and Services**\n\nOur key products include generic tablets, capsules, and syrups, which are manufactured at our facilities in accordance with international quality standards. We have obtained the ISO 9001:2015 certification, which demonstrates our commitment to quality and customer satisfaction.\n\n**Geographical Presence**\n\nOur products are currently sold in the states of Maharashtra, Gujarat, and Rajasthan. We plan to expand our geographical presence to other parts of the country, leveraging our strong distribution network and relationships with our customers.\n\n**Management and Promoters**\n\nOur company is led by a experienced management team, with Ramesh Kumar serving as the Managing Director and holding 55.0% of the equity share capital of the company. Sunita Kumar serves as a Director and holds 15.0% of the equity share capital of the company. Our management team has extensive experience in the pharmaceutical industry and has played a key role in shaping our company's strategy and growth.\n\n**Financial Performance**\n\nOur financial performance for the last three fiscal years is as follows:\n\n| Year | Revenue (INR Lakhs) | PAT (INR Lakhs) | EBITDA (INR Lakhs) | Total Assets (INR Lakhs) | Equity (INR Lakhs) |\n| --- | --- | --- | --- | --- | --- |\n| 2021-22 | 1,200.50 | 85.30 | 142.00 | 950.20 | 420.10 |\n| 2022-23 | 1,480.80 | 110.20 | 178.40 | 1,120.50 | 530.30 |\n| 2023-24 | 1,820.30 | 142.70 | 220.50 | 1,350.80 | 660.00 |\n\n**Issue Details**\n\nWe are proposing to issue [MISSING: number of equity shares] equity shares of face value INR 10 each, at a price band of INR 90 to INR 95 per equity share, aggregating to INR 25.00 Crore. The issue consists of a fresh issue of INR 20.00 Crore and an offer for sale of INR 5.00 Crore. The objects of the issue are:\n\n1. Expansion of manufacturing capacity at our Pune plant: INR 12.00 Crore\n2. Working capital requirements: INR 5.00 Crore\n3. General corporate purposes: INR 3.00 Crore\n\nThe lead manager to the issue is XYZ Capital Advisors Pvt Ltd.\n\n**Regulatory Compliance**\n\nWe have complied with all applicable regulatory requirements, including the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018. Our issue is being made in compliance with the provisions of the Companies Act, 2013, and the rules and regulations framed thereunder.\n\n**Auditors**\n\nOur statutory auditor is ABC & Co. Chartered Accountants.\n\n**XBRL Reporting**\n\nOur financial data has been filed in XBRL (eXtensible Business Reporting Language) format, in accordance with the MCA-21 Extended Taxonomy.\n\n**SEBI PRISM System**\n\nOur offer document has been filed through the SEBI PRISM (Portal for Risk-based Internal Monitoring) system, as required by the SEBI regulations.\n\n**Reservation in Issue**\n\nIn accordance with the SEBI ICDR Regulations, at least 50% of the net offer is reserved for retail individual investors, with the remaining net offer available to non-institutional investors and qualified institutional buyers. A specified portion is reserved for the market maker. The typical structure of the reservation is 50% for retail individual investors, with the remaining 50% available to non-institutional investors and qualified institutional buyers.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. SEBI PRISM SYSTEM:\nAll SME IPO offer documents must now be filed through SEBI's PRISM (Portal for Risk-based Internal Monitoring) system. Paper filings are no longer accepted as of October 1, 20"
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "number of equity shares"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3824.558899999829
+  },
+  "business_model": {
+    "section_id": "business_model",
+    "title": "Business Model",
+    "content": "## Business Model\n\n### Introduction\nTest Pharma Ltd, a generic pharmaceutical manufacturer, has been producing quality medicines for the domestic and export markets since its incorporation on January 15, 2018. With over 6 years of operating history, the company serves hospitals, distributors, and retail chemists across 10 Indian states.\n\n### Overview of Business Operations\nThe company's business model revolves around the manufacture and sale of generic pharmaceutical products, including tablets, capsules, and syrups. Test Pharma Ltd operates in the pharmaceutical sector, specifically in the sub-sector of generic drugs. The company's registered address is 123 MG Road, Mumbai, Maharashtra 400001, and its website can be accessed at https://testpharma.com.\n\n### Key Products/Services\nThe company's key products/services include:\n- Generic Tablets\n- Capsules\n- Syrups\n\nThese products are manufactured to cater to the domestic and export markets, ensuring that quality medicines are made available to a wide range of customers.\n\n### Geographical Presence\nTest Pharma Ltd has a presence in the following geographies:\n- Maharashtra\n- Gujarat\n- Rajasthan\n\nThe company's operations are spread across these regions, enabling it to serve a diverse customer base.\n\n### Certifications and Compliance\nThe company holds the following certification:\n- ISO 9001:2015\n\nThis certification demonstrates the company's commitment to maintaining high standards of quality in its operations.\n\n### Organizational Structure\nThe company's promoters are:\n- Ramesh Kumar (Managing Director, 55.0%)\n- Sunita Kumar (Director, 15.0%)\n\nThe company has a total of 350 employees, who play a crucial role in its day-to-day operations.\n\n### Financial Overview\nThe company's financial performance for the last three years is as follows:\n- 2021-22: Revenue \u20b91,200.50L, PAT \u20b985.30L, EBITDA \u20b9142.00L, Total Assets \u20b9950.20L, Equity \u20b9420.10L\n- 2022-23: Revenue \u20b91,480.80L, PAT \u20b9110.20L, EBITDA \u20b9178.40L, Total Assets \u20b91,120.50L, Equity \u20b9530.30L\n- 2023-24: Revenue \u20b91,820.30L, PAT \u20b9142.70L, EBITDA \u20b9220.50L, Total Assets \u20b91,350.80L, Equity \u20b9660.00L\n\n### Objects of the Issue\nThe objects of the issue are:\n1. Expansion of manufacturing capacity at Pune Plant: \u20b912 Crore\n2. Working capital requirements: \u20b95 Crore\n3. General corporate purposes: \u20b93 Crore\n\nThe company aims to utilize the proceeds from the issue to achieve these objectives and drive its growth.\n\n### Regulatory Compliance\nThe company is in compliance with all applicable laws and regulations, including the SEBI ICDR Regulations. The company's statutory auditor is ABC & Co. Chartered Accountants.\n\n### Risk Management\nThe company has a risk management framework in place to identify, assess, and mitigate risks associated with its operations. However, [MISSING: detailed risk management strategy] \n\n### Conclusion\nIn conclusion, Test Pharma Ltd's business model is focused on the manufacture and sale of generic pharmaceutical products. The company has a strong presence in the domestic market and is committed to expanding its operations to drive growth. With a robust financial performance and a clear strategy in place, the company is well-positioned to achieve its objectives.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "detailed risk management strategy"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3391.8203999928664
+  },
+  "competitive_strengths": {
+    "section_id": "competitive_strengths",
+    "title": "Competitive Strengths",
+    "content": "[GENERATION ERROR: Section 'Competitive Strengths' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98322, Requested 2110. Please try again in 6m13.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_competitive_strengths"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "strategies": {
+    "section_id": "strategies",
+    "title": "Business Strategies",
+    "content": "## Business Strategies\n\n### Introduction\nTest Pharma Ltd, a generic pharmaceutical manufacturer, has been operating in the domestic and export markets for over 6 years. Our business strategies are designed to leverage our strengths, capitalize on market opportunities, and drive growth.\n\n### Key Business Strategies\nOur key business strategies are as follows:\n\n#### 1. Expansion of Manufacturing Capacity\nWe intend to utilize a portion of the proceeds from the Issue to expand our manufacturing capacity at our Pune Plant. This expansion will enable us to increase our production capacity, reduce costs, and improve our competitiveness in the market. The expansion is expected to be completed within [MISSING: timeframe] and will enable us to cater to the growing demand for our products.\n\n#### 2. Enhancement of Product Portfolio\nWe plan to enhance our product portfolio by introducing new generic products, which will enable us to increase our market share and revenue. Our research and development team is continuously working on developing new products, which will be launched in the market after obtaining necessary regulatory approvals.\n\n#### 3. Strengthening Distribution Network\nWe intend to strengthen our distribution network by appointing new distributors and increasing our presence in existing markets. This will enable us to increase our reach and availability of products to our customers.\n\n#### 4. Focus on Quality and Regulatory Compliance\nWe are committed to maintaining the highest standards of quality and regulatory compliance. We have obtained ISO 9001:2015 certification, which demonstrates our commitment to quality. We will continue to invest in our quality control systems and processes to ensure that our products meet the required standards.\n\n#### 5. Increasing Exports\nWe plan to increase our exports to new markets, which will enable us to diversify our revenue streams and reduce our dependence on the domestic market. We are exploring new markets and are in the process of obtaining necessary regulatory approvals.\n\n### Competitive Strategy\nOur competitive strategy is based on the following key elements:\n\n* **Quality**: We are committed to delivering high-quality products that meet the required standards.\n* **Price**: We offer competitive pricing, which enables us to compete with other players in the market.\n* **Service**: We provide excellent customer service, which enables us to build strong relationships with our customers.\n\n### Risk Management\nWe have identified certain risks that may impact our business, including [MISSING: specific risks]. We have implemented risk management strategies to mitigate these risks, including [MISSING: risk mitigation strategies].\n\n### Growth Plan\nOur growth plan is based on the following key elements:\n\n* **Organic Growth**: We plan to achieve organic growth by increasing our sales and revenue.\n* **Inorganic Growth**: We may consider inorganic growth opportunities, such as acquisitions or partnerships, to expand our business.\n\n### Conclusion\nOur business strategies are designed to drive growth, increase revenue, and improve our competitiveness in the market. We are committed to delivering high-quality products, providing excellent customer service, and maintaining the highest standards of quality and regulatory compliance.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "timeframe",
+      "specific risks",
+      "risk mitigation strategies"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3284.247699994012
+  },
+  "industry_overview": {
+    "section_id": "industry_overview",
+    "title": "Industry Overview",
+    "content": "[GENERATION ERROR: Section 'Industry Overview' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99999, Requested 1067. Please try again in 15m21.023999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_industry_overview"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "market_opportunity": {
+    "section_id": "market_opportunity",
+    "title": "Market Opportunity",
+    "content": "[GENERATION ERROR: Section 'Market Opportunity' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99997, Requested 1051. Please try again in 15m5.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_market_opportunity"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "competition": {
+    "section_id": "competition",
+    "title": "Competition",
+    "content": "[GENERATION ERROR: Section 'Competition' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99996, Requested 1684. Please try again in 24m11.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_competition"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "corporate_structure": {
+    "section_id": "corporate_structure",
+    "title": "Corporate Structure",
+    "content": "CORPORATE STRUCTURE\n\nThis section of the DRHP covers corporate structure for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Corporate Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "promoters": {
+    "section_id": "promoters",
+    "title": "Promoters and Promoter Group",
+    "content": "PROMOTERS AND PROMOTER GROUP\n\nThis section of the DRHP covers promoters and promoter group for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Promoters and Promoter Group' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_promoters"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "directors": {
+    "section_id": "directors",
+    "title": "Board of Directors and Key Management",
+    "content": "BOARD OF DIRECTORS AND KEY MANAGEMENT\n\nThis section of the DRHP covers board of directors and key management for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Board of Directors and Key Management' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_directors"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "mda": {
+    "section_id": "mda",
+    "title": "Management Discussion and Analysis",
+    "content": "[GENERATION ERROR: Section 'Management Discussion and Analysis' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99994, Requested 2051. Please try again in 29m26.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_mda"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "capital_structure": {
+    "section_id": "capital_structure",
+    "title": "Capital Structure",
+    "content": "CAPITAL STRUCTURE\n\nThis section of the DRHP covers capital structure for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Capital Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_capital_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "shareholding_pattern": {
+    "section_id": "shareholding_pattern",
+    "title": "Shareholding Pattern",
+    "content": "SHAREHOLDING PATTERN\n\nThis section of the DRHP covers shareholding pattern for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Shareholding Pattern' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_shareholding_pattern"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "objects_of_issue": {
+    "section_id": "objects_of_issue",
+    "title": "Objects of the Issue",
+    "content": "[GENERATION ERROR: Section 'Objects of the Issue' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99992, Requested 1132. Please try again in 16m11.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_objects_of_issue"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "use_of_proceeds": {
+    "section_id": "use_of_proceeds",
+    "title": "Use of Proceeds",
+    "content": "USE OF PROCEEDS\n\nThis section of the DRHP covers use of proceeds for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Use of Proceeds' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_use_of_proceeds"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "basis_for_price": {
+    "section_id": "basis_for_price",
+    "title": "Basis for Issue Price",
+    "content": "[GENERATION ERROR: Section 'Basis for Issue Price' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99991, Requested 2094. Please try again in 30m1.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_basis_for_price"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "dividend_policy": {
+    "section_id": "dividend_policy",
+    "title": "Dividend Policy",
+    "content": "DIVIDEND POLICY\n\nTest Pharma Ltd has not declared any dividends in the past. The Board of Directors may recommend dividends in the future, subject to the profits available for distribution, after considering the Company's growth plans, future capital requirements, financial condition, and applicable legal requirements. Any future declaration of dividends will require the approval of the shareholders of the Company at the Annual General Meeting and will be at the discretion of the Board.\n\nThere is no guarantee that dividends will be declared or paid in any financial year. Any dividends paid \nin the future will be subject to applicable laws and regulations, including Companies Act 2013, and will \nbe recommended by the Board of Directors from time to time.\n\nInvestors should note that past financial performance, including past dividend payments (if any), is not \nindicative of future results.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_statements": {
+    "section_id": "financial_statements",
+    "title": "Financial Statements Summary",
+    "content": "FINANCIAL STATEMENTS SUMMARY\n\nThis section of the DRHP covers financial statements summary for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Financial Statements Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_statements"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_ratios": {
+    "section_id": "financial_ratios",
+    "title": "Key Financial Ratios",
+    "content": "KEY FINANCIAL RATIOS\n\nThis section of the DRHP covers key financial ratios for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Key Financial Ratios' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_ratios"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "related_party": {
+    "section_id": "related_party",
+    "title": "Related Party Transactions",
+    "content": "RELATED PARTY TRANSACTIONS\n\nThis section of the DRHP covers related party transactions for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Related Party Transactions' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_related_party"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "outstanding_litigation": {
+    "section_id": "outstanding_litigation",
+    "title": "Outstanding Litigation",
+    "content": "OUTSTANDING LITIGATION AND MATERIAL DEVELOPMENTS\n\n[MISSING: Management declaration of outstanding litigation status \u2014 required before filing]\n\nNote to the Merchant Banker and Legal Counsel: This section requires a formal declaration from the Board of Directors and Legal Counsel confirming whether there are or are not any outstanding litigations, suits, criminal or civil prosecutions, proceedings or tax liabilities against Test Pharma Ltd, its Directors, Promoters or Group Companies that may have a material adverse effect on the business.\n\nThis declaration has NOT been provided in the company data submission. The section CANNOT be completed until this information is received and verified.\n\nRequired from the Company before this section can be finalized:\n- Board resolution or legal opinion confirming litigation status\n- Search report from company's legal counsel (if nil litigation)\n- Details of all pending proceedings if any exist\n- Nature, forum, parties, amounts involved, and current status for each proceeding\n\nCompanies are required under SEBI (ICDR) Regulations 2018 to disclose all material litigation regardless of outcome.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "legal_proceedings"
+    ],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "contingent_liabilities": {
+    "section_id": "contingent_liabilities",
+    "title": "Contingent Liabilities",
+    "content": "CONTINGENT LIABILITIES\n\nThis section of the DRHP covers contingent liabilities for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Contingent Liabilities' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_contingent_liabilities"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "government_approvals": {
+    "section_id": "government_approvals",
+    "title": "Government and Other Approvals",
+    "content": "GOVERNMENT AND OTHER APPROVALS\n\nThis section of the DRHP covers government and other approvals for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Government and Other Approvals' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_government_approvals"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "material_contracts": {
+    "section_id": "material_contracts",
+    "title": "Material Contracts",
+    "content": "MATERIAL CONTRACTS\n\nThis section of the DRHP covers material contracts for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Material Contracts' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_material_contracts"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "intellectual_property": {
+    "section_id": "intellectual_property",
+    "title": "Intellectual Property",
+    "content": "INTELLECTUAL PROPERTY\n\nThis section of the DRHP covers intellectual property for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Intellectual Property' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_intellectual_property"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "employees": {
+    "section_id": "employees",
+    "title": "Employees",
+    "content": "EMPLOYEES\n\nAs of the date of this document, Test Pharma Ltd employs approximately 350 employees.\n\nThe Company believes that its employees are its most valuable asset. Test Pharma Ltd is committed to \nemployee development, fair compensation, and a safe working environment.\n\n[MISSING: Employee category breakdown (permanent vs contract, male vs female, departmental split)]\n[MISSING: Key HR policies and employee benefit schemes]\n\n[MISSING: Confirmation from management regarding labor dispute history \u2014 required before filing]\n\nNote to Merchant Banker and Legal Counsel: The Company's legal counsel must provide a declaration confirming whether any material labor disputes, strikes, or lockouts have occurred or are pending. This cannot be stated as \"nil\" in the DRHP without an explicit management declaration. The above section requires formal HR disclosure before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 0.8,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "properties": {
+    "section_id": "properties",
+    "title": "Properties",
+    "content": "PROPERTIES\n\nThis section of the DRHP covers properties for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Properties' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_properties"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "esg_summary": {
+    "section_id": "esg_summary",
+    "title": "ESG Summary",
+    "content": "[GENERATION ERROR: Section 'ESG Summary' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99988, Requested 2039. Please try again in 29m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_esg_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "corporate_governance": {
+    "section_id": "corporate_governance",
+    "title": "Corporate Governance",
+    "content": "CORPORATE GOVERNANCE\n\nThis section of the DRHP covers corporate governance for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Corporate Governance' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_governance"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "compliance_matrix": {
+    "section_id": "compliance_matrix",
+    "title": "SEBI Compliance Matrix",
+    "content": "SEBI COMPLIANCE MATRIX\n\nThis section of the DRHP covers sebi compliance matrix for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'SEBI Compliance Matrix' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_compliance_matrix"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "annexures": {
+    "section_id": "annexures",
+    "title": "Annexures",
+    "content": "ANNEXURES\n\nThis section of the DRHP covers annexures for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Annexures' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_annexures"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "glossary": {
+    "section_id": "glossary",
+    "title": "Glossary",
+    "content": "GLOSSARY\n\nThis section of the DRHP covers glossary for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Glossary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_glossary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "declaration": {
+    "section_id": "declaration",
+    "title": "Declaration and Undertaking",
+    "content": "DECLARATION AND UNDERTAKING\n\nThis section of the DRHP covers declaration and undertaking for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Declaration and Undertaking' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_declaration"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  }
+}

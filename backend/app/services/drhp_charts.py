@@ -70,28 +70,37 @@ def _ax_style(ax: plt.Axes, title: str, xlabel: str = "", ylabel: str = "") -> N
 
 # ── Chart 1: Revenue & PAT Bar Chart (grouped) ──────────────
 
-def revenue_pat_chart(years: List[str], revenues: List[float], pats: List[float], width_cm: float = 13) -> RLImage:
+def revenue_pat_chart(years: List[str], revenues: List[Optional[float]], pats: List[Optional[float]], width_cm: float = 13) -> RLImage:
+    """Revenue vs PAT bar chart. None values are shown as 0 bars with 'N/P' label."""
     n = len(years)
     x = np.arange(n)
     w = 0.35
 
-    fig, ax = plt.subplots(figsize=(max(6, n * 1.2), 3.2), facecolor="white")
-    bars1 = ax.bar(x - w / 2, revenues, w, label="Revenue", color=NAVY, edgecolor="white", linewidth=0.5)
-    bars2 = ax.bar(x + w / 2, pats, w, label="Net Profit / (Loss)", color=BLUE, edgecolor="white", linewidth=0.5)
+    # Convert None to 0 for matplotlib — display 'N/P' in label
+    rev_vals = [r if r is not None else 0.0 for r in revenues]
+    pat_vals = [p if p is not None else 0.0 for p in pats]
+    max_rev = max((r for r in rev_vals if r is not None), default=1.0)
 
-    for bar in bars1:
-        ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + max(revenues) * 0.01,
-                _format_lakh(bar.get_height()), ha="center", va="bottom", fontsize=7, color=NAVY, fontweight="bold")
-    for bar in bars2:
+    fig, ax = plt.subplots(figsize=(max(6, n * 1.2), 3.2), facecolor="white")
+    bars1 = ax.bar(x - w / 2, rev_vals, w, label="Revenue", color=NAVY, edgecolor="white", linewidth=0.5)
+    bars2 = ax.bar(x + w / 2, pat_vals, w, label="Net Profit / (Loss)", color=BLUE, edgecolor="white", linewidth=0.5)
+
+    for i, (bar, orig) in enumerate(zip(bars1, revenues)):
+        label = "N/P" if orig is None else _format_lakh(bar.get_height())
+        ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + max_rev * 0.01,
+                label, ha="center", va="bottom", fontsize=7, color=NAVY, fontweight="bold")
+    for i, (bar, orig) in enumerate(zip(bars2, pats)):
         h = bar.get_height()
-        y = h + max(revenues) * 0.01 if h >= 0 else h - max(revenues) * 0.03
+        y = h + max_rev * 0.01 if h >= 0 else h - max_rev * 0.03
+        label = "N/P" if orig is None else _format_lakh(h)
         ax.text(bar.get_x() + bar.get_width() / 2, y,
-                _format_lakh(h), ha="center", va="bottom", fontsize=7, color=BLUE, fontweight="bold")
+                label, ha="center", va="bottom", fontsize=7, color=BLUE, fontweight="bold")
 
     ax.set_xticks(x)
     ax.set_xticklabels(years, fontsize=9)
     ax.legend(fontsize=9, framealpha=0.7, edgecolor=LGREY)
-    _ax_style(ax, "Revenue vs. Net Profit / (Loss) — 3 Year Trend", ylabel="INR Lakhs")
+    _ax_style(ax, "Revenue vs. Net Profit / (Loss) — Historical Trend", ylabel="INR Lakhs")
+    ax.annotate("N/P = Not Provided", xy=(0.01, 0.01), xycoords='axes fraction', fontsize=7, color=GREY)
     fig.tight_layout()
     return _fig_to_rl(fig, width_cm)
 
@@ -157,45 +166,51 @@ def balance_sheet_chart(years: List[str], assets: List[float], equities: List[fl
 # ── Chart 4: Key Ratios Spider / Radar Chart ─────────────────
 
 def ratios_radar_chart(years: List[str], fys_data: list, width_cm: float = 11) -> RLImage:
-    """Simple grouped bar chart of key ratios across years."""
+    """
+    True polar radar / spider chart of key profitability ratios across years.
+    Each year's ratios are plotted as a filled polygon on a polar axis.
+    """
     if not fys_data:
         return None  # type: ignore
 
-    labels = ["ROE %", "Net Margin %", "EBITDA Margin %"]
-    n = len(fys_data)
-    x = np.arange(len(labels))
-    w = 0.7 / max(n, 1)
+    labels = ["ROE %", "Net Margin %", "EBITDA Margin %", "Current Ratio"]
+    num_labels = len(labels)
+    angles = [n / float(num_labels) * 2 * np.pi for n in range(num_labels)]
+    angles += angles[:1]  # Close the loop
 
-    fig, ax = plt.subplots(figsize=(7, 3.2), facecolor="white")
-    for i, (fy, color) in enumerate(zip(fys_data, BAR_COLORS)):
-        r = fy.revenue or 1
-        e = fy.total_equity or 1
-        roe = (fy.net_profit / e * 100) if e > 0 else 0
-        npm = (fy.net_profit / r * 100) if r > 0 else 0
-        ebitda_m = (fy.ebitda / r * 100) if r > 0 else 0
-        vals = [roe, npm, ebitda_m]
-        offset = (i - n / 2 + 0.5) * w
-        bars = ax.bar(x + offset, vals, w, label=fy.year, color=color, edgecolor="white", linewidth=0.5)
-        for bar in bars:
-            h = bar.get_height()
-            if abs(h) > 0.5:
-                ax.text(bar.get_x() + bar.get_width() / 2, h + 0.5,
-                        f"{h:.1f}%", ha="center", va="bottom", fontsize=7, color=color)
+    fig, ax = plt.subplots(figsize=(6, 5), subplot_kw={"projection": "polar"}, facecolor="white")
 
-    ax.set_xticks(x)
-    ax.set_xticklabels(labels, fontsize=9)
-    ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:.0f}%"))
-    ax.legend(fontsize=8, framealpha=0.7, edgecolor=LGREY)
-    ax.set_title("Key Profitability Ratios by Year", fontsize=11, fontweight="bold", color=NAVY, pad=12)
+    # Style the polar axes
+    ax.set_theta_offset(np.pi / 2)
+    ax.set_theta_direction(-1)
+    ax.set_xticks(angles[:-1])
+    ax.set_xticklabels(labels, fontsize=8.5, color=NAVY, fontweight="bold")
     ax.tick_params(colors=GREY, labelsize=8)
-    ax.spines["top"].set_visible(False)
-    ax.spines["right"].set_visible(False)
-    ax.spines["left"].set_color(LGREY)
-    ax.spines["bottom"].set_color(LGREY)
-    ax.grid(axis="y", color=LGREY, linewidth=0.6, linestyle="--")
-    ax.axhline(0, color=GREY, linewidth=0.8)
+    ax.set_yticklabels([])
+    ax.spines["polar"].set_color(LGREY)
+    ax.grid(color=LGREY, linewidth=0.8, linestyle="--")
+
+    for i, (fy, color) in enumerate(zip(fys_data, BAR_COLORS)):
+        r = max(fy.revenue or 1, 1)
+        e = max(fy.total_equity or 1, 1)
+        roe = min(max((fy.net_profit / e * 100) if e > 0 else 0, 0), 50)  # cap at 50% for scale
+        npm = min(max((fy.net_profit / r * 100) if r > 0 else 0, 0), 50)
+        ebitda_m = min(max((fy.ebitda / r * 100) if (fy.ebitda and r > 0) else 0, 0), 50)
+        # Current ratio: scale 0-3 mapped to 0-50 for comparability
+        cr_raw = (((fy.current_assets or 0) - (fy.current_liabilities or 0)) / max(fy.current_liabilities or 1, 1) + 1)
+        cr = min(max(cr_raw * 15, 0), 50)
+        vals = [roe, npm, ebitda_m, cr]
+        vals += vals[:1]  # Close loop
+        ax.plot(angles, vals, linewidth=1.8, linestyle="solid", color=color, label=fy.year)
+        ax.fill(angles, vals, color=color, alpha=0.12)
+
+    ax.set_title("Key Profitability Ratios — Radar", fontsize=10, fontweight="bold",
+                 color=NAVY, pad=18)
+    ax.legend(loc="upper right", bbox_to_anchor=(1.3, 1.15), fontsize=8,
+              framealpha=0.8, edgecolor=LGREY)
     fig.tight_layout()
     return _fig_to_rl(fig, width_cm)
+
 
 
 # ── Chart 5: Post-Issue Shareholding Pie Chart ───────────────
@@ -422,5 +437,165 @@ def cagr_trajectory_chart(
     ax.spines["left"].set_color(LGREY)
     ax.spines["bottom"].set_color(LGREY)
     ax.grid(axis="y", color=LGREY, linewidth=0.6, linestyle="--")
+    fig.tight_layout()
+    return _fig_to_rl(fig, width_cm)
+
+
+# ── Pipeline-expected chart functions ─────────────────────────────────────────
+# These match the exact signatures called by drhp_pipeline.py Stage 9.
+
+def ebitda_trend_chart(years: List[str], ebitdas: List[Optional[float]], width_cm: float = 13) -> RLImage:
+    """EBITDA trend bar+line chart. Called by drhp_pipeline._stage_chart_generator().
+    None values are displayed as 0-height bars with 'N/P' label annotation.
+    """
+    if not years or not ebitdas or len(years) < 2:
+        return None  # type: ignore
+    # Convert None → 0 for matplotlib drawing; track which are actual None
+    draw_vals = [v if v is not None else 0.0 for v in ebitdas]
+    has_none = any(v is None for v in ebitdas)
+    fig, ax = plt.subplots(figsize=(max(6, len(years) * 1.5), 3.2), facecolor="white")
+    x = list(range(len(years)))
+    ax.bar(x, draw_vals, color=TEAL, edgecolor="white", linewidth=0.5, alpha=0.85, label="EBITDA")
+    ax.plot(x, draw_vals, marker="D", linewidth=2, color=NAVY,
+            markersize=7, markerfacecolor=NAVY, zorder=5, label="EBITDA Trend")
+    max_val = max((abs(v) for v in draw_vals if v != 0), default=1)
+    for i, (yr, orig, val) in enumerate(zip(years, ebitdas, draw_vals)):
+        label = "N/P" if orig is None else _format_lakh(val)
+        offset = max_val * 0.02 if val >= 0 else -max_val * 0.05
+        ax.text(i, val + offset, label, ha="center", fontsize=8,
+                color=NAVY, fontweight="bold")
+    ax.set_xticks(x)
+    ax.set_xticklabels(years, fontsize=9)
+    ax.axhline(0, color=GREY, linewidth=0.8)
+    _ax_style(ax, "EBITDA Trend", ylabel="INR Lakhs")
+    ax.legend(fontsize=9, framealpha=0.8, edgecolor=LGREY)
+    if has_none:
+        ax.annotate("N/P = Not Provided", xy=(0.01, 0.01), xycoords='axes fraction', fontsize=7, color=GREY)
+    fig.tight_layout()
+    return _fig_to_rl(fig, width_cm)
+
+
+def shareholding_chart(labels: List[str], percentages: List[float], width_cm: float = 9) -> RLImage:
+    """
+    Post-issue shareholding pattern pie chart.
+    Called by drhp_pipeline._stage_chart_generator() with label/pct lists.
+    """
+    if not labels or not percentages or len(labels) != len(percentages):
+        return None  # type: ignore
+    total = sum(p for p in percentages if p > 0)
+    if total <= 0:
+        return None  # type: ignore
+    norm = [max(0.0, p / total * 100) for p in percentages]
+    palette = [NAVY, BLUE, TEAL, GREEN, AMBER, RED, GREY]
+    chart_colors = [palette[i % len(palette)] for i in range(len(labels))]
+    fig, ax = plt.subplots(figsize=(6, 4.5), facecolor="white")
+    wedges, texts, autotexts = ax.pie(
+        norm, labels=labels, colors=chart_colors, explode=[0.02] * len(labels),
+        autopct="%1.1f%%", startangle=140,
+        wedgeprops=dict(edgecolor="white", linewidth=2),
+        textprops=dict(fontsize=9),
+    )
+    for at in autotexts:
+        at.set_fontsize(8)
+        at.set_fontweight("bold")
+        at.set_color("white")
+    ax.set_title("Post-Issue Shareholding Pattern", fontsize=11, fontweight="bold",
+                 color=NAVY, pad=10)
+    fig.tight_layout()
+    return _fig_to_rl(fig, width_cm)
+
+
+def issue_utilization_chart(labels: List[str], amounts: List[float], width_cm: float = 13) -> RLImage:
+    """
+    Objects of issue donut chart showing fund utilization.
+    Called by drhp_pipeline._stage_chart_generator() with purpose/amount_lakhs lists.
+    """
+    if not labels or not amounts:
+        return None  # type: ignore
+    filtered = [(lbl, amt) for lbl, amt in zip(labels, amounts) if amt > 0]
+    if not filtered:
+        return None  # type: ignore
+    labels_f, amounts_f = zip(*filtered)
+    palette = [NAVY, BLUE, TEAL, GREEN, AMBER, RED, GREY]
+    chart_colors = [palette[i % len(palette)] for i in range(len(labels_f))]
+    fig, ax = plt.subplots(figsize=(8, 5), facecolor="white")
+    wedges, texts, autotexts = ax.pie(
+        amounts_f, colors=chart_colors,
+        autopct=lambda pct: f"{pct:.1f}%",
+        startangle=140, pctdistance=0.75,
+        wedgeprops=dict(edgecolor="white", linewidth=2, width=0.55),
+        textprops=dict(fontsize=8),
+    )
+    for at in autotexts:
+        at.set_fontweight("bold")
+        at.set_color("white")
+    ax.legend(wedges,
+              [f"{lbl} ({_format_lakh(amt)})" for lbl, amt in zip(labels_f, amounts_f)],
+              loc="lower center", bbox_to_anchor=(0.5, -0.28), ncol=2,
+              fontsize=7.5, framealpha=0.9, edgecolor=LGREY)
+    total_f = sum(amounts_f)
+    ax.text(0, 0, f"{_format_lakh(total_f)}\nTotal", ha="center", va="center",
+            fontsize=10, fontweight="bold", color=NAVY)
+    ax.set_title("Objects of Issue — Fund Utilization", fontsize=11,
+                 fontweight="bold", color=NAVY, pad=12)
+    fig.tight_layout()
+    return _fig_to_rl(fig, width_cm)
+
+
+# ── Chart 10: Cash Flow Waterfall (OCF / Capex / FCF) ────────────────────
+
+def cash_flow_waterfall_chart(
+    years: List[str],
+    ocf_list: List[float],
+    capex_list: List[float],
+    fcf_list: List[float],
+    width_cm: float = 14,
+) -> RLImage:
+    """
+    Grouped bar chart showing Operating Cash Flow, Capex, and Free Cash Flow.
+    Called as a supplementary MDA exhibit. FCF bars are highlighted in a contrasting color.
+    Returns None for empty data.
+    """
+    if not years or not ocf_list or not capex_list or not fcf_list:
+        return None  # type: ignore
+    if len(years) == 0:
+        return None  # type: ignore
+
+    n = len(years)
+    x = np.arange(n)
+    w = 0.25
+
+    fig, ax = plt.subplots(figsize=(max(7, n * 1.8), 3.5), facecolor="white")
+
+    # OCF bars
+    bars_ocf = ax.bar(x - w, ocf_list, w, label="Operating Cash Flow", color=TEAL, edgecolor="white", linewidth=0.5)
+    # Capex bars (shown as negative to emphasize it's an outflow)
+    capex_display = [-abs(c) for c in capex_list]
+    bars_cap = ax.bar(x, capex_display, w, label="Capital Expenditure", color=RED, edgecolor="white", linewidth=0.5, alpha=0.8)
+    # FCF bars
+    fcf_colors = [GREEN if f >= 0 else RED for f in fcf_list]
+    bars_fcf = ax.bar(x + w, fcf_list, w, label="Free Cash Flow", color=fcf_colors, edgecolor="white", linewidth=0.5)
+
+    # Annotate values
+    all_vals = ocf_list + [abs(c) for c in capex_list] + [abs(f) for f in fcf_list]
+    max_val = max(all_vals) if all_vals else 1
+    for bar, v in zip(bars_ocf, ocf_list):
+        offset = max_val * 0.02 if v >= 0 else -max_val * 0.05
+        ax.text(bar.get_x() + bar.get_width() / 2, v + offset,
+                _format_lakh(v), ha="center", va="bottom", fontsize=7, color=TEAL, fontweight="bold")
+    for bar, v in zip(bars_cap, capex_display):
+        ax.text(bar.get_x() + bar.get_width() / 2, v - max_val * 0.03,
+                _format_lakh(abs(v)), ha="center", va="top", fontsize=7, color=RED, fontweight="bold")
+    for bar, v in zip(bars_fcf, fcf_list):
+        offset = max_val * 0.02 if v >= 0 else -max_val * 0.05
+        ax.text(bar.get_x() + bar.get_width() / 2, v + offset,
+                _format_lakh(v), ha="center", va="bottom", fontsize=7,
+                color=GREEN if v >= 0 else RED, fontweight="bold")
+
+    ax.set_xticks(x)
+    ax.set_xticklabels(years, fontsize=9)
+    ax.axhline(0, color=GREY, linewidth=0.8)
+    ax.legend(fontsize=8.5, framealpha=0.8, edgecolor=LGREY)
+    _ax_style(ax, "Cash Flow Analysis — OCF, Capex & Free Cash Flow", ylabel="INR Lakhs")
     fig.tight_layout()
     return _fig_to_rl(fig, width_cm)

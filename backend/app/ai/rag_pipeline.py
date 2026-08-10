@@ -22,7 +22,11 @@ logger = logging.getLogger(__name__)
 
 async def query_sebi_regulations(query: str, top_k: int = 5) -> list[dict[str, Any]]:
     """
-    Query the indexed SEBI corpus and return the most relevant regulation chunks.
+    Query the indexed SEBI corpus using hybrid retrieval (Dense MMR + BM25 + RRF).
+
+    The BM25 index was previously built on every document upload but never used in queries.
+    This function now activates it via Reciprocal Rank Fusion for significantly better
+    precision on keyword-heavy regulatory/numeric SEBI clause lookups.
 
     Args:
         query: Natural language query about SEBI regulations.
@@ -31,13 +35,27 @@ async def query_sebi_regulations(query: str, top_k: int = 5) -> list[dict[str, A
     Returns:
         List of dicts with keys: content, regulation_id, source, section.
     """
+    from app.ai.vector_store import search_bm25, rrf_merge, SEBI_COLLECTION
     try:
         vectorstore = get_sebi_vectorstore()
-        retriever = vectorstore.as_retriever(
-            search_type="mmr",  # Maximal Marginal Relevance for diversity
-            search_kwargs={"k": top_k, "fetch_k": top_k * 3},
+
+        # 1. Dense retrieval using MMR
+        dense_docs_with_scores = await vectorstore.asimilarity_search_with_relevance_scores(
+            query, k=top_k * 2
         )
-        docs = await retriever.ainvoke(query)
+
+        # 2. Sparse BM25 retrieval
+        bm25_results = search_bm25(query, SEBI_COLLECTION, top_k=top_k * 2)
+
+        # 3. Fuse results using Reciprocal Rank Fusion
+        if bm25_results:
+            fused = rrf_merge(dense_docs_with_scores, bm25_results, top_n=top_k)
+            logger.debug("Hybrid RAG (Dense+BM25+RRF) query '%s' returned %d results.", query, len(fused))
+        else:
+            # BM25 index not yet built — fall back to dense only
+            fused = dense_docs_with_scores[:top_k]
+            logger.debug("BM25 index unavailable, using dense-only retrieval for query '%s'.", query)
+
         results = [
             {
                 "content": doc.page_content,
@@ -45,11 +63,12 @@ async def query_sebi_regulations(query: str, top_k: int = 5) -> list[dict[str, A
                 "source": doc.metadata.get("source_file", ""),
                 "section": doc.metadata.get("section", ""),
                 "chapter": doc.metadata.get("chapter", ""),
-                "score": doc.metadata.get("score", None),
+                "regulation_version": doc.metadata.get("regulation_version", "unknown"),
+                "effective_date": doc.metadata.get("effective_date", "unknown"),
+                "score": float(score),
             }
-            for doc in docs
+            for doc, score in fused
         ]
-        logger.debug("RAG query '%s' returned %d results.", query, len(results))
         return results
     except Exception as exc:
         logger.error("Error during RAG query: %s", exc, exc_info=True)
@@ -70,12 +89,12 @@ async def query_workspace_documents(
         top_k: Number of results to return.
 
     Returns:
-        List of dicts with keys: content, document_id, filename, page.
+        List of dicts with keys: content, document_id, filename, page, similarity_score.
     """
     try:
         vectorstore = get_workspace_vectorstore(workspace_id)
-        retriever = vectorstore.as_retriever(search_kwargs={"k": top_k})
-        docs = await retriever.ainvoke(query)
+        # Use similarity_search_with_relevance_scores to get real retrieval confidence
+        docs_with_scores = await vectorstore.asimilarity_search_with_relevance_scores(query, k=top_k)
         return [
             {
                 "content": doc.page_content,
@@ -83,8 +102,9 @@ async def query_workspace_documents(
                 "filename": doc.metadata.get("filename", ""),
                 "page": doc.metadata.get("page", None),
                 "doc_type": doc.metadata.get("doc_type", ""),
+                "similarity_score": float(score),
             }
-            for doc in docs
+            for doc, score in docs_with_scores
         ]
     except Exception as exc:
         logger.error("Error during workspace RAG query for workspace '%s': %s", workspace_id, exc, exc_info=True)
@@ -166,7 +186,13 @@ async def rag_query_full(query: str, workspace_id: str | None = None, top_k: int
         context_docs.extend(sebi_docs)
         
     answer = await query_with_llm(query, context_docs)
-    sources = list({doc["source"] for doc in context_docs if doc.get("source")})
+    # Fix: workspace documents use 'filename' key, SEBI corpus uses 'source' key.
+    # Collect both so user-uploaded document citations are never silently dropped.
+    sources = list({
+        doc.get("source") or doc.get("filename", "")
+        for doc in context_docs
+        if doc.get("source") or doc.get("filename")
+    })
     return {
         "answer": answer,
         "sources": sources,
@@ -174,16 +200,23 @@ async def rag_query_full(query: str, workspace_id: str | None = None, top_k: int
     }
 
 
-async def build_compliance_context(regulation_description: str, top_k: int = 3) -> str:
+async def build_compliance_context(regulation_description: str, top_k: int = 3) -> tuple[str, str]:
     """
     Retrieve SEBI context relevant to a specific regulation for compliance checking.
-    Returns a formatted string ready to inject into a compliance prompt.
+    Returns a formatted string ready to inject into a compliance prompt, 
+    and a version string indicating the source of the regulation.
     """
     docs = await query_sebi_regulations(regulation_description, top_k=top_k)
     if not docs:
-        return "No additional context available from SEBI corpus."
+        return "No additional context available from SEBI corpus.", "unknown"
     parts = []
+    versions = set()
     for doc in docs:
         reg_id = doc.get("regulation_id", "N/A")
         parts.append(f"[{reg_id}]\n{doc['content']}")
-    return "\n\n".join(parts)
+        ver = doc.get("regulation_version", "unknown")
+        if ver != "unknown":
+            versions.add(ver)
+    
+    version_str = ", ".join(versions) if versions else "unknown"
+    return "\n\n".join(parts), version_str

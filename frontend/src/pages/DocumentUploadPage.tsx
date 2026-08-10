@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import { useParams } from 'react-router-dom'
 import { Upload, FileText, CheckCircle2, AlertCircle, Clock, Zap, X } from 'lucide-react'
+import toast from 'react-hot-toast'
 import { useDocuments, useUploadDocument } from '@/api/documents'
 import { apiClient } from '@/api/client'
 import { formatFileSize, formatDate } from '@/utils/formatters'
@@ -55,8 +56,9 @@ export default function DocumentUploadPage() {
     try {
       await apiClient.post(`/documents/${docId}/validate`)
       await refetch()
-    } catch (e) {
-      console.error('Validation failed:', e)
+    } catch (e: any) {
+      const msg = e?.response?.data?.detail || e?.message || 'Validation failed'
+      toast.error(`Validation failed: ${msg}`)
     }
   }
 

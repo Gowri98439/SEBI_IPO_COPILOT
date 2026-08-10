@@ -38,8 +38,8 @@ const DashboardPage: React.FC = () => {
   useEffect(() => {
     if (!workspaceId) return;
     Promise.all([
-      api.get(`/workspaces/${workspaceId}`),
-      api.get(`/workspaces/${workspaceId}/dashboard`).catch(() => null),
+      api.get(`/workspaces/${workspaceId}`) as unknown as Promise<any>,
+      (api.get(`/workspaces/${workspaceId}/dashboard`) as unknown as Promise<any>).catch(() => null),
     ]).then(([ws, s]) => {
       setWorkspace(ws);
       setStats(s);
@@ -256,18 +256,12 @@ const DashboardPage: React.FC = () => {
                 { label: 'Generate DRHP',      desc: 'Draft IPO prospectus (PDF)',    path: `/app/drhp/${workspaceId}` },
                 { label: 'SEBI Advisor',        desc: 'Ask regulatory questions',      path: `/app/copilot/${workspaceId}` },
                 { label: 'Export Report',       desc: 'Download compliance PDF',       path: `/app/export/${workspaceId}` },
-                { label: 'Audit Trail',         desc: 'View all system events',        path: `/app/audit/${workspaceId}` },
+                { label: 'Audit Trail',         desc: 'View all system events',        path: `/app/audit-log/${workspaceId}` },
               ].map((action) => (
                 <Link
                   key={action.path}
                   to={action.path}
-                  style={{
-                    display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    padding: '0.75rem 1rem', borderRadius: '8px', textDecoration: 'none',
-                    marginBottom: '2px', transition: 'background 150ms',
-                  }}
-                  onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--bg-elevated)')}
-                  onMouseLeave={(e) => (e.currentTarget.style.background = 'transparent')}
+                  className="quick-action-link"
                 >
                   <div>
                     <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-primary)' }}>{action.label}</div>

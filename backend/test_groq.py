@@ -1,8 +1,10 @@
 import asyncio
+import pytest
 from app.ai.llm_client import get_llm
 from app.ai.embeddings import get_embeddings
 from langchain_core.messages import HumanMessage
 
+@pytest.mark.asyncio
 async def test_llm():
     try:
         llm = get_llm()
@@ -11,6 +13,7 @@ async def test_llm():
     except Exception as e:
         print("LLM Failed:", e)
 
+@pytest.mark.asyncio
 async def test_embeddings():
     try:
         emb = get_embeddings()

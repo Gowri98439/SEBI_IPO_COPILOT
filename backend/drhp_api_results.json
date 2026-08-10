@@ -1,0 +1,135 @@
+[
+  {
+    "test": "Auth Login",
+    "status": "PASS",
+    "detail": "Obtained JWT token",
+    "code": 200,
+    "latency_ms": 2489.7620677948
+  },
+  {
+    "test": "Get Workspaces",
+    "status": "PASS",
+    "detail": "Workspace ID: b217444f-e4f5-43b6-8f40-16f2f1e3df07",
+    "code": 200,
+    "latency_ms": 2081.5999507904053
+  },
+  {
+    "test": "POST /drhp/generate (Valid)",
+    "status": "PASS",
+    "detail": "Job ID: ca555c2e-8215-437d-80e4-d0712bb6b6ec",
+    "code": 202,
+    "latency_ms": 2238.449811935425
+  },
+  {
+    "test": "Validation: Missing company.name",
+    "status": "PASS",
+    "detail": "Response: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"company\",\"name\"],\"msg\":\"Field required\",\"input\":{\"cin\":\"U72900MH2020PTC12345",
+    "code": 422,
+    "latency_ms": null
+  },
+  {
+    "test": "Validation: Missing company.cin",
+    "status": "PASS",
+    "detail": "Response: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"company\",\"cin\"],\"msg\":\"Field required\",\"input\":{\"name\":\"Acme Technologies Pr",
+    "code": 422,
+    "latency_ms": null
+  },
+  {
+    "test": "Validation: Missing company.pan",
+    "status": "PASS",
+    "detail": "Response: {\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"company\",\"pan\"],\"msg\":\"Field required\",\"input\":{\"name\":\"Acme Technologies Pr",
+    "code": 422,
+    "latency_ms": null
+  },
+  {
+    "test": "Validation: Empty financials array",
+    "status": "PASS",
+    "detail": "Response: {\"detail\":[{\"type\":\"too_short\",\"loc\":[\"body\",\"financials\"],\"msg\":\"List should have at least 1 item after validation, not",
+    "code": 422,
+    "latency_ms": null
+  },
+  {
+    "test": "Validation: Promoter holding_pct > 100",
+    "status": "PASS",
+    "detail": "Response: {\"detail\":[{\"type\":\"less_than_equal\",\"loc\":[\"body\",\"promoters\",0,\"holding_pct\"],\"msg\":\"Input should be less than or equa",
+    "code": 422,
+    "latency_ms": null
+  },
+  {
+    "test": "Validation: Promoter holding_pct < 0",
+    "status": "PASS",
+    "detail": "Response: {\"detail\":[{\"type\":\"greater_than_equal\",\"loc\":[\"body\",\"promoters\",0,\"holding_pct\"],\"msg\":\"Input should be greater than o",
+    "code": 422,
+    "latency_ms": null
+  },
+  {
+    "test": "Security: SQL Injection Payload",
+    "status": "PASS",
+    "detail": "Handled without DB exception [HTTP 202]",
+    "code": 202,
+    "latency_ms": null
+  },
+  {
+    "test": "Security: XSS Payload in Company Name",
+    "status": "PASS",
+    "detail": "Handled without server error [HTTP 202]",
+    "code": 202,
+    "latency_ms": null
+  },
+  {
+    "test": "Security: Oversized Payload (10k words)",
+    "status": "PASS",
+    "detail": "Handled correctly",
+    "code": 202,
+    "latency_ms": 2350.865125656128
+  },
+  {
+    "test": "Security: Unicode & Emoji Payload",
+    "status": "PASS",
+    "detail": "Handled correctly",
+    "code": 202,
+    "latency_ms": null
+  },
+  {
+    "test": "Security: Missing JWT Auth",
+    "status": "PASS",
+    "detail": "Expected 401, got 401",
+    "code": 401,
+    "latency_ms": null
+  },
+  {
+    "test": "Security: Invalid JWT Auth",
+    "status": "PASS",
+    "detail": "Expected 401, got 401",
+    "code": 401,
+    "latency_ms": null
+  },
+  {
+    "test": "Security: Non-existent Workspace ID",
+    "status": "PASS",
+    "detail": "Expected 404, got 404",
+    "code": 404,
+    "latency_ms": null
+  },
+  {
+    "test": "GET /drhp/status/{job_id}",
+    "status": "PASS",
+    "detail": "Generation completed in 3.06s across 1 polls",
+    "code": 200,
+    "latency_ms": 2058.6678981781006
+  },
+  {
+    "test": "GET /drhp/download/{job_id}",
+    "status": "PASS",
+    "detail": "Downloaded 72350 bytes PDF",
+    "code": 200,
+    "latency_ms": 2077.4831771850586
+  },
+  {
+    "test": "GET /drhp/status (Invalid Job ID)",
+    "status": "PASS",
+    "detail": "Expected 404, got 404",
+    "code": 404,
+    "latency_ms": null
+  }
+]

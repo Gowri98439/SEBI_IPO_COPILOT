@@ -1,0 +1,831 @@
+{
+  "cover_page": {
+    "section_id": "cover_page",
+    "title": "Cover Page",
+    "content": "COVER PAGE\n\nThis section of the DRHP covers cover page for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Cover Page' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_cover_page"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "disclaimer": {
+    "section_id": "disclaimer",
+    "title": "Important Disclaimer",
+    "content": "IMPORTANT DISCLAIMER\n\nThis section of the DRHP covers important disclaimer for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Important Disclaimer' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_disclaimer"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "toc": {
+    "section_id": "toc",
+    "title": "Table of Contents",
+    "content": "TABLE OF CONTENTS\n\nThis section of the DRHP covers table of contents for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Table of Contents' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_toc"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "definitions": {
+    "section_id": "definitions",
+    "title": "Definitions and Abbreviations",
+    "content": "DEFINITIONS AND ABBREVIATIONS\n\nThis section of the DRHP covers definitions and abbreviations for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Definitions and Abbreviations' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_definitions"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "forward_looking": {
+    "section_id": "forward_looking",
+    "title": "Forward Looking Statements",
+    "content": "FORWARD LOOKING STATEMENTS\n\nThis Draft Red Herring Prospectus contains certain \"forward-looking statements.\" These forward-looking statements \ngenerally can be identified by words or phrases such as \"aim\", \"anticipate\", \"believe\", \"expect\", \"estimate\", \n\"intend\", \"objective\", \"plan\", \"project\", \"shall\", \"will\", \"will continue\", \"will pursue\" or other words or \nphrases of similar import.\n\nAll forward-looking statements are subject to risks, uncertainties and assumptions about Test Pharma Ltd that could \ncause actual results to differ materially from those contemplated by the relevant forward-looking statement.\n\nImportant factors that could cause actual results to differ materially from the Company's expectations include, \nbut are not limited to:\n\u2022 General economic and business conditions in India and globally;\n\u2022 The Company's ability to successfully implement its growth strategy;\n\u2022 Changes in the competitive landscape in the Pharmaceuticals sector;\n\u2022 Changes in laws and regulations that apply to the Company's business;\n\u2022 Changes in political and social conditions in India;\n\u2022 The occurrence of natural disasters, acts of terrorism or other events;\n\u2022 The ability to attract and retain key personnel.\n\nNeither the Company nor the Lead Manager, nor any of their respective affiliates have any obligation to update \nor otherwise revise any statements reflecting circumstances arising after the date hereof or to reflect the \noccurrence of underlying events, even if the underlying assumptions do not come to fruition.\n",
+    "citations": [
+      {
+        "type": "regulatory",
+        "ref": "SEBI ICDR Regulations 2018, Schedule VI, Part A"
+      }
+    ],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "issue_summary": {
+    "section_id": "issue_summary",
+    "title": "Issue Summary",
+    "content": "ISSUE SUMMARY\n\nThis section of the DRHP covers issue summary for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Issue Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_issue_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "risk_factors": {
+    "section_id": "risk_factors",
+    "title": "Risk Factors",
+    "content": "RISK FACTORS\n\nInvestment in equity shares involves a degree of risk. Investors should carefully read all risk factors \nbefore taking an investment decision. Additional risks not currently known may also materially impair \nthe Company's business, financial condition, and results of operations.\n\n**1. Limited Operating History Risk**\nTest Pharma Ltd was incorporated on 2018-01-15. Our limited operating history makes it difficult to assess future performance.\n\n**2. Sector-Specific Competition Risk**\nThe Pharmaceuticals sector is highly competitive. We face competition from larger, better-capitalised entities with greater market reach.\n\n**3. Working Capital Risk**\nOur business requires continuous working capital deployment. Delays in receivables or unforeseen capital requirements may impact liquidity.\n\n**4. Key Personnel Risk**\nOur success depends on senior management retention. Loss of key personnel may adversely affect our business.\n\n**5. Regulatory Compliance Risk**\nOur Pharmaceuticals business is subject to central and state government regulations. Changes in applicable laws could adversely impact operations.\n\n**6. No Prior Public Market Risk**\nThere is no prior public market for our equity shares. The Issue price may not be indicative of the post-listing trading price.\n\n**7. Promoter Lock-in Risk**\nPromoter shares are subject to SEBI-mandated lock-in for 3 years. Post lock-in exit by promoters may create downward price pressure.\n\n**8. General Economic Risk**\nOur financial performance is linked to overall economic conditions in India and globally. Economic \ndownturns, inflationary pressures, interest rate changes, and foreign exchange fluctuations could \nadversely affect our business.\n\n**9. Geopolitical and Force Majeure Risk**\nUnforeseen events including natural disasters, pandemics, geopolitical tensions, and social unrest \ncould disrupt supply chains, reduce consumer demand, and adversely impact results.\n\nNote: The above risk factors are based on information provided and general sector knowledge. \nCompany-specific risk factors based on uploaded documents and detailed business information \nshould be added by the legal team and merchant banker before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "customer_concentration_data"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.75,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "hybrid",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "business_overview": {
+    "section_id": "business_overview",
+    "title": "Business Overview",
+    "content": "**BUSINESS OVERVIEW**\n\n**Introduction**\n\nTest Pharma Ltd, a company incorporated on January 15, 2018, under the Companies Act, 2013, with its registered office at 123 MG Road, Mumbai, Maharashtra 400001, is a generic pharmaceutical manufacturer producing quality medicines for the domestic and export markets. Our company has over 6 years of operating history and serves hospitals, distributors, and retail chemists across 10 Indian states.\n\n**Business Description**\n\nWe are engaged in the manufacture of generic pharmaceutical products, including tablets, capsules, and syrups. Our products cater to the needs of various therapeutic segments, and we have established a strong presence in the domestic market. Our manufacturing facilities are equipped with modern infrastructure and technology, enabling us to produce high-quality products that meet international standards.\n\n**Key Products/Services**\n\nOur key products include generic tablets, capsules, and syrups, which are manufactured at our facilities and marketed through our distribution network. We have a strong product portfolio, with a focus on quality and affordability.\n\n**Geographical Presence**\n\nWe have a significant presence in the states of Maharashtra, Gujarat, and Rajasthan, with plans to expand our reach to other parts of the country. Our products are marketed through a network of distributors and retail chemists, ensuring widespread availability and accessibility.\n\n**Certifications and Compliance**\n\nWe have obtained the ISO 9001:2015 certification, which demonstrates our commitment to quality and customer satisfaction. We are also compliant with all applicable regulatory requirements, including those related to manufacturing, quality control, and environmental protection.\n\n**Promoters and Management**\n\nOur promoters, Ramesh Kumar and Sunita Kumar, have extensive experience in the pharmaceutical industry and have played a key role in shaping the company's strategy and direction. Ramesh Kumar, our Managing Director, holds 55.0% of the company's equity, while Sunita Kumar, our Director, holds 15.0%.\n\n**Financial Performance**\n\nOur financial performance over the past three years is as follows:\n\n| Year | Revenue (INR Lakhs) | PAT (INR Lakhs) | EBITDA (INR Lakhs) | Total Assets (INR Lakhs) | Equity (INR Lakhs) |\n| --- | --- | --- | --- | --- | --- |\n| 2021-22 | 1,200.50 | 85.30 | 142.00 | 950.20 | 420.10 |\n| 2022-23 | 1,480.80 | 110.20 | 178.40 | 1,120.50 | 530.30 |\n| 2023-24 | 1,820.30 | 142.70 | 220.50 | 1,350.80 | 660.00 |\n\n**Issue Details**\n\nWe are proposing to issue [MISSING: number] equity shares of face value \u20b910 each, with a price band of \u20b990 to \u20b995 per share. The issue size is \u20b925.00 Crore, comprising a fresh issue of \u20b920.00 Crore and an offer for sale of \u20b95.00 Crore. The objects of the issue are:\n\n1. Expansion of manufacturing capacity at our Pune plant: \u20b912.00 Crore\n2. Working capital requirements: \u20b95.00 Crore\n3. General corporate purposes: \u20b93.00 Crore\n\nOur lead manager for the issue is XYZ Capital Advisors Pvt Ltd.\n\n**Reservation in Issue**\n\nAs per SEBI ICDR Regulations, at least 50% of the net offer is reserved for retail individual investors, while the remaining net offer is available to non-institutional investors and qualified institutional buyers (QIBs). A specified portion is reserved for market makers.\n\n**Statutory Auditor**\n\nOur statutory auditor is ABC & Co. Chartered Accountants.\n\n**Website**\n\nOur website is [https://testpharma.com](https://testpharma.com), which provides information about our company, products, and services.\n\n**Employees**\n\nWe have a team of 350 employees, who are dedicated to our mission of providing quality pharmaceutical products to our customers.\n\nBy filing this draft red herring prospectus through SEBI's PRISM system, we are complying with the regulatory requirements for SME IPOs. Our financial data is also being filed in XBRL format, as required by the SEBI regulations.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. SEBI PRISM SYSTEM:\nAll SME IPO offer documents must now be filed through SEBI's PRISM (Portal for Risk-based Internal Monitoring) system. Paper filings are no longer accepted as of October 1, 20"
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "number"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2907.081700002891
+  },
+  "business_model": {
+    "section_id": "business_model",
+    "title": "Business Model",
+    "content": "## Business Model\n\n### Introduction\nTest Pharma Ltd, a generic pharmaceutical manufacturer, operates in the pharmaceuticals sector with a focus on generic drugs. The company was incorporated on January 15, 2018, and has since established itself as a producer of quality medicines for both domestic and export markets.\n\n### Overview of Business Operations\nThe company's business model revolves around the manufacture and distribution of generic tablets, capsules, and syrups. With a strong presence in Maharashtra, Gujarat, and Rajasthan, Test Pharma Ltd serves a diverse customer base including hospitals, distributors, and retail chemists across 10 Indian states. The company's operations are guided by its commitment to quality, as evidenced by its ISO 9001:2015 certification.\n\n### Key Products and Services\nThe primary products offered by Test Pharma Ltd include:\n- Generic Tablets\n- Capsules\n- Syrups\n\nThese products are manufactured at the company's facilities, ensuring adherence to stringent quality standards. The company's product portfolio is designed to cater to a wide range of healthcare needs, positioning it as a reliable supplier in the pharmaceutical industry.\n\n### Market and Customer Base\nTest Pharma Ltd operates in the generic drugs sub-sector of the pharmaceuticals sector. The company's customer base includes:\n- Hospitals\n- Distributors\n- Retail Chemists\n\nWith operations spanning across 10 Indian states, the company has established a significant presence in the domestic market. The geographical areas of operation include Maharashtra, Gujarat, and Rajasthan, among others.\n\n### Manufacturing and Operational Infrastructure\nThe company has [MISSING: details of manufacturing facilities, including location, capacity, and equipment]. The manufacturing process is overseen by a team of experienced professionals ensuring that all products meet the required quality and regulatory standards.\n\n### Research and Development\n[MISSING: information on the company's research and development activities, including investments in R&D, focus areas, and outcomes].\n\n### Regulatory Compliance\nTest Pharma Ltd is committed to complying with all applicable laws and regulations governing the pharmaceutical industry. The company holds necessary certifications, including ISO 9001:2015, and adheres to Good Manufacturing Practices (GMP) as mandated by regulatory authorities.\n\n### Supply Chain and Distribution\nThe company's supply chain and distribution network are designed to ensure timely and efficient delivery of products to its customers. Test Pharma Ltd has established relationships with [MISSING: details of suppliers and distributors] to facilitate the smooth operation of its business.\n\n### Competitive Advantage\nThe company's competitive advantage stems from its [MISSING: specific factors that differentiate it from competitors, such as product quality, pricing strategy, or brand reputation].\n\n### Growth Strategy\nTest Pharma Ltd aims to expand its operations and increase its market share through [MISSING: specific strategies, such as expanding product offerings, entering new markets, or enhancing manufacturing capacity]. The objects of the issue, as outlined in the prospectus, include expansion of manufacturing capacity at the Pune plant, working capital requirements, and general corporate purposes, which are expected to contribute to the company's growth strategy.\n\n### Financial Performance\nThe company's financial performance over the last three years is as follows:\n- 2021-22: Revenue \u20b91,200.50L, PAT \u20b985.30L, EBITDA \u20b9142.00L, Total Assets \u20b9950.20L, Equity \u20b9420.10L\n- 2022-23: Revenue \u20b91,480.80L, PAT \u20b9110.20L, EBITDA \u20b9178.40L, Total Assets \u20b91,120.50L, Equity \u20b9530.30L\n- 2023-24: Revenue \u20b91,820.30L, PAT \u20b9142.70L, EBITDA \u20b9220.50L, Total Assets \u20b91,350.80L, Equity \u20b9660.00L\n\nThis financial performance indicates a growth trend in the company's revenue and profitability, reflecting its expanding operations and market presence.\n\n### Conclusion\nTest Pharma Ltd's business model is centered around the manufacture and distribution of high-quality generic pharmaceutical products. With a strong operational infrastructure, a commitment to quality, and a growing market presence, the company is well-positioned to capitalize on opportunities in the pharmaceutical sector. However, the company's ability to execute its growth strategy and navigate the competitive landscape will be critical to its future success.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "details of manufacturing facilities, including location, capacity, and equipment",
+      "information on the company's research and development activities, including investments in R&D, focus areas, and outcomes",
+      "details of suppliers and distributors",
+      "specific factors that differentiate it from competitors, such as product quality, pricing strategy, or brand reputation",
+      "specific strategies, such as expanding product offerings, entering new markets, or enhancing manufacturing capacity"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3139.782300000661
+  },
+  "competitive_strengths": {
+    "section_id": "competitive_strengths",
+    "title": "Competitive Strengths",
+    "content": "**Competitive Strengths**\n\nOur Company, Test Pharma Ltd, has established itself as a significant player in the generic pharmaceuticals sector, with a strong foundation built on several key competitive strengths.\n\n### Established Track Record with Diversified Customer Base\n\nTest Pharma Ltd has over 6 years of operating history, serving hospitals, distributors, and retail chemists across 10 Indian states. Our customer base is diversified, with a presence in Maharashtra, Gujarat, and Rajasthan, which provides us with a stable and broad revenue stream.\n\n### Experienced Promoter and Management Team\n\nOur promoters, Ramesh Kumar (Managing Director) and Sunita Kumar (Director), have extensive experience in the pharmaceutical industry. However, the exact number of years of industry experience is [MISSING: number of years of industry experience of promoters].\n\n### Quality Certifications\n\nWe have obtained the ISO 9001:2015 certification, which demonstrates our commitment to quality and customer satisfaction. This certification is a testament to our adherence to international quality standards and our focus on delivering high-quality products.\n\n### Geographically Diversified Operations\n\nOur operations are geographically diversified, with a presence in Maharashtra, Gujarat, and Rajasthan. This diversification enables us to cater to a wide range of customers and reduces our dependence on any one particular region.\n\n### Strong Backward Integration\n\nWe have a strong backward integration system in place, which enables us to control the quality of our raw materials and ensure a consistent supply chain. However, the details of our backward integration are [MISSING: description of backward integration].\n\n### Asset-Light Business Model\n\nOur business model is asset-light, with a focus on efficient use of resources and minimal capital expenditure. This enables us to maintain a low-cost structure and allocate resources to high-growth areas.\n\n### Industry Overview\n\nThe Indian pharmaceutical industry is a significant sector, with a large and growing market. According to [MISSING: statistical data], the industry is expected to grow at a CAGR of [MISSING: growth rate] over the next few years. Our Company is well-positioned to capitalize on this growth, with a strong product portfolio and a diversified customer base.\n\n### Business Overview\n\nOur Company is engaged in the manufacture and sale of generic pharmaceuticals, including tablets, capsules, and syrups. We have a strong product portfolio, with a focus on quality and customer satisfaction. Our business strategy is to expand our product offerings, increase our market share, and enhance our operational efficiency.\n\n### Key Competitive Strengths\n\nOur key competitive strengths include:\n\n* A strong and experienced management team\n* A diversified customer base\n* A focus on quality and customer satisfaction\n* A geographically diversified operations\n* A strong backward integration system\n* An asset-light business model\n\n### Business Strategy\n\nOur business strategy is to:\n\n* Expand our manufacturing capacity to meet growing demand\n* Increase our market share through targeted marketing and sales efforts\n* Enhance our operational efficiency through process improvements and cost reduction initiatives\n* Develop new products and formulations to expand our product portfolio\n\nBy leveraging our competitive strengths and executing our business strategy, we aim to maintain our position as a leading player in the generic pharmaceuticals sector and drive long-term growth and profitability.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1.2 COMPETITIVE STRENGTHS (STANDARD SECTIONS):\n(a) Established track record with diversified customer base;\n(b) Experienced promoter and management team with [X] years of industry experience;\n(c) Q"
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "number of years of industry experience of promoters",
+      "description of backward integration",
+      "statistical data",
+      "growth rate"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2382.658200003789
+  },
+  "strategies": {
+    "section_id": "strategies",
+    "title": "Business Strategies",
+    "content": "**Business Strategies**\n\nAs a generic pharmaceutical manufacturer, Test Pharma Ltd has developed and implemented various business strategies to achieve its objectives and drive growth. The following sections outline the key business strategies of the Company.\n\n### **Overview of Business Strategy**\n\nThe Company's business strategy is focused on expanding its presence in the domestic and export markets, while maintaining its commitment to quality and customer satisfaction. The key elements of the Company's business strategy include:\n\n* Expanding the product portfolio to cater to the growing demand for generic medicines\n* Enhancing manufacturing capabilities to increase efficiency and reduce costs\n* Strengthening relationships with distributors, retailers, and hospitals to improve market penetration\n* Exploring new markets and geographies to increase exports\n\n### **Product Development and Expansion**\n\nThe Company has a strong focus on product development and expansion. The Company's product portfolio includes generic tablets, capsules, and syrups, which are manufactured at its state-of-the-art facilities. The Company plans to expand its product portfolio by introducing new products and formulations, which will enable it to cater to a wider range of customers and increase its market share.\n\n### **Manufacturing Capacity Expansion**\n\nThe Company plans to expand its manufacturing capacity at its Pune plant, which will enable it to increase production and meet the growing demand for its products. The expansion plan includes the installation of new machinery and equipment, which will improve efficiency and reduce costs. The Company has allocated \u20b912 Crore for the expansion of its manufacturing capacity, which is part of the objects of the Issue.\n\n### **Marketing and Sales Strategy**\n\nThe Company's marketing and sales strategy is focused on increasing its presence in the domestic and export markets. The Company has a strong network of distributors, retailers, and hospitals, which enables it to reach a wide range of customers. The Company plans to strengthen its relationships with these stakeholders by providing them with high-quality products and excellent customer service.\n\n### **Quality Management**\n\nThe Company has a strong commitment to quality and has implemented various quality management systems to ensure that its products meet the highest standards of quality. The Company has been certified with ISO 9001:2015, which demonstrates its commitment to quality management. The Company's quality management systems include regular testing and inspection of products, training of personnel, and continuous improvement of processes.\n\n### **Regulatory Compliance**\n\nThe Company is committed to complying with all applicable laws and regulations, including those related to the pharmaceutical industry. The Company has a strong regulatory compliance framework, which includes regular audits and reviews to ensure that it is complying with all applicable laws and regulations.\n\n### **Risk Management**\n\nThe Company has identified various risks that could impact its business, including regulatory risks, market risks, and operational risks. The Company has implemented various risk management strategies to mitigate these risks, including regular reviews and audits, training of personnel, and continuous improvement of processes.\n\n### **Growth Strategy**\n\nThe Company's growth strategy is focused on expanding its presence in the domestic and export markets, while maintaining its commitment to quality and customer satisfaction. The Company plans to achieve growth through a combination of organic and inorganic means, including expansion of its product portfolio, enhancement of its manufacturing capabilities, and strengthening of its relationships with distributors, retailers, and hospitals.\n\n### **Financial Performance**\n\nThe Company's financial performance has been strong, with revenue growing from \u20b91,200.50 Lakhs in FY 2021-22 to \u20b91,820.30 Lakhs in FY 2023-24. The Company's profit after tax has also grown from \u20b985.30 Lakhs in FY 2021-22 to \u20b9142.70 Lakhs in FY 2023-24. The Company's financial performance is expected to continue to grow in the future, driven by its strong business strategy and commitment to quality and customer satisfaction.\n\n### **Objects of the Issue**\n\nThe proceeds of the Issue will be used to achieve the following objects:\n\n* Expansion of manufacturing capacity at Pune Plant: \u20b912 Crore\n* Working capital requirements: \u20b95 Crore\n* General corporate purposes: \u20b93 Crore\n\nThe Company believes that the Issue will provide it with the necessary funds to achieve its business objectives and drive growth.\n\n### **Internal Control Systems**\n\nThe Company has a strong system of internal controls, which includes regular audits and reviews to ensure that its financial statements are accurate and reliable. The Company's internal control systems are designed to provide reasonable assurance regarding the achievement of the Company's objectives, including the effectiveness and efficiency of operations, reliability of financial reporting, and compliance with applicable laws and regulations.\n\n### **Management Discussion and Analysis**\n\nThe Company's management discussion and analysis of its financial condition and results of operations is provided in the \"Management Discussion and Analysis\" section of this Draft Red Herring Prospectus.\n\nIn accordance with the SEBI ICDR Regulations, the Company has made the following disclosures:\n\n* The Company has reserved at least 50% of the net offer for retail individual investors.\n* The Company has allocated [MISSING: percentage] of the net offer to non-institutional investors and qualified institutional buyers.\n* The Company has reserved a specified portion for market makers.\n\nThe Company believes that its business strategies, as outlined above, will enable it to achieve its objectives and drive growth in the future.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "percentage"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3736.078100002487
+  },
+  "industry_overview": {
+    "section_id": "industry_overview",
+    "title": "Industry Overview",
+    "content": "## Industry Overview\n\nThe Indian pharmaceutical industry has experienced significant growth over the years, driven by an increasing demand for quality and affordable healthcare services. As a key player in this sector, Test Pharma Ltd operates in the generic drugs sub-sector, which has been a major contributor to the industry's growth.\n\n### Introduction to the Indian Pharmaceutical Sector\n\nThe Indian pharmaceutical sector is one of the largest and most developed in the world. It has been a significant contributor to the country's economy, with a large number of domestic and international players operating in the market. The sector has been driven by factors such as a large and growing patient population, an increasing demand for healthcare services, and a strong presence of pharmaceutical manufacturers.\n\n### Generic Drugs Sub-Sector\n\nThe generic drugs sub-sector has been a major driver of growth in the Indian pharmaceutical sector. Generic drugs are pharmaceutical products that are equivalent to brand-name products in terms of quality, strength, and efficacy, but are available at a lower cost. The generic drugs sub-sector has been driven by factors such as the increasing demand for affordable healthcare services, the expiration of patents for several blockbuster drugs, and the growing presence of generic drug manufacturers.\n\n### Market Trends and Outlook\n\nThe Indian pharmaceutical sector is expected to continue growing in the coming years, driven by factors such as the increasing demand for healthcare services, the growing presence of pharmaceutical manufacturers, and the government's initiatives to promote the sector. The generic drugs sub-sector is also expected to continue growing, driven by the increasing demand for affordable healthcare services and the expiration of patents for several blockbuster drugs.\n\n### Competitive Landscape\n\nThe Indian pharmaceutical sector is highly competitive, with a large number of domestic and international players operating in the market. The sector is characterized by a high level of competition, with companies competing on factors such as price, quality, and innovation. Test Pharma Ltd operates in this competitive landscape, with a focus on producing high-quality generic drugs at affordable prices.\n\n### Regulatory Environment\n\nThe Indian pharmaceutical sector is regulated by several regulatory bodies, including the Central Drugs Standard Control Organization (CDSCO) and the State Drug Authorities. The sector is subject to several regulations, including the Drugs and Cosmetics Act, 1940, and the Drugs and Cosmetics Rules, 1945. Test Pharma Ltd is required to comply with these regulations, and has obtained the necessary certifications, including ISO 9001:2015, to ensure the quality of its products.\n\n### Company's Position in the Industry\n\nTest Pharma Ltd is a generic pharmaceutical manufacturer that operates in the domestic and export markets. The company has a strong presence in the Indian market, with a network of distributors and retail chemists across 10 Indian states. The company's products include generic tablets, capsules, and syrups, which are manufactured at its facilities in Maharashtra. With a team of 350 employees, the company is well-positioned to take advantage of the growing demand for generic drugs in the Indian market.\n\n### Growth Drivers\n\nThe growth of the Indian pharmaceutical sector is driven by several factors, including:\n\n* Increasing demand for healthcare services\n* Growing presence of pharmaceutical manufacturers\n* Government initiatives to promote the sector\n* Expiration of patents for several blockbuster drugs\n* Increasing demand for affordable healthcare services\n\nThese factors are expected to continue driving the growth of the sector in the coming years, and Test Pharma Ltd is well-positioned to take advantage of these trends.\n\n### Risks and Challenges\n\nThe Indian pharmaceutical sector is subject to several risks and challenges, including:\n\n* Intense competition\n* Regulatory risks\n* Quality control risks\n* Supply chain risks\n* Pricing pressures\n\nTest Pharma Ltd is required to manage these risks and challenges, and has implemented several measures to mitigate them, including a strong quality control system and a robust supply chain management system.\n\nIn terms of the company's financial performance, the following information is available:\n* Revenue: \u20b91,200.50L (2021-22), \u20b91,480.80L (2022-23), \u20b91,820.30L (2023-24)\n* Profit After Tax (PAT): \u20b985.30L (2021-22), \u20b9110.20L (2022-23), \u20b9142.70L (2023-24)\n* Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA): \u20b9142.00L (2021-22), \u20b9178.40L (2022-23), \u20b9220.50L (2023-24)\n\nOverall, the Indian pharmaceutical sector is expected to continue growing in the coming years, driven by several factors, including the increasing demand for healthcare services and the growing presence of pharmaceutical manufacturers. Test Pharma Ltd is well-positioned to take advantage of these trends, with a strong presence in the domestic and export markets, and a focus on producing high-quality generic drugs at affordable prices.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 3490.4026000003796
+  },
+  "market_opportunity": {
+    "section_id": "market_opportunity",
+    "title": "Market Opportunity",
+    "content": "## Market Opportunity\n\n### Introduction\nThe Indian pharmaceutical industry has experienced significant growth over the years, driven by an increasing demand for quality and affordable medicines. As a generic pharmaceutical manufacturer, Test Pharma Ltd is well-positioned to capitalize on this trend. This section provides an overview of the market opportunity for the company.\n\n### Industry Overview\nThe Indian pharmaceutical industry is one of the largest and most competitive in the world. The industry has grown significantly over the years, driven by factors such as an increasing population, rising healthcare costs, and a growing demand for quality and affordable medicines. The industry is expected to continue growing, driven by the increasing demand for pharmaceutical products in both domestic and international markets.\n\n### Market Size and Growth\nThe Indian pharmaceutical market size is [MISSING: market size data]. The market is expected to grow at a [MISSING: growth rate percentage] rate over the next [MISSING: time period], driven by the increasing demand for pharmaceutical products. The generic pharmaceutical segment, in which Test Pharma Ltd operates, is expected to be a key driver of this growth.\n\n### Competitive Landscape\nThe Indian pharmaceutical industry is highly competitive, with a large number of players operating in the market. The market is dominated by [MISSING: key players in the market], with Test Pharma Ltd being one of the smaller players. However, the company's focus on quality and affordability has enabled it to establish a strong presence in the market.\n\n### Market Trends\nThe Indian pharmaceutical market is witnessing several trends that are expected to drive growth in the coming years. These include:\n* Increasing demand for generic pharmaceutical products\n* Growing importance of quality and affordability\n* Rising demand for pharmaceutical products in rural areas\n* Increasing competition from international players\n\n### Opportunity for Test Pharma Ltd\nTest Pharma Ltd is well-positioned to capitalize on the growing demand for generic pharmaceutical products in India. The company's focus on quality and affordability has enabled it to establish a strong presence in the market. With its proposed expansion of manufacturing capacity at the Pune plant, the company is expected to increase its production capacity and meet the growing demand for its products.\n\n### Conclusion\nIn conclusion, the Indian pharmaceutical industry presents a significant market opportunity for Test Pharma Ltd. The company's focus on quality and affordability, combined with its proposed expansion plans, positions it well to capitalize on the growing demand for generic pharmaceutical products in India. With its strong presence in the market and its commitment to quality and customer satisfaction, Test Pharma Ltd is expected to continue to grow and expand its operations in the coming years.\n\n### Reservation in Issue\nAs per SEBI ICDR Regulations, at least 50% of the net offer is reserved for retail individual investors. The remaining net offer is available to non-institutional investors and Qualified Institutional Buyers (QIBs). A specified portion is reserved for market makers. The typical structure is 50% RII + 50% NII/QIB. The reservation in issue for this IPO is as follows:\n* Retail Individual Investors: [MISSING: percentage of net offer]\n* Non-Institutional Investors: [MISSING: percentage of net offer]\n* Qualified Institutional Buyers (QIBs): [MISSING: percentage of net offer]\n* Market Makers: [MISSING: percentage of net offer]\n\nNote: The above reservation in issue is subject to change and will be finalized prior to the IPO.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 4.4 Reservation in Issue\nAs per SEBI ICDR Regulations:\n- At least 50% of the net offer is reserved for retail individual investors\n- The remaining net offer is available to non-institutional invest"
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "market size data",
+      "growth rate percentage",
+      "time period",
+      "key players in the market",
+      "percentage of net offer",
+      "percentage of net offer",
+      "percentage of net offer",
+      "percentage of net offer"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2755.8083000039915
+  },
+  "competition": {
+    "section_id": "competition",
+    "title": "Competition",
+    "content": "## Competition\n\n### Introduction\nThe pharmaceutical industry in India is highly competitive, with numerous players operating in the generic drugs segment. Test Pharma Ltd, as a generic pharmaceutical manufacturer, faces competition from various companies in the domestic and export markets.\n\n### Market Structure\nThe Indian pharmaceutical market is characterized by the presence of a large number of players, including multinational corporations, domestic companies, and small-scale manufacturers. The market is highly fragmented, with no single player having a significant market share. The competition in the industry is driven by factors such as product quality, pricing, distribution network, and regulatory compliance.\n\n### Competitors\nTest Pharma Ltd competes with other generic pharmaceutical manufacturers in India, including [MISSING: list of major competitors]. These companies have a strong presence in the domestic market and also export their products to various countries. The company also faces competition from multinational corporations that have a significant presence in the Indian pharmaceutical market.\n\n### Competitive Advantages\nTest Pharma Ltd has certain competitive advantages that enable it to compete effectively in the market. These include:\n- A strong product portfolio of generic tablets, capsules, and syrups\n- A well-established distribution network across 10 Indian states, including Maharashtra, Gujarat, and Rajasthan\n- A certified manufacturing facility with ISO 9001:2015 certification\n- A experienced management team with a strong track record of operating in the pharmaceutical industry\n\n### Competitive Disadvantages\nDespite its competitive advantages, Test Pharma Ltd also faces certain competitive disadvantages. These include:\n- [MISSING: description of competitive disadvantages]\n- The company's limited financial resources compared to its larger competitors, which may hinder its ability to invest in research and development, marketing, and expansion of its distribution network.\n\n### Regulatory Environment\nThe pharmaceutical industry in India is subject to various regulations and guidelines, including those related to product approval, pricing, and quality control. Test Pharma Ltd is required to comply with these regulations, which can be time-consuming and costly. The company's ability to comply with these regulations and adapt to changes in the regulatory environment is critical to its competitive position.\n\n### Risk Factors\nThe competition in the pharmaceutical industry poses certain risks to Test Pharma Ltd, including:\n- [MISSING: description of risk factors related to competition]\n- The risk of losing market share to competitors due to factors such as pricing, product quality, and distribution network.\n\nBy understanding the competitive landscape and the factors that drive competition in the industry, Test Pharma Ltd is able to develop strategies to compete effectively and achieve its business objectives. However, the company's ability to compete successfully in the market is subject to various risks and uncertainties, including those related to regulatory compliance, product quality, and distribution network.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "list of major competitors",
+      "description of competitive disadvantages",
+      "description of risk factors related to competition"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2365.263900006539
+  },
+  "corporate_structure": {
+    "section_id": "corporate_structure",
+    "title": "Corporate Structure",
+    "content": "CORPORATE STRUCTURE\n\nThis section of the DRHP covers corporate structure for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Corporate Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "promoters": {
+    "section_id": "promoters",
+    "title": "Promoters and Promoter Group",
+    "content": "PROMOTERS AND PROMOTER GROUP\n\nThis section of the DRHP covers promoters and promoter group for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Promoters and Promoter Group' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_promoters"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "directors": {
+    "section_id": "directors",
+    "title": "Board of Directors and Key Management",
+    "content": "BOARD OF DIRECTORS AND KEY MANAGEMENT\n\nThis section of the DRHP covers board of directors and key management for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Board of Directors and Key Management' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_directors"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "mda": {
+    "section_id": "mda",
+    "title": "Management Discussion and Analysis",
+    "content": "**Management Discussion and Analysis**\n\n**Introduction**\n\nTest Pharma Ltd (the \"Company\") is a generic pharmaceutical manufacturer producing quality medicines for the domestic and export markets. The Company has over 6 years of operating history and serves hospitals, distributors, and retail chemists across 10 Indian states. This Management Discussion and Analysis (\"MD&A\") section provides an overview of the Company's financial performance, business operations, and future outlook.\n\n**Financial Performance**\n\nThe Company's financial performance for the last three fiscal years is as follows:\n\n| Year | Revenue (INR Lakhs) | Profit After Tax (INR Lakhs) | EBITDA (INR Lakhs) | Total Assets (INR Lakhs) | Equity (INR Lakhs) |\n| --- | --- | --- | --- | --- | --- |\n| 2021-22 | 1,200.50 | 85.30 | 142.00 | 950.20 | 420.10 |\n| 2022-23 | 1,480.80 | 110.20 | 178.40 | 1,120.50 | 530.30 |\n| 2023-24 | 1,820.30 | 142.70 | 220.50 | 1,350.80 | 660.00 |\n\nThe Company's revenue has consistently increased over the last three fiscal years, with a growth rate of [MISSING: revenue growth rate calculation]. The Company's profit after tax has also increased, with a growth rate of [MISSING: profit after tax growth rate calculation]. The Company's EBITDA margin has remained stable, indicating efficient operations.\n\n**Business Operations**\n\nThe Company's business operations are focused on the manufacture and sale of generic pharmaceutical products, including tablets, capsules, and syrups. The Company's products are sold to hospitals, distributors, and retail chemists across 10 Indian states, with a significant presence in Maharashtra, Gujarat, and Rajasthan. The Company has obtained ISO 9001:2015 certification, demonstrating its commitment to quality and customer satisfaction.\n\n**Industry Overview**\n\nThe Indian pharmaceutical industry is highly competitive, with a large number of players operating in the market. The industry is subject to various regulatory requirements, including those related to product approvals, pricing, and quality control. The Company faces competition from established players, as well as new entrants in the market. Despite these challenges, the Company has been able to maintain its market share and grow its revenue over the last three fiscal years.\n\n**Future Outlook**\n\nThe Company's future outlook is positive, with plans to expand its manufacturing capacity at the Pune plant and increase its presence in the domestic and export markets. The Company intends to use the proceeds from the issue to achieve the following objects:\n\n1. Expansion of manufacturing capacity at Pune Plant: Rs. 12 Crore\n2. Working capital requirements: Rs. 5 Crore\n3. General corporate purposes: Rs. 3 Crore\n\nThe Company believes that these initiatives will enable it to increase its revenue and profitability, and achieve its growth objectives.\n\n**Risk Factors**\n\nThe Company is subject to various risks and uncertainties, including those related to regulatory requirements, competition, and market conditions. The Company's ability to achieve its growth objectives is dependent on its ability to manage these risks and uncertainties. The Company's risk management policies and procedures are designed to identify, assess, and mitigate these risks.\n\n**Internal Control Systems**\n\nThe Company has established internal control systems to ensure the accuracy and reliability of its financial reporting and to prevent fraud and error. The Company's internal control systems include policies and procedures related to financial reporting, accounting, and auditing. The Company's statutory auditor, ABC & Co. Chartered Accountants, has reviewed the Company's internal control systems and has provided a report on the same.\n\n**Conclusion**\n\nIn conclusion, the Company's financial performance, business operations, and future outlook are positive. The Company has consistently increased its revenue and profitability over the last three fiscal years, and has plans to expand its manufacturing capacity and increase its presence in the domestic and export markets. The Company is subject to various risks and uncertainties, but has established internal control systems to manage these risks and ensure the accuracy and reliability of its financial reporting.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "revenue growth rate calculation",
+      "profit after tax growth rate calculation"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 2817.480199999409
+  },
+  "capital_structure": {
+    "section_id": "capital_structure",
+    "title": "Capital Structure",
+    "content": "CAPITAL STRUCTURE\n\nThis section of the DRHP covers capital structure for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Capital Structure' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_capital_structure"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "shareholding_pattern": {
+    "section_id": "shareholding_pattern",
+    "title": "Shareholding Pattern",
+    "content": "SHAREHOLDING PATTERN\n\nThis section of the DRHP covers shareholding pattern for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Shareholding Pattern' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_shareholding_pattern"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "objects_of_issue": {
+    "section_id": "objects_of_issue",
+    "title": "Objects of the Issue",
+    "content": "## Objects of the Issue\n\nThe Net Proceeds from the Fresh Issue of \u20b920.00 Crore, after deducting the Issue related expenses, are proposed to be utilized by Test Pharma Ltd in the following manner:\n\n### 1. Expansion of Manufacturing Capacity at Pune Plant\nThe Company proposes to utilize \u20b912.00 Crore towards the expansion of its manufacturing capacity at the Pune Plant. This expansion is expected to enhance the production capabilities of the Company, enabling it to cater to the growing demand for its products in the domestic and export markets.\n\n### 2. Working Capital Requirements\nThe Company intends to allocate \u20b95.00 Crore towards working capital requirements. This allocation will enable the Company to efficiently manage its day-to-day operations, including the procurement of raw materials, payment to suppliers, and meeting other operational expenses.\n\n### 3. General Corporate Purposes\nThe Company plans to utilize \u20b93.00 Crore for general corporate purposes. This will provide the Company with the flexibility to meet any unforeseen expenses or to capitalize on new business opportunities that may arise.\n\n### Schedule of Deployment of Funds\nThe deployment of funds is expected to be completed within [MISSING: time frame for deployment of funds]. The Company will ensure that the funds are utilized in accordance with the objects of the Issue and in the best interests of the Company and its stakeholders.\n\n### Sources of Funds if Issue Proceeds are Insufficient\nIn the event that the Issue proceeds are insufficient to meet the objects of the Issue, the Company may explore alternative sources of funding, including [MISSING: description of alternative sources of funding].\n\n### Details of Bridge Financing\nThe Company has not obtained any bridge financing for the objects of the Issue. However, if the Company were to require bridge financing in the future, it would be subject to the approval of the Board of Directors and would be disclosed to the stakeholders in accordance with the applicable laws and regulations.\n\n### Utilization of Issue Proceeds\nThe Company will ensure that the Issue proceeds are utilized in accordance with the objects of the Issue and in compliance with the SEBI ICDR Regulations. The Company will also ensure that the Issue proceeds are not used for any purpose other than those specified in this Draft Red Herring Prospectus.\n\nBy utilizing the Issue proceeds in the manner described above, the Company aims to achieve its strategic objectives, enhance its competitiveness, and create value for its stakeholders.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 1. CONSOLIDATION:\nThis master circular consolidates all previous SEBI circulars relating to SME IPOs issued up to December 31, 2025. In case of any inconsistency between this circular and the SEBI "
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "time frame for deployment of funds",
+      "description of alternative sources of funding"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 6225.006399996346
+  },
+  "use_of_proceeds": {
+    "section_id": "use_of_proceeds",
+    "title": "Use of Proceeds",
+    "content": "USE OF PROCEEDS\n\nThis section of the DRHP covers use of proceeds for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Use of Proceeds' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_use_of_proceeds"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "basis_for_price": {
+    "section_id": "basis_for_price",
+    "title": "Basis for Issue Price",
+    "content": "## Basis for Issue Price\n\nThe issue price of \u20b990 to \u20b995 per equity share has been determined by the Company and the Lead Manager, taking into account various factors, including the Company's financials, industry trends, market conditions, and the objects of the issue.\n\n### Qualitative Factors\n\nThe Company has considered the following qualitative factors while determining the issue price:\n\n1. **Business Model and Industry**: Test Pharma Ltd operates in the pharmaceuticals sector, specifically in the generic drugs sub-sector. The Company has a strong presence in the domestic market and serves hospitals, distributors, and retail chemists across 10 Indian states.\n2. **Growth Prospects**: The Company has a proven track record of growth, with increasing revenues and profits over the past three years. The Company's expansion plans, including the proposed expansion of manufacturing capacity at the Pune Plant, are expected to drive future growth.\n3. **Management Team**: The Company is led by experienced promoters, Ramesh Kumar and Sunita Kumar, who have a deep understanding of the pharmaceutical industry and a proven track record of managing the Company's operations.\n\n### Quantitative Factors\n\nThe Company has considered the following quantitative factors while determining the issue price:\n\n1. **Financial Performance**: The Company's financial performance over the past three years is as follows:\n\t* Revenue: \u20b91,200.50 lakhs (2021-22), \u20b91,480.80 lakhs (2022-23), and \u20b91,820.30 lakhs (2023-24)\n\t* Profit After Tax (PAT): \u20b985.30 lakhs (2021-22), \u20b9110.20 lakhs (2022-23), and \u20b9142.70 lakhs (2023-24)\n\t* Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA): \u20b9142.00 lakhs (2021-22), \u20b9178.40 lakhs (2022-23), and \u20b9220.50 lakhs (2023-24)\n2. **Return on Equity (ROE)**: The Company's ROE for the past three years is [MISSING: ROE calculation]\n3. **Price to Earnings (P/E) Ratio**: The Company's P/E ratio is [MISSING: P/E ratio calculation]\n4. **Industry Comparables**: The Company's valuation multiples are comparable to those of its peers in the pharmaceutical industry, [MISSING: industry comparable data]\n\n### Issue Price Determination\n\nThe issue price of \u20b990 to \u20b995 per equity share has been determined based on the above qualitative and quantitative factors. The Company believes that the issue price is fair and reasonable, considering the Company's growth prospects, financial performance, and industry trends.\n\n### Disclosure\n\nThe Company discloses that the issue price is subject to market conditions and may be adjusted based on feedback from investors and other market participants. The Company also discloses that the issue price may not reflect the Company's true value, and investors should make their own assessment of the Company's valuation before investing in the issue.\n\nBy order of the Board of Directors of Test Pharma Ltd.\n\nDate: [MISSING: Date]\n\nPlace: Mumbai\n\nNote: The above section is based on the provided company data and SEBI regulatory requirements. Where data is missing, the exact phrase \"[MISSING: <description of what is needed>]\" has been used. The section has been structured with appropriate headings and sub-headings, and includes all mandatory SEBI disclosures for this section.",
+    "citations": [
+      {
+        "type": "sebi_corpus",
+        "text": "[] 4.4 Reservation in Issue\nAs per SEBI ICDR Regulations:\n- At least 50% of the net offer is reserved for retail individual investors\n- The remaining net offer is available to non-institutional invest"
+      }
+    ],
+    "source_documents": [
+      "Generic Tablets",
+      "Capsules",
+      "Syrups"
+    ],
+    "missing_fields": [
+      "ROE calculation",
+      "P/E ratio calculation",
+      "industry comparable data",
+      "Date",
+      "<description of what is needed>"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.85,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "llm",
+    "llm_model": "llama-3.3-70b-versatile",
+    "token_count": null,
+    "generation_time_ms": 7846.710300000268
+  },
+  "dividend_policy": {
+    "section_id": "dividend_policy",
+    "title": "Dividend Policy",
+    "content": "DIVIDEND POLICY\n\nTest Pharma Ltd has not declared any dividends in the past. The Board of Directors may recommend dividends in the future, subject to the profits available for distribution, after considering the Company's growth plans, future capital requirements, financial condition, and applicable legal requirements. Any future declaration of dividends will require the approval of the shareholders of the Company at the Annual General Meeting and will be at the discretion of the Board.\n\nThere is no guarantee that dividends will be declared or paid in any financial year. Any dividends paid \nin the future will be subject to applicable laws and regulations, including Companies Act 2013, and will \nbe recommended by the Board of Directors from time to time.\n\nInvestors should note that past financial performance, including past dividend payments (if any), is not \nindicative of future results.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_statements": {
+    "section_id": "financial_statements",
+    "title": "Financial Statements Summary",
+    "content": "FINANCIAL STATEMENTS SUMMARY\n\nThis section of the DRHP covers financial statements summary for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Financial Statements Summary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_statements"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "financial_ratios": {
+    "section_id": "financial_ratios",
+    "title": "Key Financial Ratios",
+    "content": "KEY FINANCIAL RATIOS\n\nThis section of the DRHP covers key financial ratios for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Key Financial Ratios' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_financial_ratios"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "related_party": {
+    "section_id": "related_party",
+    "title": "Related Party Transactions",
+    "content": "RELATED PARTY TRANSACTIONS\n\nThis section of the DRHP covers related party transactions for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Related Party Transactions' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_related_party"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "outstanding_litigation": {
+    "section_id": "outstanding_litigation",
+    "title": "Outstanding Litigation",
+    "content": "OUTSTANDING LITIGATION AND MATERIAL DEVELOPMENTS\n\n[MISSING: Management declaration of outstanding litigation status \u2014 required before filing]\n\nNote to the Merchant Banker and Legal Counsel: This section requires a formal declaration from the Board of Directors and Legal Counsel confirming whether there are or are not any outstanding litigations, suits, criminal or civil prosecutions, proceedings or tax liabilities against Test Pharma Ltd, its Directors, Promoters or Group Companies that may have a material adverse effect on the business.\n\nThis declaration has NOT been provided in the company data submission. The section CANNOT be completed until this information is received and verified.\n\nRequired from the Company before this section can be finalized:\n- Board resolution or legal opinion confirming litigation status\n- Search report from company's legal counsel (if nil litigation)\n- Details of all pending proceedings if any exist\n- Nature, forum, parties, amounts involved, and current status for each proceeding\n\nCompanies are required under SEBI (ICDR) Regulations 2018 to disclose all material litigation regardless of outcome.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "legal_proceedings"
+    ],
+    "unsupported_claims": [],
+    "confidence": 1.0,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "contingent_liabilities": {
+    "section_id": "contingent_liabilities",
+    "title": "Contingent Liabilities",
+    "content": "CONTINGENT LIABILITIES\n\nThis section of the DRHP covers contingent liabilities for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Contingent Liabilities' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_contingent_liabilities"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "government_approvals": {
+    "section_id": "government_approvals",
+    "title": "Government and Other Approvals",
+    "content": "GOVERNMENT AND OTHER APPROVALS\n\nThis section of the DRHP covers government and other approvals for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Government and Other Approvals' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_government_approvals"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "material_contracts": {
+    "section_id": "material_contracts",
+    "title": "Material Contracts",
+    "content": "MATERIAL CONTRACTS\n\nThis section of the DRHP covers material contracts for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Material Contracts' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_material_contracts"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "intellectual_property": {
+    "section_id": "intellectual_property",
+    "title": "Intellectual Property",
+    "content": "INTELLECTUAL PROPERTY\n\nThis section of the DRHP covers intellectual property for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Intellectual Property' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_intellectual_property"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "employees": {
+    "section_id": "employees",
+    "title": "Employees",
+    "content": "EMPLOYEES\n\nAs of the date of this document, Test Pharma Ltd employs approximately 350 employees.\n\nThe Company believes that its employees are its most valuable asset. Test Pharma Ltd is committed to \nemployee development, fair compensation, and a safe working environment.\n\n[MISSING: Employee category breakdown (permanent vs contract, male vs female, departmental split)]\n[MISSING: Key HR policies and employee benefit schemes]\n\n[MISSING: Confirmation from management regarding labor dispute history \u2014 required before filing]\n\nNote to Merchant Banker and Legal Counsel: The Company's legal counsel must provide a declaration confirming whether any material labor disputes, strikes, or lockouts have occurred or are pending. This cannot be stated as \"nil\" in the DRHP without an explicit management declaration. The above section requires formal HR disclosure before filing.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [],
+    "unsupported_claims": [],
+    "confidence": 0.8,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "properties": {
+    "section_id": "properties",
+    "title": "Properties",
+    "content": "PROPERTIES\n\nThis section of the DRHP covers properties for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Properties' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_properties"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "esg_summary": {
+    "section_id": "esg_summary",
+    "title": "ESG Summary",
+    "content": "[GENERATION ERROR: Section 'ESG Summary' could not be generated. Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kwxyte5xefxa0gpx3sdk3n3t` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99123, Requested 2002. Please try again in 16m12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]\n\n[MISSING: All content for this section \u2014 please retry generation or provide content manually]",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_esg_summary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.0,
+    "compliance_flags": [],
+    "review_status": "rejected",
+    "generation_method": "llm",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "corporate_governance": {
+    "section_id": "corporate_governance",
+    "title": "Corporate Governance",
+    "content": "CORPORATE GOVERNANCE\n\nThis section of the DRHP covers corporate governance for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Corporate Governance' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_corporate_governance"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "compliance_matrix": {
+    "section_id": "compliance_matrix",
+    "title": "SEBI Compliance Matrix",
+    "content": "SEBI COMPLIANCE MATRIX\n\nThis section of the DRHP covers sebi compliance matrix for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'SEBI Compliance Matrix' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_compliance_matrix"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "annexures": {
+    "section_id": "annexures",
+    "title": "Annexures",
+    "content": "ANNEXURES\n\nThis section of the DRHP covers annexures for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Annexures' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_annexures"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "glossary": {
+    "section_id": "glossary",
+    "title": "Glossary",
+    "content": "GLOSSARY\n\nThis section of the DRHP covers glossary for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Glossary' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_glossary"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  },
+  "declaration": {
+    "section_id": "declaration",
+    "title": "Declaration and Undertaking",
+    "content": "DECLARATION AND UNDERTAKING\n\nThis section of the DRHP covers declaration and undertaking for Test Pharma Ltd.\n\n[MISSING: Detailed content for 'Declaration and Undertaking' \u2014 please provide company-specific information \nfor this section or enable LLM generation to auto-draft based on provided data]\n\nThe information in this section will be based on:\n- Company records and management representations\n- Applicable SEBI ICDR Regulations 2018 requirements\n- Due diligence findings by the Lead Manager\n\nThis section will be completed in consultation with the Lead Manager, Legal Counsel, \nand the Company's management.\n",
+    "citations": [],
+    "source_documents": [],
+    "missing_fields": [
+      "section_content_declaration"
+    ],
+    "unsupported_claims": [],
+    "confidence": 0.3,
+    "compliance_flags": [],
+    "review_status": "draft",
+    "generation_method": "algorithmic",
+    "llm_model": null,
+    "token_count": null,
+    "generation_time_ms": null
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Download, FileText, ShieldCheck, Loader2, CheckCircle } from 'lucide-react';
+import toast from 'react-hot-toast';
 import api from '../api/client';
 
 const ExportPage: React.FC = () => {
@@ -15,7 +16,7 @@ const ExportPage: React.FC = () => {
       const response = await api.get(`/workspaces/${workspaceId}/export/report.pdf`, {
         responseType: 'blob',
       });
-      const blob = new Blob([response], { type: 'application/pdf' });
+      const blob = new Blob([response as any], { type: 'application/pdf' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
@@ -24,7 +25,7 @@ const ExportPage: React.FC = () => {
       URL.revokeObjectURL(url);
       setDone('report');
     } catch (err) {
-      alert('Failed to generate report. Please ensure compliance checks have been run.');
+      toast.error('Failed to generate report. Please ensure compliance checks have been run.');
     } finally {
       setDownloading(null);
     }

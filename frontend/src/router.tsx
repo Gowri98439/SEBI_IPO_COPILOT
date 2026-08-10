@@ -27,10 +27,22 @@ const DrhpGeneratorPage = React.lazy(() => import('./pages/DrhpGeneratorPage'));
 
 // Full-screen loader shown during lazy load
 const PageLoader: React.FC = () => (
-  <div style={{ minHeight: '100vh', backgroundColor: '#0B0E14', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+  <div style={{ minHeight: '100vh', backgroundColor: 'var(--bg-page, #F1F5F9)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
-      <div style={{ width: '48px', height: '48px', borderRadius: '50%', border: '2px solid #4F46E5', borderTopColor: 'transparent', animation: 'spin 1s linear infinite' }} />
-      <p style={{ color: '#94A3B8', fontSize: '0.875rem', fontWeight: 500 }}>Loading…</p>
+      <div style={{ width: '40px', height: '40px', borderRadius: '50%', border: '2px solid #003087', borderTopColor: 'transparent', animation: 'spin 0.8s linear infinite' }} />
+      <p style={{ color: '#475569', fontSize: '0.875rem', fontWeight: 500 }}>Loading…</p>
+    </div>
+  </div>
+);
+
+// Inline 404 page — shown when no route matches
+const NotFound: React.FC = () => (
+  <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg-page, #F1F5F9)', padding: '2rem', fontFamily: 'Inter, system-ui, sans-serif' }}>
+    <div style={{ textAlign: 'center' }}>
+      <div style={{ fontSize: '6rem', fontWeight: 800, color: 'var(--text-primary, #0F172A)', lineHeight: 1, marginBottom: '1rem' }}>404</div>
+      <h1 style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--text-primary, #0F172A)', margin: '0 0 0.75rem' }}>Page not found</h1>
+      <p style={{ color: 'var(--text-secondary, #475569)', margin: '0 0 2rem', lineHeight: 1.6 }}>The page you’re looking for doesn’t exist or has been moved.</p>
+      <a href="/login" style={{ padding: '0.625rem 1.5rem', background: '#003087', color: '#fff', borderRadius: '8px', fontWeight: 600, textDecoration: 'none', fontSize: '0.9rem' }}>Go home</a>
     </div>
   </div>
 );
@@ -94,7 +106,7 @@ const router = createBrowserRouter([
 
   // ── Fallback ───────────────────────────────────────────────────────────────
   { path: '/', element: <Navigate to="/login" replace /> },
-  { path: '*', element: <Navigate to="/login" replace /> },
+  { path: '*', element: <NotFound /> },
 ]);
 
 export const AppRouter: React.FC = () => <RouterProvider router={router} />;

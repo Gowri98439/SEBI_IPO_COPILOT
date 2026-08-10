@@ -21,9 +21,13 @@ dist/
 # Docker
 *.log
 
-# Storage
+# Storage & Database
 backend/uploads/
 backend/chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+*.zip
 
 # OS
 .DS_Store
