@@ -2,12 +2,14 @@ databases:
   - name: ipo-copilot-db
     databaseName: ipocopilot
     user: ipouser
+    plan: free
 
 services:
   - type: web
     name: ipo-copilot-backend
     env: python
     rootDir: backend
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 2
     envVars:
