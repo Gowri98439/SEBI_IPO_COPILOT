@@ -7,7 +7,7 @@ import {
   FileBarChart, Activity, RefreshCw, Eye, ChevronDown, ChevronUp,
   Circle, CheckSquare, XSquare, Info, Star
 } from 'lucide-react';
-import api from '../api/client';
+import api, { API_BASE_URL } from '../api/client';
 
 /* ─── Types ────────────────────────────────────────────────── */
 interface Promoter { name: string; designation: string; qualification: string; holding_pct: string; experience_years: string; }
@@ -251,7 +251,7 @@ export default function DrhpGeneratorPage() {
     if (!jobId) return;
     try {
       const endpoint = useV2 ? `/workspaces/${workspaceId}/drhp/v2/download/${jobId}` : `/workspaces/${workspaceId}/drhp/download/${jobId}`;
-      const response = await fetch(`/api/v1${endpoint}`, {
+      const response = await fetch(`${API_BASE_URL}${endpoint}`, {
         headers: { Authorization: `Bearer ${localStorage.getItem('ipo_copilot_token')}` }
       });
       if (!response.ok) throw new Error(`HTTP error ${response.status}`);
@@ -272,7 +272,7 @@ export default function DrhpGeneratorPage() {
   const downloadIntelligence = async () => {
     if (!jobId) return;
     try {
-      const response = await fetch(`/api/v1/workspaces/${workspaceId}/drhp/v2/intelligence/${jobId}`, {
+      const response = await fetch(`${API_BASE_URL}/workspaces/${workspaceId}/drhp/v2/intelligence/${jobId}`, {
         headers: { Authorization: `Bearer ${localStorage.getItem('ipo_copilot_token')}` }
       });
       if (!response.ok) throw new Error(`HTTP error ${response.status}`);

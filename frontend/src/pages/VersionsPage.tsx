@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { History, Download, FileText, User, Calendar, GitBranch } from 'lucide-react'
 import { useDocuments, useDocumentVersions } from '@/api/documents'
+import { API_BASE_URL } from '@/api/client'
 import { formatDate } from '@/utils/formatters'
 
 function VersionTimeline({ docId, docName }: { docId: string; docName: string }) {
@@ -49,7 +50,7 @@ function VersionTimeline({ docId, docName }: { docId: string; docName: string })
                   </div>
                 </div>
                 <a
-                  href={`/api/v1/documents/${docId}/versions/${v.id}/download`}
+                  href={`${API_BASE_URL}/documents/${docId}/versions/${v.id}/download`}
                   className="flex items-center gap-1.5 text-xs bg-ipo-overlay hover:bg-ipo-border/50 text-ipo-text px-3 py-1.5 rounded-md transition-colors border border-ipo-border font-semibold flex-shrink-0"
                 >
                   <Download className="w-3.5 h-3.5" /> Download

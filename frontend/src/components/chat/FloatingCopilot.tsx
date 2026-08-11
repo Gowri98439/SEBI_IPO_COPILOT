@@ -8,7 +8,7 @@ import {
   MessageSquare, X, Send, Plus, ChevronDown, Bot, User,
   Minimize2, Maximize2, Trash2, RotateCcw,
 } from 'lucide-react';
-import api from '../../api/client';
+import api, { API_BASE_URL } from '../../api/client';
 import { useChatContext, ChatMessage } from '../../context/ChatContext';
 import { useWorkspaceStore } from '../../store/workspaceStore';
 
@@ -134,7 +134,7 @@ export default function FloatingCopilot() {
       setStreamBuf('…');
 
       const token = localStorage.getItem('ipo_copilot_token') ?? '';
-      const response = await fetch(`/api/v1/workspaces/${workspaceId}/copilot/chat`, {
+      const response = await fetch(`${API_BASE_URL}/workspaces/${workspaceId}/copilot/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -13,7 +13,7 @@ export default function InteractiveCitation({ rule }: InteractiveCitationProps) 
   const { data, isLoading, isError } = useQuery({
     queryKey: ['ragSearch', rule],
     queryFn: async () => {
-      const res = await api.get(`/api/v1/copilot/rag-search?q=${encodeURIComponent(rule)}`)
+      const res = await api.get(`/copilot/rag-search?q=${encodeURIComponent(rule)}`)
       return res.data
     },
     enabled: isOpen,

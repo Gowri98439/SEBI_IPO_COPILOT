@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { useEffect, useRef, useState, useCallback } from 'react'
-import { apiClient } from './client'
+import { apiClient, API_BASE_URL } from './client'
 import type { CopilotSession, CopilotMessage, SendMessageRequest } from '@/types'
 
 /* ── List sessions for workspace ──────────────────────────────────────── */
@@ -76,7 +76,7 @@ export const useSSEStream = (sessionId: string): SSEStreamState => {
       setIsStreaming(true)
 
       const token = localStorage.getItem('ipo_copilot_token') ?? ''
-      const url = `/api/v1/copilot/sessions/${sessionId}/stream?` + new URLSearchParams({ content, token })
+      const url = `${API_BASE_URL}/copilot/sessions/${sessionId}/stream?` + new URLSearchParams({ content, token })
 
       const es = new EventSource(url)
       eventSourceRef.current = es

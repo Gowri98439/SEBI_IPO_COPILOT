@@ -3,9 +3,10 @@ import axios, { type AxiosInstance, type AxiosError, type InternalAxiosRequestCo
 const TOKEN_KEY = 'ipo_copilot_token'
 
 const rawApiUrl = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.trim().replace(/\/+$/, '') : ''
+export const API_BASE_URL = rawApiUrl ? `${rawApiUrl}/api/v1` : '/api/v1'
 
 export const apiClient: AxiosInstance = axios.create({
-  baseURL: rawApiUrl ? `${rawApiUrl}/api/v1` : '/api/v1',
+  baseURL: API_BASE_URL,
   timeout: 60_000,   // 60s to allow large DRHP generation polls
 })
 
