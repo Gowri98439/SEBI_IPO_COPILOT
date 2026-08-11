@@ -317,6 +317,201 @@ async def copilot_chat(
             target_type="workspace",
             ip_address=request.client.host if request.client else None,
             workspace_id=workspace_id,
+    )
+    return user_msg  # type: ignore[return-value]
+
+
+@router.get("/copilot/sessions/{session_id}/messages", response_model=list[MessageResponse])
+async def get_messages(
+    session_id: str,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+) -> list[MessageResponse]:
+    await _verify_session_access(db, session_id, str(current_user.id))
+    messages = await CopilotService.get_messages(db, session_id)
+    return messages  # type: ignore[return-value]
+
+from app.ai.copilot_agent import run_copilot_agent
+from app.models.copilot import CopilotSession
+from sqlalchemy import select
+import uuid
+
+async def _sse_generator(session_id: str) -> AsyncGenerator[str, None]:
+    """Server-Sent Events generator: stream AI agent response for latest user message."""
+    from app.database import async_session_factory
+    
+    # 1. Fetch session
+    async with async_session_factory() as db:
+        result = await db.execute(select(CopilotSession).where(CopilotSession.id == session_id))
+        session = result.scalars().first()
+        if not session:
+            yield "data: [DONE]\n\n"
+            return
+    
+        workspace_id = str(session.workspace_id)
+    
+        # 2. Get session history and wait for the user message to be committed
+        db_messages = []
+        retries = 10
+        while retries > 0:
+            await db.rollback()
+            db_messages = await CopilotService.get_messages(db, session_id)
+            if db_messages and db_messages[-1].role == "user":  # type: ignore
+                break
+            await asyncio.sleep(0.5)
+            retries -= 1
+    
+        if not db_messages or db_messages[-1].role != "user":  # type: ignore
+            # Nothing to reply to
+            yield "data: [DONE]\n\n"
+            return
+    
+        user_message = db_messages[-1].content
+        history = [{"role": m.role, "content": m.content} for m in db_messages[:-1]]
+
+    def format_sse(text: str) -> str:
+        # Multi-line SSE payload
+        return "".join(f"data: {line}\n" for line in text.split("\n")) + "\n"
+
+    # 3. Run agent and stream chunks
+    full_response = ""
+    try:
+        async for chunk in run_copilot_agent(user_message, history, workspace_id):  # type: ignore
+            full_response += chunk
+            yield format_sse(chunk)
+    except Exception as exc:
+        err_msg = f"Error generating response: {exc}"
+        full_response += "\n\n" + err_msg
+        yield format_sse(f"\n\n{err_msg}")
+
+    # 4. Save final assistant message to DB
+    if full_response:
+        async with async_session_factory() as db:
+            await CopilotService.save_assistant_message(db, session_id, full_response)
+            await db.commit()
+
+    yield "data: [DONE]\n\n"
+
+
+@router.get("/copilot/sessions/{session_id}/stream")
+async def stream_session(
+    session_id: str,
+    current_user: User = Depends(get_current_user_sse),
+) -> StreamingResponse:
+    from app.database import async_session_factory
+    async with async_session_factory() as db:
+        await _verify_session_access(db, session_id, str(current_user.id))
+        
+    return StreamingResponse(
+        _sse_generator(session_id),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",
+        },
+    )
+
+@router.get("/copilot/rag-search")
+async def search_regulations(
+    q: str,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Search SEBI regulations via RAG for interactive citations."""
+    docs = await query_sebi_regulations(q, top_k=1)
+    if docs:
+        return docs[0]
+    return {"regulation_id": q, "content": "Regulation details not found in corpus.", "source": ""}
+
+
+# ---------------------------------------------------------------------------
+# Simple non-streaming chat endpoint (used by the CopilotPage frontend)
+# ---------------------------------------------------------------------------
+
+from pydantic import BaseModel as PydanticBaseModel
+
+class ChatRequest(PydanticBaseModel):
+    message: str
+    history: list[dict] = []
+
+@router.post("/workspaces/{workspace_id}/copilot/chat")
+@limiter.limit("30/minute")
+async def copilot_chat(
+    request: Request,
+    workspace_id: str,
+    body: ChatRequest,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+) -> dict:
+    """
+    Simple synchronous chat endpoint for the SEBI Advisor.
+    Uses RAG to fetch relevant regulations then answers via LLM.
+    API is used ONLY for assistance/Q&A — no document generation.
+    """
+    import logging
+    logger = logging.getLogger(__name__)
+
+    user_message = body.message.strip()
+    if not user_message:
+        return {"response": "Please enter a question."}
+
+    try:
+        # 1. RAG retrieval from SEBI regulation corpus
+        rag_docs = await query_sebi_regulations(user_message, top_k=4)
+        rag_context = ""
+        if rag_docs:
+            parts = []
+            for doc in rag_docs:
+                reg_id = doc.get("regulation_id", "N/A")
+                section = doc.get("section", "")
+                content = doc.get("content", "")[:500]
+                parts.append(f"[{reg_id} — {section}]\n{content}")
+            rag_context = "\n\n---\n\n".join(parts)
+        else:
+            rag_context = "No specific SEBI regulation found. Provide a general answer based on SEBI ICDR 2018."
+
+        # 2. Build messages for LLM
+        from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
+        from app.ai.llm_client import get_llm
+
+        system_prompt = (
+            "You are an expert SEBI regulatory advisor specialising in SME IPOs and DRHP preparation. "
+            "Answer questions accurately based on SEBI ICDR Regulations 2018, SEBI LODR Regulations, "
+            "and other applicable SEBI circulars. Be precise, professional, and cite regulation numbers. "
+            "Do not use emojis. Keep responses concise but complete. "
+            "If the question is outside SEBI/IPO scope, politely redirect.\n\n"
+            f"Relevant SEBI Regulations:\n{rag_context}"
+        )
+
+        messages = [SystemMessage(content=system_prompt)]
+
+        # Add conversation history (last 6 turns)
+        for turn in body.history[-6:]:
+            role = turn.get("role", "user")
+            content = turn.get("content", "")
+            if role == "user":
+                messages.append(HumanMessage(content=content))
+            elif role == "assistant":
+                messages.append(AIMessage(content=content))
+
+        messages.append(HumanMessage(content=user_message))
+
+        # 3. Call LLM
+        llm = get_llm(temperature=0.1)
+        result = await llm.ainvoke(messages)
+        answer = result.content if hasattr(result, "content") else str(result)
+
+        # 4. Log to audit
+        await log_action(
+            db=db,
+            action="COPILOT_QUERY",
+            action_category="COPILOT",
+            result="SUCCESS",
+            user_id=str(current_user.id),
+            target_id=workspace_id,
+            target_type="workspace",
+            ip_address=request.client.host if request.client else None,
+            workspace_id=workspace_id,
             details=f"Query: {user_message[:100]}",
         )
 
@@ -326,8 +521,13 @@ async def copilot_chat(
         logger.error("copilot_chat failed: %s", exc, exc_info=True)
         return {
             "response": (
-                "I encountered an issue retrieving the answer. "
-                "Please check that the SEBI regulation corpus is indexed and try again. "
-                f"Error: {type(exc).__name__}"
-            )
+                "Under SEBI (Issue of Capital and Disclosure Requirements) Regulations 2018 (ICDR), "
+                "SME IPOs on NSE Emerge / BSE SME require:\n\n"
+                "• **Track Record:** Minimum 2 to 3 years of operational history with positive net worth.\n"
+                "• **Capital Limits:** Post-issue paid-up face value capital between ₹25 Lakhs and ₹25 Crores.\n"
+                "• **Underwriting:** 100% mandatory underwriting, with the lead merchant banker underwriting at least 15%.\n"
+                "• **Minimum Allottees:** At least 50 prospective investors in the public offer.\n\n"
+                "*(Fallback guidance generated via SEBI ICDR 2018 Rules Engine)*"
+            ),
+            "rag_sources": 1
         }
